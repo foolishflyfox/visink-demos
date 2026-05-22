@@ -1,0 +1,94 @@
+{
+  "nodes": [
+    {
+      "id": "xv30utnb",
+      "type": "visink/WidgetBlock",
+      "x": 568,
+      "y": 261,
+      "widgetId": "uw1fjelu",
+      "widgetType": "visink/Led"
+    },
+    {
+      "id": "fj8r7su7",
+      "type": "visink/TFlipFlop",
+      "x": 301,
+      "y": 45,
+      "initValue": true
+    },
+    {
+      "id": "ia0kenn8",
+      "type": "visink/WidgetBlock",
+      "x": 549,
+      "y": 53,
+      "widgetId": "26daruso",
+      "widgetType": "visink/Led"
+    },
+    {
+      "id": "fjhq38yz",
+      "type": "visink/EventMerge",
+      "x": 289,
+      "y": 268,
+      "inputCount": 2
+    },
+    {
+      "id": "xmwctmno",
+      "type": "visink/WidgetEvent",
+      "x": 42,
+      "y": 113,
+      "widgetId": "kpidtx4g",
+      "eventType": "widget/mousedown"
+    },
+    {
+      "id": "yjqmxehd",
+      "type": "visink/WidgetEvent",
+      "x": 49,
+      "y": 273,
+      "widgetId": "kpidtx4g",
+      "eventType": "widget/mouseup"
+    }
+  ],
+  "connections": [
+    {
+      "id": "kailcxxt",
+      "sourceNodeId": "fj8r7su7",
+      "sourcePortKey": "q",
+      "targetNodeId": "ia0kenn8",
+      "targetPortKey": "status"
+    },
+    {
+      "id": "jilrlcrd",
+      "sourceNodeId": "frvqldqd",
+      "sourcePortKey": "event",
+      "targetNodeId": "fjhq38yz",
+      "targetPortKey": "in1"
+    },
+    {
+      "id": "ixlvvhf1",
+      "sourceNodeId": "fjhq38yz",
+      "sourcePortKey": "event",
+      "targetNodeId": "xv30utnb",
+      "targetPortKey": "status"
+    },
+    {
+      "id": "us6l9e48",
+      "sourceNodeId": "xmwctmno",
+      "sourcePortKey": "event",
+      "targetNodeId": "fjhq38yz",
+      "targetPortKey": "in0"
+    },
+    {
+      "id": "pl6zdn3k",
+      "sourceNodeId": "yjqmxehd",
+      "sourcePortKey": "event",
+      "targetNodeId": "fjhq38yz",
+      "targetPortKey": "in1"
+    },
+    {
+      "id": "w83i4r0s",
+      "sourceNodeId": "xmwctmno",
+      "sourcePortKey": "event",
+      "targetNodeId": "fj8r7su7",
+      "targetPortKey": "trigger"
+    }
+  ]
+}
