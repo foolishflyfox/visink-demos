@@ -1,0 +1,15 @@
+{
+  "name": "3D图片示例",
+  "resolution": {
+    "width": 640,
+    "height": 480
+  },
+  "background": {
+    "type": "color",
+    "color": "#ffffff"
+  },
+  "previewScaleMode": "contain",
+  "createdAt": "2026-05-23T09:40:57.913Z",
+  "updatedAt": "2026-05-23T09:45:28.488Z",
+  "homepageId": "xmjq94qxe3hw"
+}

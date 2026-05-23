@@ -1,0 +1,15 @@
+{
+  "name": "视频示例",
+  "resolution": {
+    "width": 800,
+    "height": 480
+  },
+  "background": {
+    "type": "color",
+    "color": "#ffffff"
+  },
+  "previewScaleMode": "contain",
+  "createdAt": "2026-05-23T09:45:51.441Z",
+  "updatedAt": "2026-05-23T09:47:37.770Z",
+  "homepageId": "o8uv7ray2ylj"
+}

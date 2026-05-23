@@ -1,15 +1,15 @@
 {
   "name": "组件事件示例",
   "resolution": {
-    "width": 1024,
-    "height": 768
+    "width": 480,
+    "height": 320
   },
   "background": {
     "type": "color",
     "color": "#ffffff"
   },
   "createdAt": "2026-05-21T13:26:28.284Z",
-  "updatedAt": "2026-05-22T23:33:08.847Z",
+  "updatedAt": "2026-05-23T09:33:58.836Z",
   "homepageId": "hdnwtmu84nlx",
   "previewScaleMode": "contain"
 }

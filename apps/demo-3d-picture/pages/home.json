@@ -1,0 +1,58 @@
+{
+  "widgets": [
+    {
+      "className": "visink/CanvasImage",
+      "data": {
+        "id": "oq61e9j9",
+        "assetPath": "3d.gif",
+        "assetVersion": 1,
+        "x": 181.14283456732275,
+        "y": 136.30347418839617,
+        "width": 356.8933945935596,
+        "height": 267.53627780626647,
+        "rotation": 0,
+        "offsetX": 178.4466972967798,
+        "offsetY": 133.76813890313323,
+        "codeLabel": "图片",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasImage",
+      "data": {
+        "id": "79c8ykn1",
+        "assetPath": "dancing-banana.gif",
+        "assetVersion": 1,
+        "x": 525.6337287434704,
+        "y": 94.83052697986138,
+        "width": 184.31084999359248,
+        "height": 181.78604382929666,
+        "rotation": 0,
+        "offsetX": 92.15542499679624,
+        "offsetY": 90.89302191464833,
+        "codeLabel": "图片",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasImage",
+      "data": {
+        "id": "miqz6mvi",
+        "assetPath": "world-3d.webp",
+        "assetVersion": 1,
+        "x": 499.24539320740735,
+        "y": 338.24539320740587,
+        "width": 275.5128431920037,
+        "height": 275.5128431920039,
+        "rotation": 0,
+        "offsetX": 137.75642159600184,
+        "offsetY": 137.75642159600196,
+        "codeLabel": "图片",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "widgets": [
+    {
+      "className": "visink/CanvasVideo",
+      "data": {
+        "id": "8yfm0wd7",
+        "assetPath": "trailer.mp4",
+        "assetVersion": 1,
+        "isPlaying": true,
+        "playMode": "loop",
+        "x": 399.08624599618713,
+        "y": 232.1187331126113,
+        "width": 780.0584769694831,
+        "height": 438.44036176270714,
+        "rotation": 0,
+        "offsetX": 390.02923848474154,
+        "offsetY": 219.22018088135357,
+        "codeLabel": "视频",
+        "showCodeNode": true,
+        "dynamicProps": []
+      }
+    }
+  ]
+}
