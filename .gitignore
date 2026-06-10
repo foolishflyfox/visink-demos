@@ -1,5 +1,11 @@
 trash/
-.DS_Store
 
 /apps/*/
 !/apps/demo-*/
+
+databases/
+
+my-widgets/
+
+.DS_Store
+
