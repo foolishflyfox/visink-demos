@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "fxegn0v9",
+      "type": "visink/WidgetBlock",
+      "x": 60,
+      "y": 60,
+      "widgetId": "0m2rpvvk",
+      "widgetType": "visink/SoftKeyboard"
+    }
+  ],
+  "connections": []
+}

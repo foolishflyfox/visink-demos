@@ -1,0 +1,94 @@
+{
+  "widgets": [
+    {
+      "className": "visink/SoftKeyboard",
+      "data": {
+        "id": "0m2rpvvk",
+        "codeLabel": "软键盘-33igws",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 149,
+        "y": 201,
+        "width": 412,
+        "bgColor": "#ddeeff",
+        "keyColor": "#e8e8e8",
+        "keyHoverColor": "#4caf50",
+        "keyLabelColor": "#444",
+        "keyLabelHoverColor": "#444",
+        "keyLabelClickColor": "#ffffff",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Button",
+      "data": {
+        "id": "v6tn6gvs",
+        "codeLabel": "按钮-lsaul1",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 135,
+        "y": 138,
+        "width": 120,
+        "height": 40,
+        "label": "按钮",
+        "iconSvg": "",
+        "iconLeftDistance": 8,
+        "iconSize": 16,
+        "isToggle": false,
+        "fontSize": 14,
+        "bgColor": "#fa8c16",
+        "labelColor": "#ffffff",
+        "followStateColors": true,
+        "hoverBgColor": "#bf6504",
+        "hoverLabelColor": "#ffffff",
+        "pressedBgColor": "#743d03",
+        "pressedLabelColor": "#ffffff",
+        "stateColorReset": "",
+        "borderRadius": 6,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Slider",
+      "data": {
+        "id": "mrvgmpsi",
+        "codeLabel": "滑块-o2dgjx",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 160,
+        "y": 75,
+        "width": 200,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "value": 75,
+        "trackColor": "#18a058",
+        "thumbColor": "#ffffff",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Slider",
+      "data": {
+        "id": "8spwtd97",
+        "codeLabel": "滑块-2wjyn9",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 174,
+        "y": 402,
+        "width": 200,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "value": 50,
+        "trackColor": "#18a058",
+        "thumbColor": "#ffffff",
+        "dynamicProps": []
+      }
+    }
+  ]
+}

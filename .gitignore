@@ -1,7 +1,6 @@
 trash/
 
-/apps/*/
-!/apps/demo-*/
+apps/my-apps/
 
 databases/
 
