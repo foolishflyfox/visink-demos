@@ -1,0 +1,62 @@
+{
+  "resolution": {
+    "width": 300,
+    "height": 400
+  },
+  "widgets": [
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "3r3vof1n",
+        "color": "",
+        "x": 135,
+        "y": 204,
+        "width": 252,
+        "height": 403,
+        "rotation": 0,
+        "offsetX": 126,
+        "offsetY": 201.5,
+        "codeLabel": "SVG-414efr",
+        "showCodeNode": false,
+        "assetPath": "my-resources/充电桩状态/idle.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "xgaklius",
+        "color": "",
+        "x": 413,
+        "y": 141,
+        "width": 252,
+        "height": 403,
+        "rotation": 0,
+        "offsetX": 126,
+        "offsetY": 201.5,
+        "codeLabel": "SVG-5n3d6m",
+        "showCodeNode": false,
+        "assetPath": "my-resources/充电桩状态/error.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "04y9bvwq",
+        "color": "",
+        "x": 407,
+        "y": 412,
+        "width": 252,
+        "height": 403,
+        "rotation": 0,
+        "offsetX": 126,
+        "offsetY": 201.5,
+        "codeLabel": "SVG-uqhv5k",
+        "showCodeNode": false,
+        "assetPath": "my-resources/充电桩状态/working.svg",
+        "dynamicProps": []
+      }
+    }
+  ]
+}

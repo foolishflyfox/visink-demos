@@ -3,5 +3,10 @@
     "bgpb78sbyp2g": {
       "path": "home.json"
     }
+  },
+  "fragments": {
+    "7ayl8r2a6jme": {
+      "path": "充电桩状态.json"
+    }
   }
 }
