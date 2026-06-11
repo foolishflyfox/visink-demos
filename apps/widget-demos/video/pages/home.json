@@ -4,8 +4,7 @@
       "className": "visink/CanvasVideo",
       "data": {
         "id": "8yfm0wd7",
-        "assetPath": "trailer.mp4",
-        "assetVersion": 1,
+        "assetPath": "my-resources/trailer.mp4",
         "isPlaying": true,
         "playMode": "loop",
         "x": 399.08624599618713,

@@ -4,17 +4,29 @@
       "className": "visink/Button",
       "data": {
         "id": "kpidtx4g",
+        "codeLabel": "按钮",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
         "x": 56,
         "y": 101,
         "width": 120,
         "height": 40,
         "label": "按钮",
+        "iconSvg": "",
+        "iconLeftDistance": 8,
+        "iconSize": 16,
+        "isToggle": false,
+        "fontSize": 14,
         "bgColor": "#4a90d9",
         "labelColor": "#ffffff",
+        "followStateColors": true,
+        "hoverBgColor": "#256ab1",
+        "hoverLabelColor": "#ffffff",
+        "pressedBgColor": "#184472",
+        "pressedLabelColor": "#ffffff",
+        "stateColorReset": "",
         "borderRadius": 6,
-        "fontSize": 14,
-        "codeLabel": "按钮",
-        "showCodeNode": false,
         "dynamicProps": []
       }
     },
@@ -22,14 +34,16 @@
       "className": "visink/Led",
       "data": {
         "id": "uw1fjelu",
+        "codeLabel": "green-led",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
         "x": 264.62324036856785,
         "y": 176,
         "width": 60,
         "height": 60,
         "onColor": "#00e600",
         "status": false,
-        "codeLabel": "green-led",
-        "showCodeNode": true,
         "dynamicProps": [
           "status"
         ]
@@ -39,14 +53,16 @@
       "className": "visink/Led",
       "data": {
         "id": "26daruso",
+        "codeLabel": "red-led",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
         "x": 264.62324036856785,
         "y": 32.44388769703289,
         "width": 60,
         "height": 60,
         "onColor": "#eb2f96",
         "status": false,
-        "codeLabel": "red-led",
-        "showCodeNode": true,
         "dynamicProps": [
           "status"
         ]

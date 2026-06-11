@@ -4,8 +4,6 @@
       "className": "visink/CanvasImage",
       "data": {
         "id": "oq61e9j9",
-        "assetPath": "3d.gif",
-        "assetVersion": 1,
         "x": 181.14283456732275,
         "y": 136.30347418839617,
         "width": 356.8933945935596,
@@ -15,6 +13,7 @@
         "offsetY": 133.76813890313323,
         "codeLabel": "图片",
         "showCodeNode": false,
+        "assetPath": "my-resources/3d.gif",
         "dynamicProps": []
       }
     },
@@ -22,8 +21,6 @@
       "className": "visink/CanvasImage",
       "data": {
         "id": "79c8ykn1",
-        "assetPath": "dancing-banana.gif",
-        "assetVersion": 1,
         "x": 525.6337287434704,
         "y": 94.83052697986138,
         "width": 184.31084999359248,
@@ -33,6 +30,7 @@
         "offsetY": 90.89302191464833,
         "codeLabel": "图片",
         "showCodeNode": false,
+        "assetPath": "my-resources/dancing-banana.gif",
         "dynamicProps": []
       }
     },
@@ -40,8 +38,6 @@
       "className": "visink/CanvasImage",
       "data": {
         "id": "miqz6mvi",
-        "assetPath": "world-3d.webp",
-        "assetVersion": 1,
         "x": 499.24539320740735,
         "y": 338.24539320740587,
         "width": 275.5128431920037,
@@ -51,6 +47,7 @@
         "offsetY": 137.75642159600196,
         "codeLabel": "图片",
         "showCodeNode": false,
+        "assetPath": "my-resources/world-3d.webp",
         "dynamicProps": []
       }
     }
