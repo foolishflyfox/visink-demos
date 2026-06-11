@@ -1,0 +1,16 @@
+{
+  "name": "充电桩监控",
+  "resolution": {
+    "width": 1280,
+    "height": 720
+  },
+  "background": {
+    "type": "image",
+    "imagePath": "my-resources/background.svg",
+    "fillMode": "cover"
+  },
+  "previewScaleMode": "contain",
+  "createdAt": "2026-06-11T04:17:42.959Z",
+  "updatedAt": "2026-06-11T04:23:06.318Z",
+  "homepageId": "bgpb78sbyp2g"
+}
