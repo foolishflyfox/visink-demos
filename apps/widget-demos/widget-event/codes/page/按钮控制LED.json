@@ -1,4 +1,94 @@
 {
-  "nodes": [],
-  "connections": []
+  "nodes": [
+    {
+      "id": "tkwy8zlu",
+      "type": "visink/WidgetBlock",
+      "x": 530,
+      "y": 135,
+      "widgetId": "26daruso",
+      "dynamicPropKeys": [
+        "status"
+      ],
+      "widgetType": "visink/Led"
+    },
+    {
+      "id": "l9exh6mv",
+      "type": "visink/WidgetBlock",
+      "x": 538,
+      "y": 316,
+      "widgetId": "gnkvp7ac",
+      "dynamicPropKeys": [
+        "status"
+      ],
+      "widgetType": "visink/Led"
+    },
+    {
+      "id": "hkejeqpg",
+      "type": "visink/EventMerge",
+      "x": 283,
+      "y": 316,
+      "inputCount": 2
+    },
+    {
+      "id": "qlzf2axh",
+      "type": "visink/TFlipFlop",
+      "x": 284,
+      "y": 132,
+      "showEventPort": true,
+      "initValue": true
+    },
+    {
+      "id": "q59tegrq",
+      "type": "visink/WidgetEvent",
+      "x": 44,
+      "y": 142,
+      "widgetId": "ggc8muep",
+      "eventType": "widget/mousedown"
+    },
+    {
+      "id": "vkshuidi",
+      "type": "visink/WidgetEvent",
+      "x": 41,
+      "y": 322,
+      "widgetId": "ggc8muep",
+      "eventType": "widget/mouseup"
+    }
+  ],
+  "connections": [
+    {
+      "id": "zaojb4k2",
+      "sourceNodeId": "q59tegrq",
+      "sourcePortKey": "event",
+      "targetNodeId": "qlzf2axh",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "xbo7ebmf",
+      "sourceNodeId": "qlzf2axh",
+      "sourcePortKey": "q",
+      "targetNodeId": "tkwy8zlu",
+      "targetPortKey": "status"
+    },
+    {
+      "id": "rofqvc6f",
+      "sourceNodeId": "vkshuidi",
+      "sourcePortKey": "event",
+      "targetNodeId": "hkejeqpg",
+      "targetPortKey": "in1"
+    },
+    {
+      "id": "0u3za5fr",
+      "sourceNodeId": "q59tegrq",
+      "sourcePortKey": "event",
+      "targetNodeId": "hkejeqpg",
+      "targetPortKey": "in0"
+    },
+    {
+      "id": "kgoukii4",
+      "sourceNodeId": "hkejeqpg",
+      "sourcePortKey": "event",
+      "targetNodeId": "l9exh6mv",
+      "targetPortKey": "status"
+    }
+  ]
 }
