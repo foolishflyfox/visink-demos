@@ -1,3 +1,118 @@
 {
-  "widgets": []
+  "widgets": [
+    {
+      "className": "visink/FragmentInstance",
+      "data": {
+        "id": "syogqw1l",
+        "fragmentId": "7ayl8r2a6jme",
+        "x": 155,
+        "y": 62,
+        "name": "充电桩001",
+        "visible": true
+      }
+    },
+    {
+      "className": "visink/FragmentInstance",
+      "data": {
+        "id": "9y97csb1",
+        "fragmentId": "7ayl8r2a6jme",
+        "x": 409.66666666666663,
+        "y": 62,
+        "name": "充电桩002",
+        "visible": true
+      }
+    },
+    {
+      "className": "visink/FragmentInstance",
+      "data": {
+        "id": "wzjt38yn",
+        "fragmentId": "7ayl8r2a6jme",
+        "x": 664.3333333333333,
+        "y": 62,
+        "name": "充电桩003",
+        "visible": true
+      }
+    },
+    {
+      "className": "visink/FragmentInstance",
+      "data": {
+        "id": "4w5hk377",
+        "fragmentId": "7ayl8r2a6jme",
+        "x": 918.9999999999999,
+        "y": 62,
+        "name": "充电桩004",
+        "visible": true
+      }
+    },
+    {
+      "className": "visink/FragmentInstance",
+      "data": {
+        "id": "i614h2bw",
+        "fragmentId": "7ayl8r2a6jme",
+        "x": 150,
+        "y": 359,
+        "name": "充电桩101",
+        "visible": true
+      }
+    },
+    {
+      "className": "visink/FragmentInstance",
+      "data": {
+        "id": "17cq5n55",
+        "fragmentId": "7ayl8r2a6jme",
+        "x": 404.66666666666663,
+        "y": 359,
+        "name": "充电桩102",
+        "visible": true
+      }
+    },
+    {
+      "className": "visink/FragmentInstance",
+      "data": {
+        "id": "nsk9pcqu",
+        "fragmentId": "7ayl8r2a6jme",
+        "x": 659.3333333333333,
+        "y": 359,
+        "name": "充电桩103",
+        "visible": true
+      }
+    },
+    {
+      "className": "visink/FragmentInstance",
+      "data": {
+        "id": "6le2txnx",
+        "fragmentId": "7ayl8r2a6jme",
+        "x": 913.9999999999999,
+        "y": 359,
+        "name": "充电桩104",
+        "visible": true
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "thft1frx",
+        "codeLabel": "文本-7pnrmx",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 565,
+        "y": 13,
+        "content": "充电站状态监控",
+        "fontSize": 21,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    }
+  ]
 }

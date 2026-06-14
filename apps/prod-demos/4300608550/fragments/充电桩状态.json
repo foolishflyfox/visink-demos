@@ -1,7 +1,7 @@
 {
   "resolution": {
-    "width": 300,
-    "height": 400
+    "width": 220,
+    "height": 270
   },
   "widgets": [
     {
@@ -9,17 +9,19 @@
       "data": {
         "id": "3r3vof1n",
         "color": "",
-        "x": 135,
-        "y": 204,
-        "width": 252,
-        "height": 403,
+        "x": 77.535408240813,
+        "y": 162.49511714701566,
+        "width": 151.37525934918492,
+        "height": 237.8754075487193,
         "rotation": 0,
-        "offsetX": 126,
-        "offsetY": 201.5,
-        "codeLabel": "SVG-414efr",
-        "showCodeNode": false,
+        "offsetX": 77.53540824081377,
+        "offsetY": 123.99511714701572,
+        "codeLabel": "空闲状态",
+        "showCodeNode": true,
         "assetPath": "my-resources/充电桩状态/idle.svg",
-        "dynamicProps": []
+        "dynamicProps": [
+          "isVisible"
+        ]
       }
     },
     {
@@ -27,17 +29,20 @@
       "data": {
         "id": "xgaklius",
         "color": "",
-        "x": 413,
-        "y": 141,
-        "width": 252,
-        "height": 403,
+        "x": 125.99999999999923,
+        "y": 239.99999999999994,
+        "width": 151.37525934918492,
+        "height": 237.8754075487193,
         "rotation": 0,
         "offsetX": 126,
         "offsetY": 201.5,
-        "codeLabel": "SVG-5n3d6m",
-        "showCodeNode": false,
+        "codeLabel": "故障状态",
+        "showCodeNode": true,
         "assetPath": "my-resources/充电桩状态/error.svg",
-        "dynamicProps": []
+        "dynamicProps": [
+          "isVisible"
+        ],
+        "isVisible": false
       }
     },
     {
@@ -45,18 +50,330 @@
       "data": {
         "id": "04y9bvwq",
         "color": "",
-        "x": 407,
-        "y": 412,
-        "width": 252,
-        "height": 403,
+        "x": 125.9999999999992,
+        "y": 239.99999999999994,
+        "width": 151.37525934918492,
+        "height": 237.8754075487193,
         "rotation": 0,
         "offsetX": 126,
         "offsetY": 201.5,
-        "codeLabel": "SVG-uqhv5k",
-        "showCodeNode": false,
+        "codeLabel": "充电状态",
+        "showCodeNode": true,
         "assetPath": "my-resources/充电桩状态/working.svg",
-        "dynamicProps": []
+        "dynamicProps": [
+          "isVisible"
+        ],
+        "isVisible": false
       }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "h60za4r8",
+        "codeLabel": "充电桩编号",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 41,
+        "y": 5,
+        "content": "001",
+        "fontSize": 21,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#6CAAEBFF",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "5v8c9iu2",
+        "codeLabel": "电桩故障",
+        "showCodeNode": true,
+        "isVisible": false,
+        "isLocked": false,
+        "x": 125,
+        "y": 66,
+        "content": "电\n桩\n故\n障",
+        "fontSize": 24,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#f5222d",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "dynamicProps": [
+          "isVisible"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "901rvmiu",
+        "codeLabel": "电桩空闲",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 125,
+        "y": 66,
+        "content": "电\n桩\n空\n闲",
+        "fontSize": 24,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#52c41a",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "dynamicProps": [
+          "isVisible"
+        ]
+      }
+    },
+    {
+      "className": "visink/Group",
+      "data": {
+        "id": "4q419ink",
+        "x": 0,
+        "y": 0,
+        "name": "充电状态",
+        "visible": false,
+        "children": [
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "8vkmbohu",
+              "codeLabel": "文本-o6mlai",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 151,
+              "y": 45,
+              "content": "已充",
+              "fontSize": 14,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#ffffff",
+              "textAlign": "left",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 4,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "2xa5mmr7",
+              "codeLabel": "充电度数",
+              "showCodeNode": true,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 151,
+              "y": 71,
+              "content": "2.34 度",
+              "fontSize": 14,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#00bfff",
+              "textAlign": "left",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 4,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "vctwv7k3",
+              "codeLabel": "文本-nj2n9m",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 151,
+              "y": 99.66666666666666,
+              "content": "费用",
+              "fontSize": 14,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#ffffff",
+              "textAlign": "left",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 4,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "67vdspkj",
+              "codeLabel": "费用",
+              "showCodeNode": true,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 151,
+              "y": 125.66666666666666,
+              "content": "10.21 元",
+              "fontSize": 14,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#00BFFFFF",
+              "textAlign": "left",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 4,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "adw8ykpx",
+              "codeLabel": "文本-p47za4",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 151,
+              "y": 154.33333333333331,
+              "content": "时长",
+              "fontSize": 14,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#ffffff",
+              "textAlign": "left",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 4,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "tm5qwazo",
+              "codeLabel": "时长",
+              "showCodeNode": true,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 151,
+              "y": 180.33333333333331,
+              "content": "03:24:09",
+              "fontSize": 14,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#00BFFFFF",
+              "textAlign": "left",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 4,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "3di5jvvq",
+              "codeLabel": "文本-278nbi",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 151,
+              "y": 208.99999999999997,
+              "content": "用户",
+              "fontSize": 14,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#ffffff",
+              "textAlign": "left",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 4,
+              "dynamicProps": [
+                "isVisible"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "el887hkc",
+              "codeLabel": "用户id",
+              "showCodeNode": true,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 151,
+              "y": 234.99999999999997,
+              "content": "21883212",
+              "fontSize": 14,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#00BFFFFF",
+              "textAlign": "left",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 4,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          }
+        ],
+        "codeLabel": "充电状态显示",
+        "showCodeNode": true,
+        "dynamicProps": [
+          "isVisible"
+        ]
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "iy72inwx",
+      "label": "充电桩id"
     }
   ]
 }

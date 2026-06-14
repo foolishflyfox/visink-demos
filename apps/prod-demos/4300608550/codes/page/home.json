@@ -1,4 +1,184 @@
 {
-  "nodes": [],
-  "connections": []
+  "nodes": [
+    {
+      "id": "hbwag69h",
+      "type": "visink/FragmentInstanceBlock",
+      "x": 738,
+      "y": 238,
+      "widgetId": "syogqw1l",
+      "fragmentId": "7ayl8r2a6jme"
+    },
+    {
+      "id": "6ywlqa85",
+      "type": "visink/FragmentInstanceBlock",
+      "x": 739,
+      "y": 395,
+      "widgetId": "9y97csb1",
+      "fragmentId": "7ayl8r2a6jme"
+    },
+    {
+      "id": "lajjgsie",
+      "type": "visink/FragmentInstanceBlock",
+      "x": 735,
+      "y": 534,
+      "widgetId": "wzjt38yn",
+      "fragmentId": "7ayl8r2a6jme"
+    },
+    {
+      "id": "9k1ytdpy",
+      "type": "visink/FragmentInstanceBlock",
+      "x": 724,
+      "y": 665,
+      "widgetId": "4w5hk377",
+      "fragmentId": "7ayl8r2a6jme"
+    },
+    {
+      "id": "2qr8jflr",
+      "type": "visink/FragmentInstanceBlock",
+      "x": 713,
+      "y": 800,
+      "widgetId": "i614h2bw",
+      "fragmentId": "7ayl8r2a6jme"
+    },
+    {
+      "id": "qh3807dm",
+      "type": "visink/FragmentInstanceBlock",
+      "x": 723,
+      "y": 932,
+      "widgetId": "17cq5n55",
+      "fragmentId": "7ayl8r2a6jme"
+    },
+    {
+      "id": "ruqs3ud9",
+      "type": "visink/FragmentInstanceBlock",
+      "x": 726,
+      "y": 1059,
+      "widgetId": "nsk9pcqu",
+      "fragmentId": "7ayl8r2a6jme"
+    },
+    {
+      "id": "n6y0sxjf",
+      "type": "visink/FragmentInstanceBlock",
+      "x": 727,
+      "y": 1181,
+      "widgetId": "6le2txnx",
+      "fragmentId": "7ayl8r2a6jme"
+    },
+    {
+      "id": "rlpiw2j4",
+      "type": "visink/IntervalTimer",
+      "x": 84,
+      "y": 816,
+      "interval": 1,
+      "unit": "s",
+      "immediate": true
+    },
+    {
+      "id": "79gtbqci",
+      "type": "visink/StringConstant",
+      "x": 387,
+      "y": 608,
+      "showEventPort": true,
+      "value": "001",
+      "outputs": [
+        {
+          "id": "value",
+          "value": "001"
+        },
+        {
+          "id": "value2",
+          "value": "002"
+        },
+        {
+          "id": "value3",
+          "value": "003"
+        },
+        {
+          "id": "value4",
+          "value": "004"
+        },
+        {
+          "id": "value5",
+          "value": "101"
+        },
+        {
+          "id": "value6",
+          "value": "102"
+        },
+        {
+          "id": "value7",
+          "value": "103"
+        },
+        {
+          "id": "value8",
+          "value": "104"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "3kdbvnh0",
+      "sourceNodeId": "rlpiw2j4",
+      "sourcePortKey": "event",
+      "targetNodeId": "79gtbqci",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "z372x92e",
+      "sourceNodeId": "79gtbqci",
+      "sourcePortKey": "value",
+      "targetNodeId": "hbwag69h",
+      "targetPortKey": "iy72inwx"
+    },
+    {
+      "id": "sftgd366",
+      "sourceNodeId": "79gtbqci",
+      "sourcePortKey": "value2",
+      "targetNodeId": "6ywlqa85",
+      "targetPortKey": "iy72inwx"
+    },
+    {
+      "id": "ajkhe340",
+      "sourceNodeId": "79gtbqci",
+      "sourcePortKey": "value3",
+      "targetNodeId": "lajjgsie",
+      "targetPortKey": "iy72inwx"
+    },
+    {
+      "id": "mzmm3e9a",
+      "sourceNodeId": "79gtbqci",
+      "sourcePortKey": "value4",
+      "targetNodeId": "9k1ytdpy",
+      "targetPortKey": "iy72inwx"
+    },
+    {
+      "id": "p3p7oh4e",
+      "sourceNodeId": "79gtbqci",
+      "sourcePortKey": "value5",
+      "targetNodeId": "2qr8jflr",
+      "targetPortKey": "iy72inwx"
+    },
+    {
+      "id": "ieep7zoh",
+      "sourceNodeId": "79gtbqci",
+      "sourcePortKey": "value6",
+      "targetNodeId": "qh3807dm",
+      "targetPortKey": "iy72inwx"
+    },
+    {
+      "id": "31oznvg8",
+      "sourceNodeId": "79gtbqci",
+      "sourcePortKey": "value7",
+      "targetNodeId": "ruqs3ud9",
+      "targetPortKey": "iy72inwx"
+    },
+    {
+      "id": "gff5ym2u",
+      "sourceNodeId": "79gtbqci",
+      "sourcePortKey": "value8",
+      "targetNodeId": "n6y0sxjf",
+      "targetPortKey": "iy72inwx"
+    }
+  ]
 }

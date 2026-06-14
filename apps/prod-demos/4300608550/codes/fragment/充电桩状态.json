@@ -1,0 +1,333 @@
+{
+  "nodes": [
+    {
+      "id": "hd8ofuc7",
+      "type": "visink/WidgetBlock",
+      "x": 934,
+      "y": 18,
+      "widgetId": "3r3vof1n",
+      "dynamicPropKeys": [
+        "isVisible"
+      ],
+      "widgetType": "visink/CanvasSvg"
+    },
+    {
+      "id": "dyzyan9e",
+      "type": "visink/WidgetBlock",
+      "x": 944,
+      "y": 270,
+      "widgetId": "04y9bvwq",
+      "dynamicPropKeys": [
+        "isVisible"
+      ],
+      "widgetType": "visink/CanvasSvg"
+    },
+    {
+      "id": "dn52n89t",
+      "type": "visink/WidgetBlock",
+      "x": 927,
+      "y": 877,
+      "widgetId": "xgaklius",
+      "dynamicPropKeys": [
+        "isVisible"
+      ],
+      "widgetType": "visink/CanvasSvg"
+    },
+    {
+      "id": "fragment-input",
+      "type": "visink/FragmentInput",
+      "x": 58,
+      "y": 243
+    },
+    {
+      "id": "ayis418h",
+      "type": "visink/Equal",
+      "x": 677,
+      "y": 33
+    },
+    {
+      "id": "2t63bgd7",
+      "type": "visink/Equal",
+      "x": 689,
+      "y": 199
+    },
+    {
+      "id": "69go0b0q",
+      "type": "visink/Equal",
+      "x": 663,
+      "y": 869
+    },
+    {
+      "id": "uj18iv5r",
+      "type": "visink/StringConstant",
+      "x": 350,
+      "y": 602,
+      "value": "idle",
+      "outputs": [
+        {
+          "id": "value",
+          "value": "idle"
+        },
+        {
+          "id": "value2",
+          "value": "working"
+        },
+        {
+          "id": "value3",
+          "value": "error"
+        }
+      ]
+    },
+    {
+      "id": "rc69fw01",
+      "type": "visink/WidgetBlock",
+      "x": 696.8673455599653,
+      "y": 507.2059530780176,
+      "widgetId": "2xa5mmr7",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "8asy52mk",
+      "type": "visink/WidgetBlock",
+      "x": 706,
+      "y": 745,
+      "widgetId": "67vdspkj",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "zyuoutoy",
+      "type": "visink/WidgetBlock",
+      "x": 695,
+      "y": 383,
+      "widgetId": "tm5qwazo",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "2f743zxp",
+      "type": "visink/WidgetBlock",
+      "x": 703,
+      "y": 625,
+      "widgetId": "el887hkc",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "puajoa85",
+      "type": "visink/WidgetBlock",
+      "x": 379,
+      "y": 35,
+      "widgetId": "h60za4r8",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "eg7jgrpi",
+      "type": "visink/WidgetBlock",
+      "x": 942,
+      "y": 143,
+      "widgetId": "901rvmiu",
+      "dynamicPropKeys": [
+        "isVisible"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "vrw4gjy6",
+      "type": "visink/WidgetBlock",
+      "x": 939,
+      "y": 1010,
+      "widgetId": "5v8c9iu2",
+      "dynamicPropKeys": [
+        "isVisible"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "vu86ybn1",
+      "type": "visink/WidgetBlock",
+      "x": 951,
+      "y": 398,
+      "widgetId": "4q419ink",
+      "dynamicPropKeys": [
+        "isVisible"
+      ],
+      "widgetType": "visink/Group"
+    },
+    {
+      "id": "jdiwgaff",
+      "type": "visink/CustomProgram",
+      "x": 349,
+      "y": 245,
+      "inputs": [
+        {
+          "id": "chargingId",
+          "label": "充电桩id"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "status",
+          "label": "状态"
+        },
+        {
+          "id": "duration",
+          "label": "时长"
+        },
+        {
+          "id": "kwh",
+          "label": "充电度数"
+        },
+        {
+          "id": "userId",
+          "label": "用户id"
+        },
+        {
+          "id": "fee",
+          "label": "费用"
+        }
+      ],
+      "code": "let cachedStatus = null;\nlet startTime = null;\nlet cachedUserId = null;\n\nreturn (chargingId) => {\n  if (cachedStatus === null) {\n    const statuses = ['idle', 'working', 'error'];\n    cachedStatus = statuses[Math.floor(Math.random() * statuses.length)];\n    \n    // 生成随机8位用户ID并持久缓存\n    cachedUserId = String(Math.floor(Math.random() * 90000000) + 10000000);\n    \n    if (cachedStatus === 'working') {\n      // 过去8小时内的一个随机时间点（时间戳）\n      const eightHoursMs = 8 * 60 * 60 * 1000;\n      startTime = Date.now() - Math.floor(Math.random() * eightHoursMs);\n    }\n  }\n  if (cachedStatus !== 'working') {\n    return {\n      status: cachedStatus\n    }\n  }\n  \n  let duration = null;\n  let kwh = null;\n  let fee = null;\n  \n  if (cachedStatus === 'working' && startTime !== null) {\n    const now = Date.now();\n    const diffMs = now - startTime;\n    const totalSeconds = Math.floor(diffMs / 1000);\n    const hours = Math.floor(totalSeconds / 3600);\n    const minutes = Math.floor((totalSeconds % 3600) / 60);\n    const seconds = totalSeconds % 60;\n    \n    duration = [\n      String(hours).padStart(2, '0'),\n      String(minutes).padStart(2, '0'),\n      String(seconds).padStart(2, '0')\n    ].join(':');\n    \n    const durationHours = diffMs / (1000 * 60 * 60);\n    kwh = parseFloat((durationHours * 0.82).toFixed(2));\n    fee = parseFloat((kwh * 0.82).toFixed(2));\n  }\n  \n  return {\n    status: cachedStatus,\n    duration: duration,\n    kwh: kwh + '度',\n    userId: cachedUserId,\n    fee: fee + '元'\n  };\n};"
+    }
+  ],
+  "connections": [
+    {
+      "id": "isno0svt",
+      "sourceNodeId": "ayis418h",
+      "sourcePortKey": "result",
+      "targetNodeId": "hd8ofuc7",
+      "targetPortKey": "isVisible"
+    },
+    {
+      "id": "hc5so11i",
+      "sourceNodeId": "2t63bgd7",
+      "sourcePortKey": "result",
+      "targetNodeId": "dyzyan9e",
+      "targetPortKey": "isVisible"
+    },
+    {
+      "id": "0ghmo4lb",
+      "sourceNodeId": "69go0b0q",
+      "sourcePortKey": "result",
+      "targetNodeId": "dn52n89t",
+      "targetPortKey": "isVisible"
+    },
+    {
+      "id": "f0tiiqb3",
+      "sourceNodeId": "uj18iv5r",
+      "sourcePortKey": "value",
+      "targetNodeId": "ayis418h",
+      "targetPortKey": "v2"
+    },
+    {
+      "id": "c9yd1uri",
+      "sourceNodeId": "uj18iv5r",
+      "sourcePortKey": "value2",
+      "targetNodeId": "2t63bgd7",
+      "targetPortKey": "v2"
+    },
+    {
+      "id": "zz14vm22",
+      "sourceNodeId": "uj18iv5r",
+      "sourcePortKey": "value3",
+      "targetNodeId": "69go0b0q",
+      "targetPortKey": "v2"
+    },
+    {
+      "id": "3ugecfx6",
+      "sourceNodeId": "fragment-input",
+      "sourcePortKey": "iy72inwx",
+      "targetNodeId": "jdiwgaff",
+      "targetPortKey": "chargingId"
+    },
+    {
+      "id": "khfu0xd2",
+      "sourceNodeId": "jdiwgaff",
+      "sourcePortKey": "status",
+      "targetNodeId": "ayis418h",
+      "targetPortKey": "v1"
+    },
+    {
+      "id": "rjb3qb0y",
+      "sourceNodeId": "jdiwgaff",
+      "sourcePortKey": "status",
+      "targetNodeId": "2t63bgd7",
+      "targetPortKey": "v1"
+    },
+    {
+      "id": "09buu2wx",
+      "sourceNodeId": "jdiwgaff",
+      "sourcePortKey": "status",
+      "targetNodeId": "69go0b0q",
+      "targetPortKey": "v1"
+    },
+    {
+      "id": "llfx2t9e",
+      "sourceNodeId": "fragment-input",
+      "sourcePortKey": "iy72inwx",
+      "targetNodeId": "puajoa85",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "osq1opdi",
+      "sourceNodeId": "2t63bgd7",
+      "sourcePortKey": "result",
+      "targetNodeId": "vu86ybn1",
+      "targetPortKey": "isVisible"
+    },
+    {
+      "id": "4nwa1hxi",
+      "sourceNodeId": "ayis418h",
+      "sourcePortKey": "result",
+      "targetNodeId": "eg7jgrpi",
+      "targetPortKey": "isVisible"
+    },
+    {
+      "id": "bqiprlsr",
+      "sourceNodeId": "69go0b0q",
+      "sourcePortKey": "result",
+      "targetNodeId": "vrw4gjy6",
+      "targetPortKey": "isVisible"
+    },
+    {
+      "id": "d16jdcl6",
+      "sourceNodeId": "jdiwgaff",
+      "sourcePortKey": "duration",
+      "targetNodeId": "zyuoutoy",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "kxiajlnb",
+      "sourceNodeId": "jdiwgaff",
+      "sourcePortKey": "kwh",
+      "targetNodeId": "rc69fw01",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "8xk3r7fg",
+      "sourceNodeId": "jdiwgaff",
+      "sourcePortKey": "userId",
+      "targetNodeId": "2f743zxp",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "3a0vik4o",
+      "sourceNodeId": "jdiwgaff",
+      "sourcePortKey": "fee",
+      "targetNodeId": "8asy52mk",
+      "targetPortKey": "content"
+    }
+  ]
+}
