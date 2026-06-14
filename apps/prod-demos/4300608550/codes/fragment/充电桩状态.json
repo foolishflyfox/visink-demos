@@ -60,8 +60,8 @@
     {
       "id": "uj18iv5r",
       "type": "visink/StringConstant",
-      "x": 350,
-      "y": 602,
+      "x": 328,
+      "y": 611,
       "value": "idle",
       "outputs": [
         {
@@ -82,7 +82,7 @@
       "id": "rc69fw01",
       "type": "visink/WidgetBlock",
       "x": 696.8673455599653,
-      "y": 507.2059530780176,
+      "y": 502.2059530780176,
       "widgetId": "2xa5mmr7",
       "dynamicPropKeys": [
         "content"
@@ -92,8 +92,8 @@
     {
       "id": "8asy52mk",
       "type": "visink/WidgetBlock",
-      "x": 706,
-      "y": 745,
+      "x": 708,
+      "y": 747,
       "widgetId": "67vdspkj",
       "dynamicPropKeys": [
         "content"
@@ -114,8 +114,8 @@
     {
       "id": "2f743zxp",
       "type": "visink/WidgetBlock",
-      "x": 703,
-      "y": 625,
+      "x": 710,
+      "y": 614,
       "widgetId": "el887hkc",
       "dynamicPropKeys": [
         "content"
