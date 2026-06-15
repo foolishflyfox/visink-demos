@@ -9,8 +9,8 @@
     "imagePath": "my-resources/background.svg",
     "fillMode": "cover"
   },
-  "previewScaleMode": "contain",
+  "previewScaleMode": "fill",
   "createdAt": "2026-06-11T04:17:42.959Z",
-  "updatedAt": "2026-06-14T10:25:45.153Z",
+  "updatedAt": "2026-06-15T22:53:16.240Z",
   "homepageId": "bgpb78sbyp2g"
 }
