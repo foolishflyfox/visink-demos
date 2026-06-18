@@ -1,0 +1,16 @@
+{
+  "name": "甲醛回收",
+  "resolution": {
+    "width": 1280,
+    "height": 720
+  },
+  "background": {
+    "type": "image",
+    "imagePath": "my-resources/background.jpg",
+    "fillMode": "fill"
+  },
+  "previewScaleMode": "fill",
+  "createdAt": "2026-06-18T21:39:58.005Z",
+  "updatedAt": "2026-06-18T22:15:44.462Z",
+  "homepageId": "ck1uzj9sib86"
+}

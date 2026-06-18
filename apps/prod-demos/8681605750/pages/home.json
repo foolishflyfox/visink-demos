@@ -1,0 +1,30 @@
+{
+  "widgets": [
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "87cnqcle",
+        "codeLabel": "文本-if8w3x",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 545,
+        "y": 5,
+        "content": "甲醛回收监测系统",
+        "fontSize": 24,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#d9d9d9",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    }
+  ]
+}
