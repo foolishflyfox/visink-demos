@@ -1,39 +1,6 @@
 {
   "nodes": [
     {
-      "id": "hd8ofuc7",
-      "type": "visink/WidgetBlock",
-      "x": 934,
-      "y": 18,
-      "widgetId": "3r3vof1n",
-      "dynamicPropKeys": [
-        "isVisible"
-      ],
-      "widgetType": "visink/CanvasSvg"
-    },
-    {
-      "id": "dyzyan9e",
-      "type": "visink/WidgetBlock",
-      "x": 944,
-      "y": 270,
-      "widgetId": "04y9bvwq",
-      "dynamicPropKeys": [
-        "isVisible"
-      ],
-      "widgetType": "visink/CanvasSvg"
-    },
-    {
-      "id": "dn52n89t",
-      "type": "visink/WidgetBlock",
-      "x": 927,
-      "y": 877,
-      "widgetId": "xgaklius",
-      "dynamicPropKeys": [
-        "isVisible"
-      ],
-      "widgetType": "visink/CanvasSvg"
-    },
-    {
       "id": "fragment-input",
       "type": "visink/FragmentInput",
       "x": 58,
@@ -42,14 +9,14 @@
     {
       "id": "ayis418h",
       "type": "visink/Equal",
-      "x": 677,
-      "y": 33
+      "x": 715,
+      "y": 19
     },
     {
       "id": "2t63bgd7",
       "type": "visink/Equal",
-      "x": 689,
-      "y": 199
+      "x": 716,
+      "y": 194
     },
     {
       "id": "69go0b0q",
@@ -136,8 +103,8 @@
     {
       "id": "eg7jgrpi",
       "type": "visink/WidgetBlock",
-      "x": 942,
-      "y": 143,
+      "x": 964,
+      "y": 50,
       "widgetId": "901rvmiu",
       "dynamicPropKeys": [
         "isVisible"
@@ -147,8 +114,8 @@
     {
       "id": "vrw4gjy6",
       "type": "visink/WidgetBlock",
-      "x": 939,
-      "y": 1010,
+      "x": 938,
+      "y": 900,
       "widgetId": "5v8c9iu2",
       "dynamicPropKeys": [
         "isVisible"
@@ -158,8 +125,8 @@
     {
       "id": "vu86ybn1",
       "type": "visink/WidgetBlock",
-      "x": 951,
-      "y": 398,
+      "x": 973,
+      "y": 170,
       "widgetId": "4q419ink",
       "dynamicPropKeys": [
         "isVisible"
@@ -169,8 +136,8 @@
     {
       "id": "jdiwgaff",
       "type": "visink/CustomProgram",
-      "x": 349,
-      "y": 245,
+      "x": 337,
+      "y": 269,
       "inputs": [
         {
           "id": "chargingId",
@@ -200,30 +167,20 @@
         }
       ],
       "code": "let cachedStatus = null;\nlet startTime = null;\nlet cachedUserId = null;\n\nreturn (chargingId) => {\n  if (cachedStatus === null) {\n    const statuses = ['idle', 'working', 'error'];\n    cachedStatus = statuses[Math.floor(Math.random() * statuses.length)];\n    \n    // 生成随机8位用户ID并持久缓存\n    cachedUserId = String(Math.floor(Math.random() * 90000000) + 10000000);\n    \n    if (cachedStatus === 'working') {\n      // 过去8小时内的一个随机时间点（时间戳）\n      const eightHoursMs = 8 * 60 * 60 * 1000;\n      startTime = Date.now() - Math.floor(Math.random() * eightHoursMs);\n    }\n  }\n  if (cachedStatus !== 'working') {\n    return {\n      status: cachedStatus\n    }\n  }\n  \n  let duration = null;\n  let kwh = null;\n  let fee = null;\n  \n  if (cachedStatus === 'working' && startTime !== null) {\n    const now = Date.now();\n    const diffMs = now - startTime;\n    const totalSeconds = Math.floor(diffMs / 1000);\n    const hours = Math.floor(totalSeconds / 3600);\n    const minutes = Math.floor((totalSeconds % 3600) / 60);\n    const seconds = totalSeconds % 60;\n    \n    duration = [\n      String(hours).padStart(2, '0'),\n      String(minutes).padStart(2, '0'),\n      String(seconds).padStart(2, '0')\n    ].join(':');\n    \n    const durationHours = diffMs / (1000 * 60 * 60);\n    kwh = parseFloat((durationHours * 0.82).toFixed(3));\n    fee = parseFloat((kwh * 0.82).toFixed(3));\n  }\n  \n  return {\n    status: cachedStatus,\n    duration: duration,\n    kwh: kwh + '度',\n    userId: cachedUserId,\n    fee: fee + '元'\n  };\n};"
+    },
+    {
+      "id": "alam3jbw",
+      "type": "visink/WidgetBlock",
+      "x": 984,
+      "y": 292,
+      "widgetId": "4xg00jex",
+      "dynamicPropKeys": [
+        "status"
+      ],
+      "widgetType": "visink/StatusDisplay"
     }
   ],
   "connections": [
-    {
-      "id": "isno0svt",
-      "sourceNodeId": "ayis418h",
-      "sourcePortKey": "result",
-      "targetNodeId": "hd8ofuc7",
-      "targetPortKey": "isVisible"
-    },
-    {
-      "id": "hc5so11i",
-      "sourceNodeId": "2t63bgd7",
-      "sourcePortKey": "result",
-      "targetNodeId": "dyzyan9e",
-      "targetPortKey": "isVisible"
-    },
-    {
-      "id": "0ghmo4lb",
-      "sourceNodeId": "69go0b0q",
-      "sourcePortKey": "result",
-      "targetNodeId": "dn52n89t",
-      "targetPortKey": "isVisible"
-    },
     {
       "id": "f0tiiqb3",
       "sourceNodeId": "uj18iv5r",
@@ -328,6 +285,13 @@
       "sourcePortKey": "fee",
       "targetNodeId": "8asy52mk",
       "targetPortKey": "content"
+    },
+    {
+      "id": "5o6heemw",
+      "sourceNodeId": "jdiwgaff",
+      "sourcePortKey": "status",
+      "targetNodeId": "alam3jbw",
+      "targetPortKey": "status"
     }
   ]
 }

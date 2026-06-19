@@ -5,68 +5,6 @@
   },
   "widgets": [
     {
-      "className": "visink/CanvasSvg",
-      "data": {
-        "id": "3r3vof1n",
-        "color": "",
-        "x": 77.535408240813,
-        "y": 162.49511714701566,
-        "width": 151.37525934918492,
-        "height": 237.8754075487193,
-        "rotation": 0,
-        "offsetX": 77.53540824081377,
-        "offsetY": 123.99511714701572,
-        "codeLabel": "空闲状态",
-        "showCodeNode": true,
-        "assetPath": "my-resources/充电桩状态/idle.svg",
-        "dynamicProps": [
-          "isVisible"
-        ]
-      }
-    },
-    {
-      "className": "visink/CanvasSvg",
-      "data": {
-        "id": "xgaklius",
-        "color": "",
-        "x": 125.99999999999923,
-        "y": 239.99999999999994,
-        "width": 151.37525934918492,
-        "height": 237.8754075487193,
-        "rotation": 0,
-        "offsetX": 126,
-        "offsetY": 201.5,
-        "codeLabel": "故障状态",
-        "showCodeNode": true,
-        "assetPath": "my-resources/充电桩状态/error.svg",
-        "dynamicProps": [
-          "isVisible"
-        ],
-        "isVisible": false
-      }
-    },
-    {
-      "className": "visink/CanvasSvg",
-      "data": {
-        "id": "04y9bvwq",
-        "color": "",
-        "x": 125.9999999999992,
-        "y": 239.99999999999994,
-        "width": 151.37525934918492,
-        "height": 237.8754075487193,
-        "rotation": 0,
-        "offsetX": 126,
-        "offsetY": 201.5,
-        "codeLabel": "充电状态",
-        "showCodeNode": true,
-        "assetPath": "my-resources/充电桩状态/working.svg",
-        "dynamicProps": [
-          "isVisible"
-        ],
-        "isVisible": false
-      }
-    },
-    {
       "className": "visink/Text",
       "data": {
         "id": "h60za4r8",
@@ -87,6 +25,9 @@
         "borderWidth": 0,
         "borderColor": "#333333",
         "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
         "dynamicProps": [
           "content"
         ]
@@ -113,6 +54,9 @@
         "borderWidth": 0,
         "borderColor": "#333333",
         "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
         "dynamicProps": [
           "isVisible"
         ]
@@ -139,6 +83,9 @@
         "borderWidth": 0,
         "borderColor": "#333333",
         "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
         "dynamicProps": [
           "isVisible"
         ]
@@ -174,6 +121,9 @@
               "borderWidth": 0,
               "borderColor": "#333333",
               "borderRadius": 4,
+              "fixedWidth": 0,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(0,0,0,0)",
               "dynamicProps": [
                 "content"
               ]
@@ -200,6 +150,9 @@
               "borderWidth": 0,
               "borderColor": "#333333",
               "borderRadius": 4,
+              "fixedWidth": 0,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(0,0,0,0)",
               "dynamicProps": [
                 "content"
               ]
@@ -226,6 +179,9 @@
               "borderWidth": 0,
               "borderColor": "#333333",
               "borderRadius": 4,
+              "fixedWidth": 0,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(0,0,0,0)",
               "dynamicProps": [
                 "content"
               ]
@@ -252,6 +208,9 @@
               "borderWidth": 0,
               "borderColor": "#333333",
               "borderRadius": 4,
+              "fixedWidth": 0,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(0,0,0,0)",
               "dynamicProps": [
                 "content"
               ]
@@ -278,6 +237,9 @@
               "borderWidth": 0,
               "borderColor": "#333333",
               "borderRadius": 4,
+              "fixedWidth": 0,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(0,0,0,0)",
               "dynamicProps": [
                 "content"
               ]
@@ -304,6 +266,9 @@
               "borderWidth": 0,
               "borderColor": "#333333",
               "borderRadius": 4,
+              "fixedWidth": 0,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(0,0,0,0)",
               "dynamicProps": [
                 "content"
               ]
@@ -330,6 +295,9 @@
               "borderWidth": 0,
               "borderColor": "#333333",
               "borderRadius": 4,
+              "fixedWidth": 0,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(0,0,0,0)",
               "dynamicProps": [
                 "isVisible"
               ]
@@ -356,6 +324,9 @@
               "borderWidth": 0,
               "borderColor": "#333333",
               "borderRadius": 4,
+              "fixedWidth": 0,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(0,0,0,0)",
               "dynamicProps": [
                 "content"
               ]
@@ -366,6 +337,39 @@
         "showCodeNode": true,
         "dynamicProps": [
           "isVisible"
+        ]
+      }
+    },
+    {
+      "className": "visink/StatusDisplay",
+      "data": {
+        "id": "4xg00jex",
+        "codeLabel": "充电桩状态显示",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 75.68762967459168,
+        "y": 157.4377037743596,
+        "width": 151.37525934918492,
+        "height": 237.8754075487193,
+        "rotation": 0,
+        "origin": "center",
+        "statusList": [
+          {
+            "status": "working",
+            "assetPath": "my-resources/充电桩状态/working.svg"
+          },
+          {
+            "status": "error",
+            "assetPath": "my-resources/充电桩状态/error.svg"
+          }
+        ],
+        "defaultAssetPath": "my-resources/充电桩状态/idle.svg",
+        "status": "",
+        "offsetX": 75.68762967459246,
+        "offsetY": 118.93770377435965,
+        "dynamicProps": [
+          "status"
         ]
       }
     }
