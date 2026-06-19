@@ -4,7 +4,7 @@
       "className": "visink/Text",
       "data": {
         "id": "87cnqcle",
-        "codeLabel": "文本-if8w3x",
+        "codeLabel": "页面标题",
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
@@ -21,6 +21,663 @@
         "borderWidth": 0,
         "borderColor": "#333333",
         "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasRectangle",
+      "data": {
+        "id": "f1y1sxfg",
+        "x": 176.948275862069,
+        "y": 251,
+        "width": 178,
+        "height": 320,
+        "rotation": 0,
+        "offsetX": 86,
+        "offsetY": 142,
+        "stroke": "#8C8C8CB5",
+        "fill": "#E5E7EB00",
+        "strokeWidth": 1,
+        "cornerRadius": 0,
+        "codeLabel": "一键启动外边框",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "ompeeslw",
+        "codeLabel": "文本-f2qa6i",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 90.44827586206901,
+        "y": 76.31034482758645,
+        "content": "一键启动控制",
+        "fontSize": 14,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "center",
+        "padding": "6,3",
+        "borderWidth": 0,
+        "borderColor": "#9F2C2CFF",
+        "borderRadius": 0,
+        "fixedWidth": 180,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(245, 245, 245, 0.24)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "6l8izcv8",
+        "codeLabel": "文本-s6i6aq",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 101,
+        "y": 113,
+        "content": "吸收解吸准备",
+        "fontSize": 12,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "upjqxn03",
+        "x": 190,
+        "y": 138.5,
+        "width": 176,
+        "height": 1,
+        "rotation": 0,
+        "offsetX": 98,
+        "offsetY": 0.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 176,
+            "y": 0
+          }
+        ],
+        "stroke": "#8C8C8CB5",
+        "strokeWidth": 1,
+        "turnRadius": 0,
+        "lineStyle": "solid",
+        "dashLength": 12,
+        "dashGap": 6,
+        "flowSpeed": 0,
+        "isPipe": false,
+        "pipeFluidColor": "#9ca3af",
+        "pipeFluidWidth": 1,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-600sux",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "jxyiuthu",
+        "x": 190,
+        "y": 205.5,
+        "width": 176,
+        "height": 1,
+        "rotation": 0,
+        "offsetX": 98,
+        "offsetY": 0.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 176,
+            "y": 0
+          }
+        ],
+        "stroke": "#8C8C8CB5",
+        "strokeWidth": 1,
+        "turnRadius": 0,
+        "lineStyle": "solid",
+        "dashLength": 12,
+        "dashGap": 6,
+        "flowSpeed": 0,
+        "isPipe": false,
+        "pipeFluidColor": "#9ca3af",
+        "pipeFluidWidth": 1,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-dd9yjg",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "89xmtvih",
+        "codeLabel": "文本-u703uu",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 100,
+        "y": 141,
+        "content": "解吸全回流",
+        "fontSize": 12,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "64nz793h",
+        "codeLabel": "文本-i6duq0",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 100,
+        "y": 162,
+        "content": "TIC103   设定",
+        "fontSize": 12,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "jrrgdmb8",
+        "codeLabel": "文本-nrj4v1",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 100,
+        "y": 181,
+        "content": "TIC103   比较",
+        "fontSize": 12,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "caxvsf35",
+        "codeLabel": "文本-fk79s7",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 102,
+        "y": 206,
+        "content": "吸收循环",
+        "fontSize": 12,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "hx329gyp",
+        "codeLabel": "文本-4dwit2",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 102,
+        "y": 226,
+        "content": "FIC102   设定",
+        "fontSize": 12,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "9cuy6tpq",
+        "x": 190,
+        "y": 249.5,
+        "width": 176,
+        "height": 1,
+        "rotation": 0,
+        "offsetX": 98,
+        "offsetY": 0.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 176,
+            "y": 0
+          }
+        ],
+        "stroke": "#8C8C8CB5",
+        "strokeWidth": 1,
+        "turnRadius": 0,
+        "lineStyle": "solid",
+        "dashLength": 12,
+        "dashGap": 6,
+        "flowSpeed": 0,
+        "isPipe": false,
+        "pipeFluidColor": "#9ca3af",
+        "pipeFluidWidth": 1,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-s4ni44",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "1hjliqvx",
+        "codeLabel": "文本-cj3124",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 103,
+        "y": 252,
+        "content": "吸收液位控制",
+        "fontSize": 12,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "td9g8djm",
+        "codeLabel": "文本-sa5y1h",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 103,
+        "y": 274,
+        "content": "LIC101   设定",
+        "fontSize": 12,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "8bap696c",
+        "x": 190,
+        "y": 295.5,
+        "width": 176,
+        "height": 1,
+        "rotation": 0,
+        "offsetX": 98,
+        "offsetY": 0.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 176,
+            "y": 0
+          }
+        ],
+        "stroke": "#8C8C8CB5",
+        "strokeWidth": 1,
+        "turnRadius": 0,
+        "lineStyle": "solid",
+        "dashLength": 12,
+        "dashGap": 6,
+        "flowSpeed": 0,
+        "isPipe": false,
+        "pipeFluidColor": "#9ca3af",
+        "pipeFluidWidth": 1,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-ga7o3r",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "ydkbcnz4",
+        "codeLabel": "文本-hcudky",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 104,
+        "y": 300,
+        "content": "采出温度控制",
+        "fontSize": 12,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "tn6s4gae",
+        "codeLabel": "文本-rztltt",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 104,
+        "y": 319,
+        "content": "LIC101  设定",
+        "fontSize": 12,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "j8906xk5",
+        "x": 190,
+        "y": 342.5,
+        "width": 176,
+        "height": 1,
+        "rotation": 0,
+        "offsetX": 98,
+        "offsetY": 0.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 176,
+            "y": 0
+          }
+        ],
+        "stroke": "#8C8C8CB5",
+        "strokeWidth": 1,
+        "turnRadius": 0,
+        "lineStyle": "solid",
+        "dashLength": 12,
+        "dashGap": 6,
+        "flowSpeed": 0,
+        "isPipe": false,
+        "pipeFluidColor": "#9ca3af",
+        "pipeFluidWidth": 1,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-ys6iui",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "2hblibbo",
+        "codeLabel": "缓冲罐液位控制",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 104,
+        "y": 346,
+        "content": "缓冲罐液位控制",
+        "fontSize": 12,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "hzl75osw",
+        "x": 190,
+        "y": 373.5,
+        "width": 176,
+        "height": 1,
+        "rotation": 0,
+        "offsetX": 98,
+        "offsetY": 0.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 176,
+            "y": 0
+          }
+        ],
+        "stroke": "#8C8C8CB5",
+        "strokeWidth": 1,
+        "turnRadius": 0,
+        "lineStyle": "solid",
+        "dashLength": 12,
+        "dashGap": 6,
+        "flowSpeed": 0,
+        "isPipe": false,
+        "pipeFluidColor": "#9ca3af",
+        "pipeFluidWidth": 1,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-7yi0pe",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "uuehfoow",
+        "codeLabel": "启动投入",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 107,
+        "y": 380,
+        "content": "启动投入",
+        "fontSize": 12,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "mamdfnvc",
+        "codeLabel": "启动运行",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 107,
+        "y": 402,
+        "content": "启动运行",
+        "fontSize": 12,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
         "dynamicProps": [
           "content"
         ]
