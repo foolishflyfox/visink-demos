@@ -114,6 +114,25 @@
           "value": "104"
         }
       ]
+    },
+    {
+      "id": "wl4foh29",
+      "type": "visink/DateTimestamp",
+      "x": 337,
+      "y": 1143,
+      "showEventPort": true,
+      "format": "YYYY-MM-DD HH:mm:ss"
+    },
+    {
+      "id": "y0ldi62x",
+      "type": "visink/WidgetBlock",
+      "x": 571,
+      "y": 1339,
+      "widgetId": "s13gjyvt",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
     }
   ],
   "connections": [
@@ -179,6 +198,20 @@
       "sourcePortKey": "value8",
       "targetNodeId": "n6y0sxjf",
       "targetPortKey": "iy72inwx"
+    },
+    {
+      "id": "prr7d3r3",
+      "sourceNodeId": "wl4foh29",
+      "sourcePortKey": "value",
+      "targetNodeId": "y0ldi62x",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "l3gtt135",
+      "sourceNodeId": "rlpiw2j4",
+      "sourcePortKey": "event",
+      "targetNodeId": "wl4foh29",
+      "targetPortKey": "event"
     }
   ]
 }

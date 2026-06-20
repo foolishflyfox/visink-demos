@@ -109,6 +109,38 @@
         "borderWidth": 0,
         "borderColor": "#333333",
         "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "s13gjyvt",
+        "codeLabel": "日期显示",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1088,
+        "y": 21,
+        "content": "2026-06-20 08:31:25",
+        "fontSize": 16,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
         "dynamicProps": [
           "content"
         ]
