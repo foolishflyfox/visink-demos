@@ -1,70 +1,28 @@
 {
   "nodes": [
     {
-      "id": "6ig8wnsg",
-      "type": "visink/WidgetBlock",
+      "id": "1cjcblxd",
+      "type": "visink/FragmentInstanceBlock",
       "x": 60,
       "y": 60,
-      "widgetId": "uihrdiv8",
-      "widgetType": "visink/StatusDisplay",
-      "dynamicPropKeys": [
-        "status"
-      ]
+      "widgetId": "j7t4bj6z",
+      "fragmentId": "nojwds2tgjs4"
     },
     {
-      "id": "szhwkujw",
-      "type": "visink/WidgetBlock",
+      "id": "04zizfb9",
+      "type": "visink/FragmentInstanceBlock",
       "x": 280,
       "y": 60,
-      "widgetId": "qik9q6ji",
-      "widgetType": "visink/StatusDisplay",
-      "dynamicPropKeys": [
-        "status"
-      ]
+      "widgetId": "jnbp67g6",
+      "fragmentId": "xdzds24gp4yw"
     },
     {
-      "id": "5br026nt",
-      "type": "visink/WidgetBlock",
+      "id": "gserinbw",
+      "type": "visink/FragmentInstanceBlock",
       "x": 500,
       "y": 60,
-      "widgetId": "o6wjg532",
-      "widgetType": "visink/StatusDisplay",
-      "dynamicPropKeys": [
-        "status"
-      ]
-    },
-    {
-      "id": "86wjg4he",
-      "type": "visink/WidgetBlock",
-      "x": 720,
-      "y": 60,
-      "widgetId": "qe9tfbcm",
-      "widgetType": "visink/StatusDisplay",
-      "dynamicPropKeys": [
-        "status"
-      ]
-    },
-    {
-      "id": "4b67w9rq",
-      "type": "visink/WidgetBlock",
-      "x": 940,
-      "y": 60,
-      "widgetId": "4d8g0b5m",
-      "widgetType": "visink/StatusDisplay",
-      "dynamicPropKeys": [
-        "status"
-      ]
-    },
-    {
-      "id": "qnuscktp",
-      "type": "visink/WidgetBlock",
-      "x": 60,
-      "y": 260,
-      "widgetId": "3reaeon2",
-      "widgetType": "visink/StatusDisplay",
-      "dynamicPropKeys": [
-        "status"
-      ]
+      "widgetId": "11pi11ub",
+      "fragmentId": "dwc3uh3lczfd"
     }
   ],
   "connections": []

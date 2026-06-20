@@ -1,0 +1,4096 @@
+{
+  "resolution": {
+    "width": 1200,
+    "height": 670
+  },
+  "widgets": [
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "0kgtg2nc",
+        "x": 1026.5845583420987,
+        "y": 486.4772923798196,
+        "width": 1,
+        "height": 23.87889269237212,
+        "rotation": 0,
+        "offsetX": 0.5,
+        "offsetY": 11.93944634618606,
+        "points": [
+          {
+            "x": 0,
+            "y": 23.87889269237212
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-07j4zj",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "5idsfpkx",
+        "x": 1146.3445602955508,
+        "y": 409.24399882792864,
+        "width": 81.3374782333924,
+        "height": 57.458585541020284,
+        "rotation": 0,
+        "offsetX": 40.6687391166962,
+        "offsetY": 28.729292770510142,
+        "points": [
+          {
+            "x": 81.3374782333924,
+            "y": 57.458585541020284
+          },
+          {
+            "x": 81.3374782333924,
+            "y": 27.60996967555519
+          },
+          {
+            "x": 0,
+            "y": 27.60996967555519
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-jqy07w",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "9l4qadpj",
+        "x": 1106.0489288771728,
+        "y": 452.524491832853,
+        "width": 161.92874107014813,
+        "height": 139.54227917104936,
+        "rotation": 0,
+        "offsetX": 80.96437053507407,
+        "offsetY": 66.78627799897816,
+        "points": [
+          {
+            "x": 161.92874107014813,
+            "y": 139.54227917104936
+          },
+          {
+            "x": 161.92874107014813,
+            "y": 50.7426469712907
+          },
+          {
+            "x": 0,
+            "y": 50.7426469712907
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-84ikmx",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "v7bf73my",
+        "x": 1125.0774214914068,
+        "y": 584.9777247358544,
+        "width": 125.36418663495328,
+        "height": 124.61797123831684,
+        "rotation": 0,
+        "offsetX": 62.68209331747664,
+        "offsetY": 58.204800937656955,
+        "points": [
+          {
+            "x": 0,
+            "y": 124.61797123831684
+          },
+          {
+            "x": 125.36418663495328,
+            "y": 124.61797123831684
+          },
+          {
+            "x": 125.36418663495306,
+            "y": 0
+          },
+          {
+            "x": 106.70880171903764,
+            "y": 1.1368683772161603e-13
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-363n07",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "61w7j6rh",
+        "x": 617,
+        "y": 598.5,
+        "width": 793,
+        "height": 128,
+        "rotation": 0,
+        "offsetX": 348,
+        "offsetY": 74.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 34
+          },
+          {
+            "x": 0,
+            "y": 128
+          },
+          {
+            "x": 793,
+            "y": 128
+          },
+          {
+            "x": 792,
+            "y": 1
+          },
+          {
+            "x": 771,
+            "y": 0
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-7enw1o",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "0y46mflk",
+        "x": 1013.5,
+        "y": 303,
+        "width": 1,
+        "height": 64,
+        "rotation": 0,
+        "offsetX": 0.5,
+        "offsetY": 32,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 30
+          },
+          {
+            "x": 0,
+            "y": 64
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-h35ox6",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "9kpoueo0",
+        "x": 884,
+        "y": 498.5,
+        "width": 34,
+        "height": 85,
+        "rotation": 0,
+        "offsetX": 17,
+        "offsetY": 42.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 34,
+            "y": 0
+          },
+          {
+            "x": 34,
+            "y": 85
+          }
+        ],
+        "stroke": "#822c3eFF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#f5222d",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-x4rvm4",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "91w1d03f",
+        "x": 1058,
+        "y": 288,
+        "width": 92,
+        "height": 88,
+        "rotation": 0,
+        "offsetX": 46,
+        "offsetY": 44,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 26
+          },
+          {
+            "x": 91,
+            "y": 27
+          },
+          {
+            "x": 92,
+            "y": 88
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-wudkn8",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "krf8pd4x",
+        "x": 901,
+        "y": 461,
+        "width": 56,
+        "height": 76,
+        "rotation": 0,
+        "offsetX": 28,
+        "offsetY": 38,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 56,
+            "y": 0
+          },
+          {
+            "x": 56,
+            "y": 76
+          }
+        ],
+        "stroke": "#822c3eFF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#f5222d",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-vge93s",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "u504d5ye",
+        "x": 813,
+        "y": 395.5,
+        "width": 54,
+        "height": 65,
+        "rotation": 0,
+        "offsetX": 27,
+        "offsetY": 32.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 54,
+            "y": 0
+          },
+          {
+            "x": 54,
+            "y": 65
+          }
+        ],
+        "stroke": "#822c3eFF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#f5222d",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-l0nymt",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "mpz4i8ts",
+        "x": 849,
+        "y": 257.5,
+        "width": 112,
+        "height": 2.068965517241395,
+        "rotation": 0,
+        "offsetX": 71,
+        "offsetY": 0.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 112,
+            "y": 2.068965517241395
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-9i7kbo",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "pwmk3kie",
+        "x": 891.5,
+        "y": 130,
+        "width": 236.7613538100901,
+        "height": 52,
+        "rotation": 0,
+        "offsetX": 119.5,
+        "offsetY": 26,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 87,
+            "y": 0
+          },
+          {
+            "x": 87,
+            "y": 52
+          },
+          {
+            "x": 236.7613538100901,
+            "y": 52
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-aumx1t",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "3pbtui6a",
+        "x": 846.5,
+        "y": 65,
+        "width": 177,
+        "height": 26,
+        "rotation": 0,
+        "offsetX": 88.5,
+        "offsetY": 13,
+        "points": [
+          {
+            "x": 0,
+            "y": 26
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 177,
+            "y": 0
+          }
+        ],
+        "stroke": "#655b2fFF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#C8BA50FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-71txzn",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "fl0u70qe",
+        "x": 988.5,
+        "y": 105.5,
+        "width": 43,
+        "height": 141,
+        "rotation": 0,
+        "offsetX": 21.5,
+        "offsetY": 70.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 43,
+            "y": 0
+          },
+          {
+            "x": 43,
+            "y": 141
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-zyadd8",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "ithoe6bx",
+        "x": 675.5,
+        "y": 55,
+        "width": 107,
+        "height": 48,
+        "rotation": 0,
+        "offsetX": 53.5,
+        "offsetY": 24,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 107,
+            "y": 0
+          },
+          {
+            "x": 107,
+            "y": 48
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-infvop",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "27xgh4l1",
+        "x": 754.3777947705016,
+        "y": 384.22498660047825,
+        "width": 190.39685845183556,
+        "height": 356.5044057431487,
+        "rotation": 0,
+        "offsetX": 95.59019230915197,
+        "offsetY": 178.25220287157435,
+        "points": [
+          {
+            "x": 0,
+            "y": 47.79509615457599
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 31.341046658738264,
+            "y": 0
+          },
+          {
+            "x": 31.341046658738264,
+            "y": 356.5044057431487
+          },
+          {
+            "x": 190.39685845183556,
+            "y": 356.5044057431487
+          },
+          {
+            "x": 190.39685845183556,
+            "y": 277.36826292983443
+          }
+        ],
+        "stroke": "#822c3eFF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#f5222d",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-j11k3h",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "35lq48l6",
+        "x": 703.4485939500516,
+        "y": 509.19741015219745,
+        "width": 90.88903531034123,
+        "height": 170.808704290124,
+        "rotation": 0,
+        "offsetX": 46.22804382163912,
+        "offsetY": 85.404352145062,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 170.808704290124
+          },
+          {
+            "x": 90.88903531034123,
+            "y": 170.808704290124
+          },
+          {
+            "x": 90.88903531034123,
+            "y": 102.64192780736806
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-c5jyzh",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "6oodc9h9",
+        "x": 623,
+        "y": 275.5,
+        "width": 72,
+        "height": 121,
+        "rotation": 0,
+        "offsetX": 36,
+        "offsetY": 68.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 43
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 43.70115699881069,
+            "y": 0
+          },
+          {
+            "x": 43.70115699881069,
+            "y": 120.21647383353155
+          },
+          {
+            "x": 72,
+            "y": 121
+          },
+          {
+            "x": 72,
+            "y": 94
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-h6955d",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "imjeoyaa",
+        "x": 450.5,
+        "y": 457,
+        "width": 47,
+        "height": 224,
+        "rotation": 0,
+        "offsetX": 23.5,
+        "offsetY": 112,
+        "points": [
+          {
+            "x": 47,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 177
+          },
+          {
+            "x": 0,
+            "y": 224
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-auuu25",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "i8pivtp9",
+        "x": 572,
+        "y": 272.5,
+        "width": 61.0517354982162,
+        "height": 287,
+        "rotation": 0,
+        "offsetX": 32.0517354982162,
+        "offsetY": 143.5,
+        "points": [
+          {
+            "x": 61.0517354982162,
+            "y": 0
+          },
+          {
+            "x": 61.0517354982162,
+            "y": 16
+          },
+          {
+            "x": 0,
+            "y": 17
+          },
+          {
+            "x": 0.7835261664685049,
+            "y": 286
+          },
+          {
+            "x": 48.0517354982162,
+            "y": 287
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-yosxby",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "lmfhjjdy",
+        "x": 600,
+        "y": 354,
+        "width": 34,
+        "height": 112,
+        "rotation": 0,
+        "offsetX": 17,
+        "offsetY": 56,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 72
+          },
+          {
+            "x": 33,
+            "y": 72
+          },
+          {
+            "x": 33,
+            "y": 112
+          },
+          {
+            "x": 34,
+            "y": 112
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-7wk0op",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "kml1v9o5",
+        "x": 696,
+        "y": 261.5,
+        "width": 60,
+        "height": 1,
+        "rotation": 0,
+        "offsetX": 30,
+        "offsetY": 0.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 60,
+            "y": 0
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-50om3n",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "h0l1mg0e",
+        "x": 625.5,
+        "y": 276,
+        "width": 53,
+        "height": 36,
+        "rotation": 0,
+        "offsetX": 26.5,
+        "offsetY": 18,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 20,
+            "y": 0
+          },
+          {
+            "x": 20,
+            "y": 36
+          },
+          {
+            "x": 53,
+            "y": 36
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-krb5us",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "sa30vrn8",
+        "x": 273.664411801049,
+        "y": 520.9035781457083,
+        "width": 53,
+        "height": 75,
+        "rotation": 0,
+        "offsetX": 26.5,
+        "offsetY": 37.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 75
+          },
+          {
+            "x": 23,
+            "y": 75
+          },
+          {
+            "x": 23,
+            "y": 0
+          },
+          {
+            "x": 53,
+            "y": 0
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-ay0wyf",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "kzmkemu4",
+        "x": 391.664411801049,
+        "y": 436.40357814570825,
+        "width": 151,
+        "height": 34,
+        "rotation": 0,
+        "offsetX": 75.5,
+        "offsetY": 17,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 151,
+            "y": 0
+          },
+          {
+            "x": 151,
+            "y": 34
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-5k81m9",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "dz4cngty",
+        "x": 516.664411801049,
+        "y": 224.90357814570825,
+        "width": 1,
+        "height": 183,
+        "rotation": 0,
+        "offsetX": 0.5,
+        "offsetY": 91.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 183
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-9ptsud",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "2s40rnq8",
+        "x": 92,
+        "y": 553.5,
+        "width": 191,
+        "height": 150,
+        "rotation": 0,
+        "offsetX": 66,
+        "offsetY": 74.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 150
+          },
+          {
+            "x": 94,
+            "y": 150
+          },
+          {
+            "x": 96,
+            "y": 0
+          },
+          {
+            "x": 191,
+            "y": 0
+          }
+        ],
+        "stroke": "#655b2fFF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#C8BA50FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-92i1y8",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "i4ft0njw",
+        "color": "",
+        "x": 208.28934542001764,
+        "y": 363.1187767669419,
+        "width": 81.36684182079202,
+        "height": 477.494887527279,
+        "rotation": 0,
+        "offsetX": 42.289345420016915,
+        "offsetY": 267.1187767669422,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-5mzqti",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/absorption-tower-bg.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "99xxr4lq",
+        "codeLabel": "吸收塔",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 181.50820192567153,
+        "y": 538.0249129637566,
+        "content": "吸收塔",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#333333",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "rhcflz6o",
+        "color": "",
+        "x": 104.90025236753607,
+        "y": 618.0952649859133,
+        "width": 67.80050473507214,
+        "height": 71.19052997182577,
+        "rotation": 0,
+        "offsetX": 33.90025236753607,
+        "offsetY": 35.595264985912884,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-cwd7q9",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/pump.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "k9i3pkfz",
+        "codeLabel": "运行频率",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 55,
+        "y": 482,
+        "content": "运行频率",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "4bjqhpi9",
+        "codeLabel": "设定频率",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 55,
+        "y": 532,
+        "content": "设定频率",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "q050fs3v",
+        "codeLabel": "0.0 Hz",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 60,
+        "y": 502,
+        "content": "0.0 Hz",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#53b5b5FF",
+        "textAlign": "left",
+        "padding": "1,3",
+        "borderWidth": 1,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 55,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "wf117vtt",
+        "codeLabel": "0.0 Hz-9q53fx",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 59,
+        "y": 552,
+        "content": "0.0 Hz",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#53b5b5FF",
+        "textAlign": "left",
+        "padding": "1,3",
+        "borderWidth": 1,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 55,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "e793uf6o",
+        "codeLabel": "去尾气吸附系统",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 374.34150112714474,
+        "y": 6.325097275801582,
+        "content": "去尾气吸附系统",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "hzgwuatm",
+        "x": 284.85371051989654,
+        "y": 56.39096255291751,
+        "width": 162.55390992404173,
+        "height": 74.53171222343714,
+        "rotation": 0,
+        "offsetX": 79.19293047581513,
+        "offsetY": 37.26585611171857,
+        "points": [
+          {
+            "x": 0,
+            "y": 74.53171222343714
+          },
+          {
+            "x": 0,
+            "y": 3.105488009309888
+          },
+          {
+            "x": 162.55390992404173,
+            "y": 0
+          }
+        ],
+        "stroke": "#655b2fFF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#C8BA50FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-6b9ezs",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "el99o978",
+        "x": 275.0631051822281,
+        "y": 86.20982857106716,
+        "width": 99.18983686989934,
+        "height": 43.490587961335216,
+        "rotation": 0,
+        "offsetX": 48.32325385969445,
+        "offsetY": 21.745293980667608,
+        "points": [
+          {
+            "x": 0,
+            "y": 43.490587961335216
+          },
+          {
+            "x": 0,
+            "y": 1.8121078317223072
+          },
+          {
+            "x": 99.18983686989934,
+            "y": 0
+          }
+        ],
+        "stroke": "#326028FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#45823aFF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-nxh1bg",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "i8nqsog6",
+        "codeLabel": "工艺水",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 332.9082428839038,
+        "y": 51.52501535933712,
+        "content": "工艺水",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "odmbgfjg",
+        "codeLabel": "联锁",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 255,
+        "y": 80,
+        "content": "联索",
+        "fontSize": 12,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#91a5b2FF",
+        "textAlign": "center",
+        "padding": "1,3",
+        "borderWidth": 1,
+        "borderColor": "#5b6a77FF",
+        "borderRadius": 0,
+        "fixedWidth": 42,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(91, 106, 119, 1)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "kl4kbx6q",
+        "codeLabel": "E101",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 185.10344827586206,
+        "y": 416.0000000000001,
+        "content": "E101",
+        "fontSize": 10,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#000000",
+        "textAlign": "center",
+        "padding": "1,3",
+        "borderWidth": 0,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 35,
+        "fixedHeight": 0,
+        "backgroundColor": "#52c41a",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "47ub4pdh",
+        "codeLabel": "LIC101",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 179.1034482758621,
+        "y": 440,
+        "content": "LIC101",
+        "fontSize": 11,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#000000",
+        "textAlign": "center",
+        "padding": "1,3",
+        "borderWidth": 0,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 47,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "9xlbln9r",
+        "codeLabel": "0",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 185.10344827586206,
+        "y": 460.0000000000001,
+        "content": "0",
+        "fontSize": 10,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#53b5b5FF",
+        "textAlign": "center",
+        "padding": "1,3",
+        "borderWidth": 0,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 35,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0, 0, 0, 1)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "37kqvigu",
+        "color": "",
+        "x": 241.70446742236692,
+        "y": 131.6487211214878,
+        "width": 11.408934844735075,
+        "height": 39.29744224297618,
+        "rotation": 0,
+        "offsetX": 5.704467422367538,
+        "offsetY": 19.64872112148809,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-6zqxgs",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/gray-extracted.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "qak18ee6",
+        "color": "",
+        "x": 242.70446742236692,
+        "y": 232.6487211214878,
+        "width": 11.408934844735075,
+        "height": 39.29744224297618,
+        "rotation": 0,
+        "offsetX": 5.704467422367538,
+        "offsetY": 19.64872112148809,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-kabaun",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/gray-extracted.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "ena5h7z3",
+        "color": "",
+        "x": 248.70446742236692,
+        "y": 558.6487211214878,
+        "width": 11.408934844735075,
+        "height": 39.29744224297618,
+        "rotation": 0,
+        "offsetX": 5.704467422367538,
+        "offsetY": 19.64872112148809,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-n4xam7",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/gray-extracted.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "96milopm",
+        "color": "",
+        "x": 248.70446742236692,
+        "y": 445.64872112148794,
+        "width": 11.408934844735075,
+        "height": 39.29744224297618,
+        "rotation": 0,
+        "offsetX": 5.704467422367538,
+        "offsetY": 19.64872112148809,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-hi2zrd",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/gray-extracted.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "3c7h7l47",
+        "codeLabel": "来自车间",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 16,
+        "y": 584,
+        "content": "来自车间\n的废气",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "msuu4k6e",
+        "x": 519.5,
+        "y": 123,
+        "width": 410,
+        "height": 1,
+        "rotation": 0,
+        "offsetX": 272.5,
+        "offsetY": -7,
+        "points": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 410,
+            "y": 0
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-6epci0",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "i5ehfkze",
+        "color": "",
+        "x": 480.9807428726351,
+        "y": 118.10754822832533,
+        "width": 64.54096728020745,
+        "height": 58.49025159768801,
+        "rotation": 0,
+        "offsetX": 32.27048364010373,
+        "offsetY": 29.245125798844004,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-xp11jj",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/valve-actuator-extracted.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "rvizjpw5",
+        "x": 335.5,
+        "y": 267.5,
+        "width": 158,
+        "height": 77,
+        "rotation": 0,
+        "offsetX": 89.5,
+        "offsetY": 38.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 158,
+            "y": 0
+          },
+          {
+            "x": 158,
+            "y": 77
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-vds24e",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/StatusDisplay",
+      "data": {
+        "id": "a2noxdwb",
+        "codeLabel": "状态显示-ccpcry",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 343.9028382350194,
+        "y": 478.6407346545763,
+        "width": 97.80567647003733,
+        "height": 55.281469309151575,
+        "rotation": 0,
+        "origin": "center",
+        "statusList": [],
+        "defaultAssetPath": "my-resources/mimic图/motor-red.svg",
+        "status": "",
+        "flipX": false,
+        "flipY": false,
+        "offsetX": 48.90283823501866,
+        "offsetY": 27.640734654575787,
+        "dynamicProps": [
+          "status"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "8hgh9tz8",
+        "x": 334.5,
+        "y": 386,
+        "width": 37.15687132974239,
+        "height": 126,
+        "rotation": 0,
+        "offsetX": 18.656871329742387,
+        "offsetY": 63,
+        "points": [
+          {
+            "x": 37.15687132974239,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0.6446089162178055
+          },
+          {
+            "x": 0.15687132974238693,
+            "y": 126
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-nj2fq4",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/StatusDisplay",
+      "data": {
+        "id": "r2xp0cl1",
+        "codeLabel": "状态显示-52b995",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 275.6379208805456,
+        "y": 57.369816924572916,
+        "width": 29.27584176109129,
+        "height": 30.739633849145847,
+        "rotation": 0,
+        "origin": "center",
+        "statusList": [
+          {
+            "status": "1",
+            "assetPath": "my-resources/mimic图/valve-green.svg"
+          }
+        ],
+        "defaultAssetPath": "my-resources/mimic图/valve-red.svg",
+        "status": "",
+        "flipX": false,
+        "flipY": false,
+        "offsetX": 14.637920880545645,
+        "offsetY": 15.369816924572923,
+        "dynamicProps": [
+          "status"
+        ]
+      }
+    },
+    {
+      "className": "visink/StatusDisplay",
+      "data": {
+        "id": "j7rl8csf",
+        "codeLabel": "状态显示-4mbn8v",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 323.2535699992638,
+        "y": 365.06960218182644,
+        "width": 29.27584176109129,
+        "height": 30.739633849145847,
+        "rotation": 90,
+        "origin": "center",
+        "statusList": [
+          {
+            "status": "1",
+            "assetPath": "my-resources/mimic图/valve-green.svg"
+          }
+        ],
+        "defaultAssetPath": "my-resources/mimic图/valve-red.svg",
+        "status": "",
+        "flipX": false,
+        "flipY": false,
+        "offsetX": 14.637920880545645,
+        "offsetY": 15.369816924572923,
+        "dynamicProps": [
+          "status"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "9x02692i",
+        "color": "",
+        "x": 381.87323939218174,
+        "y": 334.0897321211345,
+        "width": 55.41765518226544,
+        "height": 66.3723079508528,
+        "rotation": 0,
+        "offsetX": 27.70882759113272,
+        "offsetY": 33.1861539754264,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-a64hu6",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/e101-chip-no-label.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "45zmhgty",
+        "codeLabel": "E101-gmd6yi",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 364.990772436434,
+        "y": 321.0075590542553,
+        "content": "E101",
+        "fontSize": 10,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#000000",
+        "textAlign": "center",
+        "padding": "1,3",
+        "borderWidth": 0,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 35,
+        "fixedHeight": 0,
+        "backgroundColor": "#52c41a",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "z9zlp36b",
+        "x": 533.664411801049,
+        "y": 301.40357814570825,
+        "width": 271,
+        "height": 207.03448275862075,
+        "rotation": 0,
+        "offsetX": 216.5,
+        "offsetY": 117,
+        "points": [
+          {
+            "x": 0,
+            "y": 207
+          },
+          {
+            "x": 125.5172413793104,
+            "y": 207.03448275862075
+          },
+          {
+            "x": 122.41379310344837,
+            "y": 0
+          },
+          {
+            "x": 238,
+            "y": 0
+          },
+          {
+            "x": 238,
+            "y": 91
+          },
+          {
+            "x": 271,
+            "y": 91
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-yysmjq",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "tryfmz6t",
+        "color": "",
+        "x": 586.868913601216,
+        "y": 280.1654687000496,
+        "width": 42.482197229094304,
+        "height": 67.81561759506795,
+        "rotation": 0,
+        "offsetX": 20.75493299180117,
+        "offsetY": 37.310968156755735,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-yyet4v",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/extracted-bars.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "5peh60cb",
+        "color": "",
+        "x": 497.87323939218174,
+        "y": 338.0897321211345,
+        "width": 55.41765518226544,
+        "height": 66.3723079508528,
+        "rotation": 0,
+        "offsetX": 27.70882759113272,
+        "offsetY": 33.1861539754264,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-8r95fp",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/e101-chip-no-label.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "kk9vrchs",
+        "codeLabel": "E102",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 478.990772436434,
+        "y": 325.0075590542553,
+        "content": "E102",
+        "fontSize": 10,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#000000",
+        "textAlign": "center",
+        "padding": "1,3",
+        "borderWidth": 0,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 35,
+        "fixedHeight": 0,
+        "backgroundColor": "#52c41a",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/StatusDisplay",
+      "data": {
+        "id": "2jwi9shw",
+        "codeLabel": "状态显示-wj3hlv",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 494.9028382350193,
+        "y": 476.6407346545763,
+        "width": 97.80567647003733,
+        "height": 55.281469309151575,
+        "rotation": 0,
+        "origin": "center",
+        "statusList": [],
+        "defaultAssetPath": "my-resources/mimic图/motor-red.svg",
+        "status": "",
+        "flipX": false,
+        "flipY": false,
+        "offsetX": 48.90283823501866,
+        "offsetY": 27.640734654575787,
+        "dynamicProps": [
+          "status"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "hpkup0a8",
+        "color": "",
+        "x": 746.2893454200176,
+        "y": 327.1187767669419,
+        "width": 81.36684182079202,
+        "height": 477.494887527279,
+        "rotation": 0,
+        "offsetX": 42.289345420016915,
+        "offsetY": 267.1187767669422,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-2csdok",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/absorption-tower-bg.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "68cvb5wn",
+        "color": "",
+        "x": 846.7037179202703,
+        "y": 449.38916580671827,
+        "width": 58.056145495965396,
+        "height": 94.58585502151662,
+        "rotation": 0,
+        "offsetX": 29.028072747982698,
+        "offsetY": 47.29292751075831,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-d0sp63",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/e105.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "sotun8a1",
+        "color": "",
+        "x": 451.9807428726351,
+        "y": 261.1075482283253,
+        "width": 64.54096728020745,
+        "height": 58.49025159768801,
+        "rotation": 90,
+        "offsetX": 32.27048364010373,
+        "offsetY": 29.245125798844004,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-o7lmnl",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/valve-actuator-extracted.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "20anqkeg",
+        "color": "",
+        "x": 940.9807428726351,
+        "y": 451.1075482283253,
+        "width": 64.54096728020745,
+        "height": 58.49025159768801,
+        "rotation": 90,
+        "offsetX": 32.27048364010373,
+        "offsetY": 29.245125798844004,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-mn0u1b",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/valve-actuator-extracted.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "w7lh0dq7",
+        "color": "",
+        "x": 658.868913601216,
+        "y": 280.1654687000496,
+        "width": 42.482197229094304,
+        "height": 67.81561759506795,
+        "rotation": 0,
+        "offsetX": 20.75493299180117,
+        "offsetY": 37.310968156755735,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-7r5wia",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/extracted-bars.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "b1vqgr82",
+        "color": "",
+        "x": 949.8732393921817,
+        "y": 50.08973212113449,
+        "width": 55.41765518226544,
+        "height": 66.3723079508528,
+        "rotation": 0,
+        "offsetX": 27.70882759113272,
+        "offsetY": 33.1861539754264,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-nx840s",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/e101-chip-no-label.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "joqo23z8",
+        "color": "",
+        "x": 906.9807428726351,
+        "y": 142.10754822832536,
+        "width": 64.54096728020745,
+        "height": 58.49025159768801,
+        "rotation": 0,
+        "offsetX": 32.27048364010373,
+        "offsetY": 29.245125798844004,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-2y3kl8",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/valve-actuator-extracted.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "gunlyypa",
+        "color": "",
+        "x": 780.7044674223669,
+        "y": 105.6487211214878,
+        "width": 11.408934844735075,
+        "height": 39.29744224297618,
+        "rotation": 0,
+        "offsetX": 5.704467422367538,
+        "offsetY": 19.64872112148809,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-mir174",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/gray-extracted.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "5y78k5b4",
+        "color": "",
+        "x": 841.9807428726351,
+        "y": 245.10754822832524,
+        "width": 64.54096728020745,
+        "height": 58.49025159768801,
+        "rotation": 0,
+        "offsetX": 32.27048364010373,
+        "offsetY": 29.245125798844004,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-0v2hjp",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/valve-actuator-extracted.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "6oyo61ae",
+        "color": "",
+        "x": 1011.9719272520178,
+        "y": 210.70707248924168,
+        "width": 58.056145495965396,
+        "height": 94.58585502151662,
+        "rotation": 0,
+        "offsetX": 29.028072747982698,
+        "offsetY": 47.29292751075831,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-9w4s46",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/e105.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "8klq7scy",
+        "color": "",
+        "x": 627.6072622107542,
+        "y": 414.66006683802146,
+        "width": 95.21452442150702,
+        "height": 53.32013367604394,
+        "rotation": 0,
+        "offsetX": 47.60726221075351,
+        "offsetY": 26.66006683802197,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-q3c876",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/tank.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "blq7uvhv",
+        "color": "",
+        "x": 1027.887882626295,
+        "y": 355.0855046898133,
+        "width": 78.17100937962202,
+        "height": 43.77576525258835,
+        "rotation": -90,
+        "offsetX": 39.08550468981101,
+        "offsetY": 21.887882626294175,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-g8eybl",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/tank2.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "ogg5whgt",
+        "color": "",
+        "x": 1105.887882626295,
+        "y": 355.0855046898133,
+        "width": 78.17100937962202,
+        "height": 43.77576525258835,
+        "rotation": -90,
+        "offsetX": 39.08550468981101,
+        "offsetY": 21.887882626294175,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-qloy5s",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/tank2.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/StatusDisplay",
+      "data": {
+        "id": "y941r86f",
+        "codeLabel": "状态显示-wy0c0j",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 997.9028382350193,
+        "y": 519.6407346545764,
+        "width": 97.80567647003733,
+        "height": 55.281469309151575,
+        "rotation": 0,
+        "origin": "center",
+        "statusList": [],
+        "defaultAssetPath": "my-resources/mimic图/motor-red.svg",
+        "status": "",
+        "flipX": true,
+        "flipY": false,
+        "offsetX": 48.90283823501866,
+        "offsetY": 27.640734654575787,
+        "dynamicProps": [
+          "status"
+        ]
+      }
+    },
+    {
+      "className": "visink/StatusDisplay",
+      "data": {
+        "id": "enakykgu",
+        "codeLabel": "状态显示-mvvwp0",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1124.9028382350193,
+        "y": 518.6407346545764,
+        "width": 97.80567647003733,
+        "height": 55.281469309151575,
+        "rotation": 0,
+        "origin": "center",
+        "statusList": [],
+        "defaultAssetPath": "my-resources/mimic图/motor-red.svg",
+        "status": "",
+        "flipX": true,
+        "flipY": false,
+        "offsetX": 48.90283823501866,
+        "offsetY": 27.640734654575787,
+        "dynamicProps": [
+          "status"
+        ]
+      }
+    },
+    {
+      "className": "visink/StatusDisplay",
+      "data": {
+        "id": "3lbmiupq",
+        "codeLabel": "状态显示-1ikit7",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 602.6379208805456,
+        "y": 122.36981692457292,
+        "width": 29.27584176109129,
+        "height": 30.739633849145847,
+        "rotation": 0,
+        "origin": "center",
+        "statusList": [
+          {
+            "status": "1",
+            "assetPath": "my-resources/mimic图/valve-green.svg"
+          }
+        ],
+        "defaultAssetPath": "my-resources/mimic图/valve-red.svg",
+        "status": "",
+        "flipX": false,
+        "flipY": false,
+        "offsetX": 14.637920880545645,
+        "offsetY": 15.369816924572923,
+        "dynamicProps": [
+          "status"
+        ]
+      }
+    },
+    {
+      "className": "visink/StatusDisplay",
+      "data": {
+        "id": "gqb33ffm",
+        "codeLabel": "状态显示-tcnl24",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 536.9028382350193,
+        "y": 585.6407346545764,
+        "width": 97.80567647003733,
+        "height": 55.281469309151575,
+        "rotation": 0,
+        "origin": "center",
+        "statusList": [],
+        "defaultAssetPath": "my-resources/mimic图/motor-red.svg",
+        "status": "",
+        "flipX": true,
+        "flipY": false,
+        "offsetX": 48.90283823501866,
+        "offsetY": 27.640734654575787,
+        "dynamicProps": [
+          "status"
+        ]
+      }
+    },
+    {
+      "className": "visink/StatusDisplay",
+      "data": {
+        "id": "i8r2isyr",
+        "codeLabel": "状态显示-1pby5g",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 398.9028382350193,
+        "y": 586.6407346545764,
+        "width": 97.80567647003733,
+        "height": 55.281469309151575,
+        "rotation": 0,
+        "origin": "center",
+        "statusList": [],
+        "defaultAssetPath": "my-resources/mimic图/motor-red.svg",
+        "status": "",
+        "flipX": true,
+        "flipY": false,
+        "offsetX": 48.90283823501866,
+        "offsetY": 27.640734654575787,
+        "dynamicProps": [
+          "status"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "ucvdibkd",
+        "x": 359.87236995363253,
+        "y": 518.9914872330532,
+        "width": 180.994544454214,
+        "height": 77.56909048037744,
+        "rotation": 0,
+        "offsetX": 90.497272227107,
+        "offsetY": 38.78454524018872,
+        "points": [
+          {
+            "x": 0,
+            "y": 77.56909048037744
+          },
+          {
+            "x": 140.25118379785414,
+            "y": 77.56909048037744
+          },
+          {
+            "x": 140.25118379785414,
+            "y": 0
+          },
+          {
+            "x": 180.994544454214,
+            "y": 0
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-2ts5ne",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "vfuy5cio",
+        "x": 525.1963910784773,
+        "y": 611.0558117930971,
+        "width": 159.05581179309718,
+        "height": 43.87746532223366,
+        "rotation": 0,
+        "offsetX": 79.52790589654859,
+        "offsetY": 21.93873266111683,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 22.72225882758528,
+            "y": 0
+          },
+          {
+            "x": 22.72225882758528,
+            "y": 43.87746532223366
+          },
+          {
+            "x": 159.05581179309718,
+            "y": 43.87746532223366
+          },
+          {
+            "x": 159.05581179309718,
+            "y": 0
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-663vfv",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "psjx5f8l",
+        "x": 619.2195310546924,
+        "y": 585.1994482996379,
+        "width": 73.65145964803503,
+        "height": 1,
+        "rotation": 0,
+        "offsetX": 38.78454524018872,
+        "offsetY": -0.7835261664684481,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 73.65145964803503,
+            "y": 0
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-gyvd7t",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "v20zt4my",
+        "color": "",
+        "x": 785.4056244211773,
+        "y": 364.9958822225476,
+        "width": 11.408934844735075,
+        "height": 39.29744224297618,
+        "rotation": 0,
+        "offsetX": 5.704467422367538,
+        "offsetY": 19.64872112148809,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-ie9pn5",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/gray-extracted.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "xelzkv2z",
+        "color": "",
+        "x": 780.7432536815712,
+        "y": 257.91081601091423,
+        "width": 11.408934844735075,
+        "height": 39.29744224297618,
+        "rotation": 0,
+        "offsetX": 5.704467422367538,
+        "offsetY": 19.64872112148809,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-4gqpej",
+        "showCodeNode": false,
+        "assetPath": "my-resources/mimic图/gray-extracted.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/StatusDisplay",
+      "data": {
+        "id": "tu8cguq5",
+        "codeLabel": "状态显示-9tpw2b",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 663.6379208805456,
+        "y": 24.369816924572916,
+        "width": 29.27584176109129,
+        "height": 30.739633849145847,
+        "rotation": 0,
+        "origin": "center",
+        "statusList": [
+          {
+            "status": "1",
+            "assetPath": "my-resources/mimic图/valve-green.svg"
+          }
+        ],
+        "defaultAssetPath": "my-resources/mimic图/valve-red.svg",
+        "status": "",
+        "flipX": false,
+        "flipY": false,
+        "offsetX": 14.637920880545645,
+        "offsetY": 15.369816924572923,
+        "dynamicProps": [
+          "status"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "8tcc1fc3",
+        "x": 1072.842343726843,
+        "y": 463.71772278240246,
+        "width": 161.18252567351158,
+        "height": 55.966154747747055,
+        "rotation": 0,
+        "offsetX": 80.59126283675579,
+        "offsetY": 27.983077373873527,
+        "points": [
+          {
+            "x": 161.18252567351158,
+            "y": 55.966154747747055
+          },
+          {
+            "x": 161.18252567351158,
+            "y": 38.80320062510458
+          },
+          {
+            "x": 0,
+            "y": 38.80320062510458
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-1h3rhe",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "huae4nsh",
+        "codeLabel": "TI101",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 310.51724137931035,
+        "y": 83.7241379310345,
+        "content": "TI101",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "ii8wpqnx",
+        "codeLabel": "0 ℃",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 310.51724137931035,
+        "y": 103.72413793103465,
+        "content": "0 ℃",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#53b5b5FF",
+        "textAlign": "left",
+        "padding": "1,3",
+        "borderWidth": 1,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "2hj2flbj",
+        "codeLabel": "LV102",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 524.4827586206897,
+        "y": 82.5862068965517,
+        "content": "LV102",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "c6dxvjed",
+        "codeLabel": "0 %",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 524.4827586206897,
+        "y": 102.58620689655184,
+        "content": "0 %",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#53b5b5FF",
+        "textAlign": "left",
+        "padding": "1,3",
+        "borderWidth": 1,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "f9igwezg",
+        "codeLabel": "FI104",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 309.6551724137931,
+        "y": 183.20689655172413,
+        "content": "FI104",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "lqjsk3vf",
+        "codeLabel": "0 m³/h",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 309.6551724137931,
+        "y": 203.20689655172427,
+        "content": "0 m³/h",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#53b5b5FF",
+        "textAlign": "left",
+        "padding": "1,3",
+        "borderWidth": 1,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "sucgqatm",
+        "codeLabel": "FI104-9l4kq0",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 441.3448275862069,
+        "y": 189.1379310344828,
+        "content": "FI104",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "wg9d6pkq",
+        "codeLabel": "0 m³/h-o98xwd",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 443.3448275862069,
+        "y": 209.13793103448296,
+        "content": "0 m³/h",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#53b5b5FF",
+        "textAlign": "left",
+        "padding": "1,3",
+        "borderWidth": 1,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "3qtfbwq2",
+        "codeLabel": "PI103",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 347.89655172413796,
+        "y": 418.7931034482759,
+        "content": "PI103",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "xrus9zc6",
+        "codeLabel": "0 Mpa",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 347.89655172413796,
+        "y": 438.79310344827604,
+        "content": "0 Mpa",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#53b5b5FF",
+        "textAlign": "left",
+        "padding": "1,3",
+        "borderWidth": 1,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "wc6gxac1",
+        "codeLabel": "PI101A",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 343.75862068965523,
+        "y": 507.7586206896553,
+        "content": "PI101A",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "6wwflijx",
+        "codeLabel": "PI101B",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 495.82758620689657,
+        "y": 507.75862068965534,
+        "content": "PI101B",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "oro4ryys",
+        "codeLabel": "PI102B",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 498.93103448275855,
+        "y": 610.1724137931037,
+        "content": "PI102B",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "cdxt9iik",
+        "codeLabel": "PI102A",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 361.344827586207,
+        "y": 615.3448275862072,
+        "content": "PI102A",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "d5bu4vd6",
+        "codeLabel": "E103",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 568.990772436434,
+        "y": 270.1799728473588,
+        "content": "E103",
+        "fontSize": 10,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#000000",
+        "textAlign": "center",
+        "padding": "1,3",
+        "borderWidth": 0,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 35,
+        "fixedHeight": 0,
+        "backgroundColor": "#52c41a",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "q9jyl9m4",
+        "codeLabel": "E104",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 642.4390482985029,
+        "y": 270.1799728473588,
+        "content": "E104",
+        "fontSize": 10,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#000000",
+        "textAlign": "center",
+        "padding": "1,3",
+        "borderWidth": 0,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 35,
+        "fixedHeight": 0,
+        "backgroundColor": "#52c41a",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "6qaib58l",
+        "codeLabel": "工艺水-6fgeos",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 568.7703118494212,
+        "y": 20.490532600716435,
+        "content": "工艺水",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "6n90yrge",
+        "codeLabel": "FI103",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 791.3793103448277,
+        "y": 108.44827586206904,
+        "content": "FI103",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "gimz3a39",
+        "codeLabel": "0 m³/h-tsuwyo",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 791.3793103448277,
+        "y": 128.4482758620692,
+        "content": "0 m³/h",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#53b5b5FF",
+        "textAlign": "left",
+        "padding": "1,3",
+        "borderWidth": 1,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "bcpsfxc9",
+        "codeLabel": "E107",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 933.1287034709169,
+        "y": 36.38686939908294,
+        "content": "E107",
+        "fontSize": 10,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#000000",
+        "textAlign": "center",
+        "padding": "1,3",
+        "borderWidth": 0,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 35,
+        "fixedHeight": 0,
+        "backgroundColor": "#52c41a",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "fwisoff3",
+        "codeLabel": "E108",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 994.1631862295377,
+        "y": 195.69721422666916,
+        "content": "E108",
+        "fontSize": 10,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#000000",
+        "textAlign": "center",
+        "padding": "1,3",
+        "borderWidth": 0,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 35,
+        "fixedHeight": 0,
+        "backgroundColor": "#52c41a",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "7wxn28g1",
+        "codeLabel": "系统外甲醛",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 894.8275862068965,
+        "y": 248.10344827586204,
+        "content": "系统外甲醛",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "lzj49yjf",
+        "codeLabel": "冷",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 891.7241379310346,
+        "y": 546.0344827586207,
+        "content": "冷\n凝\n水",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "59v6nj5c",
+        "codeLabel": "蒸",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 917.586206896552,
+        "y": 506.7241379310346,
+        "content": "蒸\n汽",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "tqwgga9b",
+        "codeLabel": "去甲醛成品罐",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 939.448275862069,
+        "y": 403.2758620689655,
+        "content": "去甲醛成品罐",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "cznibmfs",
+        "codeLabel": "V101A",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1006.5517241379312,
+        "y": 332.9310344827587,
+        "content": "V101A",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#000000",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "kva7cron",
+        "codeLabel": "LI104A",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1004.586206896552,
+        "y": 355.68965517241395,
+        "content": "LI104A",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#000000",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "akerrzw7",
+        "codeLabel": "V101B",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1086.2758620689658,
+        "y": 333.9655172413794,
+        "content": "V101B",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#000000",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "lqluc9y2",
+        "codeLabel": "LI104B",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1084.3103448275865,
+        "y": 356.72413793103465,
+        "content": "LI104B",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#000000",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/StatusDisplay",
+      "data": {
+        "id": "nhhx7utd",
+        "codeLabel": "状态显示-0l6yzy",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1155.017231225373,
+        "y": 400.99050657974533,
+        "width": 29.27584176109129,
+        "height": 30.739633849145847,
+        "rotation": 0,
+        "origin": "center",
+        "statusList": [
+          {
+            "status": "1",
+            "assetPath": "my-resources/mimic图/valve-green.svg"
+          }
+        ],
+        "defaultAssetPath": "my-resources/mimic图/valve-red.svg",
+        "status": "",
+        "flipX": false,
+        "flipY": false,
+        "offsetX": 14.637920880545645,
+        "offsetY": 15.369816924572923,
+        "dynamicProps": [
+          "status"
+        ]
+      }
+    },
+    {
+      "className": "visink/StatusDisplay",
+      "data": {
+        "id": "n8cg73qq",
+        "codeLabel": "状态显示-tewkb0",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1072.258610535718,
+        "y": 427.88705830388335,
+        "width": 29.27584176109129,
+        "height": 30.739633849145847,
+        "rotation": 0,
+        "origin": "center",
+        "statusList": [
+          {
+            "status": "1",
+            "assetPath": "my-resources/mimic图/valve-green.svg"
+          }
+        ],
+        "defaultAssetPath": "my-resources/mimic图/valve-red.svg",
+        "status": "",
+        "flipX": false,
+        "flipY": false,
+        "offsetX": 14.637920880545645,
+        "offsetY": 15.369816924572923,
+        "dynamicProps": [
+          "status"
+        ]
+      }
+    },
+    {
+      "className": "visink/StatusDisplay",
+      "data": {
+        "id": "urwkxhxd",
+        "codeLabel": "状态显示-0cifmq",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1111.741369156408,
+        "y": 293.50774795905573,
+        "width": 29.27584176109129,
+        "height": 30.739633849145847,
+        "rotation": 90,
+        "origin": "center",
+        "statusList": [
+          {
+            "status": "1",
+            "assetPath": "my-resources/mimic图/valve-green.svg"
+          }
+        ],
+        "defaultAssetPath": "my-resources/mimic图/valve-red.svg",
+        "status": "",
+        "flipX": false,
+        "flipY": false,
+        "offsetX": 14.637920880545645,
+        "offsetY": 15.369816924572923,
+        "dynamicProps": [
+          "status"
+        ]
+      }
+    },
+    {
+      "className": "visink/StatusDisplay",
+      "data": {
+        "id": "tvft7onq",
+        "codeLabel": "状态显示-zdqf40",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1020.7413691564079,
+        "y": 293.50774795905573,
+        "width": 29.27584176109129,
+        "height": 30.739633849145847,
+        "rotation": 90,
+        "origin": "center",
+        "statusList": [
+          {
+            "status": "1",
+            "assetPath": "my-resources/mimic图/valve-green.svg"
+          }
+        ],
+        "defaultAssetPath": "my-resources/mimic图/valve-red.svg",
+        "status": "",
+        "flipX": false,
+        "flipY": false,
+        "offsetX": 14.637920880545645,
+        "offsetY": 15.369816924572923,
+        "dynamicProps": [
+          "status"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "9xnirodf",
+        "codeLabel": "KV105",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1024.1379310344832,
+        "y": 300.8620689655174,
+        "content": "KV105",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "yvfu7j14",
+        "codeLabel": "KV106",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1118.275862068966,
+        "y": 303.96551724137953,
+        "content": "KV106",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "l34brbwk",
+        "codeLabel": "KV107",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1052.0689655172418,
+        "y": 437.41379310344837,
+        "content": "KV107",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "kvp26b19",
+        "codeLabel": "KV108",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1133.7931034482765,
+        "y": 410.5172413793106,
+        "content": "KV108",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "jjc16lrw",
+        "codeLabel": "T102",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 719.8965517241381,
+        "y": 381.96551724137976,
+        "content": "T102",
+        "fontSize": 10,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#000000",
+        "textAlign": "center",
+        "padding": "1,3",
+        "borderWidth": 0,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 35,
+        "fixedHeight": 0,
+        "backgroundColor": "#52c41a",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "fqub9p46",
+        "codeLabel": "LI103",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 713.8965517241381,
+        "y": 405.96551724137953,
+        "content": "LI103",
+        "fontSize": 11,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#000000",
+        "textAlign": "center",
+        "padding": "1,3",
+        "borderWidth": 0,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 47,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "yy5g3ahh",
+        "codeLabel": "0-bq8gl3",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 719.8965517241381,
+        "y": 425.96551724137953,
+        "content": "0",
+        "fontSize": 10,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#53b5b5FF",
+        "textAlign": "center",
+        "padding": "1,3",
+        "borderWidth": 0,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 35,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0, 0, 0, 1)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "svucqmvj",
+        "codeLabel": "P103A",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 965.1724137931039,
+        "y": 551.2068965517244,
+        "content": "P103A",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "7br3hko8",
+        "codeLabel": "P103B",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1092.4137931034488,
+        "y": 545.0000000000002,
+        "content": "P103B",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "8ly7frer",
+        "codeLabel": "解吸塔",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 718.4047536498094,
+        "y": 500.7835336534119,
+        "content": "解吸塔",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#333333",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    }
+  ],
+  "inputs": []
+}

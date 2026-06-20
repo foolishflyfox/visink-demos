@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="152" height="892" viewBox="0 0 152 892" role="img" aria-label="Absorption tower background">
+  <defs>
+    <linearGradient id="body" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#d8d8d8"/>
+      <stop offset=".48" stop-color="#c8c8c8"/>
+      <stop offset="1" stop-color="#b9b9b9"/>
+    </linearGradient>
+    <linearGradient id="side" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#b8b8b8"/>
+      <stop offset="1" stop-color="#9f9f9f"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-5%" width="140%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="1.2" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)" stroke="#333" stroke-width="1.4" stroke-linejoin="miter">
+    <!-- Upper cap and neck -->
+    <rect x="56" y="0" width="34" height="7" fill="#cfcfcf"/>
+    <rect x="63" y="7" width="20" height="8" fill="#bdbdbd"/>
+    <path d="M21 56C21 33 41 17 75 17s54 16 54 39v181H21z" fill="url(#body)"/>
+    <line x1="27" y1="55" x2="123" y2="55" stroke="#5b5b5b"/>
+
+    <!-- Upper access door -->
+    <rect x="27" y="64" width="87" height="162" fill="#a8a8a8"/>
+    <path d="M29 67l83 156M112 67L29 223" fill="none" stroke="#545454" stroke-width="1.2"/>
+    <line x1="29" y1="226" x2="112" y2="226" stroke="#e2e2e2" stroke-width="2"/>
+
+    <!-- Middle body and door -->
+    <rect x="21" y="237" width="108" height="183" fill="url(#body)"/>
+    <rect x="27" y="248" width="87" height="161" fill="#aaa"/>
+    <path d="M29 251l83 155M112 251L29 406" fill="none" stroke="#555" stroke-width="1.2"/>
+
+    <!-- Hopper transition -->
+    <path d="M21 420L1 560h139L129 420z" fill="#cfcfcf"/>
+    <line x1="1" y1="560" x2="140" y2="560" stroke="#333"/>
+
+    <!-- Lower equipment body -->
+    <path d="M1 560h139v165c0 26-20 47-45 47H46c-25 0-45-21-45-47z" fill="url(#body)"/>
+    <path d="M120 561h20v163c0 18-7 34-20 42z" fill="url(#side)"/>
+
+    <!-- Blank front panel area for external overlays -->
+    <rect x="13" y="586" width="101" height="140" fill="#f2f2f2" stroke="#333"/>
+
+    <!-- Side sight strip, kept as body detail and detached from external piping -->
+    <rect x="120" y="647" width="14" height="82" fill="#37b7c7" stroke="#686868"/>
+    <line x1="120" y1="647" x2="134" y2="647" stroke="#6b6b6b"/>
+    <line x1="120" y1="729" x2="134" y2="729" stroke="#6b6b6b"/>
+
+    <!-- Bottom skirt and base -->
+    <path d="M34 768h84v46H34z" fill="#c6c6c6"/>
+    <path d="M55 772h38v20H55z" fill="#8d8d8d"/>
+    <rect x="47" y="792" width="54" height="7" fill="#aaa"/>
+    <rect x="39" y="799" width="70" height="13" fill="#cfcfcf"/>
+    <rect x="1" y="812" width="139" height="80" fill="#cfcfcf"/>
+  </g>
+</svg>

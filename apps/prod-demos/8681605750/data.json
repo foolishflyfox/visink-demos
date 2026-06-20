@@ -3,5 +3,16 @@
     "ck1uzj9sib86": {
       "path": "home.json"
     }
+  },
+  "fragments": {
+    "nojwds2tgjs4": {
+      "path": "一键启动控制.json"
+    },
+    "xdzds24gp4yw": {
+      "path": "流程图.json"
+    },
+    "dwc3uh3lczfd": {
+      "path": "流量统计.json"
+    }
   }
 }

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="178" height="290" viewBox="0 0 178 290" role="img" aria-label="Gray equipment">
+  <defs>
+    <linearGradient id="bodyMetal" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#d6d6d6"/>
+      <stop offset=".55" stop-color="#cfcfcf"/>
+      <stop offset="1" stop-color="#bfbfbf"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="1.2" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+  </defs>
+  <g filter="url(#softShadow)" stroke="#4f5659" stroke-width="2" stroke-linejoin="round">
+    <!-- Rear rounded shell visible above and below the front body. -->
+    <path d="M61 10h58c20 0 36 16 36 36v198c0 20-16 36-36 36H61c-20 0-36-16-36-36V46c0-20 16-36 36-36z" fill="#bfbfbf"/>
+
+    <!-- Right side short pipe connections. -->
+    <rect x="153" y="49" width="24" height="30" fill="#dddddd"/>
+    <rect x="153" y="148" width="24" height="28" fill="#dddddd"/>
+
+    <!-- Main rectangular body. -->
+    <rect x="25" y="31" width="128" height="227" fill="url(#bodyMetal)"/>
+
+    <!-- Top and bottom flanges. -->
+    <rect x="1" y="21" width="168" height="20" fill="#e8e8e8"/>
+    <rect x="1" y="253" width="168" height="20" fill="#e8e8e8"/>
+  </g>
+</svg>

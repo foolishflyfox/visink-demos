@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "7k6spdge",
+      "type": "visink/WidgetBlock",
+      "x": 60,
+      "y": 60,
+      "widgetId": "a2noxdwb",
+      "widgetType": "visink/StatusDisplay",
+      "dynamicPropKeys": [
+        "status"
+      ]
+    },
+    {
+      "id": "3ua4updd",
+      "type": "visink/WidgetBlock",
+      "x": 280,
+      "y": 60,
+      "widgetId": "r2xp0cl1",
+      "widgetType": "visink/StatusDisplay",
+      "dynamicPropKeys": [
+        "status"
+      ]
+    },
+    {
+      "id": "o5zal6mq",
+      "type": "visink/WidgetBlock",
+      "x": 500,
+      "y": 60,
+      "widgetId": "j7rl8csf",
+      "widgetType": "visink/StatusDisplay",
+      "dynamicPropKeys": [
+        "status"
+      ]
+    },
+    {
+      "id": "bxg3333m",
+      "type": "visink/WidgetBlock",
+      "x": 940,
+      "y": 60,
+      "widgetId": "y941r86f",
+      "widgetType": "visink/StatusDisplay",
+      "dynamicPropKeys": [
+        "status"
+      ]
+    },
+    {
+      "id": "ez6ig7s9",
+      "type": "visink/WidgetBlock",
+      "x": 60,
+      "y": 260,
+      "widgetId": "enakykgu",
+      "widgetType": "visink/StatusDisplay",
+      "dynamicPropKeys": [
+        "status"
+      ]
+    },
+    {
+      "id": "ksbfoha1",
+      "type": "visink/WidgetBlock",
+      "x": 280,
+      "y": 260,
+      "widgetId": "3lbmiupq",
+      "widgetType": "visink/StatusDisplay",
+      "dynamicPropKeys": [
+        "status"
+      ]
+    },
+    {
+      "id": "dmyzj7iv",
+      "type": "visink/WidgetBlock",
+      "x": 280,
+      "y": 260,
+      "widgetId": "gqb33ffm",
+      "widgetType": "visink/StatusDisplay",
+      "dynamicPropKeys": [
+        "status"
+      ]
+    },
+    {
+      "id": "aioc8rn2",
+      "type": "visink/WidgetBlock",
+      "x": 500,
+      "y": 260,
+      "widgetId": "i8r2isyr",
+      "widgetType": "visink/StatusDisplay",
+      "dynamicPropKeys": [
+        "status"
+      ]
+    },
+    {
+      "id": "k06lub20",
+      "type": "visink/WidgetBlock",
+      "x": 720,
+      "y": 260,
+      "widgetId": "tu8cguq5",
+      "widgetType": "visink/StatusDisplay",
+      "dynamicPropKeys": [
+        "status"
+      ]
+    },
+    {
+      "id": "66fbof5f",
+      "type": "visink/WidgetBlock",
+      "x": 940,
+      "y": 260,
+      "widgetId": "nhhx7utd",
+      "widgetType": "visink/StatusDisplay",
+      "dynamicPropKeys": [
+        "status"
+      ]
+    },
+    {
+      "id": "eafay6w4",
+      "type": "visink/WidgetBlock",
+      "x": 60,
+      "y": 460,
+      "widgetId": "n8cg73qq",
+      "widgetType": "visink/StatusDisplay",
+      "dynamicPropKeys": [
+        "status"
+      ]
+    },
+    {
+      "id": "e0rtinjg",
+      "type": "visink/WidgetBlock",
+      "x": 280,
+      "y": 460,
+      "widgetId": "urwkxhxd",
+      "widgetType": "visink/StatusDisplay",
+      "dynamicPropKeys": [
+        "status"
+      ]
+    },
+    {
+      "id": "yvzo4ril",
+      "type": "visink/WidgetBlock",
+      "x": 500,
+      "y": 460,
+      "widgetId": "tvft7onq",
+      "widgetType": "visink/StatusDisplay",
+      "dynamicPropKeys": [
+        "status"
+      ]
+    }
+  ],
+  "connections": []
+}

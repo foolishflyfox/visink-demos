@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="105" viewBox="0 0 100 105" role="img" aria-label="Pump background">
+  <defs>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)" stroke="#333" stroke-width="2" stroke-linejoin="round">
+    <!-- Short pump outlet, kept separate from any external pipe -->
+    <path d="M66 14h16v19c-4-1.8-8.5-2.8-13.2-3z" fill="#e8e8e8"/>
+    <rect x="62" y="8" width="24" height="8" fill="#e8e8e8"/>
+
+    <!-- Pump casing -->
+    <path d="M50 16a42 42 0 1 1 0 84a42 42 0 1 1 0-84
+             M50 29a29 29 0 1 0 0 58a29 29 0 1 0 0-58" fill="#e8e8e8" fill-rule="evenodd"/>
+    <circle cx="50" cy="58" r="29" fill="none"/>
+
+    <!-- Impeller vanes -->
+    <path d="M50 58L64.5 32.9A29 29 0 0 1 79 58z" fill="#d9d9d9"/>
+    <path d="M50 58L64.5 83.1A29 29 0 0 1 35.5 83.1z" fill="#d9d9d9"/>
+    <path d="M50 58L21 58A29 29 0 0 1 35.5 32.9z" fill="#d9d9d9"/>
+    <path d="M50 58L35.5 32.9A29 29 0 0 1 64.5 32.9z" fill="none"/>
+    <path d="M50 58L79 58A29 29 0 0 1 64.5 83.1z" fill="none"/>
+    <path d="M50 58L35.5 83.1A29 29 0 0 1 21 58z" fill="none"/>
+
+    <!-- Hub -->
+    <circle cx="50" cy="58" r="10.5" fill="#d9d9d9"/>
+  </g>
+</svg>
