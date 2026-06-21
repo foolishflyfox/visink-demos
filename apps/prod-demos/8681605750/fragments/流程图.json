@@ -7,6 +7,534 @@
     {
       "className": "visink/CanvasPolyline",
       "data": {
+        "id": "cwv71v7f",
+        "x": 347.0639857658233,
+        "y": 518.7875726901383,
+        "width": 215.49608083471543,
+        "height": 80.1845882175686,
+        "rotation": 0,
+        "offsetX": 107.74804041735771,
+        "offsetY": 40.09229410878427,
+        "points": [
+          {
+            "x": 215.49608083471543,
+            "y": 0.5568374181775653
+          },
+          {
+            "x": 168.72173770780037,
+            "y": 0
+          },
+          {
+            "x": 168.16490028962286,
+            "y": 80.1845882175686
+          },
+          {
+            "x": 0,
+            "y": 79.62775079939098
+          }
+        ],
+        "stroke": "#327312FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#52c41a",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-u3lxrw",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "ld6w6qv7",
+        "x": 284.53345105720297,
+        "y": 519.6228288174045,
+        "width": 31.182895417943314,
+        "height": 76.28672629032565,
+        "rotation": 0,
+        "offsetX": 15.591447708971657,
+        "offsetY": 38.14336314516282,
+        "points": [
+          {
+            "x": 31.182895417943314,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 76.28672629032565
+          }
+        ],
+        "stroke": "#327312FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#52c41a",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-qgdaj0",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "z9zlp36b",
+        "x": 533.664411801049,
+        "y": 301.40357814570825,
+        "width": 271,
+        "height": 207.03448275862075,
+        "rotation": 0,
+        "offsetX": 216.5,
+        "offsetY": 117,
+        "points": [
+          {
+            "x": 0,
+            "y": 207
+          },
+          {
+            "x": 125.5172413793104,
+            "y": 207.03448275862075
+          },
+          {
+            "x": 122.41379310344837,
+            "y": 0
+          },
+          {
+            "x": 238,
+            "y": 0
+          },
+          {
+            "x": 238,
+            "y": 91
+          },
+          {
+            "x": 271,
+            "y": 91
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-yysmjq",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "kzmkemu4",
+        "x": 391.664411801049,
+        "y": 436.40357814570825,
+        "width": 151,
+        "height": 34,
+        "rotation": 0,
+        "offsetX": 75.5,
+        "offsetY": 17,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 151,
+            "y": 0
+          },
+          {
+            "x": 151,
+            "y": 34
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-5k81m9",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "61w7j6rh",
+        "x": 665.5,
+        "y": 588,
+        "width": 829.7512695997189,
+        "height": 130.89786192724296,
+        "rotation": 0,
+        "offsetX": 433.2512695997189,
+        "offsetY": 66.89786192724296,
+        "points": [
+          {
+            "x": 0,
+            "y": 37.45469934542052
+          },
+          {
+            "x": 36.194432181541345,
+            "y": 37.22089130798793
+          },
+          {
+            "x": 36.75126959971891,
+            "y": 130.89786192724296
+          },
+          {
+            "x": 829.7512695997189,
+            "y": 130.89786192724296
+          },
+          {
+            "x": 828.7512695997189,
+            "y": 0
+          },
+          {
+            "x": 808.864944436074,
+            "y": 0.11367483635513054
+          }
+        ],
+        "stroke": "#327312FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 2,
+        "isPipe": true,
+        "pipeFluidColor": "#52c41a",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-7enw1o",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "8hgh9tz8",
+        "x": 334.5,
+        "y": 386,
+        "width": 37.15687132974239,
+        "height": 126,
+        "rotation": 0,
+        "offsetX": 18.656871329742387,
+        "offsetY": 63,
+        "points": [
+          {
+            "x": 37.15687132974239,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0.6446089162178055
+          },
+          {
+            "x": 0.15687132974238693,
+            "y": 126
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 2,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-nj2fq4",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "dz4cngty",
+        "x": 516.664411801049,
+        "y": 224.90357814570825,
+        "width": 1,
+        "height": 183,
+        "rotation": 0,
+        "offsetX": 0.5,
+        "offsetY": 91.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 183
+          }
+        ],
+        "stroke": "#5C3F85FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#BC90F9FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-9ptsud",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "psjx5f8l",
+        "x": 619.2195310546924,
+        "y": 585.1994482996379,
+        "width": 73.65145964803503,
+        "height": 1,
+        "rotation": 0,
+        "offsetX": 38.78454524018872,
+        "offsetY": -0.7835261664684481,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 73.65145964803503,
+            "y": 0
+          }
+        ],
+        "stroke": "#5C3F85FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#BC90F9FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-gyvd7t",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "vfuy5cio",
+        "x": 525.1963910784773,
+        "y": 611.0558117930971,
+        "width": 159.05581179309718,
+        "height": 43.87746532223366,
+        "rotation": 0,
+        "offsetX": 79.52790589654859,
+        "offsetY": 21.93873266111683,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 22.72225882758528,
+            "y": 0
+          },
+          {
+            "x": 22.72225882758528,
+            "y": 43.87746532223366
+          },
+          {
+            "x": 159.05581179309718,
+            "y": 43.87746532223366
+          },
+          {
+            "x": 159.05581179309718,
+            "y": 0
+          }
+        ],
+        "stroke": "#5C3F85FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#BC90F9FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-663vfv",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "rvizjpw5",
+        "x": 334.5,
+        "y": 267.5,
+        "width": 158,
+        "height": 77,
+        "rotation": 0,
+        "offsetX": 89.5,
+        "offsetY": 38.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 158,
+            "y": 0
+          },
+          {
+            "x": 158,
+            "y": 77
+          }
+        ],
+        "stroke": "#246f94FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 2,
+        "isPipe": true,
+        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-vds24e",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "msuu4k6e",
+        "x": 516.5,
+        "y": 123,
+        "width": 410,
+        "height": 1,
+        "rotation": 0,
+        "offsetX": 272.5,
+        "offsetY": -7,
+        "points": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 410,
+            "y": 0
+          }
+        ],
+        "stroke": "#5C3F85FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 2,
+        "isPipe": true,
+        "pipeFluidColor": "#BC90F9FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-6epci0",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
+        "id": "e4xynixa",
+        "x": 496.5,
+        "y": 555,
+        "width": 137,
+        "height": 48,
+        "rotation": 0,
+        "offsetX": 68.5,
+        "offsetY": 24,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 137,
+            "y": 0
+          },
+          {
+            "x": 137,
+            "y": 48
+          }
+        ],
+        "stroke": "#5C3F85FF",
+        "strokeWidth": 7,
+        "turnRadius": 0,
+        "lineStyle": "dashed",
+        "dashLength": 8,
+        "dashGap": 11,
+        "flowSpeed": 1,
+        "isPipe": true,
+        "pipeFluidColor": "#BC90F9FF",
+        "pipeFluidWidth": 4,
+        "startArrow": "none",
+        "endArrow": "none",
+        "codeLabel": "折线-otsmqj",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolyline",
+      "data": {
         "id": "0kgtg2nc",
         "x": 1026.5845583420987,
         "y": 486.4772923798196,
@@ -25,7 +553,7 @@
             "y": 0
           }
         ],
-        "stroke": "#246f94FF",
+        "stroke": "#327312FF",
         "strokeWidth": 7,
         "turnRadius": 0,
         "lineStyle": "dashed",
@@ -33,7 +561,7 @@
         "dashGap": 11,
         "flowSpeed": 1,
         "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidColor": "#52c41a",
         "pipeFluidWidth": 4,
         "startArrow": "none",
         "endArrow": "none",
@@ -71,7 +599,7 @@
             "y": 0
           }
         ],
-        "stroke": "#246f94FF",
+        "stroke": "#327312FF",
         "strokeWidth": 7,
         "turnRadius": 0,
         "lineStyle": "dashed",
@@ -79,7 +607,7 @@
         "dashGap": 11,
         "flowSpeed": 1,
         "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidColor": "#52c41a",
         "pipeFluidWidth": 4,
         "startArrow": "none",
         "endArrow": "none",
@@ -93,12 +621,12 @@
       "data": {
         "id": "9l4qadpj",
         "x": 1106.0489288771728,
-        "y": 452.524491832853,
+        "y": 455.50935341939953,
         "width": 161.92874107014813,
         "height": 139.54227917104936,
         "rotation": 0,
         "offsetX": 80.96437053507407,
-        "offsetY": 66.78627799897816,
+        "offsetY": 69.77113958552468,
         "points": [
           {
             "x": 161.92874107014813,
@@ -117,7 +645,7 @@
             "y": 0
           }
         ],
-        "stroke": "#246f94FF",
+        "stroke": "#327312FF",
         "strokeWidth": 7,
         "turnRadius": 0,
         "lineStyle": "dashed",
@@ -125,7 +653,7 @@
         "dashGap": 11,
         "flowSpeed": 1,
         "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidColor": "#52c41a",
         "pipeFluidWidth": 4,
         "startArrow": "none",
         "endArrow": "none",
@@ -139,12 +667,12 @@
       "data": {
         "id": "v7bf73my",
         "x": 1125.0774214914068,
-        "y": 584.9777247358544,
+        "y": 589.0819094173559,
         "width": 125.36418663495328,
         "height": 124.61797123831684,
         "rotation": 0,
         "offsetX": 62.68209331747664,
-        "offsetY": 58.204800937656955,
+        "offsetY": 62.30898561915842,
         "points": [
           {
             "x": 0,
@@ -163,69 +691,19 @@
             "y": 1.1368683772161603e-13
           }
         ],
-        "stroke": "#246f94FF",
+        "stroke": "#327312FF",
         "strokeWidth": 7,
         "turnRadius": 0,
         "lineStyle": "dashed",
         "dashLength": 8,
         "dashGap": 11,
-        "flowSpeed": 1,
+        "flowSpeed": 2,
         "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidColor": "#52c41a",
         "pipeFluidWidth": 4,
         "startArrow": "none",
         "endArrow": "none",
         "codeLabel": "折线-363n07",
-        "showCodeNode": false,
-        "dynamicProps": []
-      }
-    },
-    {
-      "className": "visink/CanvasPolyline",
-      "data": {
-        "id": "61w7j6rh",
-        "x": 617,
-        "y": 598.5,
-        "width": 793,
-        "height": 128,
-        "rotation": 0,
-        "offsetX": 348,
-        "offsetY": 74.5,
-        "points": [
-          {
-            "x": 0,
-            "y": 34
-          },
-          {
-            "x": 0,
-            "y": 128
-          },
-          {
-            "x": 793,
-            "y": 128
-          },
-          {
-            "x": 792,
-            "y": 1
-          },
-          {
-            "x": 771,
-            "y": 0
-          }
-        ],
-        "stroke": "#246f94FF",
-        "strokeWidth": 7,
-        "turnRadius": 0,
-        "lineStyle": "dashed",
-        "dashLength": 8,
-        "dashGap": 11,
-        "flowSpeed": 1,
-        "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
-        "pipeFluidWidth": 4,
-        "startArrow": "none",
-        "endArrow": "none",
-        "codeLabel": "折线-7enw1o",
         "showCodeNode": false,
         "dynamicProps": []
       }
@@ -448,13 +926,13 @@
       "className": "visink/CanvasPolyline",
       "data": {
         "id": "mpz4i8ts",
-        "x": 849,
-        "y": 257.5,
+        "x": 834,
+        "y": 258.0344827586207,
         "width": 112,
         "height": 2.068965517241395,
         "rotation": 0,
-        "offsetX": 71,
-        "offsetY": 0.5,
+        "offsetX": 56,
+        "offsetY": 1.0344827586206975,
         "points": [
           {
             "x": 0,
@@ -465,15 +943,15 @@
             "y": 2.068965517241395
           }
         ],
-        "stroke": "#246f94FF",
+        "stroke": "#822c3eFF",
         "strokeWidth": 7,
         "turnRadius": 0,
         "lineStyle": "dashed",
         "dashLength": 8,
         "dashGap": 11,
-        "flowSpeed": 1,
+        "flowSpeed": 2,
         "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidColor": "#f5222d",
         "pipeFluidWidth": 4,
         "startArrow": "none",
         "endArrow": "none",
@@ -643,7 +1121,7 @@
         "lineStyle": "dashed",
         "dashLength": 8,
         "dashGap": 11,
-        "flowSpeed": 1,
+        "flowSpeed": 3,
         "isPipe": true,
         "pipeFluidColor": "#65B1E3FF",
         "pipeFluidWidth": 4,
@@ -737,7 +1215,7 @@
             "y": 102.64192780736806
           }
         ],
-        "stroke": "#246f94FF",
+        "stroke": "#5C3F85FF",
         "strokeWidth": 7,
         "turnRadius": 0,
         "lineStyle": "dashed",
@@ -745,7 +1223,7 @@
         "dashGap": 11,
         "flowSpeed": 1,
         "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidColor": "#BC90F9FF",
         "pipeFluidWidth": 4,
         "startArrow": "none",
         "endArrow": "none",
@@ -761,34 +1239,34 @@
         "x": 623,
         "y": 275.5,
         "width": 72,
-        "height": 121,
+        "height": 120,
         "rotation": 0,
         "offsetX": 36,
-        "offsetY": 68.5,
+        "offsetY": 67.5,
         "points": [
           {
             "x": 0,
-            "y": 43
+            "y": 42
           },
           {
             "x": 0,
-            "y": 1
-          },
-          {
-            "x": 43.70115699881069,
             "y": 0
           },
           {
-            "x": 43.70115699881069,
-            "y": 120.21647383353155
+            "x": 41.70115699881069,
+            "y": 0.11367483635510212
+          },
+          {
+            "x": 41.701156998810575,
+            "y": 119.77331125170906
           },
           {
             "x": 72,
-            "y": 121
+            "y": 120
           },
           {
             "x": 72,
-            "y": 94
+            "y": 93
           }
         ],
         "stroke": "#246f94FF",
@@ -837,7 +1315,7 @@
             "y": 224
           }
         ],
-        "stroke": "#246f94FF",
+        "stroke": "#5C3F85FF",
         "strokeWidth": 7,
         "turnRadius": 0,
         "lineStyle": "dashed",
@@ -845,7 +1323,7 @@
         "dashGap": 11,
         "flowSpeed": 1,
         "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidColor": "#BC90F9FF",
         "pipeFluidWidth": 4,
         "startArrow": "none",
         "endArrow": "none",
@@ -887,7 +1365,7 @@
             "y": 287
           }
         ],
-        "stroke": "#246f94FF",
+        "stroke": "#5C3F85FF",
         "strokeWidth": 7,
         "turnRadius": 0,
         "lineStyle": "dashed",
@@ -895,7 +1373,7 @@
         "dashGap": 11,
         "flowSpeed": 1,
         "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidColor": "#BC90F9FF",
         "pipeFluidWidth": 4,
         "startArrow": "none",
         "endArrow": "none",
@@ -975,7 +1453,7 @@
             "y": 0
           }
         ],
-        "stroke": "#246f94FF",
+        "stroke": "#822c3eFF",
         "strokeWidth": 7,
         "turnRadius": 0,
         "lineStyle": "dashed",
@@ -983,183 +1461,11 @@
         "dashGap": 11,
         "flowSpeed": 1,
         "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidColor": "#f5222d",
         "pipeFluidWidth": 4,
         "startArrow": "none",
         "endArrow": "none",
         "codeLabel": "折线-50om3n",
-        "showCodeNode": false,
-        "dynamicProps": []
-      }
-    },
-    {
-      "className": "visink/CanvasPolyline",
-      "data": {
-        "id": "h0l1mg0e",
-        "x": 625.5,
-        "y": 276,
-        "width": 53,
-        "height": 36,
-        "rotation": 0,
-        "offsetX": 26.5,
-        "offsetY": 18,
-        "points": [
-          {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 20,
-            "y": 0
-          },
-          {
-            "x": 20,
-            "y": 36
-          },
-          {
-            "x": 53,
-            "y": 36
-          }
-        ],
-        "stroke": "#246f94FF",
-        "strokeWidth": 7,
-        "turnRadius": 0,
-        "lineStyle": "dashed",
-        "dashLength": 8,
-        "dashGap": 11,
-        "flowSpeed": 1,
-        "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
-        "pipeFluidWidth": 4,
-        "startArrow": "none",
-        "endArrow": "none",
-        "codeLabel": "折线-krb5us",
-        "showCodeNode": false,
-        "dynamicProps": []
-      }
-    },
-    {
-      "className": "visink/CanvasPolyline",
-      "data": {
-        "id": "sa30vrn8",
-        "x": 273.664411801049,
-        "y": 520.9035781457083,
-        "width": 53,
-        "height": 75,
-        "rotation": 0,
-        "offsetX": 26.5,
-        "offsetY": 37.5,
-        "points": [
-          {
-            "x": 0,
-            "y": 75
-          },
-          {
-            "x": 23,
-            "y": 75
-          },
-          {
-            "x": 23,
-            "y": 0
-          },
-          {
-            "x": 53,
-            "y": 0
-          }
-        ],
-        "stroke": "#246f94FF",
-        "strokeWidth": 7,
-        "turnRadius": 0,
-        "lineStyle": "dashed",
-        "dashLength": 8,
-        "dashGap": 11,
-        "flowSpeed": 1,
-        "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
-        "pipeFluidWidth": 4,
-        "startArrow": "none",
-        "endArrow": "none",
-        "codeLabel": "折线-ay0wyf",
-        "showCodeNode": false,
-        "dynamicProps": []
-      }
-    },
-    {
-      "className": "visink/CanvasPolyline",
-      "data": {
-        "id": "kzmkemu4",
-        "x": 391.664411801049,
-        "y": 436.40357814570825,
-        "width": 151,
-        "height": 34,
-        "rotation": 0,
-        "offsetX": 75.5,
-        "offsetY": 17,
-        "points": [
-          {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 151,
-            "y": 0
-          },
-          {
-            "x": 151,
-            "y": 34
-          }
-        ],
-        "stroke": "#246f94FF",
-        "strokeWidth": 7,
-        "turnRadius": 0,
-        "lineStyle": "dashed",
-        "dashLength": 8,
-        "dashGap": 11,
-        "flowSpeed": 1,
-        "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
-        "pipeFluidWidth": 4,
-        "startArrow": "none",
-        "endArrow": "none",
-        "codeLabel": "折线-5k81m9",
-        "showCodeNode": false,
-        "dynamicProps": []
-      }
-    },
-    {
-      "className": "visink/CanvasPolyline",
-      "data": {
-        "id": "dz4cngty",
-        "x": 516.664411801049,
-        "y": 224.90357814570825,
-        "width": 1,
-        "height": 183,
-        "rotation": 0,
-        "offsetX": 0.5,
-        "offsetY": 91.5,
-        "points": [
-          {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 0,
-            "y": 183
-          }
-        ],
-        "stroke": "#246f94FF",
-        "strokeWidth": 7,
-        "turnRadius": 0,
-        "lineStyle": "dashed",
-        "dashLength": 8,
-        "dashGap": 11,
-        "flowSpeed": 1,
-        "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
-        "pipeFluidWidth": 4,
-        "startArrow": "none",
-        "endArrow": "none",
-        "codeLabel": "折线-9ptsud",
         "showCodeNode": false,
         "dynamicProps": []
       }
@@ -1470,12 +1776,12 @@
       "className": "visink/CanvasPolyline",
       "data": {
         "id": "el99o978",
-        "x": 275.0631051822281,
+        "x": 276.33476975748334,
         "y": 86.20982857106716,
         "width": 99.18983686989934,
         "height": 43.490587961335216,
         "rotation": 0,
-        "offsetX": 48.32325385969445,
+        "offsetX": 49.59491843494967,
         "offsetY": 21.745293980667608,
         "points": [
           {
@@ -1491,7 +1797,7 @@
             "y": 0
           }
         ],
-        "stroke": "#326028FF",
+        "stroke": "#327312FF",
         "strokeWidth": 7,
         "turnRadius": 0,
         "lineStyle": "dashed",
@@ -1499,7 +1805,7 @@
         "dashGap": 11,
         "flowSpeed": 1,
         "isPipe": true,
-        "pipeFluidColor": "#45823aFF",
+        "pipeFluidColor": "#52c41a",
         "pipeFluidWidth": 4,
         "startArrow": "none",
         "endArrow": "none",
@@ -1763,44 +2069,6 @@
       }
     },
     {
-      "className": "visink/CanvasPolyline",
-      "data": {
-        "id": "msuu4k6e",
-        "x": 519.5,
-        "y": 123,
-        "width": 410,
-        "height": 1,
-        "rotation": 0,
-        "offsetX": 272.5,
-        "offsetY": -7,
-        "points": [
-          {
-            "x": 0,
-            "y": 1
-          },
-          {
-            "x": 410,
-            "y": 0
-          }
-        ],
-        "stroke": "#246f94FF",
-        "strokeWidth": 7,
-        "turnRadius": 0,
-        "lineStyle": "dashed",
-        "dashLength": 8,
-        "dashGap": 11,
-        "flowSpeed": 1,
-        "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
-        "pipeFluidWidth": 4,
-        "startArrow": "none",
-        "endArrow": "none",
-        "codeLabel": "折线-6epci0",
-        "showCodeNode": false,
-        "dynamicProps": []
-      }
-    },
-    {
       "className": "visink/CanvasSvg",
       "data": {
         "id": "i5ehfkze",
@@ -1817,48 +2085,6 @@
         "codeLabel": "SVG-xp11jj",
         "showCodeNode": false,
         "assetPath": "my-resources/mimic图/valve-actuator-extracted.svg",
-        "dynamicProps": []
-      }
-    },
-    {
-      "className": "visink/CanvasPolyline",
-      "data": {
-        "id": "rvizjpw5",
-        "x": 335.5,
-        "y": 267.5,
-        "width": 158,
-        "height": 77,
-        "rotation": 0,
-        "offsetX": 89.5,
-        "offsetY": 38.5,
-        "points": [
-          {
-            "x": 0,
-            "y": 3
-          },
-          {
-            "x": 158,
-            "y": 0
-          },
-          {
-            "x": 158,
-            "y": 77
-          }
-        ],
-        "stroke": "#246f94FF",
-        "strokeWidth": 7,
-        "turnRadius": 0,
-        "lineStyle": "dashed",
-        "dashLength": 8,
-        "dashGap": 11,
-        "flowSpeed": 1,
-        "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
-        "pipeFluidWidth": 4,
-        "startArrow": "none",
-        "endArrow": "none",
-        "codeLabel": "折线-vds24e",
-        "showCodeNode": false,
         "dynamicProps": []
       }
     },
@@ -1886,48 +2112,6 @@
         "dynamicProps": [
           "status"
         ]
-      }
-    },
-    {
-      "className": "visink/CanvasPolyline",
-      "data": {
-        "id": "8hgh9tz8",
-        "x": 334.5,
-        "y": 386,
-        "width": 37.15687132974239,
-        "height": 126,
-        "rotation": 0,
-        "offsetX": 18.656871329742387,
-        "offsetY": 63,
-        "points": [
-          {
-            "x": 37.15687132974239,
-            "y": 0
-          },
-          {
-            "x": 0,
-            "y": 0.6446089162178055
-          },
-          {
-            "x": 0.15687132974238693,
-            "y": 126
-          }
-        ],
-        "stroke": "#246f94FF",
-        "strokeWidth": 7,
-        "turnRadius": 0,
-        "lineStyle": "dashed",
-        "dashLength": 8,
-        "dashGap": 11,
-        "flowSpeed": 1,
-        "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
-        "pipeFluidWidth": 4,
-        "startArrow": "none",
-        "endArrow": "none",
-        "codeLabel": "折线-nj2fq4",
-        "showCodeNode": false,
-        "dynamicProps": []
       }
     },
     {
@@ -2039,60 +2223,6 @@
         "dynamicProps": [
           "content"
         ]
-      }
-    },
-    {
-      "className": "visink/CanvasPolyline",
-      "data": {
-        "id": "z9zlp36b",
-        "x": 533.664411801049,
-        "y": 301.40357814570825,
-        "width": 271,
-        "height": 207.03448275862075,
-        "rotation": 0,
-        "offsetX": 216.5,
-        "offsetY": 117,
-        "points": [
-          {
-            "x": 0,
-            "y": 207
-          },
-          {
-            "x": 125.5172413793104,
-            "y": 207.03448275862075
-          },
-          {
-            "x": 122.41379310344837,
-            "y": 0
-          },
-          {
-            "x": 238,
-            "y": 0
-          },
-          {
-            "x": 238,
-            "y": 91
-          },
-          {
-            "x": 271,
-            "y": 91
-          }
-        ],
-        "stroke": "#246f94FF",
-        "strokeWidth": 7,
-        "turnRadius": 0,
-        "lineStyle": "dashed",
-        "dashLength": 8,
-        "dashGap": 11,
-        "flowSpeed": 1,
-        "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
-        "pipeFluidWidth": 4,
-        "startArrow": "none",
-        "endArrow": "none",
-        "codeLabel": "折线-yysmjq",
-        "showCodeNode": false,
-        "dynamicProps": []
       }
     },
     {
@@ -2275,7 +2405,7 @@
       "data": {
         "id": "w7lh0dq7",
         "color": "",
-        "x": 658.868913601216,
+        "x": 660.868913601216,
         "y": 280.1654687000496,
         "width": 42.482197229094304,
         "height": 67.81561759506795,
@@ -2336,7 +2466,7 @@
         "id": "gunlyypa",
         "color": "",
         "x": 780.7044674223669,
-        "y": 105.6487211214878,
+        "y": 103.6487211214878,
         "width": 11.408934844735075,
         "height": 39.29744224297618,
         "rotation": 0,
@@ -2586,146 +2716,12 @@
       }
     },
     {
-      "className": "visink/CanvasPolyline",
-      "data": {
-        "id": "ucvdibkd",
-        "x": 359.87236995363253,
-        "y": 518.9914872330532,
-        "width": 180.994544454214,
-        "height": 77.56909048037744,
-        "rotation": 0,
-        "offsetX": 90.497272227107,
-        "offsetY": 38.78454524018872,
-        "points": [
-          {
-            "x": 0,
-            "y": 77.56909048037744
-          },
-          {
-            "x": 140.25118379785414,
-            "y": 77.56909048037744
-          },
-          {
-            "x": 140.25118379785414,
-            "y": 0
-          },
-          {
-            "x": 180.994544454214,
-            "y": 0
-          }
-        ],
-        "stroke": "#246f94FF",
-        "strokeWidth": 7,
-        "turnRadius": 0,
-        "lineStyle": "dashed",
-        "dashLength": 8,
-        "dashGap": 11,
-        "flowSpeed": 1,
-        "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
-        "pipeFluidWidth": 4,
-        "startArrow": "none",
-        "endArrow": "none",
-        "codeLabel": "折线-2ts5ne",
-        "showCodeNode": false,
-        "dynamicProps": []
-      }
-    },
-    {
-      "className": "visink/CanvasPolyline",
-      "data": {
-        "id": "vfuy5cio",
-        "x": 525.1963910784773,
-        "y": 611.0558117930971,
-        "width": 159.05581179309718,
-        "height": 43.87746532223366,
-        "rotation": 0,
-        "offsetX": 79.52790589654859,
-        "offsetY": 21.93873266111683,
-        "points": [
-          {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 22.72225882758528,
-            "y": 0
-          },
-          {
-            "x": 22.72225882758528,
-            "y": 43.87746532223366
-          },
-          {
-            "x": 159.05581179309718,
-            "y": 43.87746532223366
-          },
-          {
-            "x": 159.05581179309718,
-            "y": 0
-          }
-        ],
-        "stroke": "#246f94FF",
-        "strokeWidth": 7,
-        "turnRadius": 0,
-        "lineStyle": "dashed",
-        "dashLength": 8,
-        "dashGap": 11,
-        "flowSpeed": 1,
-        "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
-        "pipeFluidWidth": 4,
-        "startArrow": "none",
-        "endArrow": "none",
-        "codeLabel": "折线-663vfv",
-        "showCodeNode": false,
-        "dynamicProps": []
-      }
-    },
-    {
-      "className": "visink/CanvasPolyline",
-      "data": {
-        "id": "psjx5f8l",
-        "x": 619.2195310546924,
-        "y": 585.1994482996379,
-        "width": 73.65145964803503,
-        "height": 1,
-        "rotation": 0,
-        "offsetX": 38.78454524018872,
-        "offsetY": -0.7835261664684481,
-        "points": [
-          {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 73.65145964803503,
-            "y": 0
-          }
-        ],
-        "stroke": "#246f94FF",
-        "strokeWidth": 7,
-        "turnRadius": 0,
-        "lineStyle": "dashed",
-        "dashLength": 8,
-        "dashGap": 11,
-        "flowSpeed": 1,
-        "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
-        "pipeFluidWidth": 4,
-        "startArrow": "none",
-        "endArrow": "none",
-        "codeLabel": "折线-gyvd7t",
-        "showCodeNode": false,
-        "dynamicProps": []
-      }
-    },
-    {
       "className": "visink/CanvasSvg",
       "data": {
         "id": "v20zt4my",
         "color": "",
         "x": 785.4056244211773,
-        "y": 364.9958822225476,
+        "y": 362.9958822225476,
         "width": 11.408934844735075,
         "height": 39.29744224297618,
         "rotation": 0,
@@ -2819,7 +2815,7 @@
             "y": 0
           }
         ],
-        "stroke": "#246f94FF",
+        "stroke": "#327312FF",
         "strokeWidth": 7,
         "turnRadius": 0,
         "lineStyle": "dashed",
@@ -2827,7 +2823,7 @@
         "dashGap": 11,
         "flowSpeed": 1,
         "isPipe": true,
-        "pipeFluidColor": "#65B1E3FF",
+        "pipeFluidColor": "#52c41a",
         "pipeFluidWidth": 4,
         "startArrow": "none",
         "endArrow": "none",
@@ -3163,8 +3159,8 @@
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
-        "x": 495.82758620689657,
-        "y": 507.75862068965534,
+        "x": 487.82758620689657,
+        "y": 500.75862068965534,
         "content": "PI101B",
         "fontSize": 13,
         "fontFamily": "sans-serif",
@@ -3511,8 +3507,8 @@
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
-        "x": 917.586206896552,
-        "y": 506.7241379310346,
+        "x": 920.586206896552,
+        "y": 503.7241379310346,
         "content": "蒸\n汽",
         "fontSize": 13,
         "fontFamily": "sans-serif",
@@ -4012,8 +4008,8 @@
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
-        "x": 965.1724137931039,
-        "y": 551.2068965517244,
+        "x": 967.1724137931039,
+        "y": 547.2068965517244,
         "content": "P103A",
         "fontSize": 13,
         "fontFamily": "sans-serif",
@@ -4086,6 +4082,64 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "jco25jnk",
+        "codeLabel": "E105",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 606.990772436434,
+        "y": 405.0075590542553,
+        "content": "E105",
+        "fontSize": 10,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#000000",
+        "textAlign": "center",
+        "padding": "1,3",
+        "borderWidth": 0,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 35,
+        "fixedHeight": 0,
+        "backgroundColor": "#52c41a",
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "dkda63ne",
+        "codeLabel": "E106",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 829.990772436434,
+        "y": 426.0075590542553,
+        "content": "E106",
+        "fontSize": 10,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#000000",
+        "textAlign": "center",
+        "padding": "1,3",
+        "borderWidth": 0,
+        "borderColor": "#53b5b5FF",
+        "borderRadius": 0,
+        "fixedWidth": 35,
+        "fixedHeight": 0,
+        "backgroundColor": "#52c41a",
         "dynamicProps": [
           "content"
         ]

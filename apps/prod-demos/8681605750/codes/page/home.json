@@ -23,7 +23,50 @@
       "y": 60,
       "widgetId": "11pi11ub",
       "fragmentId": "dwc3uh3lczfd"
+    },
+    {
+      "id": "tazrb6ss",
+      "type": "visink/WidgetBlock",
+      "x": 606,
+      "y": 220,
+      "widgetId": "xqzdv5ft",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "6qq8jyxr",
+      "type": "visink/IntervalTimer",
+      "x": 68,
+      "y": 267,
+      "interval": 1,
+      "unit": "s",
+      "immediate": false
+    },
+    {
+      "id": "mzrc4q16",
+      "type": "visink/DateTimestamp",
+      "x": 338,
+      "y": 246,
+      "showEventPort": true,
+      "format": "YYYY-MM-DD HH:mm:ss"
     }
   ],
-  "connections": []
+  "connections": [
+    {
+      "id": "y41x7qdm",
+      "sourceNodeId": "6qq8jyxr",
+      "sourcePortKey": "event",
+      "targetNodeId": "mzrc4q16",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "d6nkxpaa",
+      "sourceNodeId": "mzrc4q16",
+      "sourcePortKey": "value",
+      "targetNodeId": "tazrb6ss",
+      "targetPortKey": "content"
+    }
+  ]
 }

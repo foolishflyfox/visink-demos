@@ -8,14 +8,14 @@
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
-        "x": 545,
+        "x": 549,
         "y": 5,
         "content": "甲醛回收监测系统",
-        "fontSize": 24,
+        "fontSize": 20,
         "fontFamily": "sans-serif",
         "bold": true,
         "italic": false,
-        "fontColor": "#d9d9d9",
+        "fontColor": "#90BEEEFF",
         "textAlign": "left",
         "padding": "2,3",
         "borderWidth": 0,
@@ -34,8 +34,8 @@
       "data": {
         "id": "jnbp67g6",
         "fragmentId": "xdzds24gp4yw",
-        "x": 68,
-        "y": 43,
+        "x": 33.77586206896552,
+        "y": 54.34482758620692,
         "name": "流程图",
         "visible": true
       }
@@ -45,8 +45,8 @@
       "data": {
         "id": "j7t4bj6z",
         "fragmentId": "nojwds2tgjs4",
-        "x": 60,
-        "y": 70,
+        "x": 11.448275862068968,
+        "y": 62.27586206896552,
         "name": "一键启动控制",
         "visible": true
       }
@@ -57,9 +57,38 @@
         "id": "11pi11ub",
         "fragmentId": "dwc3uh3lczfd",
         "x": 1086,
-        "y": 25,
+        "y": 68.0344827586207,
         "name": "流量统计",
         "visible": true
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "xqzdv5ft",
+        "codeLabel": "2026-06-21 08:31:25",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1106,
+        "y": 11,
+        "content": "2026-06-21 08:31:25",
+        "fontSize": 16,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#90B9E4FF",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "dynamicProps": [
+          "content"
+        ]
       }
     }
   ]
