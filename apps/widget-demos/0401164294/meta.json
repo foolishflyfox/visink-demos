@@ -1,0 +1,18 @@
+{
+  "name": "测点写入与读取",
+  "resolution": {
+    "width": 800,
+    "height": 600
+  },
+  "background": {
+    "type": "color",
+    "color": "#ffffff"
+  },
+  "previewScaleMode": "contain",
+  "createdAt": "2026-06-28T22:56:49.092Z",
+  "updatedAt": "2026-06-28T22:58:24.431Z",
+  "homepageId": "s5mrrubtz4nd",
+  "dataCollection": {
+    "enabled": true
+  }
+}

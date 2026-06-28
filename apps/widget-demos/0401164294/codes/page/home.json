@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "bcnwx8rp",
+      "type": "visink/EventMerge",
+      "x": 346,
+      "y": 214,
+      "inputCount": 2
+    },
+    {
+      "id": "2a10i9g9",
+      "type": "visink/WidgetEvent",
+      "x": 67,
+      "y": 164,
+      "widgetId": "bb9xs2vu",
+      "eventType": "widget/mousedown"
+    },
+    {
+      "id": "1cfegxa2",
+      "type": "visink/WidgetEvent",
+      "x": 68,
+      "y": 307,
+      "widgetId": "bb9xs2vu",
+      "eventType": "widget/mouseup"
+    },
+    {
+      "id": "0wlgijrt",
+      "type": "visink/MeasurementWrite",
+      "x": 647,
+      "y": 271,
+      "pointId": "100001",
+      "nameZh": "按钮按下",
+      "nameEn": "Button pressed"
+    },
+    {
+      "id": "qshowkl7",
+      "type": "visink/WidgetBlock",
+      "x": 660,
+      "y": 492,
+      "widgetId": "6hltu51h",
+      "dynamicPropKeys": [
+        "status"
+      ],
+      "widgetType": "visink/Led"
+    },
+    {
+      "id": "4gj28kqb",
+      "type": "visink/MeasurementValue",
+      "x": 80,
+      "y": 539,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "100001",
+          "nameZh": "按钮按下",
+          "nameEn": "Button pressed",
+          "showUnit": false
+        }
+      ]
+    },
+    {
+      "id": "0oyzkno9",
+      "type": "visink/StringToNumber",
+      "x": 346,
+      "y": 588
+    }
+  ],
+  "connections": [
+    {
+      "id": "rhc5zd34",
+      "sourceNodeId": "2a10i9g9",
+      "sourcePortKey": "event",
+      "targetNodeId": "bcnwx8rp",
+      "targetPortKey": "in0"
+    },
+    {
+      "id": "qpkmsxyl",
+      "sourceNodeId": "1cfegxa2",
+      "sourcePortKey": "event",
+      "targetNodeId": "bcnwx8rp",
+      "targetPortKey": "in1"
+    },
+    {
+      "id": "nqiu29vd",
+      "sourceNodeId": "bcnwx8rp",
+      "sourcePortKey": "event",
+      "targetNodeId": "0wlgijrt",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "s5iqq4w4",
+      "sourceNodeId": "4gj28kqb",
+      "sourcePortKey": "value",
+      "targetNodeId": "0oyzkno9",
+      "targetPortKey": "str"
+    },
+    {
+      "id": "a92dt5oo",
+      "sourceNodeId": "0oyzkno9",
+      "sourcePortKey": "num",
+      "targetNodeId": "qshowkl7",
+      "targetPortKey": "status"
+    }
+  ]
+}

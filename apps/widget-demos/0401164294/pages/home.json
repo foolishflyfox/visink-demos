@@ -1,0 +1,53 @@
+{
+  "widgets": [
+    {
+      "className": "visink/Button",
+      "data": {
+        "id": "bb9xs2vu",
+        "codeLabel": "测试按钮",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 67,
+        "y": 157,
+        "width": 120,
+        "height": 40,
+        "label": "按钮",
+        "iconSvg": "",
+        "iconLeftDistance": 8,
+        "iconSize": 16,
+        "isToggle": false,
+        "fontSize": 14,
+        "bgColor": "#4a90d9",
+        "labelColor": "#ffffff",
+        "followStateColors": true,
+        "hoverBgColor": "#256ab1",
+        "hoverLabelColor": "#ffffff",
+        "pressedBgColor": "#184472",
+        "pressedLabelColor": "#ffffff",
+        "stateColorReset": "",
+        "borderRadius": 6,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Led",
+      "data": {
+        "id": "6hltu51h",
+        "codeLabel": "LED-bew9w3",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 356,
+        "y": 145,
+        "width": 60,
+        "height": 60,
+        "onColor": "#00e600",
+        "status": false,
+        "dynamicProps": [
+          "status"
+        ]
+      }
+    }
+  ]
+}
