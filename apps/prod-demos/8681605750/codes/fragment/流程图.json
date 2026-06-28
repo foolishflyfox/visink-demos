@@ -6,10 +6,10 @@
       "x": 60,
       "y": 60,
       "widgetId": "a2noxdwb",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
-      ]
+      ],
+      "widgetType": "visink/StatusDisplay"
     },
     {
       "id": "3ua4updd",
@@ -17,10 +17,10 @@
       "x": 280,
       "y": 60,
       "widgetId": "r2xp0cl1",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
-      ]
+      ],
+      "widgetType": "visink/StatusDisplay"
     },
     {
       "id": "o5zal6mq",
@@ -28,10 +28,10 @@
       "x": 500,
       "y": 60,
       "widgetId": "j7rl8csf",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
-      ]
+      ],
+      "widgetType": "visink/StatusDisplay"
     },
     {
       "id": "bxg3333m",
@@ -39,10 +39,10 @@
       "x": 940,
       "y": 60,
       "widgetId": "y941r86f",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
-      ]
+      ],
+      "widgetType": "visink/StatusDisplay"
     },
     {
       "id": "ez6ig7s9",
@@ -50,10 +50,10 @@
       "x": 60,
       "y": 260,
       "widgetId": "enakykgu",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
-      ]
+      ],
+      "widgetType": "visink/StatusDisplay"
     },
     {
       "id": "ksbfoha1",
@@ -61,10 +61,10 @@
       "x": 280,
       "y": 260,
       "widgetId": "3lbmiupq",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
-      ]
+      ],
+      "widgetType": "visink/StatusDisplay"
     },
     {
       "id": "dmyzj7iv",
@@ -72,10 +72,10 @@
       "x": 280,
       "y": 260,
       "widgetId": "gqb33ffm",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
-      ]
+      ],
+      "widgetType": "visink/StatusDisplay"
     },
     {
       "id": "aioc8rn2",
@@ -83,10 +83,10 @@
       "x": 500,
       "y": 260,
       "widgetId": "i8r2isyr",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
-      ]
+      ],
+      "widgetType": "visink/StatusDisplay"
     },
     {
       "id": "k06lub20",
@@ -94,10 +94,10 @@
       "x": 720,
       "y": 260,
       "widgetId": "tu8cguq5",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
-      ]
+      ],
+      "widgetType": "visink/StatusDisplay"
     },
     {
       "id": "66fbof5f",
@@ -105,10 +105,10 @@
       "x": 940,
       "y": 260,
       "widgetId": "nhhx7utd",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
-      ]
+      ],
+      "widgetType": "visink/StatusDisplay"
     },
     {
       "id": "eafay6w4",
@@ -116,10 +116,10 @@
       "x": 60,
       "y": 460,
       "widgetId": "n8cg73qq",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
-      ]
+      ],
+      "widgetType": "visink/StatusDisplay"
     },
     {
       "id": "e0rtinjg",
@@ -127,10 +127,10 @@
       "x": 280,
       "y": 460,
       "widgetId": "urwkxhxd",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
-      ]
+      ],
+      "widgetType": "visink/StatusDisplay"
     },
     {
       "id": "yvzo4ril",
@@ -138,11 +138,67 @@
       "x": 500,
       "y": 460,
       "widgetId": "tvft7onq",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
+      ],
+      "widgetType": "visink/StatusDisplay"
+    },
+    {
+      "id": "5rzpr52u",
+      "type": "visink/WidgetBlock",
+      "x": 375,
+      "y": 682,
+      "widgetId": "q050fs3v",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "lq4ga48i",
+      "type": "visink/MeasurementValue",
+      "x": 89,
+      "y": 660.75,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "100012",
+          "nameZh": "运行频率",
+          "nameEn": "",
+          "showUnit": true
+        }
       ]
+    },
+    {
+      "id": "1wri93rw",
+      "type": "visink/WidgetBlock",
+      "x": 724,
+      "y": 446,
+      "widgetId": "ii8wpqnx",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "ms2iydm7",
+      "type": "visink/WidgetBlock",
+      "x": 749,
+      "y": 615,
+      "widgetId": "lqjsk3vf",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
     }
   ],
-  "connections": []
+  "connections": [
+    {
+      "id": "me7xejgc",
+      "sourceNodeId": "lq4ga48i",
+      "sourcePortKey": "value",
+      "targetNodeId": "5rzpr52u",
+      "targetPortKey": "content"
+    }
+  ]
 }

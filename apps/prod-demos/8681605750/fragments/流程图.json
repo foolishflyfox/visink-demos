@@ -416,23 +416,23 @@
         "id": "rvizjpw5",
         "x": 334.5,
         "y": 267.5,
-        "width": 158,
-        "height": 77,
+        "width": 161.89786192724296,
+        "height": 75.32948774546739,
         "rotation": 0,
-        "offsetX": 89.5,
-        "offsetY": 38.5,
+        "offsetX": 93.39786192724296,
+        "offsetY": 36.82948774546739,
         "points": [
           {
             "x": 0,
-            "y": 3
+            "y": 0.7726503272897958
           },
           {
-            "x": 158,
+            "x": 160.7841870908877,
             "y": 0
           },
           {
-            "x": 158,
-            "y": 77
+            "x": 161.89786192724296,
+            "y": 75.32948774546739
           }
         ],
         "stroke": "#246f94FF",
@@ -926,7 +926,7 @@
       "className": "visink/CanvasPolyline",
       "data": {
         "id": "mpz4i8ts",
-        "x": 834,
+        "x": 830,
         "y": 258.0344827586207,
         "width": 112,
         "height": 2.068965517241395,
@@ -1560,6 +1560,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -1609,6 +1610,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -1638,6 +1640,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -1647,13 +1650,13 @@
       "className": "visink/Text",
       "data": {
         "id": "q050fs3v",
-        "codeLabel": "0.0 Hz",
-        "showCodeNode": false,
+        "codeLabel": "运行频率",
+        "showCodeNode": true,
         "isVisible": true,
         "isLocked": false,
         "x": 60,
         "y": 502,
-        "content": "0.0 Hz",
+        "content": "0 Hz",
         "fontSize": 13,
         "fontFamily": "sans-serif",
         "bold": false,
@@ -1667,6 +1670,7 @@
         "fixedWidth": 55,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": true,
         "dynamicProps": [
           "content"
         ]
@@ -1676,13 +1680,13 @@
       "className": "visink/Text",
       "data": {
         "id": "wf117vtt",
-        "codeLabel": "0.0 Hz-9q53fx",
+        "codeLabel": "120 Hz",
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
         "x": 59,
         "y": 552,
-        "content": "0.0 Hz",
+        "content": "120 Hz",
         "fontSize": 13,
         "fontFamily": "sans-serif",
         "bold": false,
@@ -1696,6 +1700,7 @@
         "fixedWidth": 55,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -1725,6 +1730,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -1838,6 +1844,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -1867,6 +1874,7 @@
         "fixedWidth": 42,
         "fixedHeight": 0,
         "backgroundColor": "rgba(91, 106, 119, 1)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -1896,6 +1904,7 @@
         "fixedWidth": 35,
         "fixedHeight": 0,
         "backgroundColor": "#52c41a",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -1925,6 +1934,7 @@
         "fixedWidth": 47,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -1954,6 +1964,7 @@
         "fixedWidth": 35,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0, 0, 0, 1)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -1984,7 +1995,7 @@
       "data": {
         "id": "qak18ee6",
         "color": "",
-        "x": 242.70446742236692,
+        "x": 241.70446742236692,
         "y": 232.6487211214878,
         "width": 11.408934844735075,
         "height": 39.29744224297618,
@@ -2004,7 +2015,7 @@
       "data": {
         "id": "ena5h7z3",
         "color": "",
-        "x": 248.70446742236692,
+        "x": 247.70446742236692,
         "y": 558.6487211214878,
         "width": 11.408934844735075,
         "height": 39.29744224297618,
@@ -2063,6 +2074,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -2220,6 +2232,7 @@
         "fixedWidth": 35,
         "fixedHeight": 0,
         "backgroundColor": "#52c41a",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -2289,6 +2302,7 @@
         "fixedWidth": 35,
         "fixedHeight": 0,
         "backgroundColor": "#52c41a",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -2465,7 +2479,7 @@
       "data": {
         "id": "gunlyypa",
         "color": "",
-        "x": 780.7044674223669,
+        "x": 779.3,
         "y": 103.6487211214878,
         "width": 11.408934844735075,
         "height": 39.29744224297618,
@@ -2740,7 +2754,7 @@
       "data": {
         "id": "xelzkv2z",
         "color": "",
-        "x": 780.7432536815712,
+        "x": 779.3,
         "y": 257.91081601091423,
         "width": 11.408934844735075,
         "height": 39.29744224297618,
@@ -2856,6 +2870,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -2865,8 +2880,8 @@
       "className": "visink/Text",
       "data": {
         "id": "ii8wpqnx",
-        "codeLabel": "0 ℃",
-        "showCodeNode": false,
+        "codeLabel": "TI101",
+        "showCodeNode": true,
         "isVisible": true,
         "isLocked": false,
         "x": 310.51724137931035,
@@ -2885,6 +2900,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": true,
         "dynamicProps": [
           "content"
         ]
@@ -2914,6 +2930,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -2943,6 +2960,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -2972,6 +2990,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -2981,8 +3000,8 @@
       "className": "visink/Text",
       "data": {
         "id": "lqjsk3vf",
-        "codeLabel": "0 m³/h",
-        "showCodeNode": false,
+        "codeLabel": "FI104",
+        "showCodeNode": true,
         "isVisible": true,
         "isLocked": false,
         "x": 309.6551724137931,
@@ -3001,6 +3020,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": true,
         "dynamicProps": [
           "content"
         ]
@@ -3030,6 +3050,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3059,6 +3080,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3088,6 +3110,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3117,6 +3140,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3146,6 +3170,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3175,6 +3200,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3204,6 +3230,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3233,6 +3260,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3262,6 +3290,7 @@
         "fixedWidth": 35,
         "fixedHeight": 0,
         "backgroundColor": "#52c41a",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3291,6 +3320,7 @@
         "fixedWidth": 35,
         "fixedHeight": 0,
         "backgroundColor": "#52c41a",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3320,6 +3350,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3349,6 +3380,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3378,6 +3410,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3407,6 +3440,7 @@
         "fixedWidth": 35,
         "fixedHeight": 0,
         "backgroundColor": "#52c41a",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3436,6 +3470,7 @@
         "fixedWidth": 35,
         "fixedHeight": 0,
         "backgroundColor": "#52c41a",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3449,7 +3484,7 @@
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
-        "x": 894.8275862068965,
+        "x": 890.8275862068965,
         "y": 248.10344827586204,
         "content": "系统外甲醛",
         "fontSize": 13,
@@ -3465,6 +3500,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3494,6 +3530,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3523,6 +3560,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3552,6 +3590,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3581,6 +3620,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3610,6 +3650,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3639,6 +3680,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3668,6 +3710,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3821,6 +3864,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3850,6 +3894,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3879,6 +3924,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3908,6 +3954,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3937,6 +3984,7 @@
         "fixedWidth": 35,
         "fixedHeight": 0,
         "backgroundColor": "#52c41a",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3966,6 +4014,7 @@
         "fixedWidth": 47,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -3995,6 +4044,7 @@
         "fixedWidth": 35,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0, 0, 0, 1)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -4024,6 +4074,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -4053,6 +4104,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -4082,6 +4134,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -4111,6 +4164,7 @@
         "fixedWidth": 35,
         "fixedHeight": 0,
         "backgroundColor": "#52c41a",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -4140,6 +4194,7 @@
         "fixedWidth": 35,
         "fixedHeight": 0,
         "backgroundColor": "#52c41a",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]

@@ -11,6 +11,9 @@
   },
   "previewScaleMode": "fill",
   "createdAt": "2026-06-18T21:39:58.005Z",
-  "updatedAt": "2026-06-21T00:18:31.942Z",
-  "homepageId": "ck1uzj9sib86"
+  "updatedAt": "2026-06-28T22:05:03.652Z",
+  "homepageId": "ck1uzj9sib86",
+  "dataCollection": {
+    "enabled": true
+  }
 }
