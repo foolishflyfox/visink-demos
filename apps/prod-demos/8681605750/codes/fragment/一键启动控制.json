@@ -3,69 +3,720 @@
     {
       "id": "mcuzeyle",
       "type": "visink/WidgetBlock",
-      "x": 60,
-      "y": 60,
+      "x": 412,
+      "y": 1388,
       "widgetId": "pzs3o78y",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
-      ]
+      ],
+      "widgetType": "visink/StatusDisplay"
     },
     {
       "id": "wqikfwmr",
       "type": "visink/WidgetBlock",
-      "x": 280,
-      "y": 60,
+      "x": 395,
+      "y": 1519.5,
       "widgetId": "715fwhn5",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
-      ]
+      ],
+      "widgetType": "visink/StatusDisplay"
     },
     {
       "id": "mgeewcxk",
       "type": "visink/WidgetBlock",
-      "x": 500,
-      "y": 60,
+      "x": 412,
+      "y": 1647,
       "widgetId": "5nti4jul",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
-      ]
+      ],
+      "widgetType": "visink/StatusDisplay"
     },
     {
       "id": "fzd63kye",
       "type": "visink/WidgetBlock",
-      "x": 720,
-      "y": 60,
+      "x": 412,
+      "y": 1776.5,
       "widgetId": "1g9ko7ij",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
-      ]
+      ],
+      "widgetType": "visink/StatusDisplay"
     },
     {
       "id": "a16ikqwl",
       "type": "visink/WidgetBlock",
-      "x": 940,
-      "y": 60,
+      "x": 412,
+      "y": 1906,
       "widgetId": "d7qiguq9",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
-      ]
+      ],
+      "widgetType": "visink/StatusDisplay"
     },
     {
       "id": "zlmp7fzl",
       "type": "visink/WidgetBlock",
-      "x": 60,
-      "y": 260,
+      "x": 411,
+      "y": 2039,
       "widgetId": "xkjdai97",
-      "widgetType": "visink/StatusDisplay",
       "dynamicPropKeys": [
         "status"
+      ],
+      "widgetType": "visink/StatusDisplay"
+    },
+    {
+      "id": "fxg8vhjd",
+      "type": "visink/MeasurementValue",
+      "x": 122,
+      "y": 1552,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "100001",
+          "nameZh": "吸收解吸准备",
+          "nameEn": "",
+          "showUnit": false
+        },
+        {
+          "id": "value2",
+          "pointId": "100002",
+          "nameZh": "解吸全回流",
+          "nameEn": "",
+          "showUnit": false
+        },
+        {
+          "id": "value3",
+          "pointId": "100003",
+          "nameZh": "吸收循环",
+          "nameEn": "",
+          "showUnit": false
+        },
+        {
+          "id": "value4",
+          "pointId": "100004",
+          "nameZh": "吸收液位控制",
+          "nameEn": "",
+          "showUnit": false
+        },
+        {
+          "id": "value5",
+          "pointId": "100005",
+          "nameZh": "采出温度控制",
+          "nameEn": "",
+          "showUnit": false
+        },
+        {
+          "id": "value6",
+          "pointId": "100006",
+          "nameZh": "缓冲罐液位控制",
+          "nameEn": "",
+          "showUnit": false
+        }
       ]
+    },
+    {
+      "id": "5xem25fj",
+      "type": "visink/WidgetEvent",
+      "x": 75.49319881898623,
+      "y": 526.295918343157,
+      "widgetId": "q31zl4ua",
+      "eventType": "widget/click"
+    },
+    {
+      "id": "t8k4wl5n",
+      "type": "visink/MeasurementWrite",
+      "x": 760.4931988189862,
+      "y": 41.29591834315711,
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "100001",
+          "nameZh": "吸收解吸准备",
+          "nameEn": ""
+        },
+        {
+          "id": "value2",
+          "pointId": "100002",
+          "nameZh": "解吸全回流",
+          "nameEn": ""
+        },
+        {
+          "id": "value3",
+          "pointId": "100003",
+          "nameZh": "吸收循环",
+          "nameEn": ""
+        },
+        {
+          "id": "value4",
+          "pointId": "100004",
+          "nameZh": "吸收液位控制",
+          "nameEn": ""
+        },
+        {
+          "id": "value5",
+          "pointId": "100005",
+          "nameZh": "采出温度控制",
+          "nameEn": ""
+        },
+        {
+          "id": "value6",
+          "pointId": "100006",
+          "nameZh": "缓冲罐液位控制",
+          "nameEn": ""
+        }
+      ]
+    },
+    {
+      "id": "jiddfzdz",
+      "type": "visink/NumberConstant",
+      "x": 426.4931988189861,
+      "y": 148.2959183431571,
+      "showEventPort": true,
+      "value": 0,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "7wvblg6k",
+      "type": "visink/NumberConstant",
+      "x": 418.21768994533556,
+      "y": 333.6802721894755,
+      "showEventPort": true,
+      "value": 1,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "miuahbi3",
+      "type": "visink/MeasurementWrite",
+      "x": 674.5850366905936,
+      "y": 322.3605443789512,
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "100001",
+          "nameZh": "吸收解吸准备",
+          "nameEn": ""
+        }
+      ]
+    },
+    {
+      "id": "8oyl17zo",
+      "type": "visink/Delay",
+      "x": 400.49319881898623,
+      "y": 645.295918343157,
+      "showEventPort": true,
+      "ms": 2200
+    },
+    {
+      "id": "4z9rv2e7",
+      "type": "visink/NumberConstant",
+      "x": 640.4931988189859,
+      "y": 677.295918343157,
+      "showEventPort": true,
+      "value": 1,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "x2u10340",
+      "type": "visink/MeasurementWrite",
+      "x": 862.493198818986,
+      "y": 680.295918343157,
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "100003",
+          "nameZh": "吸收循环",
+          "nameEn": ""
+        }
+      ]
+    },
+    {
+      "id": "pdty5a42",
+      "type": "visink/Delay",
+      "x": 399.4931988189861,
+      "y": 835.295918343157,
+      "showEventPort": true,
+      "ms": 3300
+    },
+    {
+      "id": "6t0ky3dk",
+      "type": "visink/NumberConstant",
+      "x": 639.4931988189861,
+      "y": 867.2959183431569,
+      "showEventPort": true,
+      "value": 1,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "lmw7w4hj",
+      "type": "visink/MeasurementWrite",
+      "x": 861.493198818986,
+      "y": 870.2959183431569,
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "100004",
+          "nameZh": "吸收液位控制",
+          "nameEn": ""
+        }
+      ]
+    },
+    {
+      "id": "56zrqo7h",
+      "type": "visink/Delay",
+      "x": 402.4931988189861,
+      "y": 1016.295918343157,
+      "showEventPort": true,
+      "ms": 4500
+    },
+    {
+      "id": "jwqvp13a",
+      "type": "visink/NumberConstant",
+      "x": 638.4931988189861,
+      "y": 1048.2959183431572,
+      "showEventPort": true,
+      "value": 1,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "tzl1expm",
+      "type": "visink/MeasurementWrite",
+      "x": 860.493198818986,
+      "y": 1051.295918343157,
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "100005",
+          "nameZh": "采出温度控制",
+          "nameEn": ""
+        }
+      ]
+    },
+    {
+      "id": "45z6iqw5",
+      "type": "visink/Delay",
+      "x": 406.493198818986,
+      "y": 482.295918343157,
+      "showEventPort": true,
+      "ms": 1000
+    },
+    {
+      "id": "zqf1vqpy",
+      "type": "visink/NumberConstant",
+      "x": 646.493198818986,
+      "y": 514.295918343157,
+      "showEventPort": true,
+      "value": 1,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "76fmk0q5",
+      "type": "visink/MeasurementWrite",
+      "x": 868.4931988189861,
+      "y": 517.2959183431572,
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "100002",
+          "nameZh": "解吸全回流",
+          "nameEn": ""
+        }
+      ]
+    },
+    {
+      "id": "6fxoupt9",
+      "type": "visink/WidgetEvent",
+      "x": 86.4931988189862,
+      "y": 156.2959183431571,
+      "widgetId": "9c6d4k3a",
+      "eventType": "widget/click"
+    },
+    {
+      "id": "42kak01j",
+      "type": "visink/Delay",
+      "x": 405.4931988189861,
+      "y": 1183.295918343157,
+      "showEventPort": true,
+      "ms": 6000
+    },
+    {
+      "id": "uzdcw3w8",
+      "type": "visink/NumberConstant",
+      "x": 645.4931988189859,
+      "y": 1215.295918343157,
+      "showEventPort": true,
+      "value": 1,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "pm9c9drn",
+      "type": "visink/MeasurementWrite",
+      "x": 867.4931988189858,
+      "y": 1218.2959183431572,
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "100006",
+          "nameZh": "缓冲罐液位控制",
+          "nameEn": ""
+        }
+      ]
+    },
+    {
+      "id": "gjwp9x7n",
+      "type": "visink/MeasurementValue",
+      "x": 631,
+      "y": 1549,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "100008",
+          "nameZh": "TIC103比较",
+          "nameEn": "TIC103",
+          "showUnit": false
+        },
+        {
+          "id": "value2",
+          "pointId": "100009",
+          "nameZh": "FIC102设定",
+          "nameEn": "FIC102",
+          "showUnit": false
+        },
+        {
+          "id": "value3",
+          "pointId": "100010",
+          "nameZh": "LIC101设定",
+          "nameEn": "LIC101",
+          "showUnit": false
+        },
+        {
+          "id": "value4",
+          "pointId": "100011",
+          "nameZh": "LIC102设定",
+          "nameEn": "LIC102",
+          "showUnit": false
+        }
+      ]
+    },
+    {
+      "id": "stch4aff",
+      "type": "visink/WidgetBlock",
+      "x": 903,
+      "y": 1387,
+      "widgetId": "qsda50af",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "gschgrxq",
+      "type": "visink/WidgetBlock",
+      "x": 910,
+      "y": 1521,
+      "widgetId": "90gp2h24",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "8fholqd2",
+      "type": "visink/WidgetBlock",
+      "x": 919,
+      "y": 1654,
+      "widgetId": "5ext44wk",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "pfau0w65",
+      "type": "visink/WidgetBlock",
+      "x": 929,
+      "y": 1793,
+      "widgetId": "zgxjep9q",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
     }
   ],
-  "connections": []
+  "connections": [
+    {
+      "id": "nxe7eeyx",
+      "sourceNodeId": "fxg8vhjd",
+      "sourcePortKey": "value",
+      "targetNodeId": "mcuzeyle",
+      "targetPortKey": "status"
+    },
+    {
+      "id": "fu0juoji",
+      "sourceNodeId": "jiddfzdz",
+      "sourcePortKey": "value",
+      "targetNodeId": "t8k4wl5n",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "xvds2uxy",
+      "sourceNodeId": "jiddfzdz",
+      "sourcePortKey": "value",
+      "targetNodeId": "t8k4wl5n",
+      "targetPortKey": "value2"
+    },
+    {
+      "id": "yj8528dn",
+      "sourceNodeId": "jiddfzdz",
+      "sourcePortKey": "value",
+      "targetNodeId": "t8k4wl5n",
+      "targetPortKey": "value3"
+    },
+    {
+      "id": "wth1tzxm",
+      "sourceNodeId": "jiddfzdz",
+      "sourcePortKey": "value",
+      "targetNodeId": "t8k4wl5n",
+      "targetPortKey": "value4"
+    },
+    {
+      "id": "6jme89d9",
+      "sourceNodeId": "jiddfzdz",
+      "sourcePortKey": "value",
+      "targetNodeId": "t8k4wl5n",
+      "targetPortKey": "value5"
+    },
+    {
+      "id": "znf5qly7",
+      "sourceNodeId": "7wvblg6k",
+      "sourcePortKey": "value",
+      "targetNodeId": "miuahbi3",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "e5db2tkk",
+      "sourceNodeId": "fxg8vhjd",
+      "sourcePortKey": "value2",
+      "targetNodeId": "wqikfwmr",
+      "targetPortKey": "status"
+    },
+    {
+      "id": "z16g48qm",
+      "sourceNodeId": "fxg8vhjd",
+      "sourcePortKey": "value3",
+      "targetNodeId": "mgeewcxk",
+      "targetPortKey": "status"
+    },
+    {
+      "id": "bdww7fg9",
+      "sourceNodeId": "fxg8vhjd",
+      "sourcePortKey": "value4",
+      "targetNodeId": "fzd63kye",
+      "targetPortKey": "status"
+    },
+    {
+      "id": "mn0giaar",
+      "sourceNodeId": "fxg8vhjd",
+      "sourcePortKey": "value5",
+      "targetNodeId": "a16ikqwl",
+      "targetPortKey": "status"
+    },
+    {
+      "id": "mhq2gtsc",
+      "sourceNodeId": "8oyl17zo",
+      "sourcePortKey": "event",
+      "targetNodeId": "4z9rv2e7",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "1cea5nfq",
+      "sourceNodeId": "4z9rv2e7",
+      "sourcePortKey": "value",
+      "targetNodeId": "x2u10340",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "8n6p3sm6",
+      "sourceNodeId": "5xem25fj",
+      "sourcePortKey": "event",
+      "targetNodeId": "8oyl17zo",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "bjvnrhn8",
+      "sourceNodeId": "pdty5a42",
+      "sourcePortKey": "event",
+      "targetNodeId": "6t0ky3dk",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "is1xnncu",
+      "sourceNodeId": "6t0ky3dk",
+      "sourcePortKey": "value",
+      "targetNodeId": "lmw7w4hj",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "y5s3udz4",
+      "sourceNodeId": "56zrqo7h",
+      "sourcePortKey": "event",
+      "targetNodeId": "jwqvp13a",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "zhaoc7e9",
+      "sourceNodeId": "jwqvp13a",
+      "sourcePortKey": "value",
+      "targetNodeId": "tzl1expm",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "pg3mnwft",
+      "sourceNodeId": "45z6iqw5",
+      "sourcePortKey": "event",
+      "targetNodeId": "zqf1vqpy",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "lhlpoqyx",
+      "sourceNodeId": "zqf1vqpy",
+      "sourcePortKey": "value",
+      "targetNodeId": "76fmk0q5",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "lvnz8zk0",
+      "sourceNodeId": "5xem25fj",
+      "sourcePortKey": "event",
+      "targetNodeId": "pdty5a42",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "q6cbpevc",
+      "sourceNodeId": "5xem25fj",
+      "sourcePortKey": "event",
+      "targetNodeId": "45z6iqw5",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "oquls09i",
+      "sourceNodeId": "5xem25fj",
+      "sourcePortKey": "event",
+      "targetNodeId": "56zrqo7h",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "zom0fz8l",
+      "sourceNodeId": "6fxoupt9",
+      "sourcePortKey": "event",
+      "targetNodeId": "jiddfzdz",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "vvr5poj4",
+      "sourceNodeId": "fxg8vhjd",
+      "sourcePortKey": "value6",
+      "targetNodeId": "zlmp7fzl",
+      "targetPortKey": "status"
+    },
+    {
+      "id": "5y7n0b2p",
+      "sourceNodeId": "42kak01j",
+      "sourcePortKey": "event",
+      "targetNodeId": "uzdcw3w8",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "6p6c216g",
+      "sourceNodeId": "uzdcw3w8",
+      "sourcePortKey": "value",
+      "targetNodeId": "pm9c9drn",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "c3gfg4gb",
+      "sourceNodeId": "5xem25fj",
+      "sourcePortKey": "event",
+      "targetNodeId": "42kak01j",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "730ffioe",
+      "sourceNodeId": "jiddfzdz",
+      "sourcePortKey": "value",
+      "targetNodeId": "t8k4wl5n",
+      "targetPortKey": "value6"
+    },
+    {
+      "id": "shre6rjm",
+      "sourceNodeId": "5xem25fj",
+      "sourcePortKey": "event",
+      "targetNodeId": "7wvblg6k",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "h2g69okz",
+      "sourceNodeId": "gjwp9x7n",
+      "sourcePortKey": "value",
+      "targetNodeId": "stch4aff",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "3zl6chjf",
+      "sourceNodeId": "gjwp9x7n",
+      "sourcePortKey": "value2",
+      "targetNodeId": "gschgrxq",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "0mx2xj7u",
+      "sourceNodeId": "gjwp9x7n",
+      "sourcePortKey": "value3",
+      "targetNodeId": "8fholqd2",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "vlopp9t4",
+      "sourceNodeId": "gjwp9x7n",
+      "sourcePortKey": "value4",
+      "targetNodeId": "pfau0w65",
+      "targetPortKey": "content"
+    }
+  ]
 }

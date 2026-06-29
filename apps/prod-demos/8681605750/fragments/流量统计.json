@@ -48,6 +48,7 @@
         "fixedWidth": 180,
         "fixedHeight": 0,
         "backgroundColor": "rgba(74, 144, 217, 0.65)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -77,6 +78,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -106,6 +108,7 @@
         "fixedWidth": 55,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -115,7 +118,7 @@
       "className": "visink/Button",
       "data": {
         "id": "wud68hwv",
-        "codeLabel": "暂停按钮",
+        "codeLabel": "LIC101清零按钮",
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
@@ -145,13 +148,13 @@
       "className": "visink/Text",
       "data": {
         "id": "seobjbyw",
-        "codeLabel": "LIC101-lpq9yq",
+        "codeLabel": "LIC102",
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
         "x": 9,
         "y": 65.25,
-        "content": "LIC101",
+        "content": "LIC102",
         "fontSize": 13,
         "fontFamily": "sans-serif",
         "bold": false,
@@ -165,6 +168,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": true,
         "dynamicProps": [
           "content"
         ]
@@ -194,6 +198,7 @@
         "fixedWidth": 55,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -203,7 +208,7 @@
       "className": "visink/Button",
       "data": {
         "id": "elhoywm5",
-        "codeLabel": "暂停按钮-6ei3cx",
+        "codeLabel": "LIC102清零按钮",
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
@@ -233,13 +238,13 @@
       "className": "visink/Text",
       "data": {
         "id": "mcbq0alu",
-        "codeLabel": "LIC101-j35n8b",
+        "codeLabel": "LIC103",
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
         "x": 9,
         "y": 93,
-        "content": "LIC101",
+        "content": "LIC103",
         "fontSize": 13,
         "fontFamily": "sans-serif",
         "bold": false,
@@ -253,6 +258,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -282,6 +288,7 @@
         "fixedWidth": 55,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -291,7 +298,7 @@
       "className": "visink/Button",
       "data": {
         "id": "8lfn7b16",
-        "codeLabel": "暂停按钮-thuty3",
+        "codeLabel": "LIC103清零按钮",
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
@@ -321,13 +328,13 @@
       "className": "visink/Text",
       "data": {
         "id": "ayge70a4",
-        "codeLabel": "LIC101-bzy5o0",
+        "codeLabel": "LIC104",
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
         "x": 9,
         "y": 120.75,
-        "content": "LIC101",
+        "content": "LIC104",
         "fontSize": 13,
         "fontFamily": "sans-serif",
         "bold": false,
@@ -341,6 +348,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -370,6 +378,7 @@
         "fixedWidth": 55,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -379,7 +388,7 @@
       "className": "visink/Button",
       "data": {
         "id": "4vq37rz9",
-        "codeLabel": "暂停按钮-8eouyq",
+        "codeLabel": "LIC104清零按钮",
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
@@ -409,13 +418,13 @@
       "className": "visink/Text",
       "data": {
         "id": "bc7ymrap",
-        "codeLabel": "LIC101-k6nmhw",
+        "codeLabel": "LIC105",
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
         "x": 9,
         "y": 148.5,
-        "content": "LIC101",
+        "content": "LIC105",
         "fontSize": 13,
         "fontFamily": "sans-serif",
         "bold": false,
@@ -429,6 +438,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -458,6 +468,7 @@
         "fixedWidth": 55,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -467,7 +478,7 @@
       "className": "visink/Button",
       "data": {
         "id": "zhpb1727",
-        "codeLabel": "暂停按钮-aop52p",
+        "codeLabel": "LIC105清零按钮",
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
