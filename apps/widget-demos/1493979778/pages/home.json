@@ -1,0 +1,71 @@
+{
+  "widgets": [
+    {
+      "className": "visink/Button",
+      "data": {
+        "id": "a49h9qxc",
+        "codeLabel": "加一按钮",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 78,
+        "y": 194,
+        "width": 120,
+        "height": 40,
+        "label": "+ 1",
+        "iconSvg": "",
+        "iconLeftDistance": 8,
+        "iconSize": 16,
+        "isToggle": false,
+        "fontSize": 14,
+        "bgColor": "#4a90d9",
+        "labelColor": "#ffffff",
+        "followStateColors": true,
+        "hoverBgColor": "#256ab1",
+        "hoverLabelColor": "#ffffff",
+        "pressedBgColor": "#184472",
+        "pressedLabelColor": "#ffffff",
+        "stateColorReset": "",
+        "borderRadius": 6,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "45mlwga8",
+        "codeLabel": "计数和",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 299,
+        "y": 198,
+        "content": "文本",
+        "fontSize": 16,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#333333",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": true,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    }
+  ],
+  "variables": [
+    {
+      "id": "c5sdoojg",
+      "label": "sum",
+      "defaultValue": 0
+    }
+  ]
+}

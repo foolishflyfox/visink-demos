@@ -1,0 +1,15 @@
+{
+  "name": "局部变量使用",
+  "resolution": {
+    "width": 800,
+    "height": 600
+  },
+  "background": {
+    "type": "color",
+    "color": "#ffffff"
+  },
+  "previewScaleMode": "contain",
+  "createdAt": "2026-07-01T13:48:16.031Z",
+  "updatedAt": "2026-07-01T14:13:27.103Z",
+  "homepageId": "iw9c44ag15uj"
+}

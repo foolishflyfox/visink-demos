@@ -1,0 +1,107 @@
+{
+  "nodes": [
+    {
+      "id": "nhg615yy",
+      "type": "visink/WidgetBlock",
+      "x": 633,
+      "y": 471,
+      "widgetId": "45mlwga8",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "44jc26xq",
+      "type": "visink/PageVariable",
+      "x": 354,
+      "y": 238,
+      "variableId": "c5sdoojg",
+      "asOutput": true,
+      "triggerFlow": false
+    },
+    {
+      "id": "04liyjmi",
+      "type": "visink/Addition",
+      "x": 599,
+      "y": 155,
+      "showEventPort": true
+    },
+    {
+      "id": "n15dbk3n",
+      "type": "visink/NumberConstant",
+      "x": 366,
+      "y": 355,
+      "value": 1,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "snyn5zvk",
+      "type": "visink/WidgetEvent",
+      "x": 351,
+      "y": 102,
+      "widgetId": "a49h9qxc",
+      "eventType": "widget/click"
+    },
+    {
+      "id": "f4eibt5u",
+      "type": "visink/PageVariable",
+      "x": 872,
+      "y": 201,
+      "variableId": "c5sdoojg",
+      "asOutput": false,
+      "triggerFlow": false
+    },
+    {
+      "id": "eksk4abo",
+      "type": "visink/PageVariable",
+      "x": 373,
+      "y": 491,
+      "variableId": "c5sdoojg",
+      "asOutput": true,
+      "triggerFlow": true
+    }
+  ],
+  "connections": [
+    {
+      "id": "1csd2cri",
+      "sourceNodeId": "44jc26xq",
+      "sourcePortKey": "value",
+      "targetNodeId": "04liyjmi",
+      "targetPortKey": "v1"
+    },
+    {
+      "id": "488mu477",
+      "sourceNodeId": "n15dbk3n",
+      "sourcePortKey": "value",
+      "targetNodeId": "04liyjmi",
+      "targetPortKey": "v2"
+    },
+    {
+      "id": "fmtlfpif",
+      "sourceNodeId": "snyn5zvk",
+      "sourcePortKey": "event",
+      "targetNodeId": "04liyjmi",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "lyh31987",
+      "sourceNodeId": "04liyjmi",
+      "sourcePortKey": "sum",
+      "targetNodeId": "f4eibt5u",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "jpc4aghg",
+      "sourceNodeId": "eksk4abo",
+      "sourcePortKey": "value",
+      "targetNodeId": "nhg615yy",
+      "targetPortKey": "content"
+    }
+  ]
+}
