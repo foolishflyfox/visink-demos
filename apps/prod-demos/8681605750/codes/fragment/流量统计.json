@@ -3,8 +3,8 @@
     {
       "id": "6q5o4tjt",
       "type": "visink/WidgetBlock",
-      "x": 313,
-      "y": 417,
+      "x": 510,
+      "y": 410,
       "widgetId": "fh7hvps1",
       "dynamicPropKeys": [
         "content"
@@ -14,8 +14,8 @@
     {
       "id": "6u93vvis",
       "type": "visink/WidgetBlock",
-      "x": 1309,
-      "y": 398,
+      "x": 1488,
+      "y": 386,
       "widgetId": "itlrmk2d",
       "dynamicPropKeys": [
         "content"
@@ -25,8 +25,8 @@
     {
       "id": "r2spmtup",
       "type": "visink/WidgetBlock",
-      "x": 311,
-      "y": 988,
+      "x": 499,
+      "y": 978,
       "widgetId": "4qcr8gsf",
       "dynamicPropKeys": [
         "content"
@@ -36,8 +36,8 @@
     {
       "id": "athx27ia",
       "type": "visink/WidgetBlock",
-      "x": 1299,
-      "y": 994,
+      "x": 1533,
+      "y": 971,
       "widgetId": "1qp4nyex",
       "dynamicPropKeys": [
         "content"
@@ -47,8 +47,8 @@
     {
       "id": "sy4p20a2",
       "type": "visink/WidgetBlock",
-      "x": 308,
-      "y": 1610,
+      "x": 505,
+      "y": 1598,
       "widgetId": "6ijyvnny",
       "dynamicPropKeys": [
         "content"
@@ -97,8 +97,8 @@
     {
       "id": "ivu73z19",
       "type": "visink/PageVariable",
-      "x": 55,
-      "y": 396,
+      "x": 60,
+      "y": 414,
       "variableId": "0p5b0hkq",
       "asOutput": true,
       "triggerFlow": true
@@ -449,6 +449,51 @@
           "value": 0
         }
       ]
+    },
+    {
+      "id": "1cbg2wer",
+      "type": "visink/NumberToString",
+      "x": 288,
+      "y": 424,
+      "decimalPlaces": 3,
+      "roundingMode": "round",
+      "padZeros": true
+    },
+    {
+      "id": "sa6qqzum",
+      "type": "visink/NumberToString",
+      "x": 1260,
+      "y": 407,
+      "decimalPlaces": 3,
+      "roundingMode": "round",
+      "padZeros": true
+    },
+    {
+      "id": "f30yuxjz",
+      "type": "visink/NumberToString",
+      "x": 285,
+      "y": 1001,
+      "decimalPlaces": 3,
+      "roundingMode": "round",
+      "padZeros": true
+    },
+    {
+      "id": "m17ofoor",
+      "type": "visink/NumberToString",
+      "x": 1288,
+      "y": 1008,
+      "decimalPlaces": 3,
+      "roundingMode": "round",
+      "padZeros": true
+    },
+    {
+      "id": "bbxm77f0",
+      "type": "visink/NumberToString",
+      "x": 289,
+      "y": 1615,
+      "decimalPlaces": 3,
+      "roundingMode": "round",
+      "padZeros": true
     }
   ],
   "connections": [
@@ -474,13 +519,6 @@
       "targetPortKey": "value"
     },
     {
-      "id": "2g1br2b4",
-      "sourceNodeId": "ivu73z19",
-      "sourcePortKey": "value",
-      "targetNodeId": "6q5o4tjt",
-      "targetPortKey": "content"
-    },
-    {
       "id": "iz59oljg",
       "sourceNodeId": "xifd8teh",
       "sourcePortKey": "value",
@@ -500,13 +538,6 @@
       "sourcePortKey": "sum",
       "targetNodeId": "lh08kx5b",
       "targetPortKey": "value"
-    },
-    {
-      "id": "aghcx0vu",
-      "sourceNodeId": "0awb8a1p",
-      "sourcePortKey": "value",
-      "targetNodeId": "6u93vvis",
-      "targetPortKey": "content"
     },
     {
       "id": "x7uzre3p",
@@ -572,13 +603,6 @@
       "targetPortKey": "value"
     },
     {
-      "id": "7af1lfsp",
-      "sourceNodeId": "y2q7rxk0",
-      "sourcePortKey": "value",
-      "targetNodeId": "r2spmtup",
-      "targetPortKey": "content"
-    },
-    {
       "id": "n5af0m1n",
       "sourceNodeId": "vi756wsg",
       "sourcePortKey": "value",
@@ -612,13 +636,6 @@
       "sourcePortKey": "value",
       "targetNodeId": "vhxa9nyy",
       "targetPortKey": "value"
-    },
-    {
-      "id": "rckwq51y",
-      "sourceNodeId": "fy3c1qfe",
-      "sourcePortKey": "value",
-      "targetNodeId": "athx27ia",
-      "targetPortKey": "content"
     },
     {
       "id": "isu6w8ho",
@@ -656,9 +673,72 @@
       "targetPortKey": "value"
     },
     {
-      "id": "9hub1bd1",
+      "id": "cb30839l",
+      "sourceNodeId": "ivu73z19",
+      "sourcePortKey": "value",
+      "targetNodeId": "1cbg2wer",
+      "targetPortKey": "num"
+    },
+    {
+      "id": "8itrhu1h",
+      "sourceNodeId": "1cbg2wer",
+      "sourcePortKey": "str",
+      "targetNodeId": "6q5o4tjt",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "4dl8nma1",
+      "sourceNodeId": "0awb8a1p",
+      "sourcePortKey": "value",
+      "targetNodeId": "sa6qqzum",
+      "targetPortKey": "num"
+    },
+    {
+      "id": "hyhkligb",
+      "sourceNodeId": "sa6qqzum",
+      "sourcePortKey": "str",
+      "targetNodeId": "6u93vvis",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "cl9kyx76",
+      "sourceNodeId": "y2q7rxk0",
+      "sourcePortKey": "value",
+      "targetNodeId": "f30yuxjz",
+      "targetPortKey": "num"
+    },
+    {
+      "id": "o374pad3",
+      "sourceNodeId": "f30yuxjz",
+      "sourcePortKey": "str",
+      "targetNodeId": "r2spmtup",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "kklved14",
+      "sourceNodeId": "fy3c1qfe",
+      "sourcePortKey": "value",
+      "targetNodeId": "m17ofoor",
+      "targetPortKey": "num"
+    },
+    {
+      "id": "y60up8iy",
+      "sourceNodeId": "m17ofoor",
+      "sourcePortKey": "str",
+      "targetNodeId": "athx27ia",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "y3zjg04m",
       "sourceNodeId": "ietk40d3",
       "sourcePortKey": "value",
+      "targetNodeId": "bbxm77f0",
+      "targetPortKey": "num"
+    },
+    {
+      "id": "ux6xhcs6",
+      "sourceNodeId": "bbxm77f0",
+      "sourcePortKey": "str",
       "targetNodeId": "sy4p20a2",
       "targetPortKey": "content"
     }
