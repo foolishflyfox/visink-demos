@@ -1,0 +1,65 @@
+{
+  "widgets": [
+    {
+      "className": "visink/Button",
+      "data": {
+        "id": "2rr6436q",
+        "codeLabel": "按钮-k8m5t8",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 82,
+        "y": 153,
+        "width": 120,
+        "height": 40,
+        "label": "按钮",
+        "iconSvg": "",
+        "iconLeftDistance": 8,
+        "iconSize": 16,
+        "isToggle": false,
+        "fontSize": 14,
+        "bgColor": "#4a90d9",
+        "labelColor": "#ffffff",
+        "followStateColors": true,
+        "hoverBgColor": "#256ab1",
+        "hoverLabelColor": "#ffffff",
+        "pressedBgColor": "#184472",
+        "pressedLabelColor": "#ffffff",
+        "stateColorReset": "",
+        "borderRadius": 6,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "6ulmd1ww",
+        "codeLabel": "文本-s2c9g1",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 370,
+        "y": 159,
+        "content": "文本",
+        "fontSize": 16,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#333333",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    }
+  ],
+  "variables": []
+}

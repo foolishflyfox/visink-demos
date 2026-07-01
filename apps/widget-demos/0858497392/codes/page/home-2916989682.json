@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "id": "zie3wati",
+      "type": "visink/WidgetBlock",
+      "x": 638,
+      "y": 154,
+      "widgetId": "6ulmd1ww",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "z6yqdbmj",
+      "type": "visink/CustomProgram",
+      "x": 383,
+      "y": 159,
+      "showEventPort": true,
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "output1",
+          "label": "输出1"
+        }
+      ],
+      "code": "let count = 0;\nreturn (input1, input2) => {\n  count++;\n  return { output1: count}\n};\n"
+    },
+    {
+      "id": "bgqf1s21",
+      "type": "visink/WidgetEvent",
+      "x": 134,
+      "y": 166,
+      "widgetId": "2rr6436q",
+      "eventType": "widget/mousedown"
+    }
+  ],
+  "connections": [
+    {
+      "id": "az2bksbs",
+      "sourceNodeId": "z6yqdbmj",
+      "sourcePortKey": "output1",
+      "targetNodeId": "zie3wati",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "ownz53hy",
+      "sourceNodeId": "bgqf1s21",
+      "sourcePortKey": "event",
+      "targetNodeId": "z6yqdbmj",
+      "targetPortKey": "event"
+    }
+  ]
+}

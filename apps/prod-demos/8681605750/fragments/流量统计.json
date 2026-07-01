@@ -88,8 +88,8 @@
       "className": "visink/Text",
       "data": {
         "id": "fh7hvps1",
-        "codeLabel": "0 m³",
-        "showCodeNode": false,
+        "codeLabel": "LIC101值",
+        "showCodeNode": true,
         "isVisible": true,
         "isLocked": false,
         "x": 62,
@@ -108,7 +108,7 @@
         "fixedWidth": 55,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
-        "codeLabelManual": false,
+        "codeLabelManual": true,
         "dynamicProps": [
           "content"
         ]
@@ -178,8 +178,8 @@
       "className": "visink/Text",
       "data": {
         "id": "itlrmk2d",
-        "codeLabel": "0 m³-ebgocx",
-        "showCodeNode": false,
+        "codeLabel": "LIC102值",
+        "showCodeNode": true,
         "isVisible": true,
         "isLocked": false,
         "x": 62,
@@ -198,7 +198,7 @@
         "fixedWidth": 55,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
-        "codeLabelManual": false,
+        "codeLabelManual": true,
         "dynamicProps": [
           "content"
         ]
@@ -268,8 +268,8 @@
       "className": "visink/Text",
       "data": {
         "id": "4qcr8gsf",
-        "codeLabel": "0 m³-5wrcy0",
-        "showCodeNode": false,
+        "codeLabel": "LIC103值",
+        "showCodeNode": true,
         "isVisible": true,
         "isLocked": false,
         "x": 62,
@@ -288,7 +288,7 @@
         "fixedWidth": 55,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
-        "codeLabelManual": false,
+        "codeLabelManual": true,
         "dynamicProps": [
           "content"
         ]
@@ -358,8 +358,8 @@
       "className": "visink/Text",
       "data": {
         "id": "1qp4nyex",
-        "codeLabel": "0 m³-xl3yvy",
-        "showCodeNode": false,
+        "codeLabel": "LIC104值",
+        "showCodeNode": true,
         "isVisible": true,
         "isLocked": false,
         "x": 62,
@@ -378,7 +378,7 @@
         "fixedWidth": 55,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
-        "codeLabelManual": false,
+        "codeLabelManual": true,
         "dynamicProps": [
           "content"
         ]
@@ -448,8 +448,8 @@
       "className": "visink/Text",
       "data": {
         "id": "6ijyvnny",
-        "codeLabel": "0 m³-kim98q",
-        "showCodeNode": false,
+        "codeLabel": "LIC105值",
+        "showCodeNode": true,
         "isVisible": true,
         "isLocked": false,
         "x": 62,
@@ -468,7 +468,7 @@
         "fixedWidth": 55,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
-        "codeLabelManual": false,
+        "codeLabelManual": true,
         "dynamicProps": [
           "content"
         ]
@@ -503,6 +503,33 @@
         "borderRadius": 3,
         "dynamicProps": []
       }
+    }
+  ],
+  "variables": [
+    {
+      "id": "0p5b0hkq",
+      "label": "LIC101Sum",
+      "defaultValue": 0
+    },
+    {
+      "id": "nautxdv5",
+      "label": "LIC102Sum",
+      "defaultValue": 0
+    },
+    {
+      "id": "nvrtndu7",
+      "label": "LIC103Sum",
+      "defaultValue": 0
+    },
+    {
+      "id": "prod0dys",
+      "label": "LIC104Sum",
+      "defaultValue": 0
+    },
+    {
+      "id": "myfs7fqw",
+      "label": "LIC105Sum",
+      "defaultValue": 0
     }
   ],
   "inputs": []

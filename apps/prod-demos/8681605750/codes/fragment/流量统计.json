@@ -1,4 +1,666 @@
 {
-  "nodes": [],
-  "connections": []
+  "nodes": [
+    {
+      "id": "6q5o4tjt",
+      "type": "visink/WidgetBlock",
+      "x": 313,
+      "y": 417,
+      "widgetId": "fh7hvps1",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "6u93vvis",
+      "type": "visink/WidgetBlock",
+      "x": 1309,
+      "y": 398,
+      "widgetId": "itlrmk2d",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "r2spmtup",
+      "type": "visink/WidgetBlock",
+      "x": 311,
+      "y": 988,
+      "widgetId": "4qcr8gsf",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "athx27ia",
+      "type": "visink/WidgetBlock",
+      "x": 1299,
+      "y": 994,
+      "widgetId": "1qp4nyex",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "sy4p20a2",
+      "type": "visink/WidgetBlock",
+      "x": 308,
+      "y": 1610,
+      "widgetId": "6ijyvnny",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "fba9zs4l",
+      "type": "visink/MeasurementValue",
+      "x": 45,
+      "y": 46,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "100035",
+          "nameZh": "LIC101瞬时值",
+          "nameEn": "LIC101",
+          "showUnit": false
+        }
+      ]
+    },
+    {
+      "id": "7tgga87y",
+      "type": "visink/Addition",
+      "x": 289,
+      "y": 88
+    },
+    {
+      "id": "fcx6kqb9",
+      "type": "visink/PageVariable",
+      "x": 47,
+      "y": 166,
+      "variableId": "0p5b0hkq",
+      "asOutput": true,
+      "triggerFlow": false
+    },
+    {
+      "id": "13jickxy",
+      "type": "visink/PageVariable",
+      "x": 516,
+      "y": 107,
+      "variableId": "0p5b0hkq",
+      "asOutput": false,
+      "triggerFlow": false
+    },
+    {
+      "id": "ivu73z19",
+      "type": "visink/PageVariable",
+      "x": 55,
+      "y": 396,
+      "variableId": "0p5b0hkq",
+      "asOutput": true,
+      "triggerFlow": true
+    },
+    {
+      "id": "71o447pc",
+      "type": "visink/WidgetEvent",
+      "x": 56,
+      "y": 267,
+      "widgetId": "wud68hwv",
+      "eventType": "widget/click"
+    },
+    {
+      "id": "b387hnl4",
+      "type": "visink/PageVariable",
+      "x": 496,
+      "y": 281,
+      "variableId": "0p5b0hkq",
+      "asOutput": false,
+      "triggerFlow": false
+    },
+    {
+      "id": "xifd8teh",
+      "type": "visink/MeasurementValue",
+      "x": 1029,
+      "y": 39,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "100036",
+          "nameZh": "LIC102瞬时值",
+          "nameEn": "LIC102",
+          "showUnit": false
+        }
+      ]
+    },
+    {
+      "id": "r1w73f5c",
+      "type": "visink/Addition",
+      "x": 1273,
+      "y": 81
+    },
+    {
+      "id": "s0nonut8",
+      "type": "visink/PageVariable",
+      "x": 1031,
+      "y": 159,
+      "variableId": "nautxdv5",
+      "asOutput": true,
+      "triggerFlow": false
+    },
+    {
+      "id": "lh08kx5b",
+      "type": "visink/PageVariable",
+      "x": 1500,
+      "y": 100,
+      "variableId": "nautxdv5",
+      "asOutput": false,
+      "triggerFlow": false
+    },
+    {
+      "id": "1l2n1yqs",
+      "type": "visink/WidgetEvent",
+      "x": 1040,
+      "y": 260,
+      "widgetId": "elhoywm5",
+      "eventType": "widget/click"
+    },
+    {
+      "id": "13zugwra",
+      "type": "visink/PageVariable",
+      "x": 1462,
+      "y": 257,
+      "variableId": "nautxdv5",
+      "asOutput": false,
+      "triggerFlow": false
+    },
+    {
+      "id": "0awb8a1p",
+      "type": "visink/PageVariable",
+      "x": 1043,
+      "y": 414,
+      "variableId": "nautxdv5",
+      "asOutput": true,
+      "triggerFlow": true
+    },
+    {
+      "id": "ltzf2hx8",
+      "type": "visink/NumberConstant",
+      "x": 289,
+      "y": 275,
+      "showEventPort": true,
+      "value": 0,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "7gjeup5c",
+      "type": "visink/NumberConstant",
+      "x": 1258,
+      "y": 253,
+      "showEventPort": true,
+      "value": 0,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "z6l4c04b",
+      "type": "visink/MeasurementValue",
+      "x": 51,
+      "y": 626,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "100037",
+          "nameZh": "LIC103瞬时值",
+          "nameEn": "LIC103",
+          "showUnit": false
+        }
+      ]
+    },
+    {
+      "id": "zmait0bn",
+      "type": "visink/Addition",
+      "x": 295,
+      "y": 668
+    },
+    {
+      "id": "smdu8xk4",
+      "type": "visink/PageVariable",
+      "x": 53,
+      "y": 746,
+      "variableId": "nvrtndu7",
+      "asOutput": true,
+      "triggerFlow": false
+    },
+    {
+      "id": "bnhye5jq",
+      "type": "visink/PageVariable",
+      "x": 522,
+      "y": 687,
+      "variableId": "nvrtndu7",
+      "asOutput": false,
+      "triggerFlow": false
+    },
+    {
+      "id": "y2q7rxk0",
+      "type": "visink/PageVariable",
+      "x": 61,
+      "y": 976,
+      "variableId": "nvrtndu7",
+      "asOutput": true,
+      "triggerFlow": true
+    },
+    {
+      "id": "xjc08far",
+      "type": "visink/WidgetEvent",
+      "x": 62,
+      "y": 847,
+      "widgetId": "8lfn7b16",
+      "eventType": "widget/click"
+    },
+    {
+      "id": "cd9y1j1z",
+      "type": "visink/PageVariable",
+      "x": 502,
+      "y": 861,
+      "variableId": "nvrtndu7",
+      "asOutput": false,
+      "triggerFlow": false
+    },
+    {
+      "id": "8iodldp4",
+      "type": "visink/NumberConstant",
+      "x": 295,
+      "y": 855,
+      "showEventPort": true,
+      "value": 0,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "vi756wsg",
+      "type": "visink/MeasurementValue",
+      "x": 1043,
+      "y": 634,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "100038",
+          "nameZh": "LIC104瞬时值",
+          "nameEn": "LIC104",
+          "showUnit": false
+        }
+      ]
+    },
+    {
+      "id": "444uihq4",
+      "type": "visink/Addition",
+      "x": 1287,
+      "y": 676
+    },
+    {
+      "id": "8cauy1k6",
+      "type": "visink/PageVariable",
+      "x": 1045,
+      "y": 754,
+      "variableId": "prod0dys",
+      "asOutput": true,
+      "triggerFlow": false
+    },
+    {
+      "id": "mqiaq82w",
+      "type": "visink/PageVariable",
+      "x": 1514,
+      "y": 695,
+      "variableId": "prod0dys",
+      "asOutput": false,
+      "triggerFlow": false
+    },
+    {
+      "id": "1qphanov",
+      "type": "visink/WidgetEvent",
+      "x": 1054,
+      "y": 855,
+      "widgetId": "4vq37rz9",
+      "eventType": "widget/click"
+    },
+    {
+      "id": "vhxa9nyy",
+      "type": "visink/PageVariable",
+      "x": 1535,
+      "y": 843,
+      "variableId": "prod0dys",
+      "asOutput": false,
+      "triggerFlow": false
+    },
+    {
+      "id": "fy3c1qfe",
+      "type": "visink/PageVariable",
+      "x": 1057,
+      "y": 1009,
+      "variableId": "prod0dys",
+      "asOutput": true,
+      "triggerFlow": true
+    },
+    {
+      "id": "odeythq2",
+      "type": "visink/NumberConstant",
+      "x": 1292,
+      "y": 870,
+      "showEventPort": true,
+      "value": 0,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "e4h0rsgv",
+      "type": "visink/MeasurementValue",
+      "x": 52,
+      "y": 1241,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "100039",
+          "nameZh": "LIC105瞬时值",
+          "nameEn": "LIC105",
+          "showUnit": false
+        }
+      ]
+    },
+    {
+      "id": "iw6uif6b",
+      "type": "visink/Addition",
+      "x": 296,
+      "y": 1283
+    },
+    {
+      "id": "haqlz0ws",
+      "type": "visink/PageVariable",
+      "x": 54,
+      "y": 1361,
+      "variableId": "myfs7fqw",
+      "asOutput": true,
+      "triggerFlow": false
+    },
+    {
+      "id": "g3e011th",
+      "type": "visink/PageVariable",
+      "x": 523,
+      "y": 1302,
+      "variableId": "myfs7fqw",
+      "asOutput": false,
+      "triggerFlow": false
+    },
+    {
+      "id": "ietk40d3",
+      "type": "visink/PageVariable",
+      "x": 62,
+      "y": 1591,
+      "variableId": "myfs7fqw",
+      "asOutput": true,
+      "triggerFlow": true
+    },
+    {
+      "id": "ssep1c3z",
+      "type": "visink/WidgetEvent",
+      "x": 63,
+      "y": 1462,
+      "widgetId": "zhpb1727",
+      "eventType": "widget/click"
+    },
+    {
+      "id": "9b0km216",
+      "type": "visink/PageVariable",
+      "x": 503,
+      "y": 1476,
+      "variableId": "myfs7fqw",
+      "asOutput": false,
+      "triggerFlow": false
+    },
+    {
+      "id": "ta4asukk",
+      "type": "visink/NumberConstant",
+      "x": 296,
+      "y": 1470,
+      "showEventPort": true,
+      "value": 0,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "zdigs4oq",
+      "sourceNodeId": "fba9zs4l",
+      "sourcePortKey": "value",
+      "targetNodeId": "7tgga87y",
+      "targetPortKey": "v1"
+    },
+    {
+      "id": "s52c7bon",
+      "sourceNodeId": "fcx6kqb9",
+      "sourcePortKey": "value",
+      "targetNodeId": "7tgga87y",
+      "targetPortKey": "v2"
+    },
+    {
+      "id": "xztr4gr3",
+      "sourceNodeId": "7tgga87y",
+      "sourcePortKey": "sum",
+      "targetNodeId": "13jickxy",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "2g1br2b4",
+      "sourceNodeId": "ivu73z19",
+      "sourcePortKey": "value",
+      "targetNodeId": "6q5o4tjt",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "iz59oljg",
+      "sourceNodeId": "xifd8teh",
+      "sourcePortKey": "value",
+      "targetNodeId": "r1w73f5c",
+      "targetPortKey": "v1"
+    },
+    {
+      "id": "gz5pia9z",
+      "sourceNodeId": "s0nonut8",
+      "sourcePortKey": "value",
+      "targetNodeId": "r1w73f5c",
+      "targetPortKey": "v2"
+    },
+    {
+      "id": "i155jtex",
+      "sourceNodeId": "r1w73f5c",
+      "sourcePortKey": "sum",
+      "targetNodeId": "lh08kx5b",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "aghcx0vu",
+      "sourceNodeId": "0awb8a1p",
+      "sourcePortKey": "value",
+      "targetNodeId": "6u93vvis",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "x7uzre3p",
+      "sourceNodeId": "71o447pc",
+      "sourcePortKey": "event",
+      "targetNodeId": "ltzf2hx8",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "yf4cvemo",
+      "sourceNodeId": "ltzf2hx8",
+      "sourcePortKey": "value",
+      "targetNodeId": "b387hnl4",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "mda12zqp",
+      "sourceNodeId": "1l2n1yqs",
+      "sourcePortKey": "event",
+      "targetNodeId": "7gjeup5c",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "nijsuuj0",
+      "sourceNodeId": "7gjeup5c",
+      "sourcePortKey": "value",
+      "targetNodeId": "13zugwra",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "s1mxjdlg",
+      "sourceNodeId": "z6l4c04b",
+      "sourcePortKey": "value",
+      "targetNodeId": "zmait0bn",
+      "targetPortKey": "v1"
+    },
+    {
+      "id": "tteh3dsn",
+      "sourceNodeId": "smdu8xk4",
+      "sourcePortKey": "value",
+      "targetNodeId": "zmait0bn",
+      "targetPortKey": "v2"
+    },
+    {
+      "id": "e2e0tdvr",
+      "sourceNodeId": "zmait0bn",
+      "sourcePortKey": "sum",
+      "targetNodeId": "bnhye5jq",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "xddzq3wz",
+      "sourceNodeId": "xjc08far",
+      "sourcePortKey": "event",
+      "targetNodeId": "8iodldp4",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "l4jlri0t",
+      "sourceNodeId": "8iodldp4",
+      "sourcePortKey": "value",
+      "targetNodeId": "cd9y1j1z",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "7af1lfsp",
+      "sourceNodeId": "y2q7rxk0",
+      "sourcePortKey": "value",
+      "targetNodeId": "r2spmtup",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "n5af0m1n",
+      "sourceNodeId": "vi756wsg",
+      "sourcePortKey": "value",
+      "targetNodeId": "444uihq4",
+      "targetPortKey": "v1"
+    },
+    {
+      "id": "r2mtssix",
+      "sourceNodeId": "8cauy1k6",
+      "sourcePortKey": "value",
+      "targetNodeId": "444uihq4",
+      "targetPortKey": "v2"
+    },
+    {
+      "id": "4wbgogbi",
+      "sourceNodeId": "444uihq4",
+      "sourcePortKey": "sum",
+      "targetNodeId": "mqiaq82w",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "fnu5zarj",
+      "sourceNodeId": "1qphanov",
+      "sourcePortKey": "event",
+      "targetNodeId": "odeythq2",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "1yq6xv22",
+      "sourceNodeId": "odeythq2",
+      "sourcePortKey": "value",
+      "targetNodeId": "vhxa9nyy",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "rckwq51y",
+      "sourceNodeId": "fy3c1qfe",
+      "sourcePortKey": "value",
+      "targetNodeId": "athx27ia",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "isu6w8ho",
+      "sourceNodeId": "e4h0rsgv",
+      "sourcePortKey": "value",
+      "targetNodeId": "iw6uif6b",
+      "targetPortKey": "v1"
+    },
+    {
+      "id": "ua0g476l",
+      "sourceNodeId": "haqlz0ws",
+      "sourcePortKey": "value",
+      "targetNodeId": "iw6uif6b",
+      "targetPortKey": "v2"
+    },
+    {
+      "id": "krs6sk05",
+      "sourceNodeId": "iw6uif6b",
+      "sourcePortKey": "sum",
+      "targetNodeId": "g3e011th",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "rrvg3nui",
+      "sourceNodeId": "ssep1c3z",
+      "sourcePortKey": "event",
+      "targetNodeId": "ta4asukk",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "lsw1mnkq",
+      "sourceNodeId": "ta4asukk",
+      "sourcePortKey": "value",
+      "targetNodeId": "9b0km216",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "9hub1bd1",
+      "sourceNodeId": "ietk40d3",
+      "sourcePortKey": "value",
+      "targetNodeId": "sy4p20a2",
+      "targetPortKey": "content"
+    }
+  ]
 }
