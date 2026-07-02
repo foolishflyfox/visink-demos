@@ -36,8 +36,8 @@
     {
       "id": "bxg3333m",
       "type": "visink/WidgetBlock",
-      "x": 940,
-      "y": 60,
+      "x": 726,
+      "y": 58,
       "widgetId": "y941r86f",
       "dynamicPropKeys": [
         "status"
@@ -47,8 +47,8 @@
     {
       "id": "ez6ig7s9",
       "type": "visink/WidgetBlock",
-      "x": 60,
-      "y": 260,
+      "x": 918,
+      "y": 55,
       "widgetId": "enakykgu",
       "dynamicPropKeys": [
         "status"
@@ -69,8 +69,8 @@
     {
       "id": "dmyzj7iv",
       "type": "visink/WidgetBlock",
-      "x": 280,
-      "y": 260,
+      "x": 70,
+      "y": 270,
       "widgetId": "gqb33ffm",
       "dynamicPropKeys": [
         "status"
@@ -146,8 +146,8 @@
     {
       "id": "5rzpr52u",
       "type": "visink/WidgetBlock",
-      "x": 375,
-      "y": 682,
+      "x": 309,
+      "y": 591,
       "widgetId": "q050fs3v",
       "dynamicPropKeys": [
         "content"
@@ -166,14 +166,56 @@
           "nameZh": "运行频率",
           "nameEn": "",
           "showUnit": true
+        },
+        {
+          "id": "value2",
+          "pointId": "100020",
+          "nameZh": "流量 FI103",
+          "nameEn": "FI103",
+          "showUnit": true
+        },
+        {
+          "id": "value3",
+          "pointId": "100021",
+          "nameZh": "流量 FI104",
+          "nameEn": "FI104",
+          "showUnit": true
+        },
+        {
+          "id": "value4",
+          "pointId": "100040",
+          "nameZh": "流量 FI105",
+          "nameEn": "FI105",
+          "showUnit": true
+        },
+        {
+          "id": "value5",
+          "pointId": "100015",
+          "nameZh": "液位 LV102",
+          "nameEn": "LV102",
+          "showUnit": true
+        },
+        {
+          "id": "value6",
+          "pointId": "100022",
+          "nameZh": "压力 PI103",
+          "nameEn": "PI103",
+          "showUnit": true
+        },
+        {
+          "id": "value7",
+          "pointId": "100014",
+          "nameZh": "吸收塔温度TI101",
+          "nameEn": "TI101",
+          "showUnit": true
         }
       ]
     },
     {
       "id": "1wri93rw",
       "type": "visink/WidgetBlock",
-      "x": 724,
-      "y": 446,
+      "x": 425,
+      "y": 1125,
       "widgetId": "ii8wpqnx",
       "dynamicPropKeys": [
         "content"
@@ -183,9 +225,53 @@
     {
       "id": "ms2iydm7",
       "type": "visink/WidgetBlock",
-      "x": 749,
-      "y": 615,
+      "x": 720,
+      "y": 647,
       "widgetId": "lqjsk3vf",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "kg1ta79n",
+      "type": "visink/WidgetBlock",
+      "x": 431,
+      "y": 882,
+      "widgetId": "c6dxvjed",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "57e11zsx",
+      "type": "visink/WidgetBlock",
+      "x": 503,
+      "y": 762,
+      "widgetId": "wg9d6pkq",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "le1ekg8n",
+      "type": "visink/WidgetBlock",
+      "x": 499,
+      "y": 618,
+      "widgetId": "gimz3a39",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "dz689y2d",
+      "type": "visink/WidgetBlock",
+      "x": 427,
+      "y": 1002,
+      "widgetId": "xrus9zc6",
       "dynamicPropKeys": [
         "content"
       ],
@@ -198,6 +284,48 @@
       "sourceNodeId": "lq4ga48i",
       "sourcePortKey": "value",
       "targetNodeId": "5rzpr52u",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "1wjrrmlb",
+      "sourceNodeId": "lq4ga48i",
+      "sourcePortKey": "value2",
+      "targetNodeId": "le1ekg8n",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "7gnip9dq",
+      "sourceNodeId": "lq4ga48i",
+      "sourcePortKey": "value3",
+      "targetNodeId": "ms2iydm7",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "0053mg3s",
+      "sourceNodeId": "lq4ga48i",
+      "sourcePortKey": "value4",
+      "targetNodeId": "57e11zsx",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "gxr04ok0",
+      "sourceNodeId": "lq4ga48i",
+      "sourcePortKey": "value5",
+      "targetNodeId": "kg1ta79n",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "03tcbgdq",
+      "sourceNodeId": "lq4ga48i",
+      "sourcePortKey": "value6",
+      "targetNodeId": "dz689y2d",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "5bof825n",
+      "sourceNodeId": "lq4ga48i",
+      "sourcePortKey": "value7",
+      "targetNodeId": "1wri93rw",
       "targetPortKey": "content"
     }
   ]

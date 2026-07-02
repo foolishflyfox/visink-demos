@@ -1944,13 +1944,13 @@
       "className": "visink/Text",
       "data": {
         "id": "9xlbln9r",
-        "codeLabel": "0",
+        "codeLabel": "80",
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
         "x": 185.10344827586206,
         "y": 460.0000000000001,
-        "content": "0",
+        "content": "80",
         "fontSize": 10,
         "fontFamily": "sans-serif",
         "bold": false,
@@ -2114,9 +2114,14 @@
         "height": 55.281469309151575,
         "rotation": 0,
         "origin": "center",
-        "statusList": [],
+        "statusList": [
+          {
+            "status": "1",
+            "assetPath": "my-resources/mimic图/motor-green.svg"
+          }
+        ],
         "defaultAssetPath": "my-resources/mimic图/motor-red.svg",
-        "status": "",
+        "status": "1",
         "flipX": false,
         "flipY": false,
         "offsetX": 48.90283823501866,
@@ -2322,9 +2327,14 @@
         "height": 55.281469309151575,
         "rotation": 0,
         "origin": "center",
-        "statusList": [],
+        "statusList": [
+          {
+            "status": "1",
+            "assetPath": "my-resources/mimic图/motor-green.svg"
+          }
+        ],
         "defaultAssetPath": "my-resources/mimic图/motor-red.svg",
-        "status": "",
+        "status": "1",
         "flipX": false,
         "flipY": false,
         "offsetX": 48.90283823501866,
@@ -2608,9 +2618,14 @@
         "height": 55.281469309151575,
         "rotation": 0,
         "origin": "center",
-        "statusList": [],
+        "statusList": [
+          {
+            "status": "1",
+            "assetPath": "my-resources/mimic图/motor-green.svg"
+          }
+        ],
         "defaultAssetPath": "my-resources/mimic图/motor-red.svg",
-        "status": "",
+        "status": "1",
         "flipX": true,
         "flipY": false,
         "offsetX": 48.90283823501866,
@@ -2634,9 +2649,14 @@
         "height": 55.281469309151575,
         "rotation": 0,
         "origin": "center",
-        "statusList": [],
+        "statusList": [
+          {
+            "status": "1",
+            "assetPath": "my-resources/mimic图/motor-green.svg"
+          }
+        ],
         "defaultAssetPath": "my-resources/mimic图/motor-red.svg",
-        "status": "",
+        "status": "1",
         "flipX": true,
         "flipY": false,
         "offsetX": 48.90283823501866,
@@ -2691,9 +2711,14 @@
         "height": 55.281469309151575,
         "rotation": 0,
         "origin": "center",
-        "statusList": [],
+        "statusList": [
+          {
+            "status": "1",
+            "assetPath": "my-resources/mimic图/motor-green.svg"
+          }
+        ],
         "defaultAssetPath": "my-resources/mimic图/motor-red.svg",
-        "status": "",
+        "status": "1",
         "flipX": true,
         "flipY": false,
         "offsetX": 48.90283823501866,
@@ -2717,9 +2742,14 @@
         "height": 55.281469309151575,
         "rotation": 0,
         "origin": "center",
-        "statusList": [],
+        "statusList": [
+          {
+            "status": "1",
+            "assetPath": "my-resources/mimic图/motor-green.svg"
+          }
+        ],
         "defaultAssetPath": "my-resources/mimic图/motor-red.svg",
-        "status": "",
+        "status": "1",
         "flipX": true,
         "flipY": false,
         "offsetX": 48.90283823501866,
@@ -2940,8 +2970,8 @@
       "className": "visink/Text",
       "data": {
         "id": "c6dxvjed",
-        "codeLabel": "0 %",
-        "showCodeNode": false,
+        "codeLabel": "LV102",
+        "showCodeNode": true,
         "isVisible": true,
         "isLocked": false,
         "x": 524.4827586206897,
@@ -2960,7 +2990,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
-        "codeLabelManual": false,
+        "codeLabelManual": true,
         "dynamicProps": [
           "content"
         ]
@@ -3030,13 +3060,13 @@
       "className": "visink/Text",
       "data": {
         "id": "sucgqatm",
-        "codeLabel": "FI104-9l4kq0",
+        "codeLabel": "FI105",
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
         "x": 441.3448275862069,
         "y": 189.1379310344828,
-        "content": "FI104",
+        "content": "FI105",
         "fontSize": 13,
         "fontFamily": "sans-serif",
         "bold": false,
@@ -3050,7 +3080,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
-        "codeLabelManual": false,
+        "codeLabelManual": true,
         "dynamicProps": [
           "content"
         ]
@@ -3060,8 +3090,8 @@
       "className": "visink/Text",
       "data": {
         "id": "wg9d6pkq",
-        "codeLabel": "0 m³/h-o98xwd",
-        "showCodeNode": false,
+        "codeLabel": "FI105",
+        "showCodeNode": true,
         "isVisible": true,
         "isLocked": false,
         "x": 443.3448275862069,
@@ -3080,7 +3110,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
-        "codeLabelManual": false,
+        "codeLabelManual": true,
         "dynamicProps": [
           "content"
         ]
@@ -3120,8 +3150,8 @@
       "className": "visink/Text",
       "data": {
         "id": "xrus9zc6",
-        "codeLabel": "0 Mpa",
-        "showCodeNode": false,
+        "codeLabel": "PI103",
+        "showCodeNode": true,
         "isVisible": true,
         "isLocked": false,
         "x": 347.89655172413796,
@@ -3140,7 +3170,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
-        "codeLabelManual": false,
+        "codeLabelManual": true,
         "dynamicProps": [
           "content"
         ]
@@ -3390,8 +3420,8 @@
       "className": "visink/Text",
       "data": {
         "id": "gimz3a39",
-        "codeLabel": "0 m³/h-tsuwyo",
-        "showCodeNode": false,
+        "codeLabel": "FI103",
+        "showCodeNode": true,
         "isVisible": true,
         "isLocked": false,
         "x": 791.3793103448277,
@@ -3410,7 +3440,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
-        "codeLabelManual": false,
+        "codeLabelManual": true,
         "dynamicProps": [
           "content"
         ]
@@ -4024,13 +4054,13 @@
       "className": "visink/Text",
       "data": {
         "id": "yy5g3ahh",
-        "codeLabel": "0-bq8gl3",
+        "codeLabel": "90",
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
         "x": 719.8965517241381,
         "y": 425.96551724137953,
-        "content": "0",
+        "content": "90",
         "fontSize": 10,
         "fontFamily": "sans-serif",
         "bold": false,
@@ -4201,5 +4231,6 @@
       }
     }
   ],
+  "variables": [],
   "inputs": []
 }
