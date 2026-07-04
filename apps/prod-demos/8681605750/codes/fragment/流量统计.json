@@ -3,8 +3,8 @@
     {
       "id": "6q5o4tjt",
       "type": "visink/WidgetBlock",
-      "x": 510,
-      "y": 410,
+      "x": 839,
+      "y": 249,
       "widgetId": "fh7hvps1",
       "dynamicPropKeys": [
         "content"
@@ -25,8 +25,8 @@
     {
       "id": "r2spmtup",
       "type": "visink/WidgetBlock",
-      "x": 499,
-      "y": 978,
+      "x": 477.00000000000006,
+      "y": 1009,
       "widgetId": "4qcr8gsf",
       "dynamicPropKeys": [
         "content"
@@ -58,8 +58,8 @@
     {
       "id": "fba9zs4l",
       "type": "visink/MeasurementValue",
-      "x": 45,
-      "y": 46,
+      "x": 31,
+      "y": 134,
       "outputs": [
         {
           "id": "value",
@@ -71,54 +71,12 @@
       ]
     },
     {
-      "id": "7tgga87y",
-      "type": "visink/Addition",
-      "x": 289,
-      "y": 88
-    },
-    {
-      "id": "fcx6kqb9",
-      "type": "visink/PageVariable",
-      "x": 47,
-      "y": 166,
-      "variableId": "0p5b0hkq",
-      "asOutput": true,
-      "triggerFlow": false
-    },
-    {
-      "id": "13jickxy",
-      "type": "visink/PageVariable",
-      "x": 516,
-      "y": 107,
-      "variableId": "0p5b0hkq",
-      "asOutput": false,
-      "triggerFlow": false
-    },
-    {
-      "id": "ivu73z19",
-      "type": "visink/PageVariable",
-      "x": 60,
-      "y": 414,
-      "variableId": "0p5b0hkq",
-      "asOutput": true,
-      "triggerFlow": true
-    },
-    {
       "id": "71o447pc",
       "type": "visink/WidgetEvent",
-      "x": 56,
-      "y": 267,
+      "x": 30,
+      "y": 261,
       "widgetId": "wud68hwv",
       "eventType": "widget/click"
-    },
-    {
-      "id": "b387hnl4",
-      "type": "visink/PageVariable",
-      "x": 496,
-      "y": 281,
-      "variableId": "0p5b0hkq",
-      "asOutput": false,
-      "triggerFlow": false
     },
     {
       "id": "xifd8teh",
@@ -186,20 +144,6 @@
       "triggerFlow": true
     },
     {
-      "id": "ltzf2hx8",
-      "type": "visink/NumberConstant",
-      "x": 289,
-      "y": 275,
-      "showEventPort": true,
-      "value": 0,
-      "outputs": [
-        {
-          "id": "value",
-          "value": 0
-        }
-      ]
-    },
-    {
       "id": "7gjeup5c",
       "type": "visink/NumberConstant",
       "x": 1258,
@@ -216,8 +160,8 @@
     {
       "id": "z6l4c04b",
       "type": "visink/MeasurementValue",
-      "x": 51,
-      "y": 626,
+      "x": 29.000000000000057,
+      "y": 657,
       "outputs": [
         {
           "id": "value",
@@ -231,14 +175,14 @@
     {
       "id": "zmait0bn",
       "type": "visink/Addition",
-      "x": 295,
-      "y": 668
+      "x": 273.00000000000006,
+      "y": 699
     },
     {
       "id": "smdu8xk4",
       "type": "visink/PageVariable",
-      "x": 53,
-      "y": 746,
+      "x": 31.000000000000057,
+      "y": 777,
       "variableId": "nvrtndu7",
       "asOutput": true,
       "triggerFlow": false
@@ -246,8 +190,8 @@
     {
       "id": "bnhye5jq",
       "type": "visink/PageVariable",
-      "x": 522,
-      "y": 687,
+      "x": 500.00000000000006,
+      "y": 718,
       "variableId": "nvrtndu7",
       "asOutput": false,
       "triggerFlow": false
@@ -255,8 +199,8 @@
     {
       "id": "y2q7rxk0",
       "type": "visink/PageVariable",
-      "x": 61,
-      "y": 976,
+      "x": 39.00000000000006,
+      "y": 1007,
       "variableId": "nvrtndu7",
       "asOutput": true,
       "triggerFlow": true
@@ -264,16 +208,16 @@
     {
       "id": "xjc08far",
       "type": "visink/WidgetEvent",
-      "x": 62,
-      "y": 847,
+      "x": 40.00000000000006,
+      "y": 878,
       "widgetId": "8lfn7b16",
       "eventType": "widget/click"
     },
     {
       "id": "cd9y1j1z",
       "type": "visink/PageVariable",
-      "x": 502,
-      "y": 861,
+      "x": 480.00000000000006,
+      "y": 892,
       "variableId": "nvrtndu7",
       "asOutput": false,
       "triggerFlow": false
@@ -281,8 +225,8 @@
     {
       "id": "8iodldp4",
       "type": "visink/NumberConstant",
-      "x": 295,
-      "y": 855,
+      "x": 273.00000000000006,
+      "y": 886,
       "showEventPort": true,
       "value": 0,
       "outputs": [
@@ -451,15 +395,6 @@
       ]
     },
     {
-      "id": "1cbg2wer",
-      "type": "visink/NumberToString",
-      "x": 288,
-      "y": 424,
-      "decimalPlaces": 3,
-      "roundingMode": "round",
-      "padZeros": true
-    },
-    {
       "id": "sa6qqzum",
       "type": "visink/NumberToString",
       "x": 1260,
@@ -471,8 +406,8 @@
     {
       "id": "f30yuxjz",
       "type": "visink/NumberToString",
-      "x": 285,
-      "y": 1001,
+      "x": 263.00000000000006,
+      "y": 1032,
       "decimalPlaces": 3,
       "roundingMode": "round",
       "padZeros": true
@@ -494,30 +429,68 @@
       "decimalPlaces": 3,
       "roundingMode": "round",
       "padZeros": true
+    },
+    {
+      "id": "o4oi9vcm",
+      "type": "visink/ObjectCompose",
+      "x": 237,
+      "y": 114,
+      "keys": [
+        {
+          "id": "value",
+          "staticValue": ""
+        },
+        {
+          "id": "op",
+          "staticValue": "\"add\""
+        }
+      ]
+    },
+    {
+      "id": "w16hkj20",
+      "type": "visink/ObjectCompose",
+      "x": 230,
+      "y": 313,
+      "showEventPort": true,
+      "keys": [
+        {
+          "id": "value",
+          "staticValue": "0"
+        },
+        {
+          "id": "op",
+          "staticValue": "\"set\""
+        }
+      ]
+    },
+    {
+      "id": "wioxoks4",
+      "type": "visink/EventMerge",
+      "x": 441,
+      "y": 204,
+      "inputCount": 2
+    },
+    {
+      "id": "jc78w2ae",
+      "type": "visink/CustomProgram",
+      "x": 637,
+      "y": 219,
+      "inputs": [
+        {
+          "id": "cmd",
+          "label": "命令"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "text",
+          "label": "文本"
+        }
+      ],
+      "code": "let sum = 0;\nreturn (cmd) => {\n  if (!cmd || typeof cmd !== 'object') return {};\n  if (cmd.op === 'set') sum = Number(cmd.value);\n  else if (cmd.op === 'add') sum += Number(cmd.value);\n  return { text: sum.toFixed(3) };\n};\n"
     }
   ],
   "connections": [
-    {
-      "id": "zdigs4oq",
-      "sourceNodeId": "fba9zs4l",
-      "sourcePortKey": "value",
-      "targetNodeId": "7tgga87y",
-      "targetPortKey": "v1"
-    },
-    {
-      "id": "s52c7bon",
-      "sourceNodeId": "fcx6kqb9",
-      "sourcePortKey": "value",
-      "targetNodeId": "7tgga87y",
-      "targetPortKey": "v2"
-    },
-    {
-      "id": "xztr4gr3",
-      "sourceNodeId": "7tgga87y",
-      "sourcePortKey": "sum",
-      "targetNodeId": "13jickxy",
-      "targetPortKey": "value"
-    },
     {
       "id": "iz59oljg",
       "sourceNodeId": "xifd8teh",
@@ -537,20 +510,6 @@
       "sourceNodeId": "r1w73f5c",
       "sourcePortKey": "sum",
       "targetNodeId": "lh08kx5b",
-      "targetPortKey": "value"
-    },
-    {
-      "id": "x7uzre3p",
-      "sourceNodeId": "71o447pc",
-      "sourcePortKey": "event",
-      "targetNodeId": "ltzf2hx8",
-      "targetPortKey": "event"
-    },
-    {
-      "id": "yf4cvemo",
-      "sourceNodeId": "ltzf2hx8",
-      "sourcePortKey": "value",
-      "targetNodeId": "b387hnl4",
       "targetPortKey": "value"
     },
     {
@@ -673,20 +632,6 @@
       "targetPortKey": "value"
     },
     {
-      "id": "cb30839l",
-      "sourceNodeId": "ivu73z19",
-      "sourcePortKey": "value",
-      "targetNodeId": "1cbg2wer",
-      "targetPortKey": "num"
-    },
-    {
-      "id": "8itrhu1h",
-      "sourceNodeId": "1cbg2wer",
-      "sourcePortKey": "str",
-      "targetNodeId": "6q5o4tjt",
-      "targetPortKey": "content"
-    },
-    {
       "id": "4dl8nma1",
       "sourceNodeId": "0awb8a1p",
       "sourcePortKey": "value",
@@ -741,6 +686,64 @@
       "sourcePortKey": "str",
       "targetNodeId": "sy4p20a2",
       "targetPortKey": "content"
+    },
+    {
+      "id": "ok73ljfr",
+      "sourceNodeId": "fba9zs4l",
+      "sourcePortKey": "value",
+      "targetNodeId": "o4oi9vcm",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "ghmlh91t",
+      "sourceNodeId": "71o447pc",
+      "sourcePortKey": "event",
+      "targetNodeId": "w16hkj20",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "1xur76q7",
+      "sourceNodeId": "o4oi9vcm",
+      "sourcePortKey": "json",
+      "targetNodeId": "wioxoks4",
+      "targetPortKey": "in0"
+    },
+    {
+      "id": "33gnk1us",
+      "sourceNodeId": "w16hkj20",
+      "sourcePortKey": "json",
+      "targetNodeId": "wioxoks4",
+      "targetPortKey": "in1"
+    },
+    {
+      "id": "9upsmuu9",
+      "sourceNodeId": "wioxoks4",
+      "sourcePortKey": "event",
+      "targetNodeId": "jc78w2ae",
+      "targetPortKey": "cmd"
+    },
+    {
+      "id": "0qopl6zu",
+      "sourceNodeId": "jc78w2ae",
+      "sourcePortKey": "text",
+      "targetNodeId": "6q5o4tjt",
+      "targetPortKey": "content"
+    }
+  ],
+  "comments": [
+    {
+      "id": "umnlslo5",
+      "x": 26.848258706467504,
+      "y": 33.99999999999983,
+      "width": 579,
+      "text": "下面的示例演示了自定义程序的常用用法，这样无论逻辑多复杂，都收敛在自定义程序中"
+    },
+    {
+      "id": "nzpzu9rn",
+      "x": 26.88743246518129,
+      "y": 570.9999999999964,
+      "width": 543,
+      "text": "下面的示例演示了实现相同的效果，不通过自定义程序如何实现\n这种方式含义明确，但是如果逻辑复杂，建议使用 “自定义程序” 实现"
     }
   ]
 }
