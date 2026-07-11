@@ -1,0 +1,61 @@
+{
+  "widgets": [
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "hmj608ho",
+        "codeLabel": "IoT 仪表盘",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 882.1724137931035,
+        "y": 4.379310344827637,
+        "content": "IoT 仪表盘",
+        "fontSize": 46,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/CardContainer",
+      "data": {
+        "id": "b1yqmgo0",
+        "codeLabel": "卡片容器-vfuch1",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 130.5315203955502,
+        "y": 267.0704573547589,
+        "width": 260,
+        "height": 160,
+        "title": "温度",
+        "themeConfig": "",
+        "iconSvg": "system-resources/icons/sensors/thermometer.svg",
+        "iconColor": "#ffffff",
+        "titleColor": "#f8fbff",
+        "backgroundColor": "#1d3f6f",
+        "borderColor": "#355f9a",
+        "borderWidth": 2,
+        "borderRadius": 12,
+        "padding": 18,
+        "headerGap": 12,
+        "dynamicProps": []
+      }
+    }
+  ],
+  "variables": []
+}

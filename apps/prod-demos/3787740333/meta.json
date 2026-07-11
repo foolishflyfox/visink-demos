@@ -1,0 +1,15 @@
+{
+  "name": "IoT仪表盘",
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "background": {
+    "type": "color",
+    "color": "#10213dFF"
+  },
+  "previewScaleMode": "contain",
+  "createdAt": "2026-07-04T03:03:41.278Z",
+  "updatedAt": "2026-07-05T00:50:46.251Z",
+  "homepageId": "1xtl6cu3n4ff"
+}
