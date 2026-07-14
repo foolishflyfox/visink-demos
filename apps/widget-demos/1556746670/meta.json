@@ -1,0 +1,15 @@
+{
+  "name": "折线图示例",
+  "resolution": {
+    "width": 800,
+    "height": 600
+  },
+  "background": {
+    "type": "color",
+    "color": "#ffffff"
+  },
+  "previewScaleMode": "contain",
+  "createdAt": "2026-07-14T15:05:16.044Z",
+  "updatedAt": "2026-07-14T15:05:54.228Z",
+  "homepageId": "ni90tboe9joj"
+}
