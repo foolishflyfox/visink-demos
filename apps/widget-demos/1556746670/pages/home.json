@@ -3,26 +3,26 @@
     {
       "className": "visink/LineChart",
       "data": {
-        "id": "n16jxm0p",
-        "codeLabel": "折线图-l1l0pn",
+        "id": "7mcv1fzt",
+        "codeLabel": "折线图-v9vnki",
         "showCodeNode": true,
         "isVisible": true,
         "isLocked": false,
-        "x": 66.99999999999993,
-        "y": 44.000000000000114,
-        "width": 606.5943391655517,
-        "height": 404.39622611036776,
+        "x": 14,
+        "y": 34.999999999999766,
+        "width": 765.4415015582134,
+        "height": 510.2943343721422,
         "seriesList": [
           {
             "id": "s1",
-            "name": "系列A",
+            "name": "系列1",
             "color": "#4269d0"
           }
         ],
-        "title": "xxx",
+        "title": "",
         "xAxisType": "auto",
-        "maxPoints": 300,
-        "yAutoScale": false,
+        "maxPoints": 30,
+        "yAutoScale": true,
         "yMin": 0,
         "yMax": 100,
         "showGrid": true,
@@ -30,7 +30,6 @@
         "showLegend": true,
         "lineWidth": 2,
         "dynamicProps": [
-          "point",
           "data"
         ]
       }

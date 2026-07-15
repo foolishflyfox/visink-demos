@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "id": "31erga3x",
+      "type": "visink/IntervalTimer",
+      "x": 162,
+      "y": 252,
+      "interval": 1,
+      "unit": "s",
+      "immediate": true
+    },
+    {
+      "id": "1a9sinfr",
+      "type": "visink/CustomProgram",
+      "x": 488,
+      "y": 227,
+      "showEventPort": true,
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "output",
+          "label": "输出"
+        }
+      ],
+      "code": "let count = 0;\nreturn () => {\n  if (count === 0) {\n    const output = [];\n\n    for (; count < 20; count++) {\n      output.push(Math.floor(Math.random() * 101));\n    }\n    console.log('output', output)\n    return {output};\n  }\n  const v = Math.floor(Math.random() * 101);\n  console.log(`v = ${v}`);\n  return { output: {x: count++, y: v} };\n};"
+    },
+    {
+      "id": "cdixjxwe",
+      "type": "visink/WidgetBlock",
+      "x": 851,
+      "y": 224,
+      "widgetId": "7mcv1fzt",
+      "dynamicPropKeys": [
+        "data"
+      ],
+      "widgetType": "visink/LineChart"
+    }
+  ],
+  "connections": [
+    {
+      "id": "v2hh8b5h",
+      "sourceNodeId": "31erga3x",
+      "sourcePortKey": "event",
+      "targetNodeId": "1a9sinfr",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "bf44h885",
+      "sourceNodeId": "1a9sinfr",
+      "sourcePortKey": "output",
+      "targetNodeId": "cdixjxwe",
+      "targetPortKey": "data"
+    }
+  ],
+  "comments": []
+}
