@@ -22,7 +22,7 @@
           "label": "输出"
         }
       ],
-      "code": "let count = 0;\nreturn () => {\n  if (count === 0) {\n    const output = [];\n\n    for (; count < 20; count++) {\n      output.push(Math.floor(Math.random() * 101));\n    }\n    console.log('output', output)\n    return {output};\n  }\n  const v = Math.floor(Math.random() * 101);\n  return { output: {x: count++, y: v} };\n};"
+      "code": "let count = 0;\nlet target = 70; // industrial baseline\nlet noiseScale = 30; // initial noise scale\nlet lastValue = null;\n\nreturn () => {\n  if (count === 0) {\n    const output = [];\n    let currentValue = Math.random() * 100;\n    \n    for (let i = 0; i < 128; i++) {\n      // Convergence factor: start with more noise, approach target\n      const convergence = 1 - (i / 128);\n      const noise = (Math.random() - 0.5) * noiseScale * convergence;\n      currentValue = currentValue * 0.7 + target * 0.3 + noise;\n      currentValue = Math.max(0, Math.min(100, currentValue));\n      output.push(Math.round(currentValue));\n    }\n    \n    lastValue = currentValue;\n    count = 128;\n    return { output };\n  }\n  \n  // Subsequent: return one number with small noise around target\n  const noise = (Math.random() - 0.5) * 5;\n  lastValue = lastValue * 0.8 + target * 0.2 + noise;\n  lastValue = Math.max(0, Math.min(100, lastValue));\n  count++;\n  \n  return { output: { x: count, y: Math.round(lastValue) } };\n};"
     },
     {
       "id": "cdixjxwe",

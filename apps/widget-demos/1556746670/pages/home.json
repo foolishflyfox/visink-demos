@@ -21,7 +21,7 @@
         ],
         "title": "动态添加数据示例",
         "xAxisType": "auto",
-        "maxPoints": 30,
+        "maxPoints": 100,
         "yAutoScale": true,
         "yMin": 0,
         "yMax": 100,
