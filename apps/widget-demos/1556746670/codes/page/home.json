@@ -3,8 +3,8 @@
     {
       "id": "31erga3x",
       "type": "visink/IntervalTimer",
-      "x": 162,
-      "y": 252,
+      "x": 81,
+      "y": 154,
       "interval": 1,
       "unit": "s",
       "immediate": true
@@ -12,8 +12,8 @@
     {
       "id": "1a9sinfr",
       "type": "visink/CustomProgram",
-      "x": 488,
-      "y": 227,
+      "x": 328,
+      "y": 142,
       "showEventPort": true,
       "inputs": [],
       "outputs": [
@@ -22,14 +22,101 @@
           "label": "输出"
         }
       ],
-      "code": "let count = 0;\nreturn () => {\n  if (count === 0) {\n    const output = [];\n\n    for (; count < 20; count++) {\n      output.push(Math.floor(Math.random() * 101));\n    }\n    console.log('output', output)\n    return {output};\n  }\n  const v = Math.floor(Math.random() * 101);\n  console.log(`v = ${v}`);\n  return { output: {x: count++, y: v} };\n};"
+      "code": "let count = 0;\nreturn () => {\n  if (count === 0) {\n    const output = [];\n\n    for (; count < 20; count++) {\n      output.push(Math.floor(Math.random() * 101));\n    }\n    console.log('output', output)\n    return {output};\n  }\n  const v = Math.floor(Math.random() * 101);\n  return { output: {x: count++, y: v} };\n};"
     },
     {
       "id": "cdixjxwe",
       "type": "visink/WidgetBlock",
-      "x": 851,
-      "y": 224,
+      "x": 572,
+      "y": 138,
       "widgetId": "7mcv1fzt",
+      "dynamicPropKeys": [
+        "data"
+      ],
+      "widgetType": "visink/LineChart"
+    },
+    {
+      "id": "sm822b7o",
+      "type": "visink/CustomProgram",
+      "x": 327,
+      "y": 336,
+      "showEventPort": true,
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "output",
+          "label": "输出"
+        }
+      ],
+      "code": "return () => {\n  const totalPoints = 300;\n  const end = 6 * Math.PI;\n  const step = end / (totalPoints - 1);\n  const points1 = [];\n  const points2 = [];\n  for (let i = 0; i < totalPoints; i++) {\n    const t = i * step;\n    points1.push({\n      x: t,\n      y: Math.sin(t)\n    });\n    points2.push({\n      x: t,\n      y: Math.cos(t)\n    });\n  }\n  return { output: [points1, points2] };\n};"
+    },
+    {
+      "id": "k8fgiq93",
+      "type": "visink/WidgetBlock",
+      "x": 571,
+      "y": 346,
+      "widgetId": "4gamq3kw",
+      "dynamicPropKeys": [
+        "data"
+      ],
+      "widgetType": "visink/LineChart"
+    },
+    {
+      "id": "owd4phj4",
+      "type": "visink/RunOnce",
+      "x": 76,
+      "y": 350,
+      "mode": "immediate",
+      "delay": 1,
+      "unit": "s"
+    },
+    {
+      "id": "yp962cq9",
+      "type": "visink/WidgetBlock",
+      "x": 591,
+      "y": 546,
+      "widgetId": "ow8d7j0b",
+      "dynamicPropKeys": [
+        "data"
+      ],
+      "widgetType": "visink/LineChart"
+    },
+    {
+      "id": "4z78diao",
+      "type": "visink/CustomProgram",
+      "x": 332.375,
+      "y": 542.75,
+      "showEventPort": true,
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "output",
+          "label": "心形坐标数组"
+        }
+      ],
+      "code": "return () => {\n  const points = [];\n  const N = 520;\n  // First pass: compute raw coordinates\n  const raw = [];\n  for (let i = 0; i < N; i++) {\n    const t = (i / N) * 2 * Math.PI;\n    const x = 16 * Math.pow(Math.sin(t), 3);\n    const y = 13 * Math.cos(t) - 5 * Math.cos(2*t) - 2 * Math.cos(3*t) - Math.cos(4*t);\n    raw.push({ x, y });\n  }\n  // Find bounds\n  let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;\n  for (const p of raw) {\n    if (p.x < minX) minX = p.x;\n    if (p.x > maxX) maxX = p.x;\n    if (p.y < minY) minY = p.y;\n    if (p.y > maxY) maxY = p.y;\n  }\n  // Translate to first quadrant (scale to reasonable size, e.g., 0-100)\n  const rangeX = maxX - minX || 1;\n  const rangeY = maxY - minY || 1;\n  const scale = 100;\n  for (const p of raw) {\n    points.push({\n      x: ((p.x - minX) / rangeX) * scale,\n      y: ((p.y - minY) / rangeY) * scale\n    });\n  }\n  return { output: points };\n};"
+    },
+    {
+      "id": "47lm0mmi",
+      "type": "visink/CustomProgram",
+      "x": 333,
+      "y": 717,
+      "showEventPort": true,
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "output",
+          "label": "工业数据二维数组"
+        }
+      ],
+      "code": "return () => {\n  const startTime = dayjs('2026-07-19 14:10:12').valueOf();\n  const points = 150;\n  const interval = 200;\n  \n  // Array 1: Production output\n  const data1 = [];\n  let baseValue1 = 75;\n  for (let i = 0; i < points; i++) {\n    const x = startTime + i * interval;\n    const trend = i * 0.05;\n    const periodic = 8 * Math.sin(i * 2 * Math.PI / 30);\n    const noise = (Math.random() - 0.5) * 3;\n    let y = baseValue1 + trend + periodic + noise;\n    if (Math.random() < 0.05) {\n      y += (Math.random() - 0.5) * 15;\n    }\n    y = Math.round(y * 100) / 100;\n    data1.push({ x, y });\n  }\n  \n  // Array 2: Temperature/secondary metric\n  const data2 = [];\n  let baseValue2 = 68;\n  for (let i = 0; i < points; i++) {\n    const x = startTime + i * interval;\n    const trend = -i * 0.03; // slight downward trend\n    const periodic = 6 * Math.cos(i * 2 * Math.PI / 45); // different period\n    const noise = (Math.random() - 0.5) * 2;\n    let y = baseValue2 + trend + periodic + noise;\n    if (Math.random() < 0.04) {\n      y += (Math.random() - 0.5) * 12;\n    }\n    y = Math.round(y * 100) / 100;\n    data2.push({ x, y });\n  }\n  \n  return { output: [data1, data2] };\n};"
+    },
+    {
+      "id": "xmyjk0ny",
+      "type": "visink/WidgetBlock",
+      "x": 601,
+      "y": 721,
+      "widgetId": "j0g34hew",
       "dynamicPropKeys": [
         "data"
       ],
@@ -49,6 +136,48 @@
       "sourceNodeId": "1a9sinfr",
       "sourcePortKey": "output",
       "targetNodeId": "cdixjxwe",
+      "targetPortKey": "data"
+    },
+    {
+      "id": "fjvvjeod",
+      "sourceNodeId": "sm822b7o",
+      "sourcePortKey": "output",
+      "targetNodeId": "k8fgiq93",
+      "targetPortKey": "data"
+    },
+    {
+      "id": "mpksjn01",
+      "sourceNodeId": "owd4phj4",
+      "sourcePortKey": "event",
+      "targetNodeId": "sm822b7o",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "yb12y4qd",
+      "sourceNodeId": "owd4phj4",
+      "sourcePortKey": "event",
+      "targetNodeId": "4z78diao",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "e2kzf6h8",
+      "sourceNodeId": "owd4phj4",
+      "sourcePortKey": "event",
+      "targetNodeId": "47lm0mmi",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "qdotthq1",
+      "sourceNodeId": "47lm0mmi",
+      "sourcePortKey": "output",
+      "targetNodeId": "xmyjk0ny",
+      "targetPortKey": "data"
+    },
+    {
+      "id": "fb5n5nb0",
+      "sourceNodeId": "4z78diao",
+      "sourcePortKey": "output",
+      "targetNodeId": "yp962cq9",
       "targetPortKey": "data"
     }
   ],

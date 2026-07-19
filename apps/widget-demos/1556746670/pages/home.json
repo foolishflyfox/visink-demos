@@ -8,10 +8,10 @@
         "showCodeNode": true,
         "isVisible": true,
         "isLocked": false,
-        "x": 14,
-        "y": 34.999999999999766,
-        "width": 765.4415015582134,
-        "height": 510.2943343721422,
+        "x": 14.000000000000373,
+        "y": 27.275862068967328,
+        "width": 546.9161503153479,
+        "height": 364.6107668768986,
         "seriesList": [
           {
             "id": "s1",
@@ -19,9 +19,121 @@
             "color": "#4269d0"
           }
         ],
-        "title": "",
+        "title": "动态添加数据示例",
         "xAxisType": "auto",
         "maxPoints": 30,
+        "yAutoScale": true,
+        "yMin": 0,
+        "yMax": 100,
+        "showGrid": true,
+        "showPoints": false,
+        "showLegend": true,
+        "lineWidth": 2,
+        "dynamicProps": [
+          "data"
+        ]
+      }
+    },
+    {
+      "className": "visink/LineChart",
+      "data": {
+        "id": "4gamq3kw",
+        "codeLabel": "折线图-x6f25z",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 703.6551724137936,
+        "y": 31.689655172415613,
+        "width": 546.9161503153479,
+        "height": 364.6107668768986,
+        "seriesList": [
+          {
+            "id": "s1",
+            "name": "sin",
+            "color": "#4269d0"
+          },
+          {
+            "id": "s-mrrdl6jt-4lf8ez",
+            "name": "cos",
+            "color": "#efb118"
+          }
+        ],
+        "title": "正余弦曲线示例",
+        "xAxisType": "auto",
+        "maxPoints": 300,
+        "yAutoScale": true,
+        "yMin": 0,
+        "yMax": 100,
+        "showGrid": true,
+        "showPoints": true,
+        "showLegend": true,
+        "lineWidth": 2,
+        "dynamicProps": [
+          "data"
+        ]
+      }
+    },
+    {
+      "className": "visink/LineChart",
+      "data": {
+        "id": "ow8d7j0b",
+        "codeLabel": "折线图-85gqr4",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 16.2068965517245,
+        "y": 454.3103448275881,
+        "width": 546.9161503153479,
+        "height": 364.6107668768986,
+        "seriesList": [
+          {
+            "id": "s1",
+            "name": "系列1",
+            "color": "#ff8ab7"
+          }
+        ],
+        "title": "爱心图形示例",
+        "xAxisType": "auto",
+        "maxPoints": 520,
+        "yAutoScale": true,
+        "yMin": 0,
+        "yMax": 100,
+        "showGrid": true,
+        "showPoints": true,
+        "showLegend": true,
+        "lineWidth": 6,
+        "dynamicProps": [
+          "data"
+        ]
+      }
+    },
+    {
+      "className": "visink/LineChart",
+      "data": {
+        "id": "j0g34hew",
+        "codeLabel": "折线图-eq2bba",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 702.8965517241379,
+        "y": 446.0344827586207,
+        "width": 546.9161503153479,
+        "height": 364.6107668768986,
+        "seriesList": [
+          {
+            "id": "s1",
+            "name": "转速",
+            "color": "#ECD73B"
+          },
+          {
+            "id": "s-mrrfhkgd-sfnlz3",
+            "name": "温度",
+            "color": "#3ca951"
+          }
+        ],
+        "title": "工业数据复现(x 轴为时间)",
+        "xAxisType": "auto",
+        "maxPoints": 300,
         "yAutoScale": true,
         "yMin": 0,
         "yMax": 100,
