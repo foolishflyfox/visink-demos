@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "id": "5yuiy4p9",
+      "type": "visink/WidgetBlock",
+      "x": 561,
+      "y": 83,
+      "widgetId": "t78qf56t",
+      "dynamicPropKeys": [
+        "data"
+      ],
+      "widgetType": "visink/PieChart"
+    },
+    {
+      "id": "1gf0xhuj",
+      "type": "visink/RunOnce",
+      "x": 42,
+      "y": 85,
+      "mode": "immediate",
+      "delay": 1,
+      "unit": "s"
+    },
+    {
+      "id": "0re4swsc",
+      "type": "visink/CustomProgram",
+      "x": 283,
+      "y": 101,
+      "showEventPort": true,
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "output",
+          "label": "全年家庭支出"
+        }
+      ],
+      "code": "return () => {\n  return { output: {\n    \"房贷\": 4523 * 12,\n    \"车贷\": 1666 * 12,\n    \"日常开销\": 50 * 365,\n    \"电子产品\": 2333 + 5823 + 13325,\n    \"其他\": 6219\n  } };\n};\n"
+    },
+    {
+      "id": "37jhnm6y",
+      "type": "visink/WidgetBlock",
+      "x": 565,
+      "y": 229,
+      "widgetId": "ebn5f3we",
+      "dynamicPropKeys": [
+        "data"
+      ],
+      "widgetType": "visink/PieChart"
+    }
+  ],
+  "connections": [
+    {
+      "id": "8do615fo",
+      "sourceNodeId": "1gf0xhuj",
+      "sourcePortKey": "event",
+      "targetNodeId": "0re4swsc",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "q28t786x",
+      "sourceNodeId": "0re4swsc",
+      "sourcePortKey": "output",
+      "targetNodeId": "5yuiy4p9",
+      "targetPortKey": "data"
+    },
+    {
+      "id": "ie412ykb",
+      "sourceNodeId": "0re4swsc",
+      "sourcePortKey": "output",
+      "targetNodeId": "37jhnm6y",
+      "targetPortKey": "data"
+    }
+  ],
+  "comments": []
+}

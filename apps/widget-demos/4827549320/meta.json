@@ -1,0 +1,15 @@
+{
+  "name": "饼图示例",
+  "resolution": {
+    "width": 1280,
+    "height": 720
+  },
+  "background": {
+    "type": "color",
+    "color": "#ffffff"
+  },
+  "previewScaleMode": "contain",
+  "createdAt": "2026-07-21T12:51:47.409Z",
+  "updatedAt": "2026-07-21T13:15:59.427Z",
+  "homepageId": "txw8vc8u72iu"
+}

@@ -1,0 +1,53 @@
+{
+  "widgets": [
+    {
+      "className": "visink/PieChart",
+      "data": {
+        "id": "t78qf56t",
+        "codeLabel": "饼图-la2f7r",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 7.7241379310349885,
+        "y": 95.1724137931055,
+        "width": 616.76902662477,
+        "height": 521.8814840671128,
+        "title": "2026家庭全年支出占比(实心)",
+        "style": "solid",
+        "showLegend": true,
+        "showPercentage": true,
+        "showValue": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "dynamicProps": [
+          "data"
+        ]
+      }
+    },
+    {
+      "className": "visink/PieChart",
+      "data": {
+        "id": "ebn5f3we",
+        "codeLabel": "饼图-ugsmxx",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 656.5517241379313,
+        "y": 95.1724137931055,
+        "width": 616.76902662477,
+        "height": 521.8814840671128,
+        "title": "2026家庭全年支出占比(环形)",
+        "style": "donut",
+        "showLegend": false,
+        "showPercentage": false,
+        "showValue": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "dynamicProps": [
+          "data"
+        ]
+      }
+    }
+  ],
+  "variables": []
+}
