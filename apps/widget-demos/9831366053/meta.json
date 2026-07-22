@@ -1,0 +1,14 @@
+{
+  "name": "柱状图示例",
+  "resolution": {
+    "width": 1080,
+    "height": 420
+  },
+  "background": {
+    "type": "color",
+    "color": "#ffffff"
+  },
+  "previewScaleMode": "contain",
+  "createdAt": "2026-07-22T21:47:46.736Z",
+  "updatedAt": "2026-07-22T22:16:41.084Z"
+}

@@ -1,0 +1,51 @@
+{
+  "widgets": [
+    {
+      "className": "visink/BarChart",
+      "data": {
+        "id": "wq5pbokp",
+        "codeLabel": "柱状图-oxfkd3",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 19.379310344827793,
+        "y": 11.72413793103442,
+        "width": 500.46063214351346,
+        "height": 393.2190681127605,
+        "title": "2025年销售利润统计(单位: 万元)",
+        "orientation": "vertical",
+        "showLegend": true,
+        "showValueLabel": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "dynamicProps": [
+          "data"
+        ]
+      }
+    },
+    {
+      "className": "visink/BarChart",
+      "data": {
+        "id": "rbydb8sz",
+        "codeLabel": "柱状图-cp633x",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 563.3793103448278,
+        "y": 11.72413793103442,
+        "width": 500.46063214351346,
+        "height": 393.2190681127605,
+        "title": "2025年销售利润统计(单位: 万元)",
+        "orientation": "horizontal",
+        "showLegend": true,
+        "showValueLabel": true,
+        "offsetX": 0,
+        "offsetY": 0,
+        "dynamicProps": [
+          "data"
+        ]
+      }
+    }
+  ],
+  "variables": []
+}

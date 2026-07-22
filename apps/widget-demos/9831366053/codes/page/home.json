@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "id": "unp3y8q6",
+      "type": "visink/WidgetBlock",
+      "x": 553,
+      "y": 166,
+      "widgetId": "wq5pbokp",
+      "dynamicPropKeys": [
+        "data"
+      ],
+      "widgetType": "visink/BarChart"
+    },
+    {
+      "id": "v8x6pd9w",
+      "type": "visink/CustomProgram",
+      "x": 309,
+      "y": 274,
+      "showEventPort": true,
+      "inputs": [],
+      "outputs": [
+        {
+          "id": "output",
+          "label": "输出"
+        }
+      ],
+      "code": "return () => {\n  return { output: {\n    '第一季度': {'销售额':  312, '利润': 24},\n    '第二季度': {'销售额':  461, '利润': 38},\n    '第三季度': {'销售额':  517, '利润': 46},\n    '第四季度': {'销售额':  485, '利润': 41},\n  } };\n};\n"
+    },
+    {
+      "id": "jgkeszka",
+      "type": "visink/RunOnce",
+      "x": 64,
+      "y": 280,
+      "mode": "immediate",
+      "delay": 1,
+      "unit": "s"
+    },
+    {
+      "id": "rkhkpu4v",
+      "type": "visink/WidgetBlock",
+      "x": 564,
+      "y": 458,
+      "widgetId": "rbydb8sz",
+      "dynamicPropKeys": [
+        "data"
+      ],
+      "widgetType": "visink/BarChart"
+    }
+  ],
+  "connections": [
+    {
+      "id": "ayt4d9pf",
+      "sourceNodeId": "v8x6pd9w",
+      "sourcePortKey": "output",
+      "targetNodeId": "unp3y8q6",
+      "targetPortKey": "data"
+    },
+    {
+      "id": "isq0mtpo",
+      "sourceNodeId": "jgkeszka",
+      "sourcePortKey": "event",
+      "targetNodeId": "v8x6pd9w",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "vz1n1fvy",
+      "sourceNodeId": "v8x6pd9w",
+      "sourcePortKey": "output",
+      "targetNodeId": "rkhkpu4v",
+      "targetPortKey": "data"
+    }
+  ],
+  "comments": []
+}
