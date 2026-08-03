@@ -112,6 +112,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
@@ -141,10 +142,12 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
         "dynamicProps": [
           "content"
         ]
       }
     }
-  ]
+  ],
+  "variables": []
 }

@@ -29,6 +29,8 @@
         "showPoints": false,
         "showLegend": true,
         "lineWidth": 2,
+        "offsetX": 0,
+        "offsetY": 0,
         "dynamicProps": [
           "data"
         ]
@@ -68,6 +70,8 @@
         "showPoints": true,
         "showLegend": true,
         "lineWidth": 2,
+        "offsetX": 0,
+        "offsetY": 0,
         "dynamicProps": [
           "data"
         ]
@@ -102,6 +106,8 @@
         "showPoints": true,
         "showLegend": true,
         "lineWidth": 6,
+        "offsetX": 0,
+        "offsetY": 0,
         "dynamicProps": [
           "data"
         ]
@@ -141,6 +147,8 @@
         "showPoints": false,
         "showLegend": true,
         "lineWidth": 2,
+        "offsetX": 0,
+        "offsetY": 0,
         "dynamicProps": [
           "data"
         ]
