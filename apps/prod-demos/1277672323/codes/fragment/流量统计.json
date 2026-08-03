@@ -1,0 +1,660 @@
+{
+  "nodes": [
+    {
+      "id": "fqpl1f9a",
+      "type": "visink/MeasurementValue",
+      "x": 40,
+      "y": 40,
+      "outputs": [
+        {
+          "id": "lic101",
+          "pointId": "100035",
+          "nameZh": "LIC101瞬时值",
+          "nameEn": "LIC101",
+          "showUnit": false
+        },
+        {
+          "id": "lic102",
+          "pointId": "100036",
+          "nameZh": "LIC102瞬时值",
+          "nameEn": "LIC102",
+          "showUnit": false
+        },
+        {
+          "id": "lic103",
+          "pointId": "100037",
+          "nameZh": "LIC103瞬时值",
+          "nameEn": "LIC103",
+          "showUnit": false
+        },
+        {
+          "id": "lic104",
+          "pointId": "100038",
+          "nameZh": "LIC104瞬时值",
+          "nameEn": "LIC104",
+          "showUnit": false
+        },
+        {
+          "id": "lic105",
+          "pointId": "100039",
+          "nameZh": "LIC105瞬时值",
+          "nameEn": "LIC105",
+          "showUnit": false
+        }
+      ]
+    },
+    {
+      "id": "k5thnki4",
+      "type": "visink/ObjectCompose",
+      "x": 330,
+      "y": 30,
+      "keys": [
+        {
+          "id": "value",
+          "staticValue": ""
+        },
+        {
+          "id": "op",
+          "staticValue": "\"add\""
+        }
+      ]
+    },
+    {
+      "id": "71o447pc",
+      "type": "visink/WidgetEvent",
+      "x": 44,
+      "y": 302,
+      "widgetId": "wud68hwv",
+      "eventTypes": [
+        "widget/click"
+      ]
+    },
+    {
+      "id": "xfotutkd",
+      "type": "visink/ObjectCompose",
+      "x": 330,
+      "y": 173,
+      "showEventPort": true,
+      "keys": [
+        {
+          "id": "value",
+          "staticValue": "0"
+        },
+        {
+          "id": "op",
+          "staticValue": "\"set\""
+        }
+      ]
+    },
+    {
+      "id": "i9v5v2b1",
+      "type": "visink/EventMerge",
+      "x": 620,
+      "y": 100,
+      "inputCount": 2
+    },
+    {
+      "id": "npol1nbw",
+      "type": "visink/CustomProgram",
+      "x": 860,
+      "y": 90,
+      "inputs": [
+        {
+          "id": "cmd",
+          "label": "命令"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "text",
+          "label": "文本"
+        }
+      ],
+      "code": "let sum = 0;\nreturn (cmd) => {\n  if (!cmd || typeof cmd !== 'object') return {};\n  if (cmd.op === 'set') sum = Number(cmd.value);\n  else if (cmd.op === 'add') sum += Number(cmd.value);\n  return { text: sum.toFixed(3) };\n};\n"
+    },
+    {
+      "id": "6q5o4tjt",
+      "type": "visink/WidgetBlock",
+      "x": 1120,
+      "y": 110,
+      "widgetId": "fh7hvps1",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "juzi975m",
+      "type": "visink/ObjectCompose",
+      "x": 330,
+      "y": 320,
+      "keys": [
+        {
+          "id": "value",
+          "staticValue": ""
+        },
+        {
+          "id": "op",
+          "staticValue": "\"add\""
+        }
+      ]
+    },
+    {
+      "id": "1l2n1yqs",
+      "type": "visink/WidgetEvent",
+      "x": 40,
+      "y": 470,
+      "widgetId": "elhoywm5",
+      "eventTypes": [
+        "widget/click"
+      ]
+    },
+    {
+      "id": "ckg94ass",
+      "type": "visink/ObjectCompose",
+      "x": 330,
+      "y": 460,
+      "showEventPort": true,
+      "keys": [
+        {
+          "id": "value",
+          "staticValue": "0"
+        },
+        {
+          "id": "op",
+          "staticValue": "\"set\""
+        }
+      ]
+    },
+    {
+      "id": "ejbq3t2q",
+      "type": "visink/EventMerge",
+      "x": 620,
+      "y": 380,
+      "inputCount": 2
+    },
+    {
+      "id": "ybtf3fqm",
+      "type": "visink/CustomProgram",
+      "x": 860,
+      "y": 370,
+      "inputs": [
+        {
+          "id": "cmd",
+          "label": "命令"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "text",
+          "label": "文本"
+        }
+      ],
+      "code": "let sum = 0;\nreturn (cmd) => {\n  if (!cmd || typeof cmd !== 'object') return {};\n  if (cmd.op === 'set') sum = Number(cmd.value);\n  else if (cmd.op === 'add') sum += Number(cmd.value);\n  return { text: sum.toFixed(3) };\n};\n"
+    },
+    {
+      "id": "6u93vvis",
+      "type": "visink/WidgetBlock",
+      "x": 1120,
+      "y": 390,
+      "widgetId": "itlrmk2d",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "kv400f2t",
+      "type": "visink/ObjectCompose",
+      "x": 330,
+      "y": 667,
+      "keys": [
+        {
+          "id": "value",
+          "staticValue": ""
+        },
+        {
+          "id": "op",
+          "staticValue": "\"add\""
+        }
+      ]
+    },
+    {
+      "id": "xjc08far",
+      "type": "visink/WidgetEvent",
+      "x": 45,
+      "y": 876,
+      "widgetId": "8lfn7b16",
+      "eventTypes": [
+        "widget/click"
+      ]
+    },
+    {
+      "id": "wr2uw5pc",
+      "type": "visink/ObjectCompose",
+      "x": 338,
+      "y": 838,
+      "showEventPort": true,
+      "keys": [
+        {
+          "id": "value",
+          "staticValue": "0"
+        },
+        {
+          "id": "op",
+          "staticValue": "\"set\""
+        }
+      ]
+    },
+    {
+      "id": "jzyfj1m1",
+      "type": "visink/EventMerge",
+      "x": 620,
+      "y": 660,
+      "inputCount": 2
+    },
+    {
+      "id": "v29ybxw0",
+      "type": "visink/CustomProgram",
+      "x": 860,
+      "y": 650,
+      "inputs": [
+        {
+          "id": "cmd",
+          "label": "命令"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "text",
+          "label": "文本"
+        }
+      ],
+      "code": "let sum = 0;\nreturn (cmd) => {\n  if (!cmd || typeof cmd !== 'object') return {};\n  if (cmd.op === 'set') sum = Number(cmd.value);\n  else if (cmd.op === 'add') sum += Number(cmd.value);\n  return { text: sum.toFixed(3) };\n};\n"
+    },
+    {
+      "id": "r2spmtup",
+      "type": "visink/WidgetBlock",
+      "x": 1120,
+      "y": 670,
+      "widgetId": "4qcr8gsf",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "y1ncovjj",
+      "type": "visink/ObjectCompose",
+      "x": 339,
+      "y": 1038,
+      "keys": [
+        {
+          "id": "value",
+          "staticValue": ""
+        },
+        {
+          "id": "op",
+          "staticValue": "\"add\""
+        }
+      ]
+    },
+    {
+      "id": "1qphanov",
+      "type": "visink/WidgetEvent",
+      "x": 40,
+      "y": 1030,
+      "widgetId": "4vq37rz9",
+      "eventTypes": [
+        "widget/click"
+      ]
+    },
+    {
+      "id": "q5g6lcyd",
+      "type": "visink/ObjectCompose",
+      "x": 337,
+      "y": 1218,
+      "showEventPort": true,
+      "keys": [
+        {
+          "id": "value",
+          "staticValue": "0"
+        },
+        {
+          "id": "op",
+          "staticValue": "\"set\""
+        }
+      ]
+    },
+    {
+      "id": "lwtl6en4",
+      "type": "visink/EventMerge",
+      "x": 620,
+      "y": 940,
+      "inputCount": 2
+    },
+    {
+      "id": "znzojzir",
+      "type": "visink/CustomProgram",
+      "x": 860,
+      "y": 930,
+      "inputs": [
+        {
+          "id": "cmd",
+          "label": "命令"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "text",
+          "label": "文本"
+        }
+      ],
+      "code": "let sum = 0;\nreturn (cmd) => {\n  if (!cmd || typeof cmd !== 'object') return {};\n  if (cmd.op === 'set') sum = Number(cmd.value);\n  else if (cmd.op === 'add') sum += Number(cmd.value);\n  return { text: sum.toFixed(3) };\n};\n"
+    },
+    {
+      "id": "athx27ia",
+      "type": "visink/WidgetBlock",
+      "x": 1120,
+      "y": 950,
+      "widgetId": "1qp4nyex",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "xawrrh8i",
+      "type": "visink/ObjectCompose",
+      "x": 334,
+      "y": 1420,
+      "keys": [
+        {
+          "id": "value",
+          "staticValue": ""
+        },
+        {
+          "id": "op",
+          "staticValue": "\"add\""
+        }
+      ]
+    },
+    {
+      "id": "ssep1c3z",
+      "type": "visink/WidgetEvent",
+      "x": 80,
+      "y": 1576,
+      "widgetId": "zhpb1727",
+      "eventTypes": [
+        "widget/click"
+      ]
+    },
+    {
+      "id": "xiq40ckf",
+      "type": "visink/ObjectCompose",
+      "x": 340,
+      "y": 1627,
+      "showEventPort": true,
+      "keys": [
+        {
+          "id": "value",
+          "staticValue": "0"
+        },
+        {
+          "id": "op",
+          "staticValue": "\"set\""
+        }
+      ]
+    },
+    {
+      "id": "k3f3732p",
+      "type": "visink/EventMerge",
+      "x": 620,
+      "y": 1220,
+      "inputCount": 2
+    },
+    {
+      "id": "rcrgln1y",
+      "type": "visink/CustomProgram",
+      "x": 860,
+      "y": 1210,
+      "inputs": [
+        {
+          "id": "cmd",
+          "label": "命令"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "text",
+          "label": "文本"
+        }
+      ],
+      "code": "let sum = 0;\nreturn (cmd) => {\n  if (!cmd || typeof cmd !== 'object') return {};\n  if (cmd.op === 'set') sum = Number(cmd.value);\n  else if (cmd.op === 'add') sum += Number(cmd.value);\n  return { text: sum.toFixed(3) };\n};\n"
+    },
+    {
+      "id": "sy4p20a2",
+      "type": "visink/WidgetBlock",
+      "x": 1120,
+      "y": 1230,
+      "widgetId": "6ijyvnny",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    }
+  ],
+  "connections": [
+    {
+      "id": "f3gdikrl",
+      "sourceNodeId": "fqpl1f9a",
+      "sourcePortKey": "lic101",
+      "targetNodeId": "k5thnki4",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "a6btik86",
+      "sourceNodeId": "k5thnki4",
+      "sourcePortKey": "json",
+      "targetNodeId": "i9v5v2b1",
+      "targetPortKey": "in0"
+    },
+    {
+      "id": "yhxubyq1",
+      "sourceNodeId": "xfotutkd",
+      "sourcePortKey": "json",
+      "targetNodeId": "i9v5v2b1",
+      "targetPortKey": "in1"
+    },
+    {
+      "id": "g5k20x2p",
+      "sourceNodeId": "i9v5v2b1",
+      "sourcePortKey": "event",
+      "targetNodeId": "npol1nbw",
+      "targetPortKey": "cmd"
+    },
+    {
+      "id": "f6osj9ss",
+      "sourceNodeId": "npol1nbw",
+      "sourcePortKey": "text",
+      "targetNodeId": "6q5o4tjt",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "zrahtmsn",
+      "sourceNodeId": "fqpl1f9a",
+      "sourcePortKey": "lic102",
+      "targetNodeId": "juzi975m",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "wkmp1vzb",
+      "sourceNodeId": "juzi975m",
+      "sourcePortKey": "json",
+      "targetNodeId": "ejbq3t2q",
+      "targetPortKey": "in0"
+    },
+    {
+      "id": "ly06uuvx",
+      "sourceNodeId": "ckg94ass",
+      "sourcePortKey": "json",
+      "targetNodeId": "ejbq3t2q",
+      "targetPortKey": "in1"
+    },
+    {
+      "id": "ttwrt3vv",
+      "sourceNodeId": "ejbq3t2q",
+      "sourcePortKey": "event",
+      "targetNodeId": "ybtf3fqm",
+      "targetPortKey": "cmd"
+    },
+    {
+      "id": "awpom59n",
+      "sourceNodeId": "ybtf3fqm",
+      "sourcePortKey": "text",
+      "targetNodeId": "6u93vvis",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "v33t1q0i",
+      "sourceNodeId": "fqpl1f9a",
+      "sourcePortKey": "lic103",
+      "targetNodeId": "kv400f2t",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "ksbbg2eu",
+      "sourceNodeId": "kv400f2t",
+      "sourcePortKey": "json",
+      "targetNodeId": "jzyfj1m1",
+      "targetPortKey": "in0"
+    },
+    {
+      "id": "jzxgf86k",
+      "sourceNodeId": "wr2uw5pc",
+      "sourcePortKey": "json",
+      "targetNodeId": "jzyfj1m1",
+      "targetPortKey": "in1"
+    },
+    {
+      "id": "h40veeby",
+      "sourceNodeId": "jzyfj1m1",
+      "sourcePortKey": "event",
+      "targetNodeId": "v29ybxw0",
+      "targetPortKey": "cmd"
+    },
+    {
+      "id": "lm5i69iv",
+      "sourceNodeId": "v29ybxw0",
+      "sourcePortKey": "text",
+      "targetNodeId": "r2spmtup",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "x5x7ttab",
+      "sourceNodeId": "fqpl1f9a",
+      "sourcePortKey": "lic104",
+      "targetNodeId": "y1ncovjj",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "oiiganev",
+      "sourceNodeId": "y1ncovjj",
+      "sourcePortKey": "json",
+      "targetNodeId": "lwtl6en4",
+      "targetPortKey": "in0"
+    },
+    {
+      "id": "led8i1q8",
+      "sourceNodeId": "q5g6lcyd",
+      "sourcePortKey": "json",
+      "targetNodeId": "lwtl6en4",
+      "targetPortKey": "in1"
+    },
+    {
+      "id": "t22wjz0a",
+      "sourceNodeId": "lwtl6en4",
+      "sourcePortKey": "event",
+      "targetNodeId": "znzojzir",
+      "targetPortKey": "cmd"
+    },
+    {
+      "id": "ca4iehnm",
+      "sourceNodeId": "znzojzir",
+      "sourcePortKey": "text",
+      "targetNodeId": "athx27ia",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "aa2u9lbs",
+      "sourceNodeId": "fqpl1f9a",
+      "sourcePortKey": "lic105",
+      "targetNodeId": "xawrrh8i",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "t59zjt7d",
+      "sourceNodeId": "xawrrh8i",
+      "sourcePortKey": "json",
+      "targetNodeId": "k3f3732p",
+      "targetPortKey": "in0"
+    },
+    {
+      "id": "nvvijcha",
+      "sourceNodeId": "xiq40ckf",
+      "sourcePortKey": "json",
+      "targetNodeId": "k3f3732p",
+      "targetPortKey": "in1"
+    },
+    {
+      "id": "c9qf87t8",
+      "sourceNodeId": "k3f3732p",
+      "sourcePortKey": "event",
+      "targetNodeId": "rcrgln1y",
+      "targetPortKey": "cmd"
+    },
+    {
+      "id": "mz9egihd",
+      "sourceNodeId": "rcrgln1y",
+      "sourcePortKey": "text",
+      "targetNodeId": "sy4p20a2",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "bag3qc0o",
+      "sourceNodeId": "ssep1c3z",
+      "sourcePortKey": "widget/click",
+      "targetNodeId": "xiq40ckf",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "6uor2g0c",
+      "sourceNodeId": "1qphanov",
+      "sourcePortKey": "widget/click",
+      "targetNodeId": "q5g6lcyd",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "fykwuojc",
+      "sourceNodeId": "xjc08far",
+      "sourcePortKey": "widget/click",
+      "targetNodeId": "wr2uw5pc",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "yqnzdrbd",
+      "sourceNodeId": "1l2n1yqs",
+      "sourcePortKey": "widget/click",
+      "targetNodeId": "ckg94ass",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "d3d3c7zu",
+      "sourceNodeId": "71o447pc",
+      "sourcePortKey": "widget/click",
+      "targetNodeId": "xfotutkd",
+      "targetPortKey": "event"
+    }
+  ],
+  "comments": []
+}

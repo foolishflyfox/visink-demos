@@ -10,27 +10,27 @@
     {
       "id": "2a10i9g9",
       "type": "visink/WidgetEvent",
-      "x": 67,
-      "y": 164,
+      "x": 70,
+      "y": 189,
       "widgetId": "bb9xs2vu",
-      "eventType": "widget/mousedown"
-    },
-    {
-      "id": "1cfegxa2",
-      "type": "visink/WidgetEvent",
-      "x": 68,
-      "y": 307,
-      "widgetId": "bb9xs2vu",
-      "eventType": "widget/mouseup"
+      "eventTypes": [
+        "widget/mousedown",
+        "widget/mouseup"
+      ]
     },
     {
       "id": "0wlgijrt",
       "type": "visink/MeasurementWrite",
       "x": 647,
       "y": 271,
-      "pointId": "100001",
-      "nameZh": "按钮按下",
-      "nameEn": "Button pressed"
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "100001",
+          "nameZh": "按钮按下",
+          "nameEn": "Button pressed"
+        }
+      ]
     },
     {
       "id": "qshowkl7",
@@ -67,20 +67,6 @@
   ],
   "connections": [
     {
-      "id": "rhc5zd34",
-      "sourceNodeId": "2a10i9g9",
-      "sourcePortKey": "event",
-      "targetNodeId": "bcnwx8rp",
-      "targetPortKey": "in0"
-    },
-    {
-      "id": "qpkmsxyl",
-      "sourceNodeId": "1cfegxa2",
-      "sourcePortKey": "event",
-      "targetNodeId": "bcnwx8rp",
-      "targetPortKey": "in1"
-    },
-    {
       "id": "nqiu29vd",
       "sourceNodeId": "bcnwx8rp",
       "sourcePortKey": "event",
@@ -100,6 +86,21 @@
       "sourcePortKey": "num",
       "targetNodeId": "qshowkl7",
       "targetPortKey": "status"
+    },
+    {
+      "id": "wti2a3fe",
+      "sourceNodeId": "2a10i9g9",
+      "sourcePortKey": "widget/mousedown",
+      "targetNodeId": "bcnwx8rp",
+      "targetPortKey": "in0"
+    },
+    {
+      "id": "8my8i3xy",
+      "sourceNodeId": "2a10i9g9",
+      "sourcePortKey": "widget/mouseup",
+      "targetNodeId": "bcnwx8rp",
+      "targetPortKey": "in1"
     }
-  ]
+  ],
+  "comments": []
 }

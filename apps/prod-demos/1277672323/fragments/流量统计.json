@@ -505,32 +505,6 @@
       }
     }
   ],
-  "variables": [
-    {
-      "id": "0p5b0hkq",
-      "label": "LIC101Sum",
-      "defaultValue": 0
-    },
-    {
-      "id": "nautxdv5",
-      "label": "LIC102Sum",
-      "defaultValue": 0
-    },
-    {
-      "id": "nvrtndu7",
-      "label": "LIC103Sum",
-      "defaultValue": 0
-    },
-    {
-      "id": "prod0dys",
-      "label": "LIC104Sum",
-      "defaultValue": 0
-    },
-    {
-      "id": "myfs7fqw",
-      "label": "LIC105Sum",
-      "defaultValue": 0
-    }
-  ],
+  "variables": [],
   "inputs": []
 }

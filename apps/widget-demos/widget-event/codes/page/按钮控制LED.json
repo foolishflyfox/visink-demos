@@ -40,28 +40,16 @@
     {
       "id": "q59tegrq",
       "type": "visink/WidgetEvent",
-      "x": 44,
-      "y": 142,
+      "x": 30,
+      "y": 230,
       "widgetId": "ggc8muep",
-      "eventType": "widget/mousedown"
-    },
-    {
-      "id": "vkshuidi",
-      "type": "visink/WidgetEvent",
-      "x": 41,
-      "y": 322,
-      "widgetId": "ggc8muep",
-      "eventType": "widget/mouseup"
+      "eventTypes": [
+        "widget/mousedown",
+        "widget/mouseup"
+      ]
     }
   ],
   "connections": [
-    {
-      "id": "zaojb4k2",
-      "sourceNodeId": "q59tegrq",
-      "sourcePortKey": "event",
-      "targetNodeId": "qlzf2axh",
-      "targetPortKey": "event"
-    },
     {
       "id": "xbo7ebmf",
       "sourceNodeId": "qlzf2axh",
@@ -70,25 +58,33 @@
       "targetPortKey": "status"
     },
     {
-      "id": "rofqvc6f",
-      "sourceNodeId": "vkshuidi",
-      "sourcePortKey": "event",
-      "targetNodeId": "hkejeqpg",
-      "targetPortKey": "in1"
-    },
-    {
-      "id": "0u3za5fr",
-      "sourceNodeId": "q59tegrq",
-      "sourcePortKey": "event",
-      "targetNodeId": "hkejeqpg",
-      "targetPortKey": "in0"
-    },
-    {
       "id": "kgoukii4",
       "sourceNodeId": "hkejeqpg",
       "sourcePortKey": "event",
       "targetNodeId": "l9exh6mv",
       "targetPortKey": "status"
+    },
+    {
+      "id": "cxugm4xh",
+      "sourceNodeId": "q59tegrq",
+      "sourcePortKey": "widget/mousedown",
+      "targetNodeId": "qlzf2axh",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "epdwy14o",
+      "sourceNodeId": "q59tegrq",
+      "sourcePortKey": "widget/mousedown",
+      "targetNodeId": "hkejeqpg",
+      "targetPortKey": "in0"
+    },
+    {
+      "id": "mj4ifvtv",
+      "sourceNodeId": "q59tegrq",
+      "sourcePortKey": "widget/mouseup",
+      "targetNodeId": "hkejeqpg",
+      "targetPortKey": "in1"
     }
-  ]
+  ],
+  "comments": []
 }
