@@ -8,5 +8,7 @@ apps/my-apps/
 
 my-widgets/
 
+logs/
+
 .DS_Store
 
