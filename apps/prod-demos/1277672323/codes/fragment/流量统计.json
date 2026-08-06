@@ -3,8 +3,8 @@
     {
       "id": "fqpl1f9a",
       "type": "visink/MeasurementValue",
-      "x": 40,
-      "y": 40,
+      "x": 50,
+      "y": 175,
       "outputs": [
         {
           "id": "lic101",
@@ -44,79 +44,20 @@
       ]
     },
     {
-      "id": "k5thnki4",
-      "type": "visink/ObjectCompose",
-      "x": 330,
-      "y": 30,
-      "keys": [
-        {
-          "id": "value",
-          "staticValue": ""
-        },
-        {
-          "id": "op",
-          "staticValue": "\"add\""
-        }
-      ]
-    },
-    {
       "id": "71o447pc",
       "type": "visink/WidgetEvent",
-      "x": 44,
-      "y": 302,
+      "x": 271,
+      "y": 60,
       "widgetId": "wud68hwv",
       "eventTypes": [
         "widget/click"
       ]
     },
     {
-      "id": "xfotutkd",
-      "type": "visink/ObjectCompose",
-      "x": 330,
-      "y": 173,
-      "showEventPort": true,
-      "keys": [
-        {
-          "id": "value",
-          "staticValue": "0"
-        },
-        {
-          "id": "op",
-          "staticValue": "\"set\""
-        }
-      ]
-    },
-    {
-      "id": "i9v5v2b1",
-      "type": "visink/EventMerge",
-      "x": 620,
-      "y": 100,
-      "inputCount": 2
-    },
-    {
-      "id": "npol1nbw",
-      "type": "visink/CustomProgram",
-      "x": 860,
-      "y": 90,
-      "inputs": [
-        {
-          "id": "cmd",
-          "label": "命令"
-        }
-      ],
-      "outputs": [
-        {
-          "id": "text",
-          "label": "文本"
-        }
-      ],
-      "code": "let sum = 0;\nreturn (cmd) => {\n  if (!cmd || typeof cmd !== 'object') return {};\n  if (cmd.op === 'set') sum = Number(cmd.value);\n  else if (cmd.op === 'add') sum += Number(cmd.value);\n  return { text: sum.toFixed(3) };\n};\n"
-    },
-    {
       "id": "6q5o4tjt",
       "type": "visink/WidgetBlock",
-      "x": 1120,
-      "y": 110,
+      "x": 964,
+      "y": 141,
       "widgetId": "fh7hvps1",
       "dynamicPropKeys": [
         "content"
@@ -442,44 +383,36 @@
         "content"
       ],
       "widgetType": "visink/Text"
+    },
+    {
+      "id": "je2veyju",
+      "type": "visink/Accumulator",
+      "x": 713,
+      "y": 73,
+      "defaultValue": 0
+    },
+    {
+      "id": "otr7oq8t",
+      "type": "visink/NumberConstant",
+      "x": 488,
+      "y": 55,
+      "showEventPort": true,
+      "value": 0,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "iu6cwd4r",
+      "type": "visink/StringToNumber",
+      "x": 484,
+      "y": 192
     }
   ],
   "connections": [
-    {
-      "id": "f3gdikrl",
-      "sourceNodeId": "fqpl1f9a",
-      "sourcePortKey": "lic101",
-      "targetNodeId": "k5thnki4",
-      "targetPortKey": "value"
-    },
-    {
-      "id": "a6btik86",
-      "sourceNodeId": "k5thnki4",
-      "sourcePortKey": "json",
-      "targetNodeId": "i9v5v2b1",
-      "targetPortKey": "in0"
-    },
-    {
-      "id": "yhxubyq1",
-      "sourceNodeId": "xfotutkd",
-      "sourcePortKey": "json",
-      "targetNodeId": "i9v5v2b1",
-      "targetPortKey": "in1"
-    },
-    {
-      "id": "g5k20x2p",
-      "sourceNodeId": "i9v5v2b1",
-      "sourcePortKey": "event",
-      "targetNodeId": "npol1nbw",
-      "targetPortKey": "cmd"
-    },
-    {
-      "id": "f6osj9ss",
-      "sourceNodeId": "npol1nbw",
-      "sourcePortKey": "text",
-      "targetNodeId": "6q5o4tjt",
-      "targetPortKey": "content"
-    },
     {
       "id": "zrahtmsn",
       "sourceNodeId": "fqpl1f9a",
@@ -649,11 +582,39 @@
       "targetPortKey": "event"
     },
     {
-      "id": "d3d3c7zu",
+      "id": "1h5i9paf",
       "sourceNodeId": "71o447pc",
       "sourcePortKey": "widget/click",
-      "targetNodeId": "xfotutkd",
+      "targetNodeId": "otr7oq8t",
       "targetPortKey": "event"
+    },
+    {
+      "id": "omc7pp3v",
+      "sourceNodeId": "je2veyju",
+      "sourcePortKey": "value",
+      "targetNodeId": "6q5o4tjt",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "dfp4spy2",
+      "sourceNodeId": "fqpl1f9a",
+      "sourcePortKey": "lic101",
+      "targetNodeId": "iu6cwd4r",
+      "targetPortKey": "str"
+    },
+    {
+      "id": "0afk51bh",
+      "sourceNodeId": "iu6cwd4r",
+      "sourcePortKey": "num",
+      "targetNodeId": "je2veyju",
+      "targetPortKey": "add"
+    },
+    {
+      "id": "qm9lxba2",
+      "sourceNodeId": "otr7oq8t",
+      "sourcePortKey": "value",
+      "targetNodeId": "je2veyju",
+      "targetPortKey": "reset"
     }
   ],
   "comments": []
