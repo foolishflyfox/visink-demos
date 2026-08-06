@@ -46,8 +46,8 @@
     {
       "id": "71o447pc",
       "type": "visink/WidgetEvent",
-      "x": 271,
-      "y": 60,
+      "x": 109,
+      "y": 47,
       "widgetId": "wud68hwv",
       "eventTypes": [
         "widget/click"
@@ -394,8 +394,8 @@
     {
       "id": "otr7oq8t",
       "type": "visink/NumberConstant",
-      "x": 488,
-      "y": 55,
+      "x": 380,
+      "y": 40,
       "showEventPort": true,
       "value": 0,
       "outputs": [
@@ -404,12 +404,6 @@
           "value": 0
         }
       ]
-    },
-    {
-      "id": "iu6cwd4r",
-      "type": "visink/StringToNumber",
-      "x": 484,
-      "y": 192
     }
   ],
   "connections": [
@@ -596,25 +590,18 @@
       "targetPortKey": "content"
     },
     {
-      "id": "dfp4spy2",
-      "sourceNodeId": "fqpl1f9a",
-      "sourcePortKey": "lic101",
-      "targetNodeId": "iu6cwd4r",
-      "targetPortKey": "str"
-    },
-    {
-      "id": "0afk51bh",
-      "sourceNodeId": "iu6cwd4r",
-      "sourcePortKey": "num",
-      "targetNodeId": "je2veyju",
-      "targetPortKey": "add"
-    },
-    {
       "id": "qm9lxba2",
       "sourceNodeId": "otr7oq8t",
       "sourcePortKey": "value",
       "targetNodeId": "je2veyju",
       "targetPortKey": "reset"
+    },
+    {
+      "id": "1hpv6981",
+      "sourceNodeId": "fqpl1f9a",
+      "sourcePortKey": "lic101",
+      "targetNodeId": "je2veyju",
+      "targetPortKey": "add"
     }
   ],
   "comments": []
