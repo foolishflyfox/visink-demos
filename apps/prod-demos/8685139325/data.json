@@ -1,0 +1,24 @@
+{
+  "pages": {
+    "q5ewifi3u2y3": {
+      "path": "总览.json"
+    },
+    "52k68m1hmioo": {
+      "path": "灌溉施肥.json"
+    },
+    "lv3k9847m3ij": {
+      "path": "环境监测.json"
+    },
+    "xp3q0r4eh6em": {
+      "path": "报警中心.json"
+    },
+    "y90gants4wku": {
+      "path": "趋势报表.json"
+    }
+  },
+  "fragments": {
+    "hahze883ol0o": {
+      "path": "页面菜单.json"
+    }
+  }
+}

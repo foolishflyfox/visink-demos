@@ -1,0 +1,35 @@
+{
+  "widgets": [
+    {
+      "className": "visink/FragmentInstance",
+      "data": {
+        "id": "q83s6i3p",
+        "fragmentId": "hahze883ol0o",
+        "x": 0,
+        "y": 0,
+        "name": "页面菜单",
+        "visible": true,
+        "locked": true
+      }
+    },
+    {
+      "className": "visink/Button3D",
+      "data": {
+        "id": "oxrk54tg",
+        "codeLabel": "3D按钮-oiumob",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 183.17241379310346,
+        "y": 159.17241379310346,
+        "width": 64,
+        "height": 64,
+        "buttonColor": "#ff0000",
+        "bezelColor": "#dedede",
+        "isToggle": true,
+        "dynamicProps": []
+      }
+    }
+  ],
+  "variables": []
+}

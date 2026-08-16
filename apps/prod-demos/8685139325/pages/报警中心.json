@@ -1,0 +1,16 @@
+{
+  "widgets": [
+    {
+      "className": "visink/FragmentInstance",
+      "data": {
+        "id": "nf5wbsag",
+        "fragmentId": "hahze883ol0o",
+        "x": 0,
+        "y": 0,
+        "name": "页面菜单",
+        "visible": true
+      }
+    }
+  ],
+  "variables": []
+}

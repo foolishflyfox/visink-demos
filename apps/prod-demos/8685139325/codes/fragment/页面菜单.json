@@ -1,0 +1,179 @@
+{
+  "nodes": [
+    {
+      "id": "7qzb4dv6",
+      "type": "visink/WidgetBlock",
+      "x": 806,
+      "y": 319,
+      "widgetId": "cp0jm1k1",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "stlnof57",
+      "type": "visink/DateTimestamp",
+      "x": 288,
+      "y": 345,
+      "showEventPort": true,
+      "format": "YYYY-MM-DD HH:mm:ss"
+    },
+    {
+      "id": "xrxh2i8f",
+      "type": "visink/StringSplit",
+      "x": 535,
+      "y": 323,
+      "separator": " ",
+      "outputCount": 2
+    },
+    {
+      "id": "2x58lya7",
+      "type": "visink/IntervalTimer",
+      "x": 50,
+      "y": 344,
+      "interval": 1,
+      "unit": "s",
+      "immediate": true
+    },
+    {
+      "id": "jhzh3dfc",
+      "type": "visink/WidgetBlock",
+      "x": 811,
+      "y": 447,
+      "widgetId": "ygfdt33m",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "fragment-input",
+      "type": "visink/FragmentInput",
+      "x": 49,
+      "y": 127
+    },
+    {
+      "id": "mfxf4ore",
+      "type": "visink/WidgetBlock",
+      "x": 566,
+      "y": 34,
+      "widgetId": "ghnx1r6s",
+      "dynamicPropKeys": [
+        "activeKey"
+      ],
+      "widgetType": "visink/TabHeader"
+    },
+    {
+      "id": "0atq7487",
+      "type": "visink/PageIdToName",
+      "x": 320,
+      "y": 82,
+      "direction": "idToName"
+    },
+    {
+      "id": "5ks00u0f",
+      "type": "visink/PageNavigate",
+      "x": 574,
+      "y": 620
+    },
+    {
+      "id": "z3gq7b07",
+      "type": "visink/WidgetEvent",
+      "x": 64,
+      "y": 597,
+      "widgetId": "ghnx1r6s",
+      "eventTypes": [
+        "widget/click"
+      ]
+    },
+    {
+      "id": "w4sazq3z",
+      "type": "visink/PageIdToName",
+      "x": 300,
+      "y": 570,
+      "direction": "nameToId"
+    }
+  ],
+  "connections": [
+    {
+      "id": "apd5ex5c",
+      "sourceNodeId": "stlnof57",
+      "sourcePortKey": "value",
+      "targetNodeId": "xrxh2i8f",
+      "targetPortKey": "str"
+    },
+    {
+      "id": "9vfkw3lm",
+      "sourceNodeId": "xrxh2i8f",
+      "sourcePortKey": "out0",
+      "targetNodeId": "7qzb4dv6",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "qbe88hd2",
+      "sourceNodeId": "2x58lya7",
+      "sourcePortKey": "event",
+      "targetNodeId": "stlnof57",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "ov78qrd9",
+      "sourceNodeId": "xrxh2i8f",
+      "sourcePortKey": "out1",
+      "targetNodeId": "jhzh3dfc",
+      "targetPortKey": "content"
+    },
+    {
+      "id": "o2m4ljxi",
+      "sourceNodeId": "fragment-input",
+      "sourcePortKey": "sdtg236l",
+      "targetNodeId": "0atq7487",
+      "targetPortKey": "pageId"
+    },
+    {
+      "id": "6v2gre9p",
+      "sourceNodeId": "0atq7487",
+      "sourcePortKey": "pageName",
+      "targetNodeId": "mfxf4ore",
+      "targetPortKey": "activeKey"
+    },
+    {
+      "id": "tpybyhkw",
+      "sourceNodeId": "z3gq7b07",
+      "sourcePortKey": "widget/click",
+      "targetNodeId": "w4sazq3z",
+      "targetPortKey": "pageName"
+    },
+    {
+      "id": "f0ky4auc",
+      "sourceNodeId": "w4sazq3z",
+      "sourcePortKey": "pageId",
+      "targetNodeId": "5ks00u0f",
+      "targetPortKey": "pageId"
+    }
+  ],
+  "comments": [
+    {
+      "id": "l4vbz5tr",
+      "x": 47.21198658246453,
+      "y": 252.99999999999028,
+      "width": 232,
+      "text": "设置日期与时间"
+    },
+    {
+      "id": "gf02njuk",
+      "x": 48,
+      "y": 43,
+      "width": 240,
+      "text": "设置当前菜单项的值"
+    },
+    {
+      "id": "070dxjca",
+      "x": 44,
+      "y": 504,
+      "width": 240,
+      "text": "修改选项头的值，切换页面"
+    }
+  ]
+}

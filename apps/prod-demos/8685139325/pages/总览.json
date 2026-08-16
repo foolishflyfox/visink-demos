@@ -1,0 +1,47 @@
+{
+  "widgets": [
+    {
+      "className": "visink/FragmentInstance",
+      "data": {
+        "id": "q83s6i3p",
+        "fragmentId": "hahze883ol0o",
+        "x": 0,
+        "y": 0,
+        "name": "页面菜单",
+        "visible": true,
+        "locked": true
+      }
+    },
+    {
+      "className": "visink/Button",
+      "data": {
+        "id": "0trapq44",
+        "codeLabel": "按钮-hpcten",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 140.13793103448276,
+        "y": 145.93103448275863,
+        "width": 120,
+        "height": 40,
+        "label": "按钮",
+        "iconSvg": "",
+        "iconLeftDistance": 8,
+        "iconSize": 16,
+        "isToggle": false,
+        "fontSize": 14,
+        "bgColor": "#4a90d9",
+        "labelColor": "#ffffff",
+        "followStateColors": true,
+        "hoverBgColor": "#256ab1",
+        "hoverLabelColor": "#ffffff",
+        "pressedBgColor": "#184472",
+        "pressedLabelColor": "#ffffff",
+        "stateColorReset": "",
+        "borderRadius": 6,
+        "dynamicProps": []
+      }
+    }
+  ],
+  "variables": []
+}

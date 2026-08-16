@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "t90sv7p5",
+      "type": "visink/FragmentInstanceBlock",
+      "x": 316,
+      "y": 69,
+      "widgetId": "q83s6i3p",
+      "fragmentId": "hahze883ol0o"
+    },
+    {
+      "id": "ui659lw9",
+      "type": "visink/PageInfo",
+      "x": 55,
+      "y": 70,
+      "showPageId": true,
+      "showPageName": false
+    }
+  ],
+  "connections": [
+    {
+      "id": "sfr5n79o",
+      "sourceNodeId": "ui659lw9",
+      "sourcePortKey": "pageId",
+      "targetNodeId": "t90sv7p5",
+      "targetPortKey": "sdtg236l"
+    }
+  ],
+  "comments": []
+}
