@@ -11,10 +11,10 @@
     {
       "id": "ywjecctf",
       "type": "visink/PageInfo",
-      "x": 106,
-      "y": 136,
-      "showPageName": false,
-      "showPageId": true
+      "x": 116,
+      "y": 124,
+      "showPageId": true,
+      "showPageName": false
     }
   ],
   "connections": [

@@ -13,33 +13,814 @@
       }
     },
     {
-      "className": "visink/Button",
+      "className": "visink/CanvasRectangle",
       "data": {
-        "id": "0trapq44",
-        "codeLabel": "按钮-hpcten",
+        "id": "nz01664a",
+        "x": 277.41459386634995,
+        "y": 231.1009852312911,
+        "width": 508.19917925195904,
+        "height": 293.67189997211517,
+        "rotation": 0,
+        "offsetX": 254.09958962597952,
+        "offsetY": 146.83594998605759,
+        "stroke": "#9CA3AF",
+        "fill": "hsla(0, 0%, 96%, 1)",
+        "strokeWidth": 1,
+        "cornerRadius": 5,
+        "codeLabel": "矩形-yhzv35",
+        "showCodeNode": false,
+        "dynamicProps": [],
+        "isLocked": true
+      }
+    },
+    {
+      "className": "visink/CanvasRectangle",
+      "data": {
+        "id": "qk76sg65",
+        "x": 277.3985962643351,
+        "y": 539.0688324624741,
+        "width": 508.19917925195904,
+        "height": 293.67189997211517,
+        "rotation": 0,
+        "offsetX": 254.09958962597952,
+        "offsetY": 146.83594998605759,
+        "stroke": "#9CA3AF",
+        "fill": "hsla(0, 0%, 96%, 1)",
+        "strokeWidth": 1,
+        "cornerRadius": 5,
+        "codeLabel": "矩形-f084pw",
+        "showCodeNode": false,
+        "dynamicProps": [],
+        "isLocked": true
+      }
+    },
+    {
+      "className": "visink/CanvasRectangle",
+      "data": {
+        "id": "dqro0kmj",
+        "x": 801.8813548850248,
+        "y": 231.1009852312911,
+        "width": 508.19917925195904,
+        "height": 293.67189997211517,
+        "rotation": 0,
+        "offsetX": 254.09958962597952,
+        "offsetY": 146.83594998605759,
+        "stroke": "#9CA3AF",
+        "fill": "hsla(0, 0%, 96%, 1)",
+        "strokeWidth": 1,
+        "cornerRadius": 5,
+        "codeLabel": "矩形-0nyxme",
+        "showCodeNode": false,
+        "dynamicProps": [],
+        "isLocked": true
+      }
+    },
+    {
+      "className": "visink/CanvasRectangle",
+      "data": {
+        "id": "7gtzwdka",
+        "x": 801.8813548850248,
+        "y": 539.0688324624741,
+        "width": 508.19917925195904,
+        "height": 293.67189997211517,
+        "rotation": 0,
+        "offsetX": 254.09958962597952,
+        "offsetY": 146.83594998605759,
+        "stroke": "#9CA3AF",
+        "fill": "hsla(0, 0%, 96%, 1)",
+        "strokeWidth": 1,
+        "cornerRadius": 5,
+        "codeLabel": "矩形-syev6w",
+        "showCodeNode": false,
+        "dynamicProps": [],
+        "isLocked": true
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "l823wexv",
+        "codeLabel": "一号种植园",
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
-        "x": 140.13793103448276,
-        "y": 145.93103448275863,
-        "width": 120,
-        "height": 40,
-        "label": "按钮",
-        "iconSvg": "",
-        "iconLeftDistance": 8,
-        "iconSize": 16,
-        "isToggle": false,
-        "fontSize": 14,
-        "bgColor": "#4a90d9",
-        "labelColor": "#ffffff",
-        "followStateColors": true,
-        "hoverBgColor": "#256ab1",
-        "hoverLabelColor": "#ffffff",
-        "pressedBgColor": "#184472",
-        "pressedLabelColor": "#ffffff",
-        "stateColorReset": "",
-        "borderRadius": 6,
+        "x": 34.20689655172415,
+        "y": 94.06896551724142,
+        "content": "一号种植园",
+        "fontSize": 24,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#434343",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "f2fwybgu",
+        "codeLabel": "二号种植园",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 568.2758620689656,
+        "y": 98.48275862068971,
+        "content": "二号种植园",
+        "fontSize": 24,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#434343",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "9dkv1u50",
+        "codeLabel": "三号种植园",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 37.51724137931036,
+        "y": 409.6551724137932,
+        "content": "三号种植园",
+        "fontSize": 24,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#434343",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "im6hmxcu",
+        "codeLabel": "四号种植园",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 563.8620689655173,
+        "y": 410.75862068965523,
+        "content": "四号种植园",
+        "fontSize": 24,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#434343",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasImage",
+      "data": {
+        "id": "mdpjskgd",
+        "x": 144.2677540837331,
+        "y": 255.5780989113223,
+        "width": 233.36309437436103,
+        "height": 233.36309437436094,
+        "rotation": 0,
+        "offsetX": 116.68154718718051,
+        "offsetY": 116.68154718718047,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "图片-wd3u7v",
+        "showCodeNode": false,
+        "assetPath": "my-resources/葡萄类型/夏黑葡萄.webp",
         "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasImage",
+      "data": {
+        "id": "b5cu18z7",
+        "x": 670.6125816699392,
+        "y": 250.47465063545633,
+        "width": 233.36309437436103,
+        "height": 233.36309437436094,
+        "rotation": 0,
+        "offsetX": 116.68154718718051,
+        "offsetY": 116.68154718718047,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "图片-cifsxj",
+        "showCodeNode": false,
+        "assetPath": "my-resources/葡萄类型/巨峰葡萄.webp",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasImage",
+      "data": {
+        "id": "sln16nlo",
+        "x": 149.78499546304258,
+        "y": 570.4746506354563,
+        "width": 233.36309437436103,
+        "height": 233.36309437436094,
+        "rotation": 0,
+        "offsetX": 116.68154718718051,
+        "offsetY": 116.68154718718047,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "图片-pt3kyl",
+        "showCodeNode": false,
+        "assetPath": "my-resources/葡萄类型/玫瑰香.webp",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasImage",
+      "data": {
+        "id": "f0mfy6u0",
+        "x": 678.3367196009737,
+        "y": 560.5436161526976,
+        "width": 233.36309437436103,
+        "height": 233.36309437436094,
+        "rotation": 0,
+        "offsetX": 116.68154718718051,
+        "offsetY": 116.68154718718047,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "图片-l11mpb",
+        "showCodeNode": false,
+        "assetPath": "my-resources/葡萄类型/蓝宝石葡萄.webp",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Group",
+      "data": {
+        "id": "znu6j8oe",
+        "x": 35.31034482758621,
+        "y": -55.172413793103445,
+        "name": "组合 1",
+        "visible": true,
+        "children": [
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "y434yx05",
+              "codeLabel": "品种：",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 295.72413793103453,
+              "y": 151.44827586206898,
+              "content": "品种：",
+              "fontSize": 16,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#333333",
+              "textAlign": "right",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 0,
+              "fixedWidth": 70,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(179, 212, 245, 1)",
+              "codeLabelManual": false,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "lywlv2fj",
+              "codeLabel": "夏黑",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 365.5517241379311,
+              "y": 151.44827586206898,
+              "content": "夏黑",
+              "fontSize": 16,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#333333",
+              "textAlign": "left",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 0,
+              "fixedWidth": 120,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(244, 227, 193, 1)",
+              "codeLabelManual": false,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "yhgx6k98",
+              "codeLabel": "面积：",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 295.22413793103453,
+              "y": 180.44827586206898,
+              "content": "面积：",
+              "fontSize": 16,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#333333",
+              "textAlign": "right",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 0,
+              "fixedWidth": 70,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(179, 212, 245, 1)",
+              "codeLabelManual": false,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "vdpvo8tl",
+              "codeLabel": "23亩",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 365.0517241379311,
+              "y": 180.44827586206898,
+              "content": "23亩",
+              "fontSize": 16,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#333333",
+              "textAlign": "left",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 0,
+              "fixedWidth": 120,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(244, 227, 193, 1)",
+              "codeLabelManual": false,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "className": "visink/Group",
+      "data": {
+        "id": "cp2irun6",
+        "x": 561.8275862068965,
+        "y": -57.31034482758619,
+        "name": "组合 1",
+        "visible": true,
+        "children": [
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "fa14o6h6",
+              "codeLabel": "品种：-ksd6mz",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 295.72413793103453,
+              "y": 151.44827586206898,
+              "content": "品种：",
+              "fontSize": 16,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#333333",
+              "textAlign": "right",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 0,
+              "fixedWidth": 70,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(179, 212, 245, 1)",
+              "codeLabelManual": false,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "4j6au9ac",
+              "codeLabel": "巨峰",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 365.5517241379311,
+              "y": 151.44827586206898,
+              "content": "巨峰",
+              "fontSize": 16,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#333333",
+              "textAlign": "left",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 0,
+              "fixedWidth": 120,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(244, 227, 193, 1)",
+              "codeLabelManual": false,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "ld29agrh",
+              "codeLabel": "面积：-yg1953",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 295.22413793103453,
+              "y": 180.44827586206898,
+              "content": "面积：",
+              "fontSize": 16,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#333333",
+              "textAlign": "right",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 0,
+              "fixedWidth": 70,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(179, 212, 245, 1)",
+              "codeLabelManual": false,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "3lmi4loh",
+              "codeLabel": "37亩",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 365.0517241379311,
+              "y": 180.44827586206898,
+              "content": "37亩",
+              "fontSize": 16,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#333333",
+              "textAlign": "left",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 0,
+              "fixedWidth": 120,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(244, 227, 193, 1)",
+              "codeLabelManual": false,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          }
+        ],
+        "codeLabel": "组合-o5dv49"
+      }
+    },
+    {
+      "className": "visink/Group",
+      "data": {
+        "id": "by39jqau",
+        "x": 29.793103448275865,
+        "y": 252.68965517241384,
+        "name": "组合 1",
+        "visible": true,
+        "children": [
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "uyxe2ccf",
+              "codeLabel": "品种：-gftwjq",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 295.72413793103453,
+              "y": 151.44827586206898,
+              "content": "品种：",
+              "fontSize": 16,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#333333",
+              "textAlign": "right",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 0,
+              "fixedWidth": 70,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(179, 212, 245, 1)",
+              "codeLabelManual": false,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "svr0d8ag",
+              "codeLabel": "玫瑰香",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 365.5517241379311,
+              "y": 151.44827586206898,
+              "content": "玫瑰香",
+              "fontSize": 16,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#333333",
+              "textAlign": "left",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 0,
+              "fixedWidth": 120,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(244, 227, 193, 1)",
+              "codeLabelManual": false,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "hifhhcg0",
+              "codeLabel": "面积：-7ugtwg",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 295.22413793103453,
+              "y": 180.44827586206898,
+              "content": "面积：",
+              "fontSize": 16,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#333333",
+              "textAlign": "right",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 0,
+              "fixedWidth": 70,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(179, 212, 245, 1)",
+              "codeLabelManual": false,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "1fw31psw",
+              "codeLabel": "28亩",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 365.0517241379311,
+              "y": 180.44827586206898,
+              "content": "28亩",
+              "fontSize": 16,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#333333",
+              "textAlign": "left",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 0,
+              "fixedWidth": 120,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(244, 227, 193, 1)",
+              "codeLabelManual": false,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          }
+        ],
+        "codeLabel": "组合-sy2paz"
+      }
+    },
+    {
+      "className": "visink/Group",
+      "data": {
+        "id": "zmvfycmv",
+        "x": 557.2413793103449,
+        "y": 251.58620689655174,
+        "name": "组合 1",
+        "visible": true,
+        "children": [
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "brij73sx",
+              "codeLabel": "品种：-kem4jt",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 295.72413793103453,
+              "y": 151.44827586206898,
+              "content": "品种：",
+              "fontSize": 16,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#333333",
+              "textAlign": "right",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 0,
+              "fixedWidth": 70,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(179, 212, 245, 1)",
+              "codeLabelManual": false,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "ztsfe3sl",
+              "codeLabel": "蓝宝石",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 365.5517241379311,
+              "y": 151.44827586206898,
+              "content": "蓝宝石",
+              "fontSize": 16,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#333333",
+              "textAlign": "left",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 0,
+              "fixedWidth": 120,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(244, 227, 193, 1)",
+              "codeLabelManual": false,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "xp9h5gsg",
+              "codeLabel": "面积：-569als",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 295.22413793103453,
+              "y": 180.44827586206898,
+              "content": "面积：",
+              "fontSize": 16,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#333333",
+              "textAlign": "right",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 0,
+              "fixedWidth": 70,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(179, 212, 245, 1)",
+              "codeLabelManual": false,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          },
+          {
+            "className": "visink/Text",
+            "data": {
+              "id": "0apzz3ob",
+              "codeLabel": "19亩",
+              "showCodeNode": false,
+              "isVisible": true,
+              "isLocked": false,
+              "x": 365.0517241379311,
+              "y": 180.44827586206898,
+              "content": "19亩",
+              "fontSize": 16,
+              "fontFamily": "sans-serif",
+              "bold": true,
+              "italic": false,
+              "fontColor": "#333333",
+              "textAlign": "left",
+              "padding": "2,3",
+              "borderWidth": 0,
+              "borderColor": "#333333",
+              "borderRadius": 0,
+              "fixedWidth": 120,
+              "fixedHeight": 0,
+              "backgroundColor": "rgba(244, 227, 193, 1)",
+              "codeLabelManual": false,
+              "dynamicProps": [
+                "content"
+              ]
+            }
+          }
+        ],
+        "codeLabel": "组合-4ckhw9"
       }
     }
   ],

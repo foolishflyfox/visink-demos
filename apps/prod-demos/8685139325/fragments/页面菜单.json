@@ -15,11 +15,49 @@
         "rotation": 0,
         "offsetX": 0,
         "offsetY": 0,
-        "stroke": "#9ca3af",
-        "fill": "hsla(0, 0%, 24%, 1)",
-        "strokeWidth": 0,
+        "stroke": "#DAD4D4FF",
+        "fill": "hsla(0, 0%, 100%, 1)",
+        "strokeWidth": 0.5,
         "cornerRadius": 0,
         "codeLabel": "矩形-6fupej",
+        "showCodeNode": false,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasPolygon",
+      "data": {
+        "id": "e62xbocv",
+        "x": 120.54310344827586,
+        "y": 32.20689655172421,
+        "width": 243.5,
+        "height": 65,
+        "rotation": 0,
+        "offsetX": 121.75,
+        "offsetY": 32.5,
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 65
+          },
+          {
+            "x": 192.5,
+            "y": 65
+          },
+          {
+            "x": 243.5,
+            "y": 0
+          }
+        ],
+        "stroke": "#9ca3af",
+        "fill": "#2C8103FF",
+        "strokeWidth": 0,
+        "cornerRadius": 0,
+        "codeLabel": "不规则多边形-b7lstx",
         "showCodeNode": false,
         "dynamicProps": []
       }
@@ -75,44 +113,6 @@
       }
     },
     {
-      "className": "visink/CanvasPolyline",
-      "data": {
-        "id": "fd425yq2",
-        "x": 213.67241379310343,
-        "y": 32.62068965517241,
-        "width": 1,
-        "height": 58,
-        "rotation": 0,
-        "offsetX": 0.5,
-        "offsetY": 29,
-        "points": [
-          {
-            "x": 0,
-            "y": 58
-          },
-          {
-            "x": 0,
-            "y": 0
-          }
-        ],
-        "stroke": "#8c8c8c",
-        "strokeWidth": 1,
-        "turnRadius": 0,
-        "lineStyle": "solid",
-        "dashLength": 12,
-        "dashGap": 6,
-        "flowSpeed": 0,
-        "isPipe": false,
-        "pipeFluidColor": "#9ca3af",
-        "pipeFluidWidth": 1,
-        "startArrow": "none",
-        "endArrow": "none",
-        "codeLabel": "折线-kvfvn9",
-        "showCodeNode": false,
-        "dynamicProps": []
-      }
-    },
-    {
       "className": "visink/TabHeader",
       "data": {
         "id": "ghnx1r6s",
@@ -121,7 +121,7 @@
         "isVisible": true,
         "isLocked": false,
         "x": 224,
-        "y": 7.724137931034483,
+        "y": 6.724137931034483,
         "width": 720,
         "height": 48,
         "tabs": [
@@ -168,7 +168,7 @@
         ],
         "activeKey": "总览",
         "activeColor": "#18a058",
-        "inactiveColor": "hsla(0, 0%, 76%, 1)",
+        "inactiveColor": "hsla(0, 0%, 26%, 1)",
         "fontSize": 22,
         "fontBold": true,
         "tabPadding": 16,
@@ -194,7 +194,7 @@
         "fontFamily": "sans-serif",
         "bold": false,
         "italic": false,
-        "fontColor": "#f5f5f5",
+        "fontColor": "#000000",
         "textAlign": "left",
         "padding": "2,3",
         "borderWidth": 0,
@@ -224,7 +224,7 @@
         "fontFamily": "sans-serif",
         "bold": true,
         "italic": false,
-        "fontColor": "#f5f5f5",
+        "fontColor": "#000000",
         "textAlign": "left",
         "padding": "2,3",
         "borderWidth": 0,
