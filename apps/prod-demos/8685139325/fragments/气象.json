@@ -1,6 +1,6 @@
 {
   "resolution": {
-    "width": 120,
+    "width": 100,
     "height": 42
   },
   "widgets": [
@@ -68,6 +68,66 @@
         "offsetY": 40,
         "dynamicProps": [
           "status"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "ojtneouq",
+        "codeLabel": "天气文本",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 49,
+        "y": 13,
+        "content": "--",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "0",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": true,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "vvuwf7r9",
+        "codeLabel": "温度文本",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 78,
+        "y": 13,
+        "content": "--",
+        "fontSize": 13,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#ffffff",
+        "textAlign": "left",
+        "padding": "0",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": true,
+        "dynamicProps": [
+          "content"
         ]
       }
     }
