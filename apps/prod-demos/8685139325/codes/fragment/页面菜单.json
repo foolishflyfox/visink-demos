@@ -93,6 +93,14 @@
       "x": 300,
       "y": 570,
       "direction": "nameToId"
+    },
+    {
+      "id": "vjm17uqj",
+      "type": "visink/FragmentInstanceBlock",
+      "x": 280,
+      "y": 460,
+      "widgetId": "7ttkc4fq",
+      "fragmentId": "us4wt9sf3vao"
     }
   ],
   "connections": [

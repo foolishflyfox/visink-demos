@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": "2lhmry0j",
+      "type": "visink/WidgetBlock",
+      "x": 572,
+      "y": 200,
+      "widgetId": "70xve700",
+      "dynamicPropKeys": [
+        "status"
+      ],
+      "widgetType": "visink/StatusDisplay"
+    },
+    {
+      "id": "jwh54loh",
+      "type": "visink/CustomProgram",
+      "x": 306,
+      "y": 198,
+      "showEventPort": true,
+      "inputs": [
+        {
+          "id": "latitude",
+          "label": "经度"
+        },
+        {
+          "id": "longitude",
+          "label": "纬度"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "weather",
+          "label": "天气状态"
+        },
+        {
+          "id": "temperature",
+          "label": "温度"
+        },
+        {
+          "id": "windSpeed",
+          "label": "风速"
+        },
+        {
+          "id": "windDirection",
+          "label": "风向"
+        }
+      ],
+      "code": "// WMO Weather code mapping\nconst wmoMap = {\n  0: '晴',\n  1: '多云',\n  2: '多云',\n  3: '阴',\n  45: '雾',\n  48: '雾',\n  51: '小雨',\n  53: '小雨',\n  55: '中雨',\n  56: '中雨',\n  57: '大雨',\n  61: '小雨',\n  63: '中雨',\n  65: '大雨',\n  66: '大雨',\n  67: '大雨',\n  71: '小雪',\n  73: '中雪',\n  75: '大雪',\n  77: '小雪',\n  80: '小雨',\n  81: '中雨',\n  82: '大雨',\n  85: '小雪',\n  86: '大雪',\n  95: '大雨',\n  96: '大雨',\n  99: '大雨'\n};\n\nreturn async (latitude, longitude) => {\n  latitude ??= 52.52;\n  longitude ??= 13.41;\n  const url = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current_weather=true`;\n  const response = await (await fetch(url)).json();\n\n  const weather = response && response.current_weather ? response.current_weather : {};\n  const code = weather.weathercode;\n  const condition = wmoMap[code] !== undefined ? wmoMap[code] : '未知';\n  const temperature = weather.temperature;\n  const windSpeed = weather.windspeed;\n  const windDirection = weather.winddirection;\n  return {\n    weather: condition,\n    temperature: temperature,\n    windSpeed: windSpeed,\n    windDirection: windDirection\n  };\n};"
+    },
+    {
+      "id": "rhfilbwd",
+      "type": "visink/IntervalTimer",
+      "x": 60,
+      "y": 260,
+      "interval": 5,
+      "unit": "m",
+      "immediate": true
+    }
+  ],
+  "connections": [
+    {
+      "id": "e0ooh487",
+      "sourceNodeId": "jwh54loh",
+      "sourcePortKey": "weather",
+      "targetNodeId": "2lhmry0j",
+      "targetPortKey": "status"
+    },
+    {
+      "id": "wcypwbac",
+      "sourceNodeId": "rhfilbwd",
+      "sourcePortKey": "event",
+      "targetNodeId": "jwh54loh",
+      "targetPortKey": "event"
+    }
+  ],
+  "comments": []
+}

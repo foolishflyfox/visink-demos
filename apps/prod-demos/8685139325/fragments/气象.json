@@ -1,0 +1,77 @@
+{
+  "resolution": {
+    "width": 120,
+    "height": 42
+  },
+  "widgets": [
+    {
+      "className": "visink/StatusDisplay",
+      "data": {
+        "id": "70xve700",
+        "codeLabel": "天气状态",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 43.18584016408998,
+        "y": 40.312451136737224,
+        "width": 40,
+        "height": 40,
+        "rotation": 0,
+        "origin": "bottom-right",
+        "statusList": [
+          {
+            "status": "晴",
+            "assetPath": "system-resources/weather/sunny.svg"
+          },
+          {
+            "status": "多云",
+            "assetPath": "system-resources/weather/cloudy.svg"
+          },
+          {
+            "status": "阴",
+            "assetPath": "system-resources/weather/overcast.svg"
+          },
+          {
+            "status": "小雨",
+            "assetPath": "system-resources/weather/light-rain.svg"
+          },
+          {
+            "status": "中雨",
+            "assetPath": "system-resources/weather/moderate-rain.svg"
+          },
+          {
+            "status": "大雨",
+            "assetPath": "system-resources/weather/heavy-rain.svg"
+          },
+          {
+            "status": "雾",
+            "assetPath": "system-resources/weather/fog.svg"
+          },
+          {
+            "status": "小雪",
+            "assetPath": "system-resources/weather/light-snow.svg"
+          },
+          {
+            "status": "中雪",
+            "assetPath": "system-resources/weather/moderate-snow.svg"
+          },
+          {
+            "status": "大雪",
+            "assetPath": "system-resources/weather/heavy-snow.svg"
+          }
+        ],
+        "defaultAssetPath": "system-resources/animations/loading-spinner.webp",
+        "status": "",
+        "flipX": false,
+        "flipY": false,
+        "offsetX": 40,
+        "offsetY": 40,
+        "dynamicProps": [
+          "status"
+        ]
+      }
+    }
+  ],
+  "variables": [],
+  "inputs": []
+}
