@@ -54,24 +54,6 @@
       "y": 127
     },
     {
-      "id": "mfxf4ore",
-      "type": "visink/WidgetBlock",
-      "x": 566,
-      "y": 34,
-      "widgetId": "ghnx1r6s",
-      "dynamicPropKeys": [
-        "activeKey"
-      ],
-      "widgetType": "visink/TabHeader"
-    },
-    {
-      "id": "0atq7487",
-      "type": "visink/PageIdToName",
-      "x": 320,
-      "y": 82,
-      "direction": "idToName"
-    },
-    {
       "id": "5ks00u0f",
       "type": "visink/PageNavigate",
       "x": 574,
@@ -133,20 +115,6 @@
       "targetPortKey": "content"
     },
     {
-      "id": "o2m4ljxi",
-      "sourceNodeId": "fragment-input",
-      "sourcePortKey": "sdtg236l",
-      "targetNodeId": "0atq7487",
-      "targetPortKey": "pageId"
-    },
-    {
-      "id": "6v2gre9p",
-      "sourceNodeId": "0atq7487",
-      "sourcePortKey": "pageName",
-      "targetNodeId": "mfxf4ore",
-      "targetPortKey": "activeKey"
-    },
-    {
       "id": "tpybyhkw",
       "sourceNodeId": "z3gq7b07",
       "sourcePortKey": "widget/click",
@@ -174,7 +142,7 @@
       "x": 48,
       "y": 43,
       "width": 240,
-      "text": "设置当前菜单项的值"
+      "text": "当前页面的id（暂时没用）"
     },
     {
       "id": "070dxjca",

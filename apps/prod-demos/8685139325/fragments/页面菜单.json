@@ -117,7 +117,7 @@
       "data": {
         "id": "ghnx1r6s",
         "codeLabel": "选项卡头-2dy9ho",
-        "showCodeNode": true,
+        "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
         "x": 224,
@@ -257,5 +257,6 @@
       "id": "sdtg236l",
       "label": "页面id"
     }
-  ]
+  ],
+  "shared": true
 }

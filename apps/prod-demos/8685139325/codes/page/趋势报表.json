@@ -7,24 +7,8 @@
       "y": 65,
       "widgetId": "95dm40ft",
       "fragmentId": "hahze883ol0o"
-    },
-    {
-      "id": "ujc4nh2l",
-      "type": "visink/PageInfo",
-      "x": 41,
-      "y": 62,
-      "showPageId": true,
-      "showPageName": false
     }
   ],
-  "connections": [
-    {
-      "id": "k989ghik",
-      "sourceNodeId": "ujc4nh2l",
-      "sourcePortKey": "pageId",
-      "targetNodeId": "wi5l2iye",
-      "targetPortKey": "sdtg236l"
-    }
-  ],
+  "connections": [],
   "comments": []
 }
