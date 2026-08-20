@@ -54,7 +54,7 @@
           }
         ],
         "stroke": "#9ca3af",
-        "fill": "#2C8103FF",
+        "fill": "#1677ff",
         "strokeWidth": 0,
         "cornerRadius": 0,
         "codeLabel": "不规则多边形-b7lstx",
@@ -142,14 +142,6 @@
             "icon": "my-resources/灌溉.svg"
           },
           {
-            "key": "环境监测",
-            "label": {
-              "zh": "环境监测",
-              "en": "Tab 3"
-            },
-            "icon": "my-resources/环境监测.svg"
-          },
-          {
             "key": "报警中心",
             "label": {
               "zh": "报警中心",
@@ -164,6 +156,14 @@
               "en": "Tab 5"
             },
             "icon": "system-resources/icons/ui/trend-chart.svg"
+          },
+          {
+            "key": "设置",
+            "label": {
+              "zh": "设置",
+              "en": "Tab 3"
+            },
+            "icon": "system-resources/icons/ui/settings.svg"
           }
         ],
         "activeKey": "总览",

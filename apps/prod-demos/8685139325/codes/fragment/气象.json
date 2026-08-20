@@ -50,8 +50,8 @@
     {
       "id": "rhfilbwd",
       "type": "visink/IntervalTimer",
-      "x": 60,
-      "y": 260,
+      "x": 81,
+      "y": 143,
       "interval": 5,
       "unit": "m",
       "immediate": true
