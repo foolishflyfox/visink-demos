@@ -1,12 +1,48 @@
 {
   "nodes": [
     {
-      "id": "t90sv7p5",
-      "type": "visink/FragmentInstanceBlock",
-      "x": 372,
-      "y": 127,
-      "widgetId": "q83s6i3p",
-      "fragmentId": "hahze883ol0o"
+      "id": "ij5yeflp",
+      "type": "visink/WidgetBlock",
+      "x": 280,
+      "y": 60,
+      "widgetId": "qnwncqfr",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "794sdqrc",
+      "type": "visink/WidgetBlock",
+      "x": 500,
+      "y": 60,
+      "widgetId": "8hvy20ls",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "ybwfzthg",
+      "type": "visink/WidgetBlock",
+      "x": 720,
+      "y": 60,
+      "widgetId": "ns27lwdy",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "2lb42kfh",
+      "type": "visink/WidgetBlock",
+      "x": 940,
+      "y": 60,
+      "widgetId": "pqh0sd27",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
     }
   ],
   "connections": [],

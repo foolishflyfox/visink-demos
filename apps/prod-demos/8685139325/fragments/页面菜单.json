@@ -247,7 +247,8 @@
         "x": 1048.888888888889,
         "y": 11.084967320261468,
         "name": "气象",
-        "visible": true
+        "visible": true,
+        "showCodeNode": false
       }
     }
   ],

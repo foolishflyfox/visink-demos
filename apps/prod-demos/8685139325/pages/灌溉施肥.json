@@ -9,6 +9,7 @@
         "y": 0,
         "name": "页面菜单",
         "visible": true,
+        "showCodeNode": false,
         "locked": true
       }
     },

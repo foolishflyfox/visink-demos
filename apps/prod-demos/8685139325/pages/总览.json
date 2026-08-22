@@ -9,6 +9,7 @@
         "y": 0,
         "name": "页面菜单",
         "visible": true,
+        "showCodeNode": false,
         "locked": true
       }
     },
@@ -882,7 +883,7 @@
                   "data": {
                     "id": "pqh0sd27",
                     "codeLabel": "1号种植园温度",
-                    "showCodeNode": false,
+                    "showCodeNode": true,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 316.6896551724138,
@@ -960,7 +961,7 @@
                   "data": {
                     "id": "ns27lwdy",
                     "codeLabel": "1号种植园湿度",
-                    "showCodeNode": false,
+                    "showCodeNode": true,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 449.1034482758622,
@@ -1038,7 +1039,7 @@
                   "data": {
                     "id": "8hvy20ls",
                     "codeLabel": "1号种植园CO2",
-                    "showCodeNode": false,
+                    "showCodeNode": true,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 312.27586206896564,
@@ -1116,7 +1117,7 @@
                   "data": {
                     "id": "qnwncqfr",
                     "codeLabel": "1号种植园光强度",
-                    "showCodeNode": false,
+                    "showCodeNode": true,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 430.3448275862071,

@@ -38,7 +38,8 @@
         "x": 33.77586206896552,
         "y": 54.34482758620692,
         "name": "流程图",
-        "visible": true
+        "visible": true,
+        "showCodeNode": false
       }
     },
     {
@@ -49,7 +50,8 @@
         "x": 11.448275862068968,
         "y": 62.27586206896552,
         "name": "一键启动控制",
-        "visible": true
+        "visible": true,
+        "showCodeNode": false
       }
     },
     {
@@ -60,7 +62,8 @@
         "x": 1086,
         "y": 68.0344827586207,
         "name": "流量统计",
-        "visible": true
+        "visible": true,
+        "showCodeNode": false
       }
     },
     {
@@ -93,5 +96,6 @@
         ]
       }
     }
-  ]
+  ],
+  "variables": []
 }

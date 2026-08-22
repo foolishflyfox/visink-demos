@@ -1,14 +1,5 @@
 {
-  "nodes": [
-    {
-      "id": "wi5l2iye",
-      "type": "visink/FragmentInstanceBlock",
-      "x": 276,
-      "y": 65,
-      "widgetId": "95dm40ft",
-      "fragmentId": "hahze883ol0o"
-    }
-  ],
+  "nodes": [],
   "connections": [],
   "comments": []
 }

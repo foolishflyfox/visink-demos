@@ -49,14 +49,6 @@
       "fragmentId": "7ayl8r2a6jme"
     },
     {
-      "id": "ruqs3ud9",
-      "type": "visink/FragmentInstanceBlock",
-      "x": 726,
-      "y": 1059,
-      "widgetId": "nsk9pcqu",
-      "fragmentId": "7ayl8r2a6jme"
-    },
-    {
       "id": "n6y0sxjf",
       "type": "visink/FragmentInstanceBlock",
       "x": 727,
@@ -133,6 +125,14 @@
         "content"
       ],
       "widgetType": "visink/Text"
+    },
+    {
+      "id": "yujhas32",
+      "type": "visink/FragmentInstanceBlock",
+      "x": 726,
+      "y": 1057,
+      "widgetId": "nsk9pcqu",
+      "fragmentId": "7ayl8r2a6jme"
     }
   ],
   "connections": [
@@ -186,13 +186,6 @@
       "targetPortKey": "iy72inwx"
     },
     {
-      "id": "31oznvg8",
-      "sourceNodeId": "79gtbqci",
-      "sourcePortKey": "value7",
-      "targetNodeId": "ruqs3ud9",
-      "targetPortKey": "iy72inwx"
-    },
-    {
       "id": "gff5ym2u",
       "sourceNodeId": "79gtbqci",
       "sourcePortKey": "value8",
@@ -212,6 +205,14 @@
       "sourcePortKey": "event",
       "targetNodeId": "wl4foh29",
       "targetPortKey": "event"
+    },
+    {
+      "id": "iecvovhv",
+      "sourceNodeId": "79gtbqci",
+      "sourcePortKey": "value7",
+      "targetNodeId": "yujhas32",
+      "targetPortKey": "iy72inwx"
     }
-  ]
+  ],
+  "comments": []
 }
