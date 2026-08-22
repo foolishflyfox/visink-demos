@@ -139,9 +139,9 @@
             "icon": "system-resources/icons/ui/home.svg"
           },
           {
-            "key": "灌溉施肥",
+            "key": "施肥洒药",
             "label": {
-              "zh": "灌溉施肥",
+              "zh": "施肥洒药",
               "en": "Tab 2"
             },
             "icon": "my-resources/灌溉.svg"

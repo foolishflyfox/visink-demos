@@ -2315,6 +2315,138 @@
         ],
         "locked": true
       }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "570omqij",
+        "codeLabel": "水泵状态",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 308.96551724137936,
+        "y": 286.32857271736304,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
+        "content": "水泵状态",
+        "fontSize": 19,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#434343",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "m0mts65m",
+        "codeLabel": "今日灌溉量",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 291.3103448275864,
+        "y": 331.31034482758633,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
+        "content": "今日灌溉量",
+        "fontSize": 19,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#434343",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Switch",
+      "data": {
+        "id": "ifsoikms",
+        "codeLabel": "开关-yybuda",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 419.3103448275859,
+        "y": 283.8620689655205,
+        "width": 78.80263219816263,
+        "height": 35.93300750368887,
+        "value": false,
+        "checkedColor": "#18a058",
+        "uncheckedColor": "hsla(0, 0%, 46%, 1)",
+        "thumbColor": "#f5f5f5",
+        "round": false,
+        "disabled": false,
+        "showText": true,
+        "checkedText": "开",
+        "uncheckedText": "关",
+        "textColor": "#ffffff",
+        "dynamicProps": [
+          "value"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "rz9q7xtb",
+        "codeLabel": "0 m³",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 422.62068965517267,
+        "y": 328.00000000000017,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
+        "content": "0 m³",
+        "fontSize": 22,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#1677ff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
+      }
     }
   ],
   "variables": []
