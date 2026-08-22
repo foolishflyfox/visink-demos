@@ -81,6 +81,11 @@
         "isLocked": false,
         "x": 49,
         "y": 13,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
         "content": "--",
         "fontSize": 13,
         "fontFamily": "sans-serif",
@@ -111,6 +116,11 @@
         "isLocked": false,
         "x": 78,
         "y": 13,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
         "content": "--",
         "fontSize": 13,
         "fontFamily": "sans-serif",
@@ -133,5 +143,6 @@
     }
   ],
   "variables": [],
-  "inputs": []
+  "inputs": [],
+  "shared": false
 }

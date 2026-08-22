@@ -92,6 +92,11 @@
         "isLocked": false,
         "x": 59.896551724137936,
         "y": 16.64000243599537,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
         "content": "葡萄园管理系统",
         "fontSize": 20,
         "fontFamily": "sans-serif",
@@ -167,7 +172,7 @@
           }
         ],
         "activeKey": "总览",
-        "activeColor": "#18a058",
+        "activeColor": "#1677ff",
         "inactiveColor": "hsla(0, 0%, 26%, 1)",
         "fontSize": 22,
         "fontBold": true,
@@ -189,6 +194,11 @@
         "isLocked": false,
         "x": 1188.3275862068965,
         "y": 3.3103448275861984,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
         "content": "2026-08-16",
         "fontSize": 14,
         "fontFamily": "sans-serif",
@@ -219,6 +229,11 @@
         "isLocked": false,
         "x": 1190.8275862068965,
         "y": 29.793103448275964,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
         "content": "17:50:22",
         "fontSize": 20,
         "fontFamily": "sans-serif",

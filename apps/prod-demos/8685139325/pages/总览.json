@@ -107,6 +107,11 @@
         "isLocked": false,
         "x": 34.20689655172415,
         "y": 94.06896551724142,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
         "content": "一号种植园",
         "fontSize": 24,
         "fontFamily": "sans-serif",
@@ -137,6 +142,11 @@
         "isLocked": false,
         "x": 557.2413793103448,
         "y": 87.44827586206904,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
         "content": "二号种植园",
         "fontSize": 24,
         "fontFamily": "sans-serif",
@@ -167,6 +177,11 @@
         "isLocked": false,
         "x": 36.41379310344829,
         "y": 401.9310344827588,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
         "content": "三号种植园",
         "fontSize": 24,
         "fontFamily": "sans-serif",
@@ -197,6 +212,11 @@
         "isLocked": false,
         "x": 564.9655172413794,
         "y": 403.0344827586207,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
         "content": "四号种植园",
         "fontSize": 24,
         "fontFamily": "sans-serif",
@@ -312,6 +332,11 @@
               "isLocked": false,
               "x": 295.72413793103453,
               "y": 151.44827586206898,
+              "measurementBindingEnabled": false,
+              "measurementBinding": {
+                "pointId": "",
+                "showUnit": false
+              },
               "content": "品种：",
               "fontSize": 16,
               "fontFamily": "sans-serif",
@@ -342,6 +367,11 @@
               "isLocked": false,
               "x": 365.5517241379311,
               "y": 151.44827586206898,
+              "measurementBindingEnabled": false,
+              "measurementBinding": {
+                "pointId": "",
+                "showUnit": false
+              },
               "content": "巨峰",
               "fontSize": 16,
               "fontFamily": "sans-serif",
@@ -372,6 +402,11 @@
               "isLocked": false,
               "x": 295.22413793103453,
               "y": 180.44827586206898,
+              "measurementBindingEnabled": false,
+              "measurementBinding": {
+                "pointId": "",
+                "showUnit": false
+              },
               "content": "面积：",
               "fontSize": 16,
               "fontFamily": "sans-serif",
@@ -402,6 +437,11 @@
               "isLocked": false,
               "x": 365.0517241379311,
               "y": 180.44827586206898,
+              "measurementBindingEnabled": false,
+              "measurementBinding": {
+                "pointId": "",
+                "showUnit": false
+              },
               "content": "37亩",
               "fontSize": 16,
               "fontFamily": "sans-serif",
@@ -445,6 +485,11 @@
               "isLocked": false,
               "x": 295.72413793103453,
               "y": 151.44827586206898,
+              "measurementBindingEnabled": false,
+              "measurementBinding": {
+                "pointId": "",
+                "showUnit": false
+              },
               "content": "品种：",
               "fontSize": 16,
               "fontFamily": "sans-serif",
@@ -475,6 +520,11 @@
               "isLocked": false,
               "x": 365.5517241379311,
               "y": 151.44827586206898,
+              "measurementBindingEnabled": false,
+              "measurementBinding": {
+                "pointId": "",
+                "showUnit": false
+              },
               "content": "玫瑰香",
               "fontSize": 16,
               "fontFamily": "sans-serif",
@@ -505,6 +555,11 @@
               "isLocked": false,
               "x": 295.22413793103453,
               "y": 180.44827586206898,
+              "measurementBindingEnabled": false,
+              "measurementBinding": {
+                "pointId": "",
+                "showUnit": false
+              },
               "content": "面积：",
               "fontSize": 16,
               "fontFamily": "sans-serif",
@@ -535,6 +590,11 @@
               "isLocked": false,
               "x": 365.0517241379311,
               "y": 180.44827586206898,
+              "measurementBindingEnabled": false,
+              "measurementBinding": {
+                "pointId": "",
+                "showUnit": false
+              },
               "content": "28亩",
               "fontSize": 16,
               "fontFamily": "sans-serif",
@@ -578,6 +638,11 @@
               "isLocked": false,
               "x": 295.72413793103453,
               "y": 151.44827586206898,
+              "measurementBindingEnabled": false,
+              "measurementBinding": {
+                "pointId": "",
+                "showUnit": false
+              },
               "content": "品种：",
               "fontSize": 16,
               "fontFamily": "sans-serif",
@@ -608,6 +673,11 @@
               "isLocked": false,
               "x": 365.5517241379311,
               "y": 151.44827586206898,
+              "measurementBindingEnabled": false,
+              "measurementBinding": {
+                "pointId": "",
+                "showUnit": false
+              },
               "content": "蓝宝石",
               "fontSize": 16,
               "fontFamily": "sans-serif",
@@ -638,6 +708,11 @@
               "isLocked": false,
               "x": 295.22413793103453,
               "y": 180.44827586206898,
+              "measurementBindingEnabled": false,
+              "measurementBinding": {
+                "pointId": "",
+                "showUnit": false
+              },
               "content": "面积：",
               "fontSize": 16,
               "fontFamily": "sans-serif",
@@ -668,6 +743,11 @@
               "isLocked": false,
               "x": 365.0517241379311,
               "y": 180.44827586206898,
+              "measurementBindingEnabled": false,
+              "measurementBinding": {
+                "pointId": "",
+                "showUnit": false
+              },
               "content": "19亩",
               "fontSize": 16,
               "fontFamily": "sans-serif",
@@ -711,6 +791,11 @@
               "isLocked": false,
               "x": 295.72413793103453,
               "y": 151.44827586206898,
+              "measurementBindingEnabled": false,
+              "measurementBinding": {
+                "pointId": "",
+                "showUnit": false
+              },
               "content": "品种：",
               "fontSize": 16,
               "fontFamily": "sans-serif",
@@ -741,6 +826,11 @@
               "isLocked": false,
               "x": 365.5517241379311,
               "y": 151.44827586206898,
+              "measurementBindingEnabled": false,
+              "measurementBinding": {
+                "pointId": "",
+                "showUnit": false
+              },
               "content": "夏黑",
               "fontSize": 16,
               "fontFamily": "sans-serif",
@@ -771,6 +861,11 @@
               "isLocked": false,
               "x": 295.22413793103453,
               "y": 180.44827586206898,
+              "measurementBindingEnabled": false,
+              "measurementBinding": {
+                "pointId": "",
+                "showUnit": false
+              },
               "content": "面积：",
               "fontSize": 16,
               "fontFamily": "sans-serif",
@@ -801,6 +896,11 @@
               "isLocked": false,
               "x": 365.0517241379311,
               "y": 180.44827586206898,
+              "measurementBindingEnabled": false,
+              "measurementBinding": {
+                "pointId": "",
+                "showUnit": false
+              },
               "content": "23亩",
               "fontSize": 16,
               "fontFamily": "sans-serif",
@@ -882,12 +982,17 @@
                   "className": "visink/Text",
                   "data": {
                     "id": "pqh0sd27",
-                    "codeLabel": "1号种植园温度",
-                    "showCodeNode": true,
+                    "codeLabel": "一号种植园温度",
+                    "showCodeNode": false,
                     "isVisible": true,
                     "isLocked": false,
-                    "x": 316.6896551724138,
+                    "x": 310.6896551724138,
                     "y": 137.10344827586212,
+                    "measurementBindingEnabled": true,
+                    "measurementBinding": {
+                      "pointId": "100001",
+                      "showUnit": false
+                    },
                     "content": "35",
                     "fontSize": 24,
                     "fontFamily": "sans-serif",
@@ -960,12 +1065,17 @@
                   "className": "visink/Text",
                   "data": {
                     "id": "ns27lwdy",
-                    "codeLabel": "1号种植园湿度",
+                    "codeLabel": "一号种植园湿度",
                     "showCodeNode": true,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 449.1034482758622,
                     "y": 136.00000000000009,
+                    "measurementBindingEnabled": false,
+                    "measurementBinding": {
+                      "pointId": "",
+                      "showUnit": false
+                    },
                     "content": "62",
                     "fontSize": 24,
                     "fontFamily": "sans-serif",
@@ -1038,12 +1148,17 @@
                   "className": "visink/Text",
                   "data": {
                     "id": "8hvy20ls",
-                    "codeLabel": "1号种植园CO2",
+                    "codeLabel": "一号种植园CO2",
                     "showCodeNode": true,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 312.27586206896564,
                     "y": 233.10344827586204,
+                    "measurementBindingEnabled": false,
+                    "measurementBinding": {
+                      "pointId": "",
+                      "showUnit": false
+                    },
                     "content": "450",
                     "fontSize": 24,
                     "fontFamily": "sans-serif",
@@ -1116,12 +1231,17 @@
                   "className": "visink/Text",
                   "data": {
                     "id": "qnwncqfr",
-                    "codeLabel": "1号种植园光强度",
+                    "codeLabel": "一号种植园光强度",
                     "showCodeNode": true,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 430.3448275862071,
                     "y": 232.00000000000006,
+                    "measurementBindingEnabled": false,
+                    "measurementBinding": {
+                      "pointId": "",
+                      "showUnit": false
+                    },
                     "content": "73221",
                     "fontSize": 24,
                     "fontFamily": "sans-serif",
@@ -1207,12 +1327,17 @@
                   "className": "visink/Text",
                   "data": {
                     "id": "nmp3iiad",
-                    "codeLabel": "35-ml5wa9",
-                    "showCodeNode": false,
+                    "codeLabel": "二号种植园温度",
+                    "showCodeNode": true,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 316.6896551724138,
                     "y": 137.10344827586212,
+                    "measurementBindingEnabled": false,
+                    "measurementBinding": {
+                      "pointId": "",
+                      "showUnit": false
+                    },
                     "content": "35",
                     "fontSize": 24,
                     "fontFamily": "sans-serif",
@@ -1227,7 +1352,7 @@
                     "fixedWidth": 0,
                     "fixedHeight": 0,
                     "backgroundColor": "rgba(0,0,0,0)",
-                    "codeLabelManual": false,
+                    "codeLabelManual": true,
                     "dynamicProps": [
                       "content"
                     ]
@@ -1286,12 +1411,17 @@
                   "className": "visink/Text",
                   "data": {
                     "id": "w29w0gl4",
-                    "codeLabel": "62-u6lxry",
-                    "showCodeNode": false,
+                    "codeLabel": "二号种植园湿度",
+                    "showCodeNode": true,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 449.1034482758622,
                     "y": 136.00000000000009,
+                    "measurementBindingEnabled": false,
+                    "measurementBinding": {
+                      "pointId": "",
+                      "showUnit": false
+                    },
                     "content": "62",
                     "fontSize": 24,
                     "fontFamily": "sans-serif",
@@ -1306,7 +1436,7 @@
                     "fixedWidth": 0,
                     "fixedHeight": 0,
                     "backgroundColor": "rgba(0,0,0,0)",
-                    "codeLabelManual": false,
+                    "codeLabelManual": true,
                     "dynamicProps": [
                       "content"
                     ]
@@ -1365,12 +1495,17 @@
                   "className": "visink/Text",
                   "data": {
                     "id": "1bvatn2x",
-                    "codeLabel": "73221-bs8312",
-                    "showCodeNode": false,
+                    "codeLabel": "二号种植园光强",
+                    "showCodeNode": true,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 430.3448275862071,
                     "y": 232.00000000000006,
+                    "measurementBindingEnabled": false,
+                    "measurementBinding": {
+                      "pointId": "",
+                      "showUnit": false
+                    },
                     "content": "73221",
                     "fontSize": 24,
                     "fontFamily": "sans-serif",
@@ -1385,7 +1520,7 @@
                     "fixedWidth": 0,
                     "fixedHeight": 0,
                     "backgroundColor": "rgba(0,0,0,0)",
-                    "codeLabelManual": false,
+                    "codeLabelManual": true,
                     "dynamicProps": [
                       "content"
                     ]
@@ -1444,12 +1579,17 @@
                   "className": "visink/Text",
                   "data": {
                     "id": "qij3bqlb",
-                    "codeLabel": "450-z4fqyn",
-                    "showCodeNode": false,
+                    "codeLabel": "二号种植园CO2",
+                    "showCodeNode": true,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 312.27586206896564,
                     "y": 233.10344827586204,
+                    "measurementBindingEnabled": false,
+                    "measurementBinding": {
+                      "pointId": "",
+                      "showUnit": false
+                    },
                     "content": "450",
                     "fontSize": 24,
                     "fontFamily": "sans-serif",
@@ -1464,7 +1604,7 @@
                     "fixedWidth": 0,
                     "fixedHeight": 0,
                     "backgroundColor": "rgba(0,0,0,0)",
-                    "codeLabelManual": false,
+                    "codeLabelManual": true,
                     "dynamicProps": [
                       "content"
                     ]
@@ -1536,12 +1676,17 @@
                   "className": "visink/Text",
                   "data": {
                     "id": "yl7hv6hr",
-                    "codeLabel": "35-5drm02",
-                    "showCodeNode": false,
+                    "codeLabel": "三号种植园温度",
+                    "showCodeNode": true,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 316.6896551724138,
                     "y": 137.10344827586212,
+                    "measurementBindingEnabled": false,
+                    "measurementBinding": {
+                      "pointId": "",
+                      "showUnit": false
+                    },
                     "content": "35",
                     "fontSize": 24,
                     "fontFamily": "sans-serif",
@@ -1556,7 +1701,7 @@
                     "fixedWidth": 0,
                     "fixedHeight": 0,
                     "backgroundColor": "rgba(0,0,0,0)",
-                    "codeLabelManual": false,
+                    "codeLabelManual": true,
                     "dynamicProps": [
                       "content"
                     ]
@@ -1615,12 +1760,17 @@
                   "className": "visink/Text",
                   "data": {
                     "id": "cwmwgyk1",
-                    "codeLabel": "62-i98atr",
-                    "showCodeNode": false,
+                    "codeLabel": "三号种植园湿度",
+                    "showCodeNode": true,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 449.1034482758622,
                     "y": 136.00000000000009,
+                    "measurementBindingEnabled": false,
+                    "measurementBinding": {
+                      "pointId": "",
+                      "showUnit": false
+                    },
                     "content": "62",
                     "fontSize": 24,
                     "fontFamily": "sans-serif",
@@ -1635,7 +1785,7 @@
                     "fixedWidth": 0,
                     "fixedHeight": 0,
                     "backgroundColor": "rgba(0,0,0,0)",
-                    "codeLabelManual": false,
+                    "codeLabelManual": true,
                     "dynamicProps": [
                       "content"
                     ]
@@ -1694,12 +1844,17 @@
                   "className": "visink/Text",
                   "data": {
                     "id": "mxl2ya4z",
-                    "codeLabel": "73221-20xxff",
-                    "showCodeNode": false,
+                    "codeLabel": "三号种植园光强",
+                    "showCodeNode": true,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 430.3448275862071,
                     "y": 232.00000000000006,
+                    "measurementBindingEnabled": false,
+                    "measurementBinding": {
+                      "pointId": "",
+                      "showUnit": false
+                    },
                     "content": "73221",
                     "fontSize": 24,
                     "fontFamily": "sans-serif",
@@ -1714,7 +1869,7 @@
                     "fixedWidth": 0,
                     "fixedHeight": 0,
                     "backgroundColor": "rgba(0,0,0,0)",
-                    "codeLabelManual": false,
+                    "codeLabelManual": true,
                     "dynamicProps": [
                       "content"
                     ]
@@ -1773,12 +1928,17 @@
                   "className": "visink/Text",
                   "data": {
                     "id": "313mvelb",
-                    "codeLabel": "450-3k1bje",
-                    "showCodeNode": false,
+                    "codeLabel": "三号种植园CO2",
+                    "showCodeNode": true,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 312.27586206896564,
                     "y": 233.10344827586204,
+                    "measurementBindingEnabled": false,
+                    "measurementBinding": {
+                      "pointId": "",
+                      "showUnit": false
+                    },
                     "content": "450",
                     "fontSize": 24,
                     "fontFamily": "sans-serif",
@@ -1793,7 +1953,7 @@
                     "fixedWidth": 0,
                     "fixedHeight": 0,
                     "backgroundColor": "rgba(0,0,0,0)",
-                    "codeLabelManual": false,
+                    "codeLabelManual": true,
                     "dynamicProps": [
                       "content"
                     ]
@@ -1871,6 +2031,11 @@
                     "isLocked": false,
                     "x": 316.6896551724138,
                     "y": 137.10344827586212,
+                    "measurementBindingEnabled": false,
+                    "measurementBinding": {
+                      "pointId": "",
+                      "showUnit": false
+                    },
                     "content": "35",
                     "fontSize": 24,
                     "fontFamily": "sans-serif",
@@ -1950,6 +2115,11 @@
                     "isLocked": false,
                     "x": 449.1034482758622,
                     "y": 136.00000000000009,
+                    "measurementBindingEnabled": false,
+                    "measurementBinding": {
+                      "pointId": "",
+                      "showUnit": false
+                    },
                     "content": "62",
                     "fontSize": 24,
                     "fontFamily": "sans-serif",
@@ -2029,6 +2199,11 @@
                     "isLocked": false,
                     "x": 430.3448275862071,
                     "y": 232.00000000000006,
+                    "measurementBindingEnabled": false,
+                    "measurementBinding": {
+                      "pointId": "",
+                      "showUnit": false
+                    },
                     "content": "73221",
                     "fontSize": 24,
                     "fontFamily": "sans-serif",
@@ -2108,6 +2283,11 @@
                     "isLocked": false,
                     "x": 312.27586206896564,
                     "y": 233.10344827586204,
+                    "measurementBindingEnabled": false,
+                    "measurementBinding": {
+                      "pointId": "",
+                      "showUnit": false
+                    },
                     "content": "450",
                     "fontSize": 24,
                     "fontFamily": "sans-serif",

@@ -34,11 +34,88 @@
       "widgetType": "visink/Text"
     },
     {
-      "id": "2lb42kfh",
+      "id": "f9gigp93",
+      "type": "visink/WidgetBlock",
+      "x": 785,
+      "y": 460,
+      "widgetId": "313mvelb",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "crauvulb",
+      "type": "visink/WidgetBlock",
+      "x": 60,
+      "y": 260,
+      "widgetId": "mxl2ya4z",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "agq0km31",
+      "type": "visink/WidgetBlock",
+      "x": 280,
+      "y": 260,
+      "widgetId": "cwmwgyk1",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "u8u2na9o",
+      "type": "visink/WidgetBlock",
+      "x": 500,
+      "y": 260,
+      "widgetId": "yl7hv6hr",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "avcmih2z",
+      "type": "visink/WidgetBlock",
+      "x": 720,
+      "y": 260,
+      "widgetId": "1bvatn2x",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "00r86kdm",
       "type": "visink/WidgetBlock",
       "x": 940,
-      "y": 60,
-      "widgetId": "pqh0sd27",
+      "y": 260,
+      "widgetId": "qij3bqlb",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "0ljosipj",
+      "type": "visink/WidgetBlock",
+      "x": 60,
+      "y": 460,
+      "widgetId": "w29w0gl4",
+      "dynamicPropKeys": [
+        "content"
+      ],
+      "widgetType": "visink/Text"
+    },
+    {
+      "id": "0vo00yao",
+      "type": "visink/WidgetBlock",
+      "x": 280,
+      "y": 460,
+      "widgetId": "nmp3iiad",
       "dynamicPropKeys": [
         "content"
       ],
