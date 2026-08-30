@@ -1333,9 +1333,9 @@
                     "isLocked": false,
                     "x": 316.6896551724138,
                     "y": 137.10344827586212,
-                    "measurementBindingEnabled": false,
+                    "measurementBindingEnabled": true,
                     "measurementBinding": {
-                      "pointId": "",
+                      "pointId": "200001",
                       "showUnit": false
                     },
                     "content": "35",
@@ -2324,8 +2324,8 @@
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
-        "x": 308.96551724137936,
-        "y": 286.32857271736304,
+        "x": 286.896551724138,
+        "y": 283.0182278897768,
         "measurementBindingEnabled": false,
         "measurementBinding": {
           "pointId": "",
@@ -2359,7 +2359,7 @@
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
-        "x": 291.3103448275864,
+        "x": 286.896551724138,
         "y": 331.31034482758633,
         "measurementBindingEnabled": false,
         "measurementBinding": {
@@ -2394,8 +2394,8 @@
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
-        "x": 419.3103448275859,
-        "y": 283.8620689655205,
+        "x": 408.2758620689653,
+        "y": 281.5517241379344,
         "width": 78.80263219816263,
         "height": 35.93300750368887,
         "value": false,
@@ -2421,7 +2421,7 @@
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
-        "x": 422.62068965517267,
+        "x": 408.2758620689653,
         "y": 328.00000000000017,
         "measurementBindingEnabled": false,
         "measurementBinding": {

@@ -14,21 +14,95 @@
       }
     },
     {
-      "className": "visink/Button3D",
+      "className": "visink/Select",
       "data": {
-        "id": "oxrk54tg",
-        "codeLabel": "3D按钮-oiumob",
+        "id": "skx9mbl0",
+        "codeLabel": "下拉选择-g87scm",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 82.75862068965519,
+        "y": 95.17241379310346,
+        "width": 150,
+        "options": [
+          {
+            "value": "0",
+            "label": {
+              "zh": "全部",
+              "en": "All"
+            }
+          },
+          {
+            "value": "1",
+            "label": {
+              "zh": "一号",
+              "en": "No.1"
+            }
+          },
+          {
+            "value": "2",
+            "label": {
+              "zh": "二号",
+              "en": "No.2"
+            }
+          },
+          {
+            "value": "3",
+            "label": {
+              "zh": "三号",
+              "en": "No.3"
+            }
+          },
+          {
+            "value": "4",
+            "label": {
+              "zh": "四号",
+              "en": "No.4"
+            }
+          }
+        ],
+        "value": "0",
+        "placeholder": "请选择",
+        "clearable": false,
+        "disabled": false,
+        "padding": 8,
+        "fontSize": 18,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "w82k7soq",
+        "codeLabel": "种植园",
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
-        "x": 183.17241379310346,
-        "y": 159.17241379310346,
-        "width": 64,
-        "height": 64,
-        "buttonColor": "#ff0000",
-        "bezelColor": "#dedede",
-        "isToggle": true,
-        "dynamicProps": []
+        "x": 20.793103448275865,
+        "y": 99.68965517241384,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
+        "content": "种植园",
+        "fontSize": 16,
+        "fontFamily": "sans-serif",
+        "bold": false,
+        "italic": false,
+        "fontColor": "#333333",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
       }
     }
   ],

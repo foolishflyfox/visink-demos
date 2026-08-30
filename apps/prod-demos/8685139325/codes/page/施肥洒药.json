@@ -1,5 +1,14 @@
 {
-  "nodes": [],
+  "nodes": [
+    {
+      "id": "4rq4vk36",
+      "type": "visink/WidgetBlock",
+      "x": 60,
+      "y": 60,
+      "widgetId": "skx9mbl0",
+      "widgetType": "visink/Select"
+    }
+  ],
   "connections": [],
   "comments": []
 }
