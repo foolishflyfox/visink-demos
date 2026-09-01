@@ -1331,7 +1331,7 @@
                     "showCodeNode": true,
                     "isVisible": true,
                     "isLocked": false,
-                    "x": 316.6896551724138,
+                    "x": 313.6896551724138,
                     "y": 137.10344827586212,
                     "measurementBindingEnabled": true,
                     "measurementBinding": {
@@ -1680,11 +1680,11 @@
                     "showCodeNode": true,
                     "isVisible": true,
                     "isLocked": false,
-                    "x": 316.6896551724138,
+                    "x": 312.6896551724138,
                     "y": 137.10344827586212,
-                    "measurementBindingEnabled": false,
+                    "measurementBindingEnabled": true,
                     "measurementBinding": {
-                      "pointId": "",
+                      "pointId": "300001",
                       "showUnit": false
                     },
                     "content": "35",
@@ -2025,15 +2025,15 @@
                   "className": "visink/Text",
                   "data": {
                     "id": "pg124omy",
-                    "codeLabel": "35-q1ivpm",
+                    "codeLabel": "四号种植园温度",
                     "showCodeNode": false,
                     "isVisible": true,
                     "isLocked": false,
-                    "x": 316.6896551724138,
+                    "x": 315.6896551724138,
                     "y": 137.10344827586212,
-                    "measurementBindingEnabled": false,
+                    "measurementBindingEnabled": true,
                     "measurementBinding": {
-                      "pointId": "",
+                      "pointId": "400001",
                       "showUnit": false
                     },
                     "content": "35",
@@ -2050,7 +2050,7 @@
                     "fixedWidth": 0,
                     "fixedHeight": 0,
                     "backgroundColor": "rgba(0,0,0,0)",
-                    "codeLabelManual": false,
+                    "codeLabelManual": true,
                     "dynamicProps": [
                       "content"
                     ]
@@ -2109,7 +2109,7 @@
                   "className": "visink/Text",
                   "data": {
                     "id": "wfrymfmc",
-                    "codeLabel": "62-sbuthc",
+                    "codeLabel": "四号种植园湿度",
                     "showCodeNode": false,
                     "isVisible": true,
                     "isLocked": false,
@@ -2134,7 +2134,7 @@
                     "fixedWidth": 0,
                     "fixedHeight": 0,
                     "backgroundColor": "rgba(0,0,0,0)",
-                    "codeLabelManual": false,
+                    "codeLabelManual": true,
                     "dynamicProps": [
                       "content"
                     ]
@@ -2193,7 +2193,7 @@
                   "className": "visink/Text",
                   "data": {
                     "id": "dzxo7a6l",
-                    "codeLabel": "73221-y419n8",
+                    "codeLabel": "四号种植园光强",
                     "showCodeNode": false,
                     "isVisible": true,
                     "isLocked": false,
@@ -2218,7 +2218,7 @@
                     "fixedWidth": 0,
                     "fixedHeight": 0,
                     "backgroundColor": "rgba(0,0,0,0)",
-                    "codeLabelManual": false,
+                    "codeLabelManual": true,
                     "dynamicProps": [
                       "content"
                     ]
@@ -2277,7 +2277,7 @@
                   "className": "visink/Text",
                   "data": {
                     "id": "0mcccolb",
-                    "codeLabel": "450-hekkvo",
+                    "codeLabel": "四号种植园CO2",
                     "showCodeNode": false,
                     "isVisible": true,
                     "isLocked": false,
@@ -2302,7 +2302,7 @@
                     "fixedWidth": 0,
                     "fixedHeight": 0,
                     "backgroundColor": "rgba(0,0,0,0)",
-                    "codeLabelManual": false,
+                    "codeLabelManual": true,
                     "dynamicProps": [
                       "content"
                     ]
