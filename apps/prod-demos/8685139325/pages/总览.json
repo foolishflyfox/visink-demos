@@ -2447,6 +2447,186 @@
           "content"
         ]
       }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "kitgp9ag",
+        "codeLabel": "异常报警",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1071.448275862069,
+        "y": 85.24137931034491,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
+        "content": "异常报警",
+        "fontSize": 22,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#434343",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "ugavhn87",
+        "codeLabel": "今日代办",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1076.9655172413795,
+        "y": 307.0344827586209,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
+        "content": "今日代办",
+        "fontSize": 22,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#434343",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "d0lr2hl8",
+        "color": "",
+        "x": 1104.3939496069138,
+        "y": 163.84482758620865,
+        "width": 56.236175075896455,
+        "height": 56.23617507589647,
+        "rotation": 0,
+        "offsetX": 28.118087537948227,
+        "offsetY": 28.118087537948234,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-u646fw",
+        "showCodeNode": false,
+        "assetPath": "my-resources/alarm-red.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/CanvasSvg",
+      "data": {
+        "id": "pjqi8uqg",
+        "color": "",
+        "x": 1104.3939496069138,
+        "y": 243.70689655172515,
+        "width": 56.236175075896455,
+        "height": 56.23617507589647,
+        "rotation": 0,
+        "offsetX": 28.118087537948227,
+        "offsetY": 28.118087537948234,
+        "flipX": false,
+        "flipY": false,
+        "codeLabel": "SVG-kkf673",
+        "showCodeNode": false,
+        "assetPath": "my-resources/alarm-orange.svg",
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "3chlkvf6",
+        "codeLabel": "5",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1162,
+        "y": 136.75862068965696,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
+        "content": "5",
+        "fontSize": 52,
+        "fontFamily": "monospace",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#f5222d",
+        "textAlign": "left",
+        "padding": "0",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "ujindgy8",
+        "codeLabel": "3",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1164.2068965517244,
+        "y": 218.24137931034596,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
+        "content": "3",
+        "fontSize": 52,
+        "fontFamily": "monospace",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#faad14",
+        "textAlign": "left",
+        "padding": "0",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
+      }
     }
   ],
   "variables": []
