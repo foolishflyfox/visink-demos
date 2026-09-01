@@ -1066,14 +1066,14 @@
                   "data": {
                     "id": "ns27lwdy",
                     "codeLabel": "一号种植园湿度",
-                    "showCodeNode": true,
+                    "showCodeNode": false,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 449.1034482758622,
                     "y": 136.00000000000009,
-                    "measurementBindingEnabled": false,
+                    "measurementBindingEnabled": true,
                     "measurementBinding": {
-                      "pointId": "",
+                      "pointId": "100002",
                       "showUnit": false
                     },
                     "content": "62",
@@ -1149,14 +1149,14 @@
                   "data": {
                     "id": "8hvy20ls",
                     "codeLabel": "一号种植园CO2",
-                    "showCodeNode": true,
+                    "showCodeNode": false,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 312.27586206896564,
                     "y": 233.10344827586204,
-                    "measurementBindingEnabled": false,
+                    "measurementBindingEnabled": true,
                     "measurementBinding": {
-                      "pointId": "",
+                      "pointId": "100003",
                       "showUnit": false
                     },
                     "content": "450",
@@ -1231,15 +1231,15 @@
                   "className": "visink/Text",
                   "data": {
                     "id": "qnwncqfr",
-                    "codeLabel": "一号种植园光强度",
-                    "showCodeNode": true,
+                    "codeLabel": "一号种植园光强",
+                    "showCodeNode": false,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 430.3448275862071,
                     "y": 232.00000000000006,
-                    "measurementBindingEnabled": false,
+                    "measurementBindingEnabled": true,
                     "measurementBinding": {
-                      "pointId": "",
+                      "pointId": "100004",
                       "showUnit": false
                     },
                     "content": "73221",
@@ -1328,7 +1328,7 @@
                   "data": {
                     "id": "nmp3iiad",
                     "codeLabel": "二号种植园温度",
-                    "showCodeNode": true,
+                    "showCodeNode": false,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 313.6896551724138,
@@ -1412,14 +1412,14 @@
                   "data": {
                     "id": "w29w0gl4",
                     "codeLabel": "二号种植园湿度",
-                    "showCodeNode": true,
+                    "showCodeNode": false,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 449.1034482758622,
                     "y": 136.00000000000009,
-                    "measurementBindingEnabled": false,
+                    "measurementBindingEnabled": true,
                     "measurementBinding": {
-                      "pointId": "",
+                      "pointId": "200002",
                       "showUnit": false
                     },
                     "content": "62",
@@ -1496,14 +1496,14 @@
                   "data": {
                     "id": "1bvatn2x",
                     "codeLabel": "二号种植园光强",
-                    "showCodeNode": true,
+                    "showCodeNode": false,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 430.3448275862071,
                     "y": 232.00000000000006,
-                    "measurementBindingEnabled": false,
+                    "measurementBindingEnabled": true,
                     "measurementBinding": {
-                      "pointId": "",
+                      "pointId": "200004",
                       "showUnit": false
                     },
                     "content": "73221",
@@ -1580,14 +1580,14 @@
                   "data": {
                     "id": "qij3bqlb",
                     "codeLabel": "二号种植园CO2",
-                    "showCodeNode": true,
+                    "showCodeNode": false,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 312.27586206896564,
                     "y": 233.10344827586204,
-                    "measurementBindingEnabled": false,
+                    "measurementBindingEnabled": true,
                     "measurementBinding": {
-                      "pointId": "",
+                      "pointId": "200003",
                       "showUnit": false
                     },
                     "content": "450",
@@ -1677,7 +1677,7 @@
                   "data": {
                     "id": "yl7hv6hr",
                     "codeLabel": "三号种植园温度",
-                    "showCodeNode": true,
+                    "showCodeNode": false,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 312.6896551724138,
@@ -1761,14 +1761,14 @@
                   "data": {
                     "id": "cwmwgyk1",
                     "codeLabel": "三号种植园湿度",
-                    "showCodeNode": true,
+                    "showCodeNode": false,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 449.1034482758622,
                     "y": 136.00000000000009,
-                    "measurementBindingEnabled": false,
+                    "measurementBindingEnabled": true,
                     "measurementBinding": {
-                      "pointId": "",
+                      "pointId": "300002",
                       "showUnit": false
                     },
                     "content": "62",
@@ -1845,14 +1845,14 @@
                   "data": {
                     "id": "mxl2ya4z",
                     "codeLabel": "三号种植园光强",
-                    "showCodeNode": true,
+                    "showCodeNode": false,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 430.3448275862071,
                     "y": 232.00000000000006,
-                    "measurementBindingEnabled": false,
+                    "measurementBindingEnabled": true,
                     "measurementBinding": {
-                      "pointId": "",
+                      "pointId": "300004",
                       "showUnit": false
                     },
                     "content": "73221",
@@ -1929,14 +1929,14 @@
                   "data": {
                     "id": "313mvelb",
                     "codeLabel": "三号种植园CO2",
-                    "showCodeNode": true,
+                    "showCodeNode": false,
                     "isVisible": true,
                     "isLocked": false,
                     "x": 312.27586206896564,
                     "y": 233.10344827586204,
-                    "measurementBindingEnabled": false,
+                    "measurementBindingEnabled": true,
                     "measurementBinding": {
-                      "pointId": "",
+                      "pointId": "300002",
                       "showUnit": false
                     },
                     "content": "450",
@@ -2115,9 +2115,9 @@
                     "isLocked": false,
                     "x": 449.1034482758622,
                     "y": 136.00000000000009,
-                    "measurementBindingEnabled": false,
+                    "measurementBindingEnabled": true,
                     "measurementBinding": {
-                      "pointId": "",
+                      "pointId": "400002",
                       "showUnit": false
                     },
                     "content": "62",
@@ -2199,9 +2199,9 @@
                     "isLocked": false,
                     "x": 430.3448275862071,
                     "y": 232.00000000000006,
-                    "measurementBindingEnabled": false,
+                    "measurementBindingEnabled": true,
                     "measurementBinding": {
-                      "pointId": "",
+                      "pointId": "400004",
                       "showUnit": false
                     },
                     "content": "73221",
@@ -2283,9 +2283,9 @@
                     "isLocked": false,
                     "x": 312.27586206896564,
                     "y": 233.10344827586204,
-                    "measurementBindingEnabled": false,
+                    "measurementBindingEnabled": true,
                     "measurementBinding": {
-                      "pointId": "",
+                      "pointId": "400003",
                       "showUnit": false
                     },
                     "content": "450",
