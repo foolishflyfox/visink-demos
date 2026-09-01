@@ -2566,8 +2566,8 @@
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
-        "x": 1162,
-        "y": 136.75862068965696,
+        "x": 1153.1724137931035,
+        "y": 138.9655172413811,
         "measurementBindingEnabled": false,
         "measurementBinding": {
           "pointId": "",
@@ -2601,8 +2601,8 @@
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
-        "x": 1164.2068965517244,
-        "y": 218.24137931034596,
+        "x": 1154.2758620689658,
+        "y": 220.44827586207015,
         "measurementBindingEnabled": false,
         "measurementBinding": {
           "pointId": "",
@@ -2626,6 +2626,66 @@
         "dynamicProps": [
           "content"
         ]
+      }
+    },
+    {
+      "className": "visink/Button",
+      "data": {
+        "id": "5tlfskoj",
+        "codeLabel": "查看报警",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1207.1724137931037,
+        "y": 150.3448275862071,
+        "width": 60,
+        "height": 40,
+        "label": "查看",
+        "iconSvg": "",
+        "iconLeftDistance": 8,
+        "iconSize": 16,
+        "isToggle": false,
+        "fontSize": 18,
+        "bgColor": "#4a90d9",
+        "labelColor": "#ffffff",
+        "followStateColors": true,
+        "hoverBgColor": "#256ab1",
+        "hoverLabelColor": "#ffffff",
+        "pressedBgColor": "#184472",
+        "pressedLabelColor": "#ffffff",
+        "stateColorReset": "",
+        "borderRadius": 6,
+        "dynamicProps": []
+      }
+    },
+    {
+      "className": "visink/Button",
+      "data": {
+        "id": "ljhuc1m8",
+        "codeLabel": "查看警告",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 1208.2758620689658,
+        "y": 232.00000000000023,
+        "width": 60,
+        "height": 40,
+        "label": "查看",
+        "iconSvg": "",
+        "iconLeftDistance": 8,
+        "iconSize": 16,
+        "isToggle": false,
+        "fontSize": 18,
+        "bgColor": "#4a90d9",
+        "labelColor": "#ffffff",
+        "followStateColors": true,
+        "hoverBgColor": "#256ab1",
+        "hoverLabelColor": "#ffffff",
+        "pressedBgColor": "#184472",
+        "pressedLabelColor": "#ffffff",
+        "stateColorReset": "",
+        "borderRadius": 6,
+        "dynamicProps": []
       }
     }
   ],
