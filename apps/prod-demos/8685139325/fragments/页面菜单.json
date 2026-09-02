@@ -121,8 +121,8 @@
       "className": "visink/TabHeader",
       "data": {
         "id": "ghnx1r6s",
-        "codeLabel": "选项卡头-2dy9ho",
-        "showCodeNode": false,
+        "codeLabel": "头部菜单",
+        "showCodeNode": true,
         "isVisible": true,
         "isLocked": false,
         "x": 224,
@@ -268,11 +268,6 @@
     }
   ],
   "variables": [],
-  "inputs": [
-    {
-      "id": "sdtg236l",
-      "label": "页面id"
-    }
-  ],
+  "inputs": [],
   "shared": true
 }

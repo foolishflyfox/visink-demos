@@ -48,12 +48,6 @@
       "widgetType": "visink/Text"
     },
     {
-      "id": "fragment-input",
-      "type": "visink/FragmentInput",
-      "x": 49,
-      "y": 127
-    },
-    {
       "id": "5ks00u0f",
       "type": "visink/PageNavigate",
       "x": 574,
@@ -75,6 +69,35 @@
       "x": 300,
       "y": 570,
       "direction": "nameToId"
+    },
+    {
+      "id": "ghnx1r6s",
+      "type": "visink/WidgetBlock",
+      "x": 576,
+      "y": 85,
+      "widgetId": "ghnx1r6s",
+      "dynamicPropKeys": [
+        "activeKey"
+      ],
+      "widgetType": "visink/TabHeader"
+    },
+    {
+      "id": "2k6fppv4",
+      "type": "visink/PageInfo",
+      "x": 332,
+      "y": 91,
+      "showEventPort": true,
+      "showPageId": true,
+      "showPageName": true
+    },
+    {
+      "id": "tadsbl88",
+      "type": "visink/RunOnce",
+      "x": 63,
+      "y": 125,
+      "mode": "immediate",
+      "delay": 1,
+      "unit": "s"
     }
   ],
   "connections": [
@@ -119,6 +142,20 @@
       "sourcePortKey": "pageId",
       "targetNodeId": "5ks00u0f",
       "targetPortKey": "pageId"
+    },
+    {
+      "id": "rwqixjyw",
+      "sourceNodeId": "2k6fppv4",
+      "sourcePortKey": "pageName",
+      "targetNodeId": "ghnx1r6s",
+      "targetPortKey": "activeKey"
+    },
+    {
+      "id": "a7mhbtxa",
+      "sourceNodeId": "tadsbl88",
+      "sourcePortKey": "event",
+      "targetNodeId": "2k6fppv4",
+      "targetPortKey": "event"
     }
   ],
   "comments": [
@@ -134,7 +171,7 @@
       "x": 48,
       "y": 43,
       "width": 240,
-      "text": "当前页面的id（暂时没用）"
+      "text": "根据页面修改选中的菜单项"
     },
     {
       "id": "070dxjca",

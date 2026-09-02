@@ -1,5 +1,96 @@
 {
-  "nodes": [],
-  "connections": [],
+  "nodes": [
+    {
+      "id": "90teda3f",
+      "type": "visink/WidgetEvent",
+      "x": 85,
+      "y": 157,
+      "widgetId": "5tlfskoj",
+      "eventTypes": [
+        "widget/click"
+      ]
+    },
+    {
+      "id": "ruibr9gr",
+      "type": "visink/PageNavigate",
+      "x": 730,
+      "y": 199
+    },
+    {
+      "id": "llf539ko",
+      "type": "visink/PageIdToName",
+      "x": 506,
+      "y": 314,
+      "showEventPort": true,
+      "direction": "nameToId"
+    },
+    {
+      "id": "sgmjvfe5",
+      "type": "visink/StringConstant",
+      "x": 120,
+      "y": 509,
+      "value": "报警中心",
+      "outputs": [
+        {
+          "id": "value",
+          "value": "报警中心"
+        }
+      ]
+    },
+    {
+      "id": "9aed96se",
+      "type": "visink/WidgetEvent",
+      "x": 89,
+      "y": 296,
+      "widgetId": "ljhuc1m8",
+      "eventTypes": [
+        "widget/click"
+      ]
+    },
+    {
+      "id": "j9dn0ul3",
+      "type": "visink/EventMerge",
+      "x": 287,
+      "y": 218,
+      "inputCount": 2
+    }
+  ],
+  "connections": [
+    {
+      "id": "rjv9wlba",
+      "sourceNodeId": "llf539ko",
+      "sourcePortKey": "pageId",
+      "targetNodeId": "ruibr9gr",
+      "targetPortKey": "pageId"
+    },
+    {
+      "id": "gt2bgtmm",
+      "sourceNodeId": "sgmjvfe5",
+      "sourcePortKey": "value",
+      "targetNodeId": "llf539ko",
+      "targetPortKey": "pageName"
+    },
+    {
+      "id": "br8sd6ie",
+      "sourceNodeId": "90teda3f",
+      "sourcePortKey": "widget/click",
+      "targetNodeId": "j9dn0ul3",
+      "targetPortKey": "in0"
+    },
+    {
+      "id": "ph1v9eau",
+      "sourceNodeId": "9aed96se",
+      "sourcePortKey": "widget/click",
+      "targetNodeId": "j9dn0ul3",
+      "targetPortKey": "in1"
+    },
+    {
+      "id": "7kyft3oz",
+      "sourceNodeId": "j9dn0ul3",
+      "sourcePortKey": "event",
+      "targetNodeId": "llf539ko",
+      "targetPortKey": "event"
+    }
+  ],
   "comments": []
 }
