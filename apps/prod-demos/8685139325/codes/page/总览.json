@@ -3,8 +3,8 @@
     {
       "id": "90teda3f",
       "type": "visink/WidgetEvent",
-      "x": 85,
-      "y": 157,
+      "x": 53,
+      "y": 35,
       "widgetId": "5tlfskoj",
       "eventTypes": [
         "widget/click"
@@ -13,22 +13,22 @@
     {
       "id": "ruibr9gr",
       "type": "visink/PageNavigate",
-      "x": 730,
-      "y": 199
+      "x": 698,
+      "y": 77
     },
     {
       "id": "llf539ko",
       "type": "visink/PageIdToName",
-      "x": 506,
-      "y": 314,
+      "x": 474,
+      "y": 192,
       "showEventPort": true,
       "direction": "nameToId"
     },
     {
       "id": "sgmjvfe5",
       "type": "visink/StringConstant",
-      "x": 120,
-      "y": 509,
+      "x": 245,
+      "y": 288,
       "value": "报警中心",
       "outputs": [
         {
@@ -40,8 +40,8 @@
     {
       "id": "9aed96se",
       "type": "visink/WidgetEvent",
-      "x": 89,
-      "y": 296,
+      "x": 57,
+      "y": 174,
       "widgetId": "ljhuc1m8",
       "eventTypes": [
         "widget/click"
@@ -50,9 +50,170 @@
     {
       "id": "j9dn0ul3",
       "type": "visink/EventMerge",
-      "x": 287,
-      "y": 218,
+      "x": 255,
+      "y": 96,
       "inputCount": 2
+    },
+    {
+      "id": "7346rpia",
+      "type": "visink/WidgetEvent",
+      "x": 52,
+      "y": 438,
+      "widgetId": "ifsoikms",
+      "eventTypes": [
+        "widget/change"
+      ]
+    },
+    {
+      "id": "f46bcjlo",
+      "type": "visink/MeasurementWrite",
+      "x": 279,
+      "y": 447,
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "100005",
+          "nameZh": "一号种植园灌溉开关",
+          "nameEn": "一号种植园灌溉开关"
+        }
+      ]
+    },
+    {
+      "id": "kvrpx0aj",
+      "type": "visink/MeasurementValue",
+      "x": 44,
+      "y": 580,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "100005",
+          "nameZh": "一号种植园灌溉开关",
+          "nameEn": "一号种植园灌溉开关",
+          "outputType": "number",
+          "showUnit": false
+        }
+      ]
+    },
+    {
+      "id": "40x2fsu9",
+      "type": "visink/WidgetBlock",
+      "x": 309,
+      "y": 585,
+      "widgetId": "ifsoikms",
+      "dynamicPropKeys": [
+        "value"
+      ],
+      "widgetType": "visink/Switch"
+    },
+    {
+      "id": "ufdrk2av",
+      "type": "visink/MeasurementRead",
+      "x": 318,
+      "y": 772,
+      "showEventPort": true,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "100005",
+          "nameZh": "一号种植园灌溉开关",
+          "nameEn": "一号种植园灌溉开关",
+          "outputType": "number",
+          "showUnit": false
+        }
+      ]
+    },
+    {
+      "id": "y4woibq3",
+      "type": "visink/IntervalTimer",
+      "x": 54,
+      "y": 809,
+      "interval": 1,
+      "unit": "s",
+      "immediate": true
+    },
+    {
+      "id": "4cdou47q",
+      "type": "visink/MeasurementRead",
+      "x": 772,
+      "y": 757,
+      "showEventPort": true,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "100006",
+          "nameZh": "一号种植园今日灌溉量",
+          "nameEn": "一号种植园今日灌溉量",
+          "outputType": "number",
+          "showUnit": false,
+          "defaultValue": 0
+        }
+      ]
+    },
+    {
+      "id": "q5rsir24",
+      "type": "visink/If",
+      "x": 548,
+      "y": 759
+    },
+    {
+      "id": "i14s2jgu",
+      "type": "visink/NumberConstant",
+      "x": 779,
+      "y": 904,
+      "value": 0.03,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 0.03
+        }
+      ]
+    },
+    {
+      "id": "kyp34vqr",
+      "type": "visink/MeasurementWrite",
+      "x": 1253,
+      "y": 822,
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "100006",
+          "nameZh": "一号种植园今日灌溉量",
+          "nameEn": "一号种植园今日灌溉量"
+        }
+      ]
+    },
+    {
+      "id": "jl6q6vqk",
+      "type": "visink/Addition",
+      "x": 1002,
+      "y": 813,
+      "castType": "number"
+    },
+    {
+      "id": "5dba3kni",
+      "type": "visink/WriteLog",
+      "x": 542,
+      "y": 989
+    },
+    {
+      "id": "308jqi0d",
+      "type": "visink/Accumulator",
+      "x": 320,
+      "y": 958,
+      "defaultValue": 0
+    },
+    {
+      "id": "no2bmk22",
+      "type": "visink/NumberConstant",
+      "x": 117,
+      "y": 1044,
+      "value": 1,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 1
+        }
+      ]
     }
   ],
   "connections": [
@@ -90,6 +251,83 @@
       "sourcePortKey": "event",
       "targetNodeId": "llf539ko",
       "targetPortKey": "event"
+    },
+    {
+      "id": "81y6256i",
+      "sourceNodeId": "7346rpia",
+      "sourcePortKey": "widget/change",
+      "targetNodeId": "f46bcjlo",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "zt9qhtyw",
+      "sourceNodeId": "kvrpx0aj",
+      "sourcePortKey": "value",
+      "targetNodeId": "40x2fsu9",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "u5njbejo",
+      "sourceNodeId": "y4woibq3",
+      "sourcePortKey": "event",
+      "targetNodeId": "ufdrk2av",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "tqncg60c",
+      "sourceNodeId": "ufdrk2av",
+      "sourcePortKey": "value",
+      "targetNodeId": "q5rsir24",
+      "targetPortKey": "condition"
+    },
+    {
+      "id": "64797y32",
+      "sourceNodeId": "q5rsir24",
+      "sourcePortKey": "value",
+      "targetNodeId": "4cdou47q",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "2wvz5pt3",
+      "sourceNodeId": "4cdou47q",
+      "sourcePortKey": "value",
+      "targetNodeId": "jl6q6vqk",
+      "targetPortKey": "v1"
+    },
+    {
+      "id": "6u8rhohw",
+      "sourceNodeId": "i14s2jgu",
+      "sourcePortKey": "value",
+      "targetNodeId": "jl6q6vqk",
+      "targetPortKey": "v2"
+    },
+    {
+      "id": "0h8vpjyl",
+      "sourceNodeId": "jl6q6vqk",
+      "sourcePortKey": "sum",
+      "targetNodeId": "kyp34vqr",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "vvllssff",
+      "sourceNodeId": "y4woibq3",
+      "sourcePortKey": "event",
+      "targetNodeId": "308jqi0d",
+      "targetPortKey": "reset"
+    },
+    {
+      "id": "ecastaqf",
+      "sourceNodeId": "no2bmk22",
+      "sourcePortKey": "value",
+      "targetNodeId": "308jqi0d",
+      "targetPortKey": "add"
+    },
+    {
+      "id": "szj6n6ne",
+      "sourceNodeId": "308jqi0d",
+      "sourcePortKey": "value",
+      "targetNodeId": "5dba3kni",
+      "targetPortKey": "info"
     }
   ],
   "comments": []

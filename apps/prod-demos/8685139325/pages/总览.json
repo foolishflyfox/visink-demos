@@ -2391,7 +2391,7 @@
       "data": {
         "id": "ifsoikms",
         "codeLabel": "一号种植园水泵开关",
-        "showCodeNode": false,
+        "showCodeNode": true,
         "isVisible": true,
         "isLocked": false,
         "x": 408.2758620689653,
@@ -2417,16 +2417,16 @@
       "className": "visink/Text",
       "data": {
         "id": "rz9q7xtb",
-        "codeLabel": "0 m³",
+        "codeLabel": "一号植物园灌溉量",
         "showCodeNode": false,
         "isVisible": true,
         "isLocked": false,
         "x": 408.2758620689653,
         "y": 328.00000000000017,
-        "measurementBindingEnabled": false,
+        "measurementBindingEnabled": true,
         "measurementBinding": {
-          "pointId": "",
-          "showUnit": false
+          "pointId": "100006",
+          "showUnit": true
         },
         "content": "0 m³",
         "fontSize": 22,
@@ -2442,7 +2442,7 @@
         "fixedWidth": 0,
         "fixedHeight": 0,
         "backgroundColor": "rgba(0,0,0,0)",
-        "codeLabelManual": false,
+        "codeLabelManual": true,
         "dynamicProps": [
           "content"
         ]
