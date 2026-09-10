@@ -23,5 +23,16 @@
     "us4wt9sf3vao": {
       "path": "气象.json"
     }
+  },
+  "functions": {
+    "e9hs7ovdfp03": {
+      "path": "定时计算当日灌溉量.json"
+    }
+  },
+  "tasks": {
+    "hrztina889c8": {
+      "path": "今日灌溉量计算.json",
+      "enabled": false
+    }
   }
 }

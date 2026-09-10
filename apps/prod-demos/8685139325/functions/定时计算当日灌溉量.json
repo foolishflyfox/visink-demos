@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "id": "391y2u40",
+      "type": "visink/IntervalTimer",
+      "x": 245,
+      "y": 401,
+      "interval": 1,
+      "unit": "s",
+      "immediate": true
+    },
+    {
+      "id": "3manmdip",
+      "type": "visink/Accumulator",
+      "x": 517,
+      "y": 418,
+      "defaultValue": 0
+    },
+    {
+      "id": "y1ge0e4l",
+      "type": "visink/WriteLog",
+      "x": 739,
+      "y": 449
+    }
+  ],
+  "connections": [
+    {
+      "id": "ifawsi8v",
+      "sourceNodeId": "391y2u40",
+      "sourcePortKey": "event",
+      "targetNodeId": "3manmdip",
+      "targetPortKey": "reset"
+    },
+    {
+      "id": "y2zfgbmz",
+      "sourceNodeId": "3manmdip",
+      "sourcePortKey": "value",
+      "targetNodeId": "y1ge0e4l",
+      "targetPortKey": "info"
+    }
+  ],
+  "comments": []
+}

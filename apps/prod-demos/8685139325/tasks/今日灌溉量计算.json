@@ -1,0 +1,64 @@
+{
+  "nodes": [
+    {
+      "id": "bxykne67",
+      "type": "visink/IntervalTimer",
+      "x": 60,
+      "y": 57,
+      "interval": 1,
+      "unit": "s",
+      "immediate": true
+    },
+    {
+      "id": "9gy6dk1j",
+      "type": "visink/Accumulator",
+      "x": 329,
+      "y": 56,
+      "showEventPort": true,
+      "defaultValue": 0
+    },
+    {
+      "id": "oxkj3ohx",
+      "type": "visink/WriteLog",
+      "x": 557,
+      "y": 72
+    },
+    {
+      "id": "sm4qiwes",
+      "type": "visink/NumberConstant",
+      "x": 76,
+      "y": 174,
+      "value": 1,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "aalvv29u",
+      "sourceNodeId": "9gy6dk1j",
+      "sourcePortKey": "value",
+      "targetNodeId": "oxkj3ohx",
+      "targetPortKey": "info"
+    },
+    {
+      "id": "jk8phyf1",
+      "sourceNodeId": "bxykne67",
+      "sourcePortKey": "event",
+      "targetNodeId": "9gy6dk1j",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "5gk1vhcn",
+      "sourceNodeId": "sm4qiwes",
+      "sourcePortKey": "value",
+      "targetNodeId": "9gy6dk1j",
+      "targetPortKey": "add"
+    }
+  ],
+  "comments": []
+}

@@ -188,32 +188,6 @@
       "x": 1002,
       "y": 813,
       "castType": "number"
-    },
-    {
-      "id": "5dba3kni",
-      "type": "visink/WriteLog",
-      "x": 542,
-      "y": 989
-    },
-    {
-      "id": "308jqi0d",
-      "type": "visink/Accumulator",
-      "x": 320,
-      "y": 958,
-      "defaultValue": 0
-    },
-    {
-      "id": "no2bmk22",
-      "type": "visink/NumberConstant",
-      "x": 117,
-      "y": 1044,
-      "value": 1,
-      "outputs": [
-        {
-          "id": "value",
-          "value": 1
-        }
-      ]
     }
   ],
   "connections": [
@@ -307,27 +281,6 @@
       "sourcePortKey": "sum",
       "targetNodeId": "kyp34vqr",
       "targetPortKey": "value"
-    },
-    {
-      "id": "vvllssff",
-      "sourceNodeId": "y4woibq3",
-      "sourcePortKey": "event",
-      "targetNodeId": "308jqi0d",
-      "targetPortKey": "reset"
-    },
-    {
-      "id": "ecastaqf",
-      "sourceNodeId": "no2bmk22",
-      "sourcePortKey": "value",
-      "targetNodeId": "308jqi0d",
-      "targetPortKey": "add"
-    },
-    {
-      "id": "szj6n6ne",
-      "sourceNodeId": "308jqi0d",
-      "sourcePortKey": "value",
-      "targetNodeId": "5dba3kni",
-      "targetPortKey": "info"
     }
   ],
   "comments": []
