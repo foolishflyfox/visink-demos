@@ -32,7 +32,7 @@
   "tasks": {
     "hrztina889c8": {
       "path": "今日灌溉量计算.json",
-      "enabled": false
+      "enabled": true
     }
   }
 }

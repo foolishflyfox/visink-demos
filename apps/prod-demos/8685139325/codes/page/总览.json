@@ -104,90 +104,6 @@
         "value"
       ],
       "widgetType": "visink/Switch"
-    },
-    {
-      "id": "ufdrk2av",
-      "type": "visink/MeasurementRead",
-      "x": 318,
-      "y": 772,
-      "showEventPort": true,
-      "outputs": [
-        {
-          "id": "value",
-          "pointId": "100005",
-          "nameZh": "一号种植园灌溉开关",
-          "nameEn": "一号种植园灌溉开关",
-          "outputType": "number",
-          "showUnit": false
-        }
-      ]
-    },
-    {
-      "id": "y4woibq3",
-      "type": "visink/IntervalTimer",
-      "x": 54,
-      "y": 809,
-      "interval": 1,
-      "unit": "s",
-      "immediate": true
-    },
-    {
-      "id": "4cdou47q",
-      "type": "visink/MeasurementRead",
-      "x": 772,
-      "y": 757,
-      "showEventPort": true,
-      "outputs": [
-        {
-          "id": "value",
-          "pointId": "100006",
-          "nameZh": "一号种植园今日灌溉量",
-          "nameEn": "一号种植园今日灌溉量",
-          "outputType": "number",
-          "showUnit": false,
-          "defaultValue": 0
-        }
-      ]
-    },
-    {
-      "id": "q5rsir24",
-      "type": "visink/If",
-      "x": 548,
-      "y": 759
-    },
-    {
-      "id": "i14s2jgu",
-      "type": "visink/NumberConstant",
-      "x": 779,
-      "y": 904,
-      "value": 0.03,
-      "outputs": [
-        {
-          "id": "value",
-          "value": 0.03
-        }
-      ]
-    },
-    {
-      "id": "kyp34vqr",
-      "type": "visink/MeasurementWrite",
-      "x": 1253,
-      "y": 822,
-      "inputs": [
-        {
-          "id": "value",
-          "pointId": "100006",
-          "nameZh": "一号种植园今日灌溉量",
-          "nameEn": "一号种植园今日灌溉量"
-        }
-      ]
-    },
-    {
-      "id": "jl6q6vqk",
-      "type": "visink/Addition",
-      "x": 1002,
-      "y": 813,
-      "castType": "number"
     }
   ],
   "connections": [
@@ -238,48 +154,6 @@
       "sourceNodeId": "kvrpx0aj",
       "sourcePortKey": "value",
       "targetNodeId": "40x2fsu9",
-      "targetPortKey": "value"
-    },
-    {
-      "id": "u5njbejo",
-      "sourceNodeId": "y4woibq3",
-      "sourcePortKey": "event",
-      "targetNodeId": "ufdrk2av",
-      "targetPortKey": "event"
-    },
-    {
-      "id": "tqncg60c",
-      "sourceNodeId": "ufdrk2av",
-      "sourcePortKey": "value",
-      "targetNodeId": "q5rsir24",
-      "targetPortKey": "condition"
-    },
-    {
-      "id": "64797y32",
-      "sourceNodeId": "q5rsir24",
-      "sourcePortKey": "value",
-      "targetNodeId": "4cdou47q",
-      "targetPortKey": "event"
-    },
-    {
-      "id": "2wvz5pt3",
-      "sourceNodeId": "4cdou47q",
-      "sourcePortKey": "value",
-      "targetNodeId": "jl6q6vqk",
-      "targetPortKey": "v1"
-    },
-    {
-      "id": "6u8rhohw",
-      "sourceNodeId": "i14s2jgu",
-      "sourcePortKey": "value",
-      "targetNodeId": "jl6q6vqk",
-      "targetPortKey": "v2"
-    },
-    {
-      "id": "0h8vpjyl",
-      "sourceNodeId": "jl6q6vqk",
-      "sourcePortKey": "sum",
-      "targetNodeId": "kyp34vqr",
       "targetPortKey": "value"
     }
   ],

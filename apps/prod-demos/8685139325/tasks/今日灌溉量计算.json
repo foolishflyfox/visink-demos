@@ -1,63 +1,189 @@
 {
   "nodes": [
     {
-      "id": "bxykne67",
+      "id": "ht1siwl7",
+      "type": "visink/MeasurementRead",
+      "x": 236,
+      "y": 80,
+      "showEventPort": true,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "100005",
+          "nameZh": "一号种植园灌溉开关",
+          "nameEn": "一号种植园灌溉开关",
+          "outputType": "number",
+          "showUnit": false
+        }
+      ]
+    },
+    {
+      "id": "fy8zm1ox",
       "type": "visink/IntervalTimer",
-      "x": 60,
-      "y": 57,
+      "x": 40,
+      "y": 106,
       "interval": 1,
       "unit": "s",
       "immediate": true
     },
     {
-      "id": "9gy6dk1j",
-      "type": "visink/Accumulator",
-      "x": 329,
-      "y": 56,
+      "id": "vwe8k84j",
+      "type": "visink/MeasurementRead",
+      "x": 649,
+      "y": 69,
       "showEventPort": true,
-      "defaultValue": 0
-    },
-    {
-      "id": "oxkj3ohx",
-      "type": "visink/WriteLog",
-      "x": 557,
-      "y": 72
-    },
-    {
-      "id": "sm4qiwes",
-      "type": "visink/NumberConstant",
-      "x": 76,
-      "y": 174,
-      "value": 1,
       "outputs": [
         {
           "id": "value",
-          "value": 1
+          "pointId": "100006",
+          "nameZh": "一号种植园今日灌溉量",
+          "nameEn": "一号种植园今日灌溉量",
+          "outputType": "number",
+          "showUnit": false,
+          "defaultValue": 0
+        }
+      ]
+    },
+    {
+      "id": "6p0n8tbt",
+      "type": "visink/If",
+      "x": 436,
+      "y": 79
+    },
+    {
+      "id": "7cxdu5dl",
+      "type": "visink/NumberConstant",
+      "x": 656,
+      "y": 224,
+      "value": 0.03,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 0.03
+        }
+      ]
+    },
+    {
+      "id": "y7gx29xv",
+      "type": "visink/MeasurementWrite",
+      "x": 1045,
+      "y": 116,
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "100006",
+          "nameZh": "一号种植园今日灌溉量",
+          "nameEn": "一号种植园今日灌溉量"
+        }
+      ]
+    },
+    {
+      "id": "f5vjpdur",
+      "type": "visink/Addition",
+      "x": 851,
+      "y": 121,
+      "castType": "number"
+    },
+    {
+      "id": "mhw35d0u",
+      "type": "visink/CronTimer",
+      "x": 46,
+      "y": 309,
+      "expression": "0 0 0 * * *",
+      "timezone": "Asia/Shanghai",
+      "editorMode": "visual",
+      "schedule": {
+        "kind": "daily",
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+      }
+    },
+    {
+      "id": "yv8b7aen",
+      "type": "visink/MeasurementWrite",
+      "x": 277,
+      "y": 329,
+      "showEventPort": true,
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "100006",
+          "nameZh": "一号种植园今日灌溉量",
+          "nameEn": "一号种植园今日灌溉量"
+        }
+      ]
+    },
+    {
+      "id": "k0nhgxp1",
+      "type": "visink/NumberConstant",
+      "x": 55,
+      "y": 430,
+      "value": 0,
+      "outputs": [
+        {
+          "id": "value",
+          "value": 0
         }
       ]
     }
   ],
   "connections": [
     {
-      "id": "aalvv29u",
-      "sourceNodeId": "9gy6dk1j",
-      "sourcePortKey": "value",
-      "targetNodeId": "oxkj3ohx",
-      "targetPortKey": "info"
-    },
-    {
-      "id": "jk8phyf1",
-      "sourceNodeId": "bxykne67",
+      "id": "o548p85y",
+      "sourceNodeId": "fy8zm1ox",
       "sourcePortKey": "event",
-      "targetNodeId": "9gy6dk1j",
+      "targetNodeId": "ht1siwl7",
       "targetPortKey": "event"
     },
     {
-      "id": "5gk1vhcn",
-      "sourceNodeId": "sm4qiwes",
+      "id": "xtk8nh7o",
+      "sourceNodeId": "ht1siwl7",
       "sourcePortKey": "value",
-      "targetNodeId": "9gy6dk1j",
-      "targetPortKey": "add"
+      "targetNodeId": "6p0n8tbt",
+      "targetPortKey": "condition"
+    },
+    {
+      "id": "zplqdgdm",
+      "sourceNodeId": "6p0n8tbt",
+      "sourcePortKey": "value",
+      "targetNodeId": "vwe8k84j",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "eo8l68vb",
+      "sourceNodeId": "vwe8k84j",
+      "sourcePortKey": "value",
+      "targetNodeId": "f5vjpdur",
+      "targetPortKey": "v1"
+    },
+    {
+      "id": "cafqlvp6",
+      "sourceNodeId": "7cxdu5dl",
+      "sourcePortKey": "value",
+      "targetNodeId": "f5vjpdur",
+      "targetPortKey": "v2"
+    },
+    {
+      "id": "k9bwf071",
+      "sourceNodeId": "f5vjpdur",
+      "sourcePortKey": "sum",
+      "targetNodeId": "y7gx29xv",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "g50xjr8s",
+      "sourceNodeId": "k0nhgxp1",
+      "sourcePortKey": "value",
+      "targetNodeId": "yv8b7aen",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "1i1y9s2n",
+      "sourceNodeId": "mhw35d0u",
+      "sourcePortKey": "event",
+      "targetNodeId": "yv8b7aen",
+      "targetPortKey": "event"
     }
   ],
   "comments": []
