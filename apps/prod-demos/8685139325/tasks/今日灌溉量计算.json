@@ -87,8 +87,8 @@
     {
       "id": "mhw35d0u",
       "type": "visink/CronTimer",
-      "x": 53,
-      "y": 627,
+      "x": 628,
+      "y": 391,
       "expression": "0 0 0 * * *",
       "timezone": "Asia/Shanghai",
       "editorMode": "visual",
@@ -102,8 +102,8 @@
     {
       "id": "yv8b7aen",
       "type": "visink/MeasurementWrite",
-      "x": 310,
-      "y": 591,
+      "x": 885,
+      "y": 355,
       "showEventPort": true,
       "inputs": [
         {
@@ -117,8 +117,8 @@
     {
       "id": "k0nhgxp1",
       "type": "visink/NumberConstant",
-      "x": 53,
-      "y": 751,
+      "x": 628,
+      "y": 515,
       "value": 0,
       "outputs": [
         {
@@ -130,8 +130,8 @@
     {
       "id": "8gaj5qo7",
       "type": "visink/MeasurementWrite",
-      "x": 319,
-      "y": 733,
+      "x": 890,
+      "y": 487,
       "showEventPort": true,
       "inputs": [
         {
@@ -146,7 +146,7 @@
       "id": "jwkig19v",
       "type": "visink/IntervalTimer",
       "x": 58,
-      "y": 248,
+      "y": 338,
       "interval": 1,
       "unit": "s",
       "immediate": true
@@ -154,8 +154,8 @@
     {
       "id": "e13e4esr",
       "type": "visink/CustomProgram",
-      "x": 328,
-      "y": 288,
+      "x": 441,
+      "y": 340,
       "showEventPort": true,
       "inputs": [
         {
@@ -173,8 +173,8 @@
     {
       "id": "6a02yvjr",
       "type": "visink/MeasurementId",
-      "x": 73,
-      "y": 358,
+      "x": 54,
+      "y": 450,
       "outputs": [
         {
           "id": "value",
@@ -187,6 +187,114 @@
           "pointId": "200006",
           "nameZh": "二号种植园今日灌溉量",
           "nameEn": "二号种植园今日灌溉量"
+        }
+      ]
+    },
+    {
+      "id": "5sfy751h",
+      "type": "visink/MeasurementWrite",
+      "x": 896,
+      "y": 616,
+      "showEventPort": true,
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "200006",
+          "nameZh": "二号种植园今日灌溉量",
+          "nameEn": "二号种植园今日灌溉量"
+        }
+      ]
+    },
+    {
+      "id": "4d5e3106",
+      "type": "visink/MeasurementWrite",
+      "x": 897,
+      "y": 746,
+      "showEventPort": true,
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "200006",
+          "nameZh": "二号种植园今日灌溉量",
+          "nameEn": "二号种植园今日灌溉量"
+        }
+      ]
+    },
+    {
+      "id": "m3gaa21z",
+      "type": "visink/CustomProgram",
+      "x": 444,
+      "y": 514,
+      "showEventPort": true,
+      "inputs": [
+        {
+          "id": "monitor1",
+          "label": "灌溉开关"
+        },
+        {
+          "id": "monitor2",
+          "label": "灌溉量"
+        }
+      ],
+      "outputs": [],
+      "code": "return (monitor1, monitor2) => {\n  if(readPoint(monitor1)) {\n    const oldValue = readPoint(monitor2) ?? 0;\n    writePoint(monitor2, oldValue + 0.03);\n  }\n};\n"
+    },
+    {
+      "id": "3iirt5ek",
+      "type": "visink/CustomProgram",
+      "x": 443,
+      "y": 724,
+      "showEventPort": true,
+      "inputs": [
+        {
+          "id": "monitor1",
+          "label": "灌溉开关"
+        },
+        {
+          "id": "monitor2",
+          "label": "灌溉量"
+        }
+      ],
+      "outputs": [],
+      "code": "return (monitor1, monitor2) => {\n  if(readPoint(monitor1)) {\n    const oldValue = readPoint(monitor2) ?? 0;\n    writePoint(monitor2, oldValue + 0.03);\n  }\n};\n"
+    },
+    {
+      "id": "3oeis8ti",
+      "type": "visink/MeasurementId",
+      "x": 54,
+      "y": 614,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "300005",
+          "nameZh": "三号种植园灌溉开关",
+          "nameEn": "三号种植园灌溉开关"
+        },
+        {
+          "id": "value2",
+          "pointId": "300006",
+          "nameZh": "三号种植园今日灌溉量",
+          "nameEn": "三号种植园今日灌溉量"
+        }
+      ]
+    },
+    {
+      "id": "rej1dzjd",
+      "type": "visink/MeasurementId",
+      "x": 50,
+      "y": 793,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "400005",
+          "nameZh": "四号种植园灌溉开关",
+          "nameEn": "四号种植园灌溉开关"
+        },
+        {
+          "id": "value2",
+          "pointId": "400006",
+          "nameZh": "四号种植园今日灌溉量",
+          "nameEn": "四号种植园今日灌溉量"
         }
       ]
     }
@@ -281,6 +389,76 @@
       "sourceNodeId": "6a02yvjr",
       "sourcePortKey": "value2",
       "targetNodeId": "e13e4esr",
+      "targetPortKey": "monitor2"
+    },
+    {
+      "id": "be29m0lr",
+      "sourceNodeId": "mhw35d0u",
+      "sourcePortKey": "event",
+      "targetNodeId": "5sfy751h",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "tefa3ohx",
+      "sourceNodeId": "mhw35d0u",
+      "sourcePortKey": "event",
+      "targetNodeId": "4d5e3106",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "56x6bh6o",
+      "sourceNodeId": "k0nhgxp1",
+      "sourcePortKey": "value",
+      "targetNodeId": "5sfy751h",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "d9ipv6s4",
+      "sourceNodeId": "k0nhgxp1",
+      "sourcePortKey": "value",
+      "targetNodeId": "4d5e3106",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "l5ywxyll",
+      "sourceNodeId": "jwkig19v",
+      "sourcePortKey": "event",
+      "targetNodeId": "m3gaa21z",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "vv1rjg3d",
+      "sourceNodeId": "jwkig19v",
+      "sourcePortKey": "event",
+      "targetNodeId": "3iirt5ek",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "mzhd26mk",
+      "sourceNodeId": "3oeis8ti",
+      "sourcePortKey": "value",
+      "targetNodeId": "m3gaa21z",
+      "targetPortKey": "monitor1"
+    },
+    {
+      "id": "85yb7o2e",
+      "sourceNodeId": "3oeis8ti",
+      "sourcePortKey": "value2",
+      "targetNodeId": "m3gaa21z",
+      "targetPortKey": "monitor2"
+    },
+    {
+      "id": "k2d6v6sb",
+      "sourceNodeId": "rej1dzjd",
+      "sourcePortKey": "value",
+      "targetNodeId": "3iirt5ek",
+      "targetPortKey": "monitor1"
+    },
+    {
+      "id": "08mobkre",
+      "sourceNodeId": "rej1dzjd",
+      "sourcePortKey": "value2",
+      "targetNodeId": "3iirt5ek",
       "targetPortKey": "monitor2"
     }
   ],

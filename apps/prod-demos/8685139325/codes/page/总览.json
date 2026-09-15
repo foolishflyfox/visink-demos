@@ -57,8 +57,8 @@
     {
       "id": "7346rpia",
       "type": "visink/WidgetEvent",
-      "x": 52,
-      "y": 438,
+      "x": 51,
+      "y": 403,
       "widgetId": "ifsoikms",
       "eventTypes": [
         "widget/change"
@@ -155,6 +155,108 @@
           "showUnit": false
         }
       ]
+    },
+    {
+      "id": "4qxa46w1",
+      "type": "visink/WidgetBlock",
+      "x": 287,
+      "y": 842,
+      "widgetId": "9wv1007f",
+      "dynamicPropKeys": [
+        "value"
+      ],
+      "widgetType": "visink/Switch"
+    },
+    {
+      "id": "89n3zh88",
+      "type": "visink/WidgetBlock",
+      "x": 733,
+      "y": 838,
+      "widgetId": "7fktrnuy",
+      "dynamicPropKeys": [
+        "value"
+      ],
+      "widgetType": "visink/Switch"
+    },
+    {
+      "id": "1keqnvkn",
+      "type": "visink/WidgetEvent",
+      "x": 54,
+      "y": 710,
+      "widgetId": "9wv1007f",
+      "eventTypes": [
+        "widget/change"
+      ]
+    },
+    {
+      "id": "1mpbgbhj",
+      "type": "visink/MeasurementWrite",
+      "x": 287,
+      "y": 709,
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "300005",
+          "nameZh": "三号种植园灌溉开关",
+          "nameEn": "三号种植园灌溉开关"
+        }
+      ]
+    },
+    {
+      "id": "v84o5zr9",
+      "type": "visink/MeasurementValue",
+      "x": 55,
+      "y": 855,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "300005",
+          "nameZh": "三号种植园灌溉开关",
+          "nameEn": "三号种植园灌溉开关",
+          "outputType": "number",
+          "showUnit": false
+        }
+      ]
+    },
+    {
+      "id": "228y8bh3",
+      "type": "visink/WidgetEvent",
+      "x": 489,
+      "y": 702,
+      "widgetId": "7fktrnuy",
+      "eventTypes": [
+        "widget/change"
+      ]
+    },
+    {
+      "id": "bgy2opsb",
+      "type": "visink/MeasurementWrite",
+      "x": 728,
+      "y": 705,
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "400005",
+          "nameZh": "四号种植园灌溉开关",
+          "nameEn": "四号种植园灌溉开关"
+        }
+      ]
+    },
+    {
+      "id": "s3i7xir2",
+      "type": "visink/MeasurementValue",
+      "x": 489,
+      "y": 855,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "400005",
+          "nameZh": "四号种植园灌溉开关",
+          "nameEn": "四号种植园灌溉开关",
+          "outputType": "number",
+          "showUnit": false
+        }
+      ]
     }
   ],
   "connections": [
@@ -219,6 +321,34 @@
       "sourceNodeId": "2j10zxw6",
       "sourcePortKey": "value",
       "targetNodeId": "z3bg9zkh",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "4j9sguca",
+      "sourceNodeId": "1keqnvkn",
+      "sourcePortKey": "widget/change",
+      "targetNodeId": "1mpbgbhj",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "wmp9tdbz",
+      "sourceNodeId": "v84o5zr9",
+      "sourcePortKey": "value",
+      "targetNodeId": "4qxa46w1",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "9q9c7iqf",
+      "sourceNodeId": "228y8bh3",
+      "sourcePortKey": "widget/change",
+      "targetNodeId": "bgy2opsb",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "41dbt4n7",
+      "sourceNodeId": "s3i7xir2",
+      "sourcePortKey": "value",
+      "targetNodeId": "89n3zh88",
       "targetPortKey": "value"
     }
   ],

@@ -2819,6 +2819,270 @@
           "content"
         ]
       }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "lw91nan4",
+        "codeLabel": "水泵状态-4jfsp5",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 286.89655172413813,
+        "y": 596.3975382346046,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
+        "content": "水泵状态",
+        "fontSize": 19,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#434343",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Switch",
+      "data": {
+        "id": "9wv1007f",
+        "codeLabel": "三号种植园水泵开关",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 408.27586206896547,
+        "y": 594.9310344827622,
+        "width": 78.80263219816263,
+        "height": 35.93300750368887,
+        "value": false,
+        "checkedColor": "#18a058",
+        "uncheckedColor": "hsla(0, 0%, 46%, 1)",
+        "thumbColor": "#f5f5f5",
+        "round": false,
+        "disabled": false,
+        "showText": true,
+        "checkedText": "开",
+        "uncheckedText": "关",
+        "textColor": "#ffffff",
+        "dynamicProps": [
+          "value"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "ny720yxl",
+        "codeLabel": "今日灌溉量-aaxxfr",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 286.89655172413813,
+        "y": 644.6896551724142,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
+        "content": "今日灌溉量",
+        "fontSize": 19,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#434343",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "bdqlu75l",
+        "codeLabel": "三号植物园灌溉量",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 408.27586206896535,
+        "y": 641.3793103448279,
+        "measurementBindingEnabled": true,
+        "measurementBinding": {
+          "pointId": "300006",
+          "showUnit": true
+        },
+        "content": "0 m³",
+        "fontSize": 22,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#1677ff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": true,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "e9o7ds3u",
+        "codeLabel": "水泵状态-lsdpqu",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 811.0344827586209,
+        "y": 590.8802968552942,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
+        "content": "水泵状态",
+        "fontSize": 19,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#434343",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Switch",
+      "data": {
+        "id": "7fktrnuy",
+        "codeLabel": "四号种植园水泵开关",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 932.4137931034484,
+        "y": 589.413793103452,
+        "width": 78.80263219816263,
+        "height": 35.93300750368887,
+        "value": false,
+        "checkedColor": "#18a058",
+        "uncheckedColor": "hsla(0, 0%, 46%, 1)",
+        "thumbColor": "#f5f5f5",
+        "round": false,
+        "disabled": false,
+        "showText": true,
+        "checkedText": "开",
+        "uncheckedText": "关",
+        "textColor": "#ffffff",
+        "dynamicProps": [
+          "value"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "131h3yqr",
+        "codeLabel": "今日灌溉量-z6svca",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 811.0344827586209,
+        "y": 639.1724137931038,
+        "measurementBindingEnabled": false,
+        "measurementBinding": {
+          "pointId": "",
+          "showUnit": false
+        },
+        "content": "今日灌溉量",
+        "fontSize": 19,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#434343",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": false,
+        "dynamicProps": [
+          "content"
+        ]
+      }
+    },
+    {
+      "className": "visink/Text",
+      "data": {
+        "id": "otw5qy1a",
+        "codeLabel": "四号植物园灌溉量",
+        "showCodeNode": false,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 932.4137931034481,
+        "y": 635.8620689655176,
+        "measurementBindingEnabled": true,
+        "measurementBinding": {
+          "pointId": "400006",
+          "showUnit": true
+        },
+        "content": "0 m³",
+        "fontSize": 22,
+        "fontFamily": "sans-serif",
+        "bold": true,
+        "italic": false,
+        "fontColor": "#1677ff",
+        "textAlign": "left",
+        "padding": "2,3",
+        "borderWidth": 0,
+        "borderColor": "#333333",
+        "borderRadius": 4,
+        "fixedWidth": 0,
+        "fixedHeight": 0,
+        "backgroundColor": "rgba(0,0,0,0)",
+        "codeLabelManual": true,
+        "dynamicProps": [
+          "content"
+        ]
+      }
     }
   ],
   "variables": []
