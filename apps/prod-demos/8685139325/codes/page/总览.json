@@ -97,13 +97,64 @@
     {
       "id": "40x2fsu9",
       "type": "visink/WidgetBlock",
-      "x": 309,
-      "y": 585,
+      "x": 281,
+      "y": 550,
       "widgetId": "ifsoikms",
       "dynamicPropKeys": [
         "value"
       ],
       "widgetType": "visink/Switch"
+    },
+    {
+      "id": "z3bg9zkh",
+      "type": "visink/WidgetBlock",
+      "x": 732,
+      "y": 542,
+      "widgetId": "9sthmkek",
+      "dynamicPropKeys": [
+        "value"
+      ],
+      "widgetType": "visink/Switch"
+    },
+    {
+      "id": "ah3eiy3y",
+      "type": "visink/WidgetEvent",
+      "x": 491,
+      "y": 422,
+      "widgetId": "9sthmkek",
+      "eventTypes": [
+        "widget/change"
+      ]
+    },
+    {
+      "id": "y5r7o52h",
+      "type": "visink/MeasurementWrite",
+      "x": 728,
+      "y": 440,
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "200005",
+          "nameZh": "二号种植园灌溉开关",
+          "nameEn": "二号种植园灌溉开关"
+        }
+      ]
+    },
+    {
+      "id": "2j10zxw6",
+      "type": "visink/MeasurementValue",
+      "x": 493,
+      "y": 566,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "200005",
+          "nameZh": "二号种植园灌溉开关",
+          "nameEn": "二号种植园灌溉开关",
+          "outputType": "number",
+          "showUnit": false
+        }
+      ]
     }
   ],
   "connections": [
@@ -154,6 +205,20 @@
       "sourceNodeId": "kvrpx0aj",
       "sourcePortKey": "value",
       "targetNodeId": "40x2fsu9",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "l7ly8uby",
+      "sourceNodeId": "ah3eiy3y",
+      "sourcePortKey": "widget/change",
+      "targetNodeId": "y5r7o52h",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "q5wratk1",
+      "sourceNodeId": "2j10zxw6",
+      "sourcePortKey": "value",
+      "targetNodeId": "z3bg9zkh",
       "targetPortKey": "value"
     }
   ],

@@ -87,8 +87,8 @@
     {
       "id": "mhw35d0u",
       "type": "visink/CronTimer",
-      "x": 46,
-      "y": 309,
+      "x": 53,
+      "y": 627,
       "expression": "0 0 0 * * *",
       "timezone": "Asia/Shanghai",
       "editorMode": "visual",
@@ -102,8 +102,8 @@
     {
       "id": "yv8b7aen",
       "type": "visink/MeasurementWrite",
-      "x": 277,
-      "y": 329,
+      "x": 310,
+      "y": 591,
       "showEventPort": true,
       "inputs": [
         {
@@ -117,13 +117,76 @@
     {
       "id": "k0nhgxp1",
       "type": "visink/NumberConstant",
-      "x": 55,
-      "y": 430,
+      "x": 53,
+      "y": 751,
       "value": 0,
       "outputs": [
         {
           "id": "value",
           "value": 0
+        }
+      ]
+    },
+    {
+      "id": "8gaj5qo7",
+      "type": "visink/MeasurementWrite",
+      "x": 319,
+      "y": 733,
+      "showEventPort": true,
+      "inputs": [
+        {
+          "id": "value",
+          "pointId": "200006",
+          "nameZh": "二号种植园今日灌溉量",
+          "nameEn": "二号种植园今日灌溉量"
+        }
+      ]
+    },
+    {
+      "id": "jwkig19v",
+      "type": "visink/IntervalTimer",
+      "x": 58,
+      "y": 248,
+      "interval": 1,
+      "unit": "s",
+      "immediate": true
+    },
+    {
+      "id": "e13e4esr",
+      "type": "visink/CustomProgram",
+      "x": 328,
+      "y": 288,
+      "showEventPort": true,
+      "inputs": [
+        {
+          "id": "monitor1",
+          "label": "灌溉开关"
+        },
+        {
+          "id": "monitor2",
+          "label": "灌溉量"
+        }
+      ],
+      "outputs": [],
+      "code": "return (monitor1, monitor2) => {\n  if(readPoint(monitor1)) {\n    const oldValue = readPoint(monitor2) ?? 0;\n    writePoint(monitor2, oldValue + 0.03);\n  }\n};\n"
+    },
+    {
+      "id": "6a02yvjr",
+      "type": "visink/MeasurementId",
+      "x": 73,
+      "y": 358,
+      "outputs": [
+        {
+          "id": "value",
+          "pointId": "200005",
+          "nameZh": "二号种植园灌溉开关",
+          "nameEn": "二号种植园灌溉开关"
+        },
+        {
+          "id": "value2",
+          "pointId": "200006",
+          "nameZh": "二号种植园今日灌溉量",
+          "nameEn": "二号种植园今日灌溉量"
         }
       ]
     }
@@ -184,6 +247,41 @@
       "sourcePortKey": "event",
       "targetNodeId": "yv8b7aen",
       "targetPortKey": "event"
+    },
+    {
+      "id": "p05qun0b",
+      "sourceNodeId": "mhw35d0u",
+      "sourcePortKey": "event",
+      "targetNodeId": "8gaj5qo7",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "ct8w7lsi",
+      "sourceNodeId": "k0nhgxp1",
+      "sourcePortKey": "value",
+      "targetNodeId": "8gaj5qo7",
+      "targetPortKey": "value"
+    },
+    {
+      "id": "u4qkjedc",
+      "sourceNodeId": "jwkig19v",
+      "sourcePortKey": "event",
+      "targetNodeId": "e13e4esr",
+      "targetPortKey": "event"
+    },
+    {
+      "id": "bf1vfgiv",
+      "sourceNodeId": "6a02yvjr",
+      "sourcePortKey": "value",
+      "targetNodeId": "e13e4esr",
+      "targetPortKey": "monitor1"
+    },
+    {
+      "id": "ogpkhmp8",
+      "sourceNodeId": "6a02yvjr",
+      "sourcePortKey": "value2",
+      "targetNodeId": "e13e4esr",
+      "targetPortKey": "monitor2"
     }
   ],
   "comments": []
