@@ -104,6 +104,185 @@
           "content"
         ]
       }
+    },
+    {
+      "className": "visink/Table",
+      "data": {
+        "id": "301g42ck",
+        "codeLabel": "表格-wrmsqi",
+        "showCodeNode": true,
+        "isVisible": true,
+        "isLocked": false,
+        "x": 34.20689655172452,
+        "y": 134.89655172414476,
+        "width": 1206.0338938186574,
+        "height": 526.8078583764411,
+        "binding": {
+          "widthUnit": "percent",
+          "table": "farming_operations",
+          "showRowNumber": true,
+          "fields": [
+            {
+              "name": "id",
+              "title": "ID",
+              "description": "",
+              "type": "integer",
+              "ui": "number",
+              "primary": true,
+              "required": true,
+              "unique": false,
+              "options": [],
+              "generated": "increment"
+            },
+            {
+              "name": "orchard",
+              "title": "葡萄园区",
+              "description": "",
+              "type": "string",
+              "ui": "select",
+              "primary": false,
+              "required": true,
+              "unique": false,
+              "options": [
+                {
+                  "label": "一号葡萄园",
+                  "value": "一号葡萄园"
+                },
+                {
+                  "label": "二号葡萄园",
+                  "value": "二号葡萄园"
+                },
+                {
+                  "label": "三号葡萄园",
+                  "value": "三号葡萄园"
+                },
+                {
+                  "label": "四号葡萄园",
+                  "value": "四号葡萄园"
+                }
+              ]
+            },
+            {
+              "name": "farming_type",
+              "title": "农事类型",
+              "description": "",
+              "type": "string",
+              "ui": "select",
+              "primary": false,
+              "required": true,
+              "unique": false,
+              "options": [
+                {
+                  "label": "洒药",
+                  "value": "洒药"
+                },
+                {
+                  "label": "施肥",
+                  "value": "施肥"
+                }
+              ]
+            },
+            {
+              "name": "farming_date",
+              "title": "农事日期",
+              "description": "",
+              "type": "datetime",
+              "ui": "datetime",
+              "primary": false,
+              "required": true,
+              "unique": false,
+              "options": []
+            },
+            {
+              "name": "detail",
+              "title": "详情",
+              "description": "农事详细说明",
+              "type": "string",
+              "ui": "textarea",
+              "primary": false,
+              "required": false,
+              "unique": false,
+              "options": []
+            },
+            {
+              "name": "update_time",
+              "title": "update_time",
+              "description": "",
+              "type": "datetime",
+              "ui": "datetime",
+              "primary": false,
+              "required": true,
+              "unique": false,
+              "options": [],
+              "generated": "updated"
+            }
+          ],
+          "columns": [
+            {
+              "field": "id",
+              "title": "ID",
+              "visible": false,
+              "width": 10
+            },
+            {
+              "field": "orchard",
+              "title": "葡萄园区",
+              "visible": true,
+              "width": 34
+            },
+            {
+              "field": "farming_type",
+              "title": "农事类型",
+              "visible": true,
+              "width": 22
+            },
+            {
+              "field": "farming_date",
+              "title": "农事日期",
+              "visible": true,
+              "width": 22
+            },
+            {
+              "field": "detail",
+              "title": "详情",
+              "visible": true,
+              "width": 22
+            },
+            {
+              "field": "update_time",
+              "title": "update_time",
+              "visible": false,
+              "width": 17
+            }
+          ],
+          "filters": [
+            {
+              "id": "9df08db9-1ad5-4371-b2dd-15dffb424ee0",
+              "field": "orchard",
+              "operator": "eq",
+              "value": null
+            }
+          ]
+        },
+        "displayMode": "pagination",
+        "pageSize": 20,
+        "sortField": "",
+        "sortDirection": "asc",
+        "offsetX": 0,
+        "offsetY": 0,
+        "dynamicProps": [
+          "sortField",
+          "sortDirection",
+          "refresh",
+          "filterValue_9df08db9-1ad5-4371-b2dd-15dffb424ee0"
+        ],
+        "dynamicPropLabels": {
+          "filterValue_9df08db9-1ad5-4371-b2dd-15dffb424ee0": {
+            "zh": "筛选：葡萄园区 等于",
+            "en": "Filter: orchard equals"
+          }
+        }
+      }
     }
   ],
   "variables": []

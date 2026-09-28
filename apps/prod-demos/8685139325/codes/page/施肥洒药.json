@@ -7,6 +7,38 @@
       "y": 60,
       "widgetId": "skx9mbl0",
       "widgetType": "visink/Select"
+    },
+    {
+      "id": "0ep0k25x",
+      "type": "visink/WidgetBlock",
+      "x": 550,
+      "y": 61,
+      "widgetId": "301g42ck",
+      "dynamicPropKeys": [
+        "sortField",
+        "sortDirection",
+        "refresh",
+        "filterValue_9df08db9-1ad5-4371-b2dd-15dffb424ee0"
+      ],
+      "dynamicPropLabels": {
+        "sortField": {
+          "zh": "排序字段",
+          "en": "Sort field"
+        },
+        "sortDirection": {
+          "zh": "排序方向",
+          "en": "Sort direction"
+        },
+        "refresh": {
+          "zh": "刷新",
+          "en": "Refresh"
+        },
+        "filterValue_9df08db9-1ad5-4371-b2dd-15dffb424ee0": {
+          "zh": "筛选：葡萄园区 等于",
+          "en": "Filter: orchard equals"
+        }
+      },
+      "widgetType": "visink/Table"
     }
   ],
   "connections": [],
